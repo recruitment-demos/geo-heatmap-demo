@@ -1,0 +1,55 @@
+{
+ "id": 58,
+ "name": "תחנת זכרון יעקב",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 90.0,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.5712,
+ "lng": 34.953,
+ "coord_verified": false,
+ "missing_positions": 10,
+ "required_positions": 100,
+ "actual_positions": 90,
+ "pct_male": 71.0,
+ "pct_jewish": 81.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 3,
+   "required_positions": 26,
+   "actual_positions": 23,
+   "staffing_pct": 88.46
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 4,
+   "required_positions": 41,
+   "actual_positions": 37,
+   "staffing_pct": 90.24
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 17,
+   "actual_positions": 15,
+   "staffing_pct": 88.24
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 16,
+   "actual_positions": 15,
+   "staffing_pct": 93.75
+  }
+ ],
+ "candidates_in_process": 13,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 59,
+ "name": "תחנת חדרה",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 73.75,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.4407,
+ "lng": 34.9401,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 80,
+ "actual_positions": 59,
+ "pct_male": 71.0,
+ "pct_jewish": 71.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 24,
+   "actual_positions": 19,
+   "staffing_pct": 79.17
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 11,
+   "required_positions": 33,
+   "actual_positions": 22,
+   "staffing_pct": 66.67
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 12,
+   "actual_positions": 9,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 11,
+   "actual_positions": 9,
+   "staffing_pct": 81.82
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

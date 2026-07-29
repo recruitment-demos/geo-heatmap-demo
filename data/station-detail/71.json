@@ -1,0 +1,55 @@
+{
+ "id": 71,
+ "name": "תחנת כפר סבא",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 95.0,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.1773,
+ "lng": 34.9075,
+ "coord_verified": false,
+ "missing_positions": 4,
+ "required_positions": 80,
+ "actual_positions": 76,
+ "pct_male": 61.0,
+ "pct_jewish": 79.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 1,
+   "required_positions": 23,
+   "actual_positions": 22,
+   "staffing_pct": 95.65
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 2,
+   "required_positions": 34,
+   "actual_positions": 32,
+   "staffing_pct": 94.12
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 13,
+   "actual_positions": 12,
+   "staffing_pct": 92.31
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 10,
+   "actual_positions": 10,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 7,
+ "nearby_settlements": [],
+ "insights": []
+}

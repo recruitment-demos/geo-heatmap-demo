@@ -1,0 +1,55 @@
+{
+ "id": 60,
+ "name": "תחנת חיפה",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 84.44,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.8191,
+ "lng": 34.9984,
+ "coord_verified": false,
+ "missing_positions": 14,
+ "required_positions": 90,
+ "actual_positions": 76,
+ "pct_male": 75.0,
+ "pct_jewish": 59.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 3,
+   "required_positions": 23,
+   "actual_positions": 20,
+   "staffing_pct": 86.96
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 7,
+   "required_positions": 39,
+   "actual_positions": 32,
+   "staffing_pct": 82.05
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 15,
+   "actual_positions": 13,
+   "staffing_pct": 86.67
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 13,
+   "actual_positions": 11,
+   "staffing_pct": 84.62
+  }
+ ],
+ "candidates_in_process": 17,
+ "nearby_settlements": [],
+ "insights": []
+}

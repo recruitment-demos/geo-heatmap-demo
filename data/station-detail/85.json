@@ -1,0 +1,55 @@
+{
+ "id": 85,
+ "name": "תחנת חברון",
+ "district": "ש\"י",
+ "area": "יהודה",
+ "staffing_pct": 67.27,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 31.5326,
+ "lng": 35.0998,
+ "coord_verified": false,
+ "missing_positions": 18,
+ "required_positions": 55,
+ "actual_positions": 37,
+ "pct_male": 64.0,
+ "pct_jewish": 80.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 8,
+   "required_positions": 15,
+   "actual_positions": 7,
+   "staffing_pct": 46.67
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 5,
+   "required_positions": 24,
+   "actual_positions": 19,
+   "staffing_pct": 79.17
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 8,
+   "actual_positions": 5,
+   "staffing_pct": 62.5
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 8,
+   "actual_positions": 6,
+   "staffing_pct": 75.0
+  }
+ ],
+ "candidates_in_process": 22,
+ "nearby_settlements": [],
+ "insights": []
+}

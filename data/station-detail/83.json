@@ -1,0 +1,55 @@
+{
+ "id": 83,
+ "name": "תחנת בנימין",
+ "district": "ש\"י",
+ "area": "שומרון",
+ "staffing_pct": 56.36,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 31.95,
+ "lng": 35.22,
+ "coord_verified": false,
+ "missing_positions": 24,
+ "required_positions": 55,
+ "actual_positions": 31,
+ "pct_male": 76.0,
+ "pct_jewish": 83.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 9,
+   "required_positions": 14,
+   "actual_positions": 5,
+   "staffing_pct": 35.71
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 24,
+   "actual_positions": 18,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 9,
+   "actual_positions": 4,
+   "staffing_pct": 44.44
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 8,
+   "actual_positions": 4,
+   "staffing_pct": 50.0
+  }
+ ],
+ "candidates_in_process": 28,
+ "nearby_settlements": [],
+ "insights": []
+}

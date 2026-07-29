@@ -1,0 +1,32 @@
+{
+ "archive_dir": "(demo)",
+ "loads": [
+  {
+   "loaded_at": "2026-07-22T10:10:44",
+   "file_type": "staffing",
+   "source_file": "אחוזי_איוש_דמו.xlsx",
+   "archived_file": null,
+   "rows_loaded": 88,
+   "status": "ok",
+   "message": ""
+  },
+  {
+   "loaded_at": "2026-07-22T10:07:44",
+   "file_type": "relations",
+   "source_file": "קשרי_תחנה_יישוב_דמו.xlsx",
+   "archived_file": null,
+   "rows_loaded": 128,
+   "status": "ok",
+   "message": ""
+  },
+  {
+   "loaded_at": "2026-07-18T12:10:44",
+   "file_type": "staffing",
+   "source_file": "אחוזי_איוש_טיוטה.xlsx",
+   "archived_file": null,
+   "rows_loaded": null,
+   "status": "rejected",
+   "message": "נדחה ע\"י Data Guard — סטייה של 14% מהמאגר הקיים."
+  }
+ ]
+}

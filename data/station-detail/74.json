@@ -1,0 +1,55 @@
+{
+ "id": 74,
+ "name": "תחנת מודיעין",
+ "district": "מרכז",
+ "area": "שפלה",
+ "staffing_pct": 90.0,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 31.8986,
+ "lng": 35.0069,
+ "coord_verified": false,
+ "missing_positions": 10,
+ "required_positions": 100,
+ "actual_positions": 90,
+ "pct_male": 60.0,
+ "pct_jewish": 63.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 2,
+   "required_positions": 29,
+   "actual_positions": 27,
+   "staffing_pct": 93.1
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 43,
+   "actual_positions": 37,
+   "staffing_pct": 86.05
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 15,
+   "actual_positions": 14,
+   "staffing_pct": 93.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 13,
+   "actual_positions": 12,
+   "staffing_pct": 92.31
+  }
+ ],
+ "candidates_in_process": 13,
+ "nearby_settlements": [],
+ "insights": []
+}

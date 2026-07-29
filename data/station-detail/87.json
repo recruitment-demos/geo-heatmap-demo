@@ -1,0 +1,55 @@
+{
+ "id": 87,
+ "name": "תחנת מעלה אדומים",
+ "district": "ש\"י",
+ "area": "גלעד",
+ "staffing_pct": 80.0,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.7739,
+ "lng": 35.2983,
+ "coord_verified": false,
+ "missing_positions": 11,
+ "required_positions": 55,
+ "actual_positions": 44,
+ "pct_male": 72.0,
+ "pct_jewish": 66.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 4,
+   "required_positions": 16,
+   "actual_positions": 12,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 3,
+   "required_positions": 22,
+   "actual_positions": 19,
+   "staffing_pct": 86.36
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 9,
+   "actual_positions": 7,
+   "staffing_pct": 77.78
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 8,
+   "actual_positions": 6,
+   "staffing_pct": 75.0
+  }
+ ],
+ "candidates_in_process": 14,
+ "nearby_settlements": [],
+ "insights": []
+}

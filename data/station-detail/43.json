@@ -1,0 +1,55 @@
+{
+ "id": 43,
+ "name": "תחנת דימונה",
+ "district": "דרום",
+ "area": "רותם",
+ "staffing_pct": 82.86,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.0687,
+ "lng": 35.0366,
+ "coord_verified": false,
+ "missing_positions": 12,
+ "required_positions": 70,
+ "actual_positions": 58,
+ "pct_male": 64.0,
+ "pct_jewish": 65.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 20,
+   "actual_positions": 15,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 4,
+   "required_positions": 28,
+   "actual_positions": 24,
+   "staffing_pct": 85.71
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 12,
+   "actual_positions": 10,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 10,
+   "actual_positions": 9,
+   "staffing_pct": 90.0
+  }
+ ],
+ "candidates_in_process": 15,
+ "nearby_settlements": [],
+ "insights": []
+}

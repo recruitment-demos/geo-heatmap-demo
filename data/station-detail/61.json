@@ -1,0 +1,55 @@
+{
+ "id": 61,
+ "name": "תחנת טירת הכרמל",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 71.0,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.7614,
+ "lng": 34.9718,
+ "coord_verified": false,
+ "missing_positions": 29,
+ "required_positions": 100,
+ "actual_positions": 71,
+ "pct_male": 68.0,
+ "pct_jewish": 87.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 7,
+   "required_positions": 26,
+   "actual_positions": 19,
+   "staffing_pct": 73.08
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 14,
+   "required_positions": 42,
+   "actual_positions": 28,
+   "staffing_pct": 66.67
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 17,
+   "actual_positions": 13,
+   "staffing_pct": 76.47
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 15,
+   "actual_positions": 11,
+   "staffing_pct": 73.33
+  }
+ ],
+ "candidates_in_process": 34,
+ "nearby_settlements": [],
+ "insights": []
+}

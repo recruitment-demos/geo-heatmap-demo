@@ -1,0 +1,84 @@
+{
+ "id": 4,
+ "name": "תחנת גלילות",
+ "district": "תל אביב",
+ "area": "ירקון",
+ "staffing_pct": 65.71,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 32.131,
+ "lng": 34.802,
+ "coord_verified": false,
+ "missing_positions": 48,
+ "required_positions": 140,
+ "actual_positions": 92,
+ "pct_male": 67.0,
+ "pct_jewish": 79.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 16,
+   "required_positions": 41,
+   "actual_positions": 25,
+   "staffing_pct": 60.98
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 23,
+   "required_positions": 60,
+   "actual_positions": 37,
+   "staffing_pct": 61.67
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 7,
+   "required_positions": 23,
+   "actual_positions": 16,
+   "staffing_pct": 69.57
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 16,
+   "actual_positions": 14,
+   "staffing_pct": 87.5
+  }
+ ],
+ "candidates_in_process": 54,
+ "nearby_settlements": [
+  {
+   "name": "הרצליה",
+   "travel_min": 11
+  },
+  {
+   "name": "רמת השרון",
+   "travel_min": 12
+  },
+  {
+   "name": "תל אביב",
+   "travel_min": 12
+  },
+  {
+   "name": "כפר שמריהו",
+   "travel_min": 15
+  },
+  {
+   "name": "הוד השרון",
+   "travel_min": 21
+  },
+  {
+   "name": "כפר סבא",
+   "travel_min": 22
+  },
+  {
+   "name": "רעננה",
+   "travel_min": 23
+  }
+ ],
+ "insights": []
+}

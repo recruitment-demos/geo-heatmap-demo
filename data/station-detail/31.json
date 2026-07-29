@@ -1,0 +1,55 @@
+{
+ "id": 31,
+ "name": "תחנת בית שמש",
+ "district": "ירושלים",
+ "area": "ציון",
+ "staffing_pct": 80.83,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.7457,
+ "lng": 34.9886,
+ "coord_verified": false,
+ "missing_positions": 23,
+ "required_positions": 120,
+ "actual_positions": 97,
+ "pct_male": 78.0,
+ "pct_jewish": 73.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 37,
+   "actual_positions": 32,
+   "staffing_pct": 86.49
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 47,
+   "actual_positions": 38,
+   "staffing_pct": 80.85
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 19,
+   "actual_positions": 15,
+   "staffing_pct": 78.95
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 5,
+   "required_positions": 17,
+   "actual_positions": 12,
+   "staffing_pct": 70.59
+  }
+ ],
+ "candidates_in_process": 27,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 25,
+ "name": "תחנת עפולה",
+ "district": "צפון",
+ "area": "עמקים",
+ "staffing_pct": 82.5,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.6086,
+ "lng": 35.2897,
+ "coord_verified": false,
+ "missing_positions": 14,
+ "required_positions": 80,
+ "actual_positions": 66,
+ "pct_male": 64.0,
+ "pct_jewish": 61.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 4,
+   "required_positions": 21,
+   "actual_positions": 17,
+   "staffing_pct": 80.95
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 5,
+   "required_positions": 34,
+   "actual_positions": 29,
+   "staffing_pct": 85.29
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 13,
+   "actual_positions": 10,
+   "staffing_pct": 76.92
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 12,
+   "actual_positions": 10,
+   "staffing_pct": 83.33
+  }
+ ],
+ "candidates_in_process": 17,
+ "nearby_settlements": [],
+ "insights": []
+}

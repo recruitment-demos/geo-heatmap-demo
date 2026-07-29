@@ -1,0 +1,55 @@
+{
+ "id": 56,
+ "name": "תחנת ג'סר א-זרקא",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 84.62,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.5377,
+ "lng": 34.9114,
+ "coord_verified": false,
+ "missing_positions": 20,
+ "required_positions": 130,
+ "actual_positions": 110,
+ "pct_male": 71.0,
+ "pct_jewish": 87.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 38,
+   "actual_positions": 32,
+   "staffing_pct": 84.21
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 8,
+   "required_positions": 53,
+   "actual_positions": 45,
+   "staffing_pct": 84.91
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 20,
+   "actual_positions": 17,
+   "staffing_pct": 85.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 19,
+   "actual_positions": 16,
+   "staffing_pct": 84.21
+  }
+ ],
+ "candidates_in_process": 24,
+ "nearby_settlements": [],
+ "insights": []
+}

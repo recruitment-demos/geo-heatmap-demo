@@ -1,0 +1,55 @@
+{
+ "id": 65,
+ "name": "תחנת עכו",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 75.83,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.9282,
+ "lng": 35.0756,
+ "coord_verified": false,
+ "missing_positions": 29,
+ "required_positions": 120,
+ "actual_positions": 91,
+ "pct_male": 76.0,
+ "pct_jewish": 67.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 8,
+   "required_positions": 36,
+   "actual_positions": 28,
+   "staffing_pct": 77.78
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 12,
+   "required_positions": 47,
+   "actual_positions": 35,
+   "staffing_pct": 74.47
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 18,
+   "actual_positions": 13,
+   "staffing_pct": 72.22
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 19,
+   "actual_positions": 15,
+   "staffing_pct": 78.95
+  }
+ ],
+ "candidates_in_process": 34,
+ "nearby_settlements": [],
+ "insights": []
+}

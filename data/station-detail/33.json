@@ -1,0 +1,55 @@
+{
+ "id": 33,
+ "name": "תחנת לב הבירה",
+ "district": "ירושלים",
+ "area": "ציון",
+ "staffing_pct": 82.5,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.781,
+ "lng": 35.22,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 120,
+ "actual_positions": 99,
+ "pct_male": 77.0,
+ "pct_jewish": 76.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 36,
+   "actual_positions": 31,
+   "staffing_pct": 86.11
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 8,
+   "required_positions": 49,
+   "actual_positions": 41,
+   "staffing_pct": 83.67
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 18,
+   "actual_positions": 14,
+   "staffing_pct": 77.78
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 17,
+   "actual_positions": 13,
+   "staffing_pct": 76.47
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

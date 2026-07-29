@@ -1,0 +1,36 @@
+{
+ "threshold_critical": 70,
+ "threshold_urgent": 80,
+ "threshold_medium": 90,
+ "nearby_minutes": 30,
+ "urgency_critical": 1.5,
+ "urgency_urgent": 1.2,
+ "urgency_medium": 1.0,
+ "urgency_ok": 0.5,
+ "alert_critical": true,
+ "alert_weekly_report": false,
+ "alert_new_candidate": false,
+ "user_name": "",
+ "user_role": "מגייס ארצי",
+ "roles": [
+  "מגייס ארצי",
+  "ראש ענף גיוס",
+  "קצין גיוס מחוזי",
+  "מנהל מערכת"
+ ],
+ "defaults": {
+  "threshold_critical": 70,
+  "threshold_urgent": 80,
+  "threshold_medium": 90,
+  "nearby_minutes": 30,
+  "urgency_critical": 1.5,
+  "urgency_urgent": 1.2,
+  "urgency_medium": 1.0,
+  "urgency_ok": 0.5,
+  "alert_critical": true,
+  "alert_weekly_report": false,
+  "alert_new_candidate": false,
+  "user_name": "",
+  "user_role": "מגייס ארצי"
+ }
+}

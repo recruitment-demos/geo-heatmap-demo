@@ -1,0 +1,55 @@
+{
+ "id": 37,
+ "name": "תחנת שפט",
+ "district": "ירושלים",
+ "area": "קדם",
+ "staffing_pct": 57.69,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 31.81,
+ "lng": 35.23,
+ "coord_verified": false,
+ "missing_positions": 55,
+ "required_positions": 130,
+ "actual_positions": 75,
+ "pct_male": 76.0,
+ "pct_jewish": 92.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 13,
+   "required_positions": 37,
+   "actual_positions": 24,
+   "staffing_pct": 64.86
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 21,
+   "required_positions": 54,
+   "actual_positions": 33,
+   "staffing_pct": 61.11
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 10,
+   "required_positions": 22,
+   "actual_positions": 12,
+   "staffing_pct": 54.55
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 11,
+   "required_positions": 17,
+   "actual_positions": 6,
+   "staffing_pct": 35.29
+  }
+ ],
+ "candidates_in_process": 62,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 16,
+ "name": "תחנת ירדן",
+ "district": "צפון",
+ "area": "כנרת",
+ "staffing_pct": 92.5,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.705,
+ "lng": 35.58,
+ "coord_verified": false,
+ "missing_positions": 9,
+ "required_positions": 120,
+ "actual_positions": 111,
+ "pct_male": 76.0,
+ "pct_jewish": 90.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 2,
+   "required_positions": 32,
+   "actual_positions": 30,
+   "staffing_pct": 93.75
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 3,
+   "required_positions": 54,
+   "actual_positions": 51,
+   "staffing_pct": 94.44
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 17,
+   "actual_positions": 14,
+   "staffing_pct": 82.35
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 17,
+   "actual_positions": 16,
+   "staffing_pct": 94.12
+  }
+ ],
+ "candidates_in_process": 12,
+ "nearby_settlements": [],
+ "insights": []
+}

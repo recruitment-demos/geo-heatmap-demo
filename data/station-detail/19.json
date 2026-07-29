@@ -1,0 +1,55 @@
+{
+ "id": 19,
+ "name": "תחנת מגדל העמק",
+ "district": "צפון",
+ "area": "עמקים",
+ "staffing_pct": 74.55,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.6771,
+ "lng": 35.241,
+ "coord_verified": false,
+ "missing_positions": 28,
+ "required_positions": 110,
+ "actual_positions": 82,
+ "pct_male": 69.0,
+ "pct_jewish": 65.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 7,
+   "required_positions": 29,
+   "actual_positions": 22,
+   "staffing_pct": 75.86
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 50,
+   "actual_positions": 41,
+   "staffing_pct": 82.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 7,
+   "required_positions": 16,
+   "actual_positions": 9,
+   "staffing_pct": 56.25
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 5,
+   "required_positions": 15,
+   "actual_positions": 10,
+   "staffing_pct": 66.67
+  }
+ ],
+ "candidates_in_process": 33,
+ "nearby_settlements": [],
+ "insights": []
+}

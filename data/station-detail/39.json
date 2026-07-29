@@ -1,0 +1,55 @@
+{
+ "id": 39,
+ "name": "תחנת אופקים",
+ "district": "דרום",
+ "area": "נגב",
+ "staffing_pct": 88.33,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.3126,
+ "lng": 34.6209,
+ "coord_verified": false,
+ "missing_positions": 14,
+ "required_positions": 120,
+ "actual_positions": 106,
+ "pct_male": 75.0,
+ "pct_jewish": 72.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 34,
+   "actual_positions": 28,
+   "staffing_pct": 82.35
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 4,
+   "required_positions": 47,
+   "actual_positions": 43,
+   "staffing_pct": 91.49
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 21,
+   "actual_positions": 19,
+   "staffing_pct": 90.48
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 18,
+   "actual_positions": 16,
+   "staffing_pct": 88.89
+  }
+ ],
+ "candidates_in_process": 17,
+ "nearby_settlements": [],
+ "insights": []
+}

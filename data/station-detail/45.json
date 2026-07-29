@@ -1,0 +1,55 @@
+{
+ "id": 45,
+ "name": "תחנת נתיבות",
+ "district": "דרום",
+ "area": "נגב",
+ "staffing_pct": 81.43,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.4214,
+ "lng": 34.5884,
+ "coord_verified": false,
+ "missing_positions": 13,
+ "required_positions": 70,
+ "actual_positions": 57,
+ "pct_male": 65.0,
+ "pct_jewish": 87.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 19,
+   "actual_positions": 14,
+   "staffing_pct": 73.68
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 4,
+   "required_positions": 29,
+   "actual_positions": 25,
+   "staffing_pct": 86.21
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 12,
+   "actual_positions": 10,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 10,
+   "actual_positions": 8,
+   "staffing_pct": 80.0
+  }
+ ],
+ "candidates_in_process": 16,
+ "nearby_settlements": [],
+ "insights": []
+}

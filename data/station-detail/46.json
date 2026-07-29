@@ -1,0 +1,55 @@
+{
+ "id": 46,
+ "name": "תחנת ערד",
+ "district": "דרום",
+ "area": "רותם",
+ "staffing_pct": 65.71,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 31.2612,
+ "lng": 35.2146,
+ "coord_verified": false,
+ "missing_positions": 24,
+ "required_positions": 70,
+ "actual_positions": 46,
+ "pct_male": 73.0,
+ "pct_jewish": 60.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 9,
+   "required_positions": 18,
+   "actual_positions": 9,
+   "staffing_pct": 50.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 8,
+   "required_positions": 29,
+   "actual_positions": 21,
+   "staffing_pct": 72.41
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 13,
+   "actual_positions": 9,
+   "staffing_pct": 69.23
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 10,
+   "actual_positions": 7,
+   "staffing_pct": 70.0
+  }
+ ],
+ "candidates_in_process": 28,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 67,
+ "name": "מרחב נתב\"ג",
+ "district": "מרכז",
+ "area": "מרכז",
+ "staffing_pct": 76.25,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.0004,
+ "lng": 34.8706,
+ "coord_verified": false,
+ "missing_positions": 19,
+ "required_positions": 80,
+ "actual_positions": 61,
+ "pct_male": 68.0,
+ "pct_jewish": 80.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 23,
+   "actual_positions": 18,
+   "staffing_pct": 78.26
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 10,
+   "required_positions": 34,
+   "actual_positions": 24,
+   "staffing_pct": 70.59
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 13,
+   "actual_positions": 11,
+   "staffing_pct": 84.62
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 10,
+   "actual_positions": 8,
+   "staffing_pct": 80.0
+  }
+ ],
+ "candidates_in_process": 23,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 34,
+ "name": "תחנת מוריה",
+ "district": "ירושלים",
+ "area": "ציון",
+ "staffing_pct": 82.31,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.75,
+ "lng": 35.22,
+ "coord_verified": false,
+ "missing_positions": 23,
+ "required_positions": 130,
+ "actual_positions": 107,
+ "pct_male": 74.0,
+ "pct_jewish": 58.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 35,
+   "actual_positions": 29,
+   "staffing_pct": 82.86
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 57,
+   "actual_positions": 48,
+   "staffing_pct": 84.21
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 21,
+   "actual_positions": 18,
+   "staffing_pct": 85.71
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 5,
+   "required_positions": 17,
+   "actual_positions": 12,
+   "staffing_pct": 70.59
+  }
+ ],
+ "candidates_in_process": 27,
+ "nearby_settlements": [],
+ "insights": []
+}

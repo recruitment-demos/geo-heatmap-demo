@@ -1,0 +1,26 @@
+[
+ {
+  "status": "קריטי",
+  "color": "#DC2626",
+  "key": "critical",
+  "label": "מתחת ל‑70%"
+ },
+ {
+  "status": "דחוף",
+  "color": "#EA580C",
+  "key": "urgent",
+  "label": "70% - 80%"
+ },
+ {
+  "status": "בינוני",
+  "color": "#EAB308",
+  "key": "medium",
+  "label": "80% - 90%"
+ },
+ {
+  "status": "תקין",
+  "color": "#16A34A",
+  "key": "ok",
+  "label": "90% ומעלה"
+ }
+]

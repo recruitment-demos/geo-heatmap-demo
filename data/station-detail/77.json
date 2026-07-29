@@ -1,0 +1,55 @@
+{
+ "id": 77,
+ "name": "תחנת ראש העין",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 71.67,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.0953,
+ "lng": 34.9533,
+ "coord_verified": false,
+ "missing_positions": 34,
+ "required_positions": 120,
+ "actual_positions": 86,
+ "pct_male": 66.0,
+ "pct_jewish": 60.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 9,
+   "required_positions": 33,
+   "actual_positions": 24,
+   "staffing_pct": 72.73
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 19,
+   "required_positions": 46,
+   "actual_positions": 27,
+   "staffing_pct": 58.7
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 22,
+   "actual_positions": 18,
+   "staffing_pct": 81.82
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 19,
+   "actual_positions": 17,
+   "staffing_pct": 89.47
+  }
+ ],
+ "candidates_in_process": 39,
+ "nearby_settlements": [],
+ "insights": []
+}

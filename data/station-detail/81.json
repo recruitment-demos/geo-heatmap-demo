@@ -1,0 +1,55 @@
+{
+ "id": 81,
+ "name": "תחנת שדות",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 65.0,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 32.27,
+ "lng": 34.89,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 60,
+ "actual_positions": 39,
+ "pct_male": 71.0,
+ "pct_jewish": 90.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 15,
+   "actual_positions": 10,
+   "staffing_pct": 66.67
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 11,
+   "required_positions": 27,
+   "actual_positions": 16,
+   "staffing_pct": 59.26
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 10,
+   "actual_positions": 7,
+   "staffing_pct": 70.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 8,
+   "actual_positions": 6,
+   "staffing_pct": 75.0
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

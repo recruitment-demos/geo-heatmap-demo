@@ -1,0 +1,55 @@
+{
+ "id": 53,
+ "name": "תחנת אום אל פחם",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 99.17,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.5158,
+ "lng": 35.1525,
+ "coord_verified": false,
+ "missing_positions": 1,
+ "required_positions": 120,
+ "actual_positions": 119,
+ "pct_male": 65.0,
+ "pct_jewish": 69.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 0,
+   "required_positions": 33,
+   "actual_positions": 33,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 1,
+   "required_positions": 52,
+   "actual_positions": 51,
+   "staffing_pct": 98.08
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 0,
+   "required_positions": 18,
+   "actual_positions": 18,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 17,
+   "actual_positions": 17,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 3,
+ "nearby_settlements": [],
+ "insights": []
+}

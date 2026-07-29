@@ -1,0 +1,55 @@
+{
+ "id": 35,
+ "name": "תחנת עוז",
+ "district": "ירושלים",
+ "area": "קדם",
+ "staffing_pct": 86.67,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.785,
+ "lng": 35.235,
+ "coord_verified": false,
+ "missing_positions": 16,
+ "required_positions": 120,
+ "actual_positions": 104,
+ "pct_male": 72.0,
+ "pct_jewish": 67.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 4,
+   "required_positions": 31,
+   "actual_positions": 27,
+   "staffing_pct": 87.1
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 51,
+   "actual_positions": 45,
+   "staffing_pct": 88.24
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 22,
+   "actual_positions": 19,
+   "staffing_pct": 86.36
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 16,
+   "actual_positions": 13,
+   "staffing_pct": 81.25
+  }
+ ],
+ "candidates_in_process": 20,
+ "nearby_settlements": [],
+ "insights": []
+}

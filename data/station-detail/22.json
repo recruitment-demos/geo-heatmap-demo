@@ -1,0 +1,55 @@
+{
+ "id": 22,
+ "name": "תחנת משגב",
+ "district": "צפון",
+ "area": "גליל",
+ "staffing_pct": 79.17,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.89,
+ "lng": 35.25,
+ "coord_verified": false,
+ "missing_positions": 25,
+ "required_positions": 120,
+ "actual_positions": 95,
+ "pct_male": 74.0,
+ "pct_jewish": 63.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 37,
+   "actual_positions": 31,
+   "staffing_pct": 83.78
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 46,
+   "actual_positions": 37,
+   "staffing_pct": 80.43
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 7,
+   "required_positions": 20,
+   "actual_positions": 13,
+   "staffing_pct": 65.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 17,
+   "actual_positions": 14,
+   "staffing_pct": 82.35
+  }
+ ],
+ "candidates_in_process": 29,
+ "nearby_settlements": [],
+ "insights": []
+}

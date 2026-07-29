@@ -1,0 +1,55 @@
+{
+ "id": 63,
+ "name": "תחנת נשר",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 76.67,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.7709,
+ "lng": 35.0381,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 90,
+ "actual_positions": 69,
+ "pct_male": 75.0,
+ "pct_jewish": 80.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 26,
+   "actual_positions": 21,
+   "staffing_pct": 80.77
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 40,
+   "actual_positions": 31,
+   "staffing_pct": 77.5
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 13,
+   "actual_positions": 9,
+   "staffing_pct": 69.23
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 11,
+   "actual_positions": 8,
+   "staffing_pct": 72.73
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

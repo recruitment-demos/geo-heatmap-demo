@@ -1,0 +1,55 @@
+{
+ "id": 69,
+ "name": "תחנת טירה",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 92.5,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.2347,
+ "lng": 34.9545,
+ "coord_verified": false,
+ "missing_positions": 6,
+ "required_positions": 80,
+ "actual_positions": 74,
+ "pct_male": 61.0,
+ "pct_jewish": 73.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 2,
+   "required_positions": 19,
+   "actual_positions": 17,
+   "staffing_pct": 89.47
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 3,
+   "required_positions": 36,
+   "actual_positions": 33,
+   "staffing_pct": 91.67
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 13,
+   "actual_positions": 12,
+   "staffing_pct": 92.31
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 12,
+   "actual_positions": 12,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 9,
+ "nearby_settlements": [],
+ "insights": []
+}

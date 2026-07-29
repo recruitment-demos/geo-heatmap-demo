@@ -1,0 +1,534 @@
+{
+ "n": 10,
+ "n_options": [
+  5,
+  10,
+  20,
+  30,
+  50
+ ],
+ "nearby_minutes": 30,
+ "weights": {
+  "critical": 1.5,
+  "urgent": 1.2,
+  "medium": 1.0,
+  "ok": 0.5,
+  "unknown": 0.0
+ },
+ "kpis": {
+  "annual_goal": {
+   "available": false,
+   "value": null
+  },
+  "candidates_in_process": {
+   "available": true,
+   "value": 2000
+  },
+  "units_below": {
+   "available": true,
+   "value": 69,
+   "threshold": 90
+  },
+  "critical_gap": {
+   "available": true,
+   "value": 401,
+   "units": 13
+  }
+ },
+ "top": [
+  {
+   "id": 37,
+   "name": "תחנת שפט",
+   "district": "ירושלים",
+   "area": "קדם",
+   "staffing_pct": 57.69,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 55,
+   "score": 412.5,
+   "gap_pct": 42.3,
+   "weight": 1.5,
+   "positions_factor": 6.5
+  },
+  {
+   "id": 4,
+   "name": "תחנת גלילות",
+   "district": "תל אביב",
+   "area": "ירקון",
+   "staffing_pct": 65.71,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 48,
+   "score": 298.3,
+   "gap_pct": 34.3,
+   "weight": 1.5,
+   "positions_factor": 5.8
+  },
+  {
+   "id": 88,
+   "name": "תחנת עציון",
+   "district": "ש\"י",
+   "area": "יהודה",
+   "staffing_pct": 63.0,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 37,
+   "score": 260.9,
+   "gap_pct": 37.0,
+   "weight": 1.5,
+   "positions_factor": 4.7
+  },
+  {
+   "id": 17,
+   "name": "תחנת כפר כנא",
+   "district": "צפון",
+   "area": "עמקים",
+   "staffing_pct": 68.57,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 44,
+   "score": 254.6,
+   "gap_pct": 31.4,
+   "weight": 1.5,
+   "positions_factor": 5.4
+  },
+  {
+   "id": 49,
+   "name": "תחנת קרית גת",
+   "district": "דרום",
+   "area": "לכיש",
+   "staffing_pct": 66.67,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 40,
+   "score": 250.0,
+   "gap_pct": 33.3,
+   "weight": 1.5,
+   "positions_factor": 5.0
+  },
+  {
+   "id": 83,
+   "name": "תחנת בנימין",
+   "district": "ש\"י",
+   "area": "שומרון",
+   "staffing_pct": 56.36,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 24,
+   "score": 222.6,
+   "gap_pct": 43.6,
+   "weight": 1.5,
+   "positions_factor": 3.4
+  },
+  {
+   "id": 3,
+   "name": "תחנת גבעתיים",
+   "district": "תל אביב",
+   "area": "דן",
+   "staffing_pct": 60.0,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 22,
+   "score": 192.0,
+   "gap_pct": 40.0,
+   "weight": 1.5,
+   "positions_factor": 3.2
+  },
+  {
+   "id": 7,
+   "name": "תחנת לב ת\"א",
+   "district": "תל אביב",
+   "area": "ירקון",
+   "staffing_pct": 67.5,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 26,
+   "score": 175.5,
+   "gap_pct": 32.5,
+   "weight": 1.5,
+   "positions_factor": 3.6
+  },
+  {
+   "id": 46,
+   "name": "תחנת ערד",
+   "district": "דרום",
+   "area": "רותם",
+   "staffing_pct": 65.71,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 24,
+   "score": 174.9,
+   "gap_pct": 34.3,
+   "weight": 1.5,
+   "positions_factor": 3.4
+  },
+  {
+   "id": 81,
+   "name": "תחנת שדות",
+   "district": "מרכז",
+   "area": "שרון",
+   "staffing_pct": 65.0,
+   "status": "קריטי",
+   "status_key": "critical",
+   "color": "#DC2626",
+   "missing_positions": 21,
+   "score": 162.8,
+   "gap_pct": 35.0,
+   "weight": 1.5,
+   "positions_factor": 3.1
+  }
+ ],
+ "targets": [
+  {
+   "settlement_id": 31,
+   "name": "תל אביב",
+   "score": 665.8,
+   "station_count": 3,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 6,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 9,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 12,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 9,
+   "name": "הוד השרון",
+   "score": 473.8,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 21,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 28,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 27,
+   "name": "רמת השרון",
+   "score": 473.8,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 12,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 24,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 5,
+   "name": "בני ברק",
+   "score": 367.5,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 5,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 10,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 7,
+   "name": "גבעת שמואל",
+   "score": 367.5,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 10,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 15,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 8,
+   "name": "גבעתיים",
+   "score": 367.5,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 3,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 6,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 20,
+   "name": "פתח תקווה",
+   "score": 367.5,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 16,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 22,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 21,
+   "name": "קריית אונו",
+   "score": 367.5,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 10,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 18,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 26,
+   "name": "רמת גן",
+   "score": 367.5,
+   "station_count": 2,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 4,
+     "status": "קריטי",
+     "color": "#DC2626"
+    },
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 12,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 10,
+   "name": "הרצליה",
+   "score": 298.3,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 11,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 13,
+   "name": "כפר סבא",
+   "score": 298.3,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 22,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 14,
+   "name": "כפר שמריהו",
+   "score": 298.3,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 15,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 29,
+   "name": "רעננה",
+   "score": 298.3,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת גלילות",
+     "travel_min": 23,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 1,
+   "name": "אור יהודה",
+   "score": 192.0,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת גבעתיים",
+     "travel_min": 12,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 2,
+   "name": "אזור",
+   "score": 175.5,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 12,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 6,
+   "name": "בת ים",
+   "score": 175.5,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 15,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 11,
+   "name": "חולון",
+   "score": 175.5,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 14,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 12,
+   "name": "יהוד",
+   "score": 175.5,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 28,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  },
+  {
+   "settlement_id": 23,
+   "name": "ראשון לציון",
+   "score": 175.5,
+   "station_count": 1,
+   "stations": [
+    {
+     "name": "תחנת לב ת\"א",
+     "travel_min": 29,
+     "status": "קריטי",
+     "color": "#DC2626"
+    }
+   ]
+  }
+ ],
+ "recruitment_days": [
+  {
+   "id": 1,
+   "date": "2026-07-30",
+   "location": "לשכת גיוס דן",
+   "expected_success_pct": 65.0,
+   "station_name": "תחנת מסובים"
+  },
+  {
+   "id": 2,
+   "date": "2026-08-10",
+   "location": "מתחם יפו",
+   "expected_success_pct": 58.0,
+   "station_name": "תחנת יפו"
+  }
+ ]
+}

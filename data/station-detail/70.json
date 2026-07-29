@@ -1,0 +1,55 @@
+{
+ "id": 70,
+ "name": "תחנת יבנה",
+ "district": "מרכז",
+ "area": "שפלה",
+ "staffing_pct": 72.5,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.8769,
+ "lng": 34.7383,
+ "coord_verified": false,
+ "missing_positions": 22,
+ "required_positions": 80,
+ "actual_positions": 58,
+ "pct_male": 75.0,
+ "pct_jewish": 60.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 23,
+   "actual_positions": 17,
+   "staffing_pct": 73.91
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 11,
+   "required_positions": 32,
+   "actual_positions": 21,
+   "staffing_pct": 65.62
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 14,
+   "actual_positions": 11,
+   "staffing_pct": 78.57
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 11,
+   "actual_positions": 9,
+   "staffing_pct": 81.82
+  }
+ ],
+ "candidates_in_process": 26,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 41,
+ "name": "תחנת אשקלון",
+ "district": "דרום",
+ "area": "לכיש",
+ "staffing_pct": 78.89,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.6653,
+ "lng": 34.565,
+ "coord_verified": false,
+ "missing_positions": 19,
+ "required_positions": 90,
+ "actual_positions": 71,
+ "pct_male": 64.0,
+ "pct_jewish": 95.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 8,
+   "required_positions": 27,
+   "actual_positions": 19,
+   "staffing_pct": 70.37
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 36,
+   "actual_positions": 30,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 14,
+   "actual_positions": 11,
+   "staffing_pct": 78.57
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 13,
+   "actual_positions": 11,
+   "staffing_pct": 84.62
+  }
+ ],
+ "candidates_in_process": 23,
+ "nearby_settlements": [],
+ "insights": []
+}

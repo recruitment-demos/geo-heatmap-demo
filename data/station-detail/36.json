@@ -1,0 +1,55 @@
+{
+ "id": 36,
+ "name": "תחנת שלם",
+ "district": "ירושלים",
+ "area": "קדם",
+ "staffing_pct": 77.69,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.79,
+ "lng": 35.24,
+ "coord_verified": false,
+ "missing_positions": 29,
+ "required_positions": 130,
+ "actual_positions": 101,
+ "pct_male": 69.0,
+ "pct_jewish": 67.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 8,
+   "required_positions": 37,
+   "actual_positions": 29,
+   "staffing_pct": 78.38
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 11,
+   "required_positions": 57,
+   "actual_positions": 46,
+   "staffing_pct": 80.7
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 19,
+   "actual_positions": 14,
+   "staffing_pct": 73.68
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 5,
+   "required_positions": 17,
+   "actual_positions": 12,
+   "staffing_pct": 70.59
+  }
+ ],
+ "candidates_in_process": 34,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 26,
+ "name": "תחנת צפת",
+ "district": "צפון",
+ "area": "כנרת",
+ "staffing_pct": 90.91,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.9646,
+ "lng": 35.496,
+ "coord_verified": false,
+ "missing_positions": 5,
+ "required_positions": 55,
+ "actual_positions": 50,
+ "pct_male": 72.0,
+ "pct_jewish": 56.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 1,
+   "required_positions": 15,
+   "actual_positions": 14,
+   "staffing_pct": 93.33
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 2,
+   "required_positions": 24,
+   "actual_positions": 22,
+   "staffing_pct": 91.67
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 8,
+   "actual_positions": 7,
+   "staffing_pct": 87.5
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 8,
+   "actual_positions": 7,
+   "staffing_pct": 87.5
+  }
+ ],
+ "candidates_in_process": 8,
+ "nearby_settlements": [],
+ "insights": []
+}

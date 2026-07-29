@@ -1,0 +1,55 @@
+{
+ "id": 21,
+ "name": "תחנת מעלות תרשיחא",
+ "district": "צפון",
+ "area": "כנרת",
+ "staffing_pct": 95.71,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 33.0166,
+ "lng": 35.2897,
+ "coord_verified": false,
+ "missing_positions": 3,
+ "required_positions": 70,
+ "actual_positions": 67,
+ "pct_male": 73.0,
+ "pct_jewish": 78.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 1,
+   "required_positions": 21,
+   "actual_positions": 20,
+   "staffing_pct": 95.24
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 1,
+   "required_positions": 28,
+   "actual_positions": 27,
+   "staffing_pct": 96.43
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 12,
+   "actual_positions": 11,
+   "staffing_pct": 91.67
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 9,
+   "actual_positions": 9,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 5,
+ "nearby_settlements": [],
+ "insights": []
+}

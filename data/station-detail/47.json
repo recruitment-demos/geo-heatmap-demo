@@ -1,0 +1,55 @@
+{
+ "id": 47,
+ "name": "תחנת ערוער",
+ "district": "דרום",
+ "area": "רותם",
+ "staffing_pct": 76.67,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.23,
+ "lng": 35.02,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 90,
+ "actual_positions": 69,
+ "pct_male": 73.0,
+ "pct_jewish": 81.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 9,
+   "required_positions": 27,
+   "actual_positions": 18,
+   "staffing_pct": 66.67
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 36,
+   "actual_positions": 30,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 15,
+   "actual_positions": 11,
+   "staffing_pct": 73.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 12,
+   "actual_positions": 10,
+   "staffing_pct": 83.33
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 73,
+ "name": "תחנת לוד",
+ "district": "מרכז",
+ "area": "שפלה",
+ "staffing_pct": 82.22,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.9489,
+ "lng": 34.8885,
+ "coord_verified": false,
+ "missing_positions": 16,
+ "required_positions": 90,
+ "actual_positions": 74,
+ "pct_male": 67.0,
+ "pct_jewish": 77.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 4,
+   "required_positions": 24,
+   "actual_positions": 20,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 8,
+   "required_positions": 39,
+   "actual_positions": 31,
+   "staffing_pct": 79.49
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 14,
+   "actual_positions": 11,
+   "staffing_pct": 78.57
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 13,
+   "actual_positions": 12,
+   "staffing_pct": 92.31
+  }
+ ],
+ "candidates_in_process": 20,
+ "nearby_settlements": [],
+ "insights": []
+}

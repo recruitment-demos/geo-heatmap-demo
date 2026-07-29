@@ -1,0 +1,55 @@
+{
+ "id": 48,
+ "name": "תחנת קרית מלאכי",
+ "district": "דרום",
+ "area": "לכיש",
+ "staffing_pct": 96.36,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 31.73,
+ "lng": 34.745,
+ "coord_verified": false,
+ "missing_positions": 4,
+ "required_positions": 110,
+ "actual_positions": 106,
+ "pct_male": 68.0,
+ "pct_jewish": 81.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 1,
+   "required_positions": 33,
+   "actual_positions": 32,
+   "staffing_pct": 96.97
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 1,
+   "required_positions": 47,
+   "actual_positions": 46,
+   "staffing_pct": 97.87
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 15,
+   "actual_positions": 14,
+   "staffing_pct": 93.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 15,
+   "actual_positions": 14,
+   "staffing_pct": 93.33
+  }
+ ],
+ "candidates_in_process": 7,
+ "nearby_settlements": [],
+ "insights": []
+}

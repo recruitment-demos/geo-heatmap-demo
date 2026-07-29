@@ -1,0 +1,55 @@
+{
+ "id": 42,
+ "name": "תחנת באר שבע",
+ "district": "דרום",
+ "area": "נגב",
+ "staffing_pct": 77.69,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.2457,
+ "lng": 34.7925,
+ "coord_verified": false,
+ "missing_positions": 29,
+ "required_positions": 130,
+ "actual_positions": 101,
+ "pct_male": 72.0,
+ "pct_jewish": 59.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 11,
+   "required_positions": 35,
+   "actual_positions": 24,
+   "staffing_pct": 68.57
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 10,
+   "required_positions": 55,
+   "actual_positions": 45,
+   "staffing_pct": 81.82
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 22,
+   "actual_positions": 18,
+   "staffing_pct": 81.82
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 18,
+   "actual_positions": 14,
+   "staffing_pct": 77.78
+  }
+ ],
+ "candidates_in_process": 34,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 50,
+ "name": "תחנת רהט",
+ "district": "דרום",
+ "area": "נגב",
+ "staffing_pct": 86.0,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.3934,
+ "lng": 34.7547,
+ "coord_verified": false,
+ "missing_positions": 14,
+ "required_positions": 100,
+ "actual_positions": 86,
+ "pct_male": 72.0,
+ "pct_jewish": 70.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 27,
+   "actual_positions": 21,
+   "staffing_pct": 77.78
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 4,
+   "required_positions": 44,
+   "actual_positions": 40,
+   "staffing_pct": 90.91
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 15,
+   "actual_positions": 13,
+   "staffing_pct": 86.67
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 14,
+   "actual_positions": 12,
+   "staffing_pct": 85.71
+  }
+ ],
+ "candidates_in_process": 17,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 57,
+ "name": "תחנת זבולון",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 84.62,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.81,
+ "lng": 35.11,
+ "coord_verified": false,
+ "missing_positions": 20,
+ "required_positions": 130,
+ "actual_positions": 110,
+ "pct_male": 64.0,
+ "pct_jewish": 62.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 37,
+   "actual_positions": 31,
+   "staffing_pct": 83.78
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 56,
+   "actual_positions": 47,
+   "staffing_pct": 83.93
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 21,
+   "actual_positions": 18,
+   "staffing_pct": 85.71
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 16,
+   "actual_positions": 14,
+   "staffing_pct": 87.5
+  }
+ ],
+ "candidates_in_process": 24,
+ "nearby_settlements": [],
+ "insights": []
+}

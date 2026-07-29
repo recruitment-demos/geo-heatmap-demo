@@ -1,0 +1,55 @@
+{
+ "id": 54,
+ "name": "תחנת באקה אלע'רביה",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 96.92,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.4166,
+ "lng": 35.04,
+ "coord_verified": false,
+ "missing_positions": 4,
+ "required_positions": 130,
+ "actual_positions": 126,
+ "pct_male": 73.0,
+ "pct_jewish": 76.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 1,
+   "required_positions": 35,
+   "actual_positions": 34,
+   "staffing_pct": 97.14
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 2,
+   "required_positions": 57,
+   "actual_positions": 55,
+   "staffing_pct": 96.49
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 21,
+   "actual_positions": 20,
+   "staffing_pct": 95.24
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 17,
+   "actual_positions": 17,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 7,
+ "nearby_settlements": [],
+ "insights": []
+}

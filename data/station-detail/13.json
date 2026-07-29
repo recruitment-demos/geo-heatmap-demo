@@ -1,0 +1,55 @@
+{
+ "id": 13,
+ "name": "תחנת גולן",
+ "district": "צפון",
+ "area": "כנרת",
+ "staffing_pct": 73.75,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.9903,
+ "lng": 35.6897,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 80,
+ "actual_positions": 59,
+ "pct_male": 72.0,
+ "pct_jewish": 70.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 24,
+   "actual_positions": 19,
+   "staffing_pct": 79.17
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 7,
+   "required_positions": 32,
+   "actual_positions": 25,
+   "staffing_pct": 78.12
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 6,
+   "required_positions": 13,
+   "actual_positions": 7,
+   "staffing_pct": 53.85
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 11,
+   "actual_positions": 8,
+   "staffing_pct": 72.73
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 79,
+ "name": "תחנת רחובות",
+ "district": "מרכז",
+ "area": "שפלה",
+ "staffing_pct": 73.08,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.8953,
+ "lng": 34.8106,
+ "coord_verified": false,
+ "missing_positions": 35,
+ "required_positions": 130,
+ "actual_positions": 95,
+ "pct_male": 67.0,
+ "pct_jewish": 82.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 9,
+   "required_positions": 37,
+   "actual_positions": 28,
+   "staffing_pct": 75.68
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 19,
+   "required_positions": 54,
+   "actual_positions": 35,
+   "staffing_pct": 64.81
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 20,
+   "actual_positions": 15,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 19,
+   "actual_positions": 17,
+   "staffing_pct": 89.47
+  }
+ ],
+ "candidates_in_process": 40,
+ "nearby_settlements": [],
+ "insights": []
+}

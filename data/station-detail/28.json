@@ -1,0 +1,55 @@
+{
+ "id": 28,
+ "name": "תחנת שפרעם",
+ "district": "צפון",
+ "area": "גליל",
+ "staffing_pct": 85.0,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.8064,
+ "lng": 35.1713,
+ "coord_verified": false,
+ "missing_positions": 18,
+ "required_positions": 120,
+ "actual_positions": 102,
+ "pct_male": 62.0,
+ "pct_jewish": 71.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 33,
+   "actual_positions": 28,
+   "staffing_pct": 84.85
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 5,
+   "required_positions": 52,
+   "actual_positions": 47,
+   "staffing_pct": 90.38
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 18,
+   "actual_positions": 13,
+   "staffing_pct": 72.22
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 17,
+   "actual_positions": 14,
+   "staffing_pct": 82.35
+  }
+ ],
+ "candidates_in_process": 22,
+ "nearby_settlements": [],
+ "insights": []
+}

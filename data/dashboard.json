@@ -1,0 +1,79 @@
+{
+ "filters": {
+  "region": null,
+  "station": null
+ },
+ "avg_staffing": {
+  "value": 81.4,
+  "weighted": true,
+  "note": null,
+  "status": "בינוני",
+  "color": "#EAB308",
+  "key": "medium"
+ },
+ "positions": {
+  "available": true,
+  "required": 8910,
+  "actual": 7249,
+  "stations_count": 88,
+  "status_counts": {
+   "תקין": 19,
+   "דחוף": 24,
+   "בינוני": 32,
+   "קריטי": 13
+  }
+ },
+ "manpower_gap": {
+  "available": true,
+  "total_missing": 1661,
+  "trend": 1.4,
+  "snapshots": 2
+ },
+ "top5": [
+  {
+   "name": "תחנת בנימין",
+   "district": "ש\"י",
+   "area": "שומרון",
+   "staffing_pct": 56.36,
+   "status": "קריטי",
+   "color": "#DC2626",
+   "missing_positions": 24
+  },
+  {
+   "name": "תחנת שפט",
+   "district": "ירושלים",
+   "area": "קדם",
+   "staffing_pct": 57.69,
+   "status": "קריטי",
+   "color": "#DC2626",
+   "missing_positions": 55
+  },
+  {
+   "name": "תחנת גבעתיים",
+   "district": "תל אביב",
+   "area": "דן",
+   "staffing_pct": 60.0,
+   "status": "קריטי",
+   "color": "#DC2626",
+   "missing_positions": 22
+  },
+  {
+   "name": "תחנת עציון",
+   "district": "ש\"י",
+   "area": "יהודה",
+   "staffing_pct": 63.0,
+   "status": "קריטי",
+   "color": "#DC2626",
+   "missing_positions": 37
+  },
+  {
+   "name": "תחנת שדות",
+   "district": "מרכז",
+   "area": "שרון",
+   "staffing_pct": 65.0,
+   "status": "קריטי",
+   "color": "#DC2626",
+   "missing_positions": 21
+  }
+ ]
+}

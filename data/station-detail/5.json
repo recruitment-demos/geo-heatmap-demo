@@ -1,0 +1,72 @@
+{
+ "id": 5,
+ "name": "תחנת חולון",
+ "district": "תל אביב",
+ "area": "איילון",
+ "staffing_pct": 97.86,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.0158,
+ "lng": 34.7742,
+ "coord_verified": false,
+ "missing_positions": 3,
+ "required_positions": 140,
+ "actual_positions": 137,
+ "pct_male": 69.0,
+ "pct_jewish": 89.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 1,
+   "required_positions": 39,
+   "actual_positions": 38,
+   "staffing_pct": 97.44
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 2,
+   "required_positions": 57,
+   "actual_positions": 55,
+   "staffing_pct": 96.49
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 0,
+   "required_positions": 21,
+   "actual_positions": 21,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 23,
+   "actual_positions": 23,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 5,
+ "nearby_settlements": [
+  {
+   "name": "חולון",
+   "travel_min": 3
+  },
+  {
+   "name": "אזור",
+   "travel_min": 4
+  },
+  {
+   "name": "בת ים",
+   "travel_min": 6
+  },
+  {
+   "name": "ראשון לציון",
+   "travel_min": 14
+  }
+ ],
+ "insights": []
+}

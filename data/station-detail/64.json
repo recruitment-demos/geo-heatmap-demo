@@ -1,0 +1,55 @@
+{
+ "id": 64,
+ "name": "תחנת עירון",
+ "district": "חוף",
+ "area": "חוף",
+ "staffing_pct": 100.0,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.47,
+ "lng": 35.11,
+ "coord_verified": false,
+ "missing_positions": 0,
+ "required_positions": 80,
+ "actual_positions": 80,
+ "pct_male": 66.0,
+ "pct_jewish": 88.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 0,
+   "required_positions": 21,
+   "actual_positions": 21,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 0,
+   "required_positions": 36,
+   "actual_positions": 36,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 0,
+   "required_positions": 12,
+   "actual_positions": 12,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 11,
+   "actual_positions": 11,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 2,
+ "nearby_settlements": [],
+ "insights": []
+}

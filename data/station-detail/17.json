@@ -1,0 +1,55 @@
+{
+ "id": 17,
+ "name": "תחנת כפר כנא",
+ "district": "צפון",
+ "area": "עמקים",
+ "staffing_pct": 68.57,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 32.746,
+ "lng": 35.3398,
+ "coord_verified": false,
+ "missing_positions": 44,
+ "required_positions": 140,
+ "actual_positions": 96,
+ "pct_male": 77.0,
+ "pct_jewish": 76.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 13,
+   "required_positions": 39,
+   "actual_positions": 26,
+   "staffing_pct": 66.67
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 15,
+   "required_positions": 60,
+   "actual_positions": 45,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 10,
+   "required_positions": 22,
+   "actual_positions": 12,
+   "staffing_pct": 54.55
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 6,
+   "required_positions": 19,
+   "actual_positions": 13,
+   "staffing_pct": 68.42
+  }
+ ],
+ "candidates_in_process": 50,
+ "nearby_settlements": [],
+ "insights": []
+}

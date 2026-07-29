@@ -1,0 +1,55 @@
+{
+ "id": 12,
+ "name": "תחנת בית שאן",
+ "district": "צפון",
+ "area": "עמקים",
+ "staffing_pct": 85.38,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.4967,
+ "lng": 35.4973,
+ "coord_verified": false,
+ "missing_positions": 19,
+ "required_positions": 130,
+ "actual_positions": 111,
+ "pct_male": 77.0,
+ "pct_jewish": 85.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 38,
+   "actual_positions": 33,
+   "staffing_pct": 86.84
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 7,
+   "required_positions": 55,
+   "actual_positions": 48,
+   "staffing_pct": 87.27
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 21,
+   "actual_positions": 16,
+   "staffing_pct": 76.19
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 16,
+   "actual_positions": 14,
+   "staffing_pct": 87.5
+  }
+ ],
+ "candidates_in_process": 23,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 24,
+ "name": "תחנת נצרת",
+ "district": "צפון",
+ "area": "עמקים",
+ "staffing_pct": 100.0,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.7021,
+ "lng": 35.2978,
+ "coord_verified": false,
+ "missing_positions": 0,
+ "required_positions": 80,
+ "actual_positions": 80,
+ "pct_male": 78.0,
+ "pct_jewish": 90.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 0,
+   "required_positions": 22,
+   "actual_positions": 22,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 0,
+   "required_positions": 31,
+   "actual_positions": 31,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 0,
+   "required_positions": 15,
+   "actual_positions": 15,
+   "staffing_pct": 100.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 0,
+   "required_positions": 12,
+   "actual_positions": 12,
+   "staffing_pct": 100.0
+  }
+ ],
+ "candidates_in_process": 2,
+ "nearby_settlements": [],
+ "insights": []
+}

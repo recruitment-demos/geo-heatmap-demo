@@ -1,0 +1,88 @@
+{
+ "id": 3,
+ "name": "תחנת גבעתיים",
+ "district": "תל אביב",
+ "area": "דן",
+ "staffing_pct": 60.0,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 32.0723,
+ "lng": 34.8104,
+ "coord_verified": false,
+ "missing_positions": 22,
+ "required_positions": 55,
+ "actual_positions": 33,
+ "pct_male": 66.0,
+ "pct_jewish": 62.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 16,
+   "actual_positions": 10,
+   "staffing_pct": 62.5
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 12,
+   "required_positions": 23,
+   "actual_positions": 11,
+   "staffing_pct": 47.83
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 8,
+   "actual_positions": 5,
+   "staffing_pct": 62.5
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 8,
+   "actual_positions": 7,
+   "staffing_pct": 87.5
+  }
+ ],
+ "candidates_in_process": 26,
+ "nearby_settlements": [
+  {
+   "name": "גבעתיים",
+   "travel_min": 3
+  },
+  {
+   "name": "רמת גן",
+   "travel_min": 4
+  },
+  {
+   "name": "בני ברק",
+   "travel_min": 5
+  },
+  {
+   "name": "תל אביב",
+   "travel_min": 6
+  },
+  {
+   "name": "גבעת שמואל",
+   "travel_min": 10
+  },
+  {
+   "name": "קריית אונו",
+   "travel_min": 10
+  },
+  {
+   "name": "אור יהודה",
+   "travel_min": 12
+  },
+  {
+   "name": "פתח תקווה",
+   "travel_min": 16
+  }
+ ],
+ "insights": []
+}

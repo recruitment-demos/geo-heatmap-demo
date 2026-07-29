@@ -1,0 +1,55 @@
+{
+ "id": 76,
+ "name": "תחנת פתח תקוה",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 76.92,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.0878,
+ "lng": 34.886,
+ "coord_verified": false,
+ "missing_positions": 30,
+ "required_positions": 130,
+ "actual_positions": 100,
+ "pct_male": 77.0,
+ "pct_jewish": 59.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 8,
+   "required_positions": 35,
+   "actual_positions": 27,
+   "staffing_pct": 77.14
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 15,
+   "required_positions": 58,
+   "actual_positions": 43,
+   "staffing_pct": 74.14
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 20,
+   "actual_positions": 15,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 17,
+   "actual_positions": 15,
+   "staffing_pct": 88.24
+  }
+ ],
+ "candidates_in_process": 35,
+ "nearby_settlements": [],
+ "insights": []
+}

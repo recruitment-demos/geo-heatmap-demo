@@ -1,0 +1,55 @@
+{
+ "id": 44,
+ "name": "תחנת העיירות",
+ "district": "דרום",
+ "area": "רותם",
+ "staffing_pct": 88.46,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.24,
+ "lng": 35.12,
+ "coord_verified": false,
+ "missing_positions": 15,
+ "required_positions": 130,
+ "actual_positions": 115,
+ "pct_male": 75.0,
+ "pct_jewish": 89.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 35,
+   "actual_positions": 29,
+   "staffing_pct": 82.86
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 5,
+   "required_positions": 56,
+   "actual_positions": 51,
+   "staffing_pct": 91.07
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 21,
+   "actual_positions": 19,
+   "staffing_pct": 90.48
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 18,
+   "actual_positions": 16,
+   "staffing_pct": 88.89
+  }
+ ],
+ "candidates_in_process": 19,
+ "nearby_settlements": [],
+ "insights": []
+}

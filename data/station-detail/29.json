@@ -1,0 +1,55 @@
+{
+ "id": 29,
+ "name": "תחנת תבור",
+ "district": "צפון",
+ "area": "צפון",
+ "staffing_pct": 91.25,
+ "status": "תקין",
+ "status_key": "ok",
+ "color": "#16A34A",
+ "lat": 32.6863,
+ "lng": 35.4082,
+ "coord_verified": false,
+ "missing_positions": 7,
+ "required_positions": 80,
+ "actual_positions": 73,
+ "pct_male": 67.0,
+ "pct_jewish": 94.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 2,
+   "required_positions": 25,
+   "actual_positions": 23,
+   "staffing_pct": 92.0
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 2,
+   "required_positions": 33,
+   "actual_positions": 31,
+   "staffing_pct": 93.94
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 2,
+   "required_positions": 12,
+   "actual_positions": 10,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 10,
+   "actual_positions": 9,
+   "staffing_pct": 90.0
+  }
+ ],
+ "candidates_in_process": 10,
+ "nearby_settlements": [],
+ "insights": []
+}

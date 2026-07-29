@@ -1,0 +1,55 @@
+{
+ "id": 49,
+ "name": "תחנת קרית גת",
+ "district": "דרום",
+ "area": "לכיש",
+ "staffing_pct": 66.67,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 31.6094,
+ "lng": 34.7712,
+ "coord_verified": false,
+ "missing_positions": 40,
+ "required_positions": 120,
+ "actual_positions": 80,
+ "pct_male": 70.0,
+ "pct_jewish": 73.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 16,
+   "required_positions": 34,
+   "actual_positions": 18,
+   "staffing_pct": 52.94
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 12,
+   "required_positions": 50,
+   "actual_positions": 38,
+   "staffing_pct": 76.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 7,
+   "required_positions": 20,
+   "actual_positions": 13,
+   "staffing_pct": 65.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 5,
+   "required_positions": 16,
+   "actual_positions": 11,
+   "staffing_pct": 68.75
+  }
+ ],
+ "candidates_in_process": 46,
+ "nearby_settlements": [],
+ "insights": []
+}

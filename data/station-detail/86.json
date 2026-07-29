@@ -1,0 +1,55 @@
+{
+ "id": 86,
+ "name": "תחנת מודיעין עילית",
+ "district": "ש\"י",
+ "area": "שומרון",
+ "staffing_pct": 74.17,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.9333,
+ "lng": 35.0417,
+ "coord_verified": false,
+ "missing_positions": 31,
+ "required_positions": 120,
+ "actual_positions": 89,
+ "pct_male": 71.0,
+ "pct_jewish": 83.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 12,
+   "required_positions": 32,
+   "actual_positions": 20,
+   "staffing_pct": 62.5
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 50,
+   "actual_positions": 41,
+   "staffing_pct": 82.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 6,
+   "required_positions": 20,
+   "actual_positions": 14,
+   "staffing_pct": 70.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 18,
+   "actual_positions": 14,
+   "staffing_pct": 77.78
+  }
+ ],
+ "candidates_in_process": 36,
+ "nearby_settlements": [],
+ "insights": []
+}

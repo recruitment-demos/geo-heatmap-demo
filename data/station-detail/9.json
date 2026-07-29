@@ -1,0 +1,116 @@
+{
+ "id": 9,
+ "name": "תחנת שרת",
+ "district": "תל אביב",
+ "area": "איילון",
+ "staffing_pct": 81.54,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.057,
+ "lng": 34.788,
+ "coord_verified": false,
+ "missing_positions": 24,
+ "required_positions": 130,
+ "actual_positions": 106,
+ "pct_male": 75.0,
+ "pct_jewish": 93.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 8,
+   "required_positions": 36,
+   "actual_positions": 28,
+   "staffing_pct": 77.78
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 12,
+   "required_positions": 51,
+   "actual_positions": 39,
+   "staffing_pct": 76.47
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 23,
+   "actual_positions": 20,
+   "staffing_pct": 86.96
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 20,
+   "actual_positions": 19,
+   "staffing_pct": 95.0
+  }
+ ],
+ "candidates_in_process": 28,
+ "nearby_settlements": [
+  {
+   "name": "גבעתיים",
+   "travel_min": 6
+  },
+  {
+   "name": "רמת גן",
+   "travel_min": 9
+  },
+  {
+   "name": "אזור",
+   "travel_min": 10
+  },
+  {
+   "name": "בת ים",
+   "travel_min": 11
+  },
+  {
+   "name": "תל אביב",
+   "travel_min": 11
+  },
+  {
+   "name": "גבעת שמואל",
+   "travel_min": 12
+  },
+  {
+   "name": "חולון",
+   "travel_min": 12
+  },
+  {
+   "name": "בני ברק",
+   "travel_min": 13
+  },
+  {
+   "name": "קריית אונו",
+   "travel_min": 17
+  },
+  {
+   "name": "יהוד",
+   "travel_min": 22
+  },
+  {
+   "name": "ראשון לציון",
+   "travel_min": 22
+  },
+  {
+   "name": "רמת השרון",
+   "travel_min": 22
+  },
+  {
+   "name": "פתח תקווה",
+   "travel_min": 24
+  },
+  {
+   "name": "נס ציונה",
+   "travel_min": 29
+  },
+  {
+   "name": "הרצליה",
+   "travel_min": 30
+  }
+ ],
+ "insights": []
+}

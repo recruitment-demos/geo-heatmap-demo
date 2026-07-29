@@ -1,0 +1,55 @@
+{
+ "id": 40,
+ "name": "תחנת אשדוד",
+ "district": "דרום",
+ "area": "לכיש",
+ "staffing_pct": 80.71,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.7977,
+ "lng": 34.653,
+ "coord_verified": false,
+ "missing_positions": 27,
+ "required_positions": 140,
+ "actual_positions": 113,
+ "pct_male": 65.0,
+ "pct_jewish": 55.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 11,
+   "required_positions": 41,
+   "actual_positions": 30,
+   "staffing_pct": 73.17
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 8,
+   "required_positions": 55,
+   "actual_positions": 47,
+   "staffing_pct": 85.45
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 24,
+   "actual_positions": 20,
+   "staffing_pct": 83.33
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 20,
+   "actual_positions": 16,
+   "staffing_pct": 80.0
+  }
+ ],
+ "candidates_in_process": 32,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 68,
+ "name": "תחנת טייבה",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 80.0,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 32.2671,
+ "lng": 35.0089,
+ "coord_verified": false,
+ "missing_positions": 26,
+ "required_positions": 130,
+ "actual_positions": 104,
+ "pct_male": 63.0,
+ "pct_jewish": 88.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 6,
+   "required_positions": 39,
+   "actual_positions": 33,
+   "staffing_pct": 84.62
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 14,
+   "required_positions": 51,
+   "actual_positions": 37,
+   "staffing_pct": 72.55
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 4,
+   "required_positions": 20,
+   "actual_positions": 16,
+   "staffing_pct": 80.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 2,
+   "required_positions": 20,
+   "actual_positions": 18,
+   "staffing_pct": 90.0
+  }
+ ],
+ "candidates_in_process": 31,
+ "nearby_settlements": [],
+ "insights": []
+}

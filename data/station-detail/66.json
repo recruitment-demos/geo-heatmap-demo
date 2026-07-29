@@ -1,0 +1,55 @@
+{
+ "id": 66,
+ "name": "תחנת מטה יהודה",
+ "district": "מג\"ב",
+ "area": "מג\"ב י-ם",
+ "staffing_pct": 83.85,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.72,
+ "lng": 35.05,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 130,
+ "actual_positions": 109,
+ "pct_male": 66.0,
+ "pct_jewish": 68.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 5,
+   "required_positions": 37,
+   "actual_positions": 32,
+   "staffing_pct": 86.49
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 10,
+   "required_positions": 54,
+   "actual_positions": 44,
+   "staffing_pct": 81.48
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 22,
+   "actual_positions": 19,
+   "staffing_pct": 86.36
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 17,
+   "actual_positions": 14,
+   "staffing_pct": 82.35
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

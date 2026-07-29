@@ -1,0 +1,55 @@
+{
+ "id": 27,
+ "name": "תחנת קרית שמונה",
+ "district": "צפון",
+ "area": "כנרת",
+ "staffing_pct": 87.5,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 33.2074,
+ "lng": 35.5695,
+ "coord_verified": false,
+ "missing_positions": 10,
+ "required_positions": 80,
+ "actual_positions": 70,
+ "pct_male": 70.0,
+ "pct_jewish": 81.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 3,
+   "required_positions": 23,
+   "actual_positions": 20,
+   "staffing_pct": 86.96
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 3,
+   "required_positions": 34,
+   "actual_positions": 31,
+   "staffing_pct": 91.18
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 13,
+   "actual_positions": 10,
+   "staffing_pct": 76.92
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 10,
+   "actual_positions": 9,
+   "staffing_pct": 90.0
+  }
+ ],
+ "candidates_in_process": 13,
+ "nearby_settlements": [],
+ "insights": []
+}

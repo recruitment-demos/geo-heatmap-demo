@@ -1,0 +1,2378 @@
+{
+ "תחנת אשדוד": {
+  "district": "דרום",
+  "area": "לכיש",
+  "staffing_pct": 80.71,
+  "required": 140,
+  "actual": 113,
+  "pct_male": 65.0,
+  "pct_jewish": 55.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 41,
+    "vacant": 11
+   },
+   "missing_patrol": {
+    "required": 55,
+    "vacant": 8
+   },
+   "missing_detectives": {
+    "required": 24,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 20,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת אשקלון": {
+  "district": "דרום",
+  "area": "לכיש",
+  "staffing_pct": 78.89,
+  "required": 90,
+  "actual": 71,
+  "pct_male": 64.0,
+  "pct_jewish": 95.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 27,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 36,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 14,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 13,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת קרית גת": {
+  "district": "דרום",
+  "area": "לכיש",
+  "staffing_pct": 66.67,
+  "required": 120,
+  "actual": 80,
+  "pct_male": 70.0,
+  "pct_jewish": 73.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 34,
+    "vacant": 16
+   },
+   "missing_patrol": {
+    "required": 50,
+    "vacant": 12
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 7
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 5
+   }
+  }
+ },
+ "תחנת קרית מלאכי": {
+  "district": "דרום",
+  "area": "לכיש",
+  "staffing_pct": 96.36,
+  "required": 110,
+  "actual": 106,
+  "pct_male": 68.0,
+  "pct_jewish": 81.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 33,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 47,
+    "vacant": 1
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 1
+   }
+  }
+ },
+ "מרחב אילת": {
+  "district": "דרום",
+  "area": "מרחב אילת",
+  "staffing_pct": 95.0,
+  "required": 80,
+  "actual": 76,
+  "pct_male": 66.0,
+  "pct_jewish": 83.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 22,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 1
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת אופקים": {
+  "district": "דרום",
+  "area": "נגב",
+  "staffing_pct": 88.33,
+  "required": 120,
+  "actual": 106,
+  "pct_male": 75.0,
+  "pct_jewish": 72.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 34,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 47,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת באר שבע": {
+  "district": "דרום",
+  "area": "נגב",
+  "staffing_pct": 77.69,
+  "required": 130,
+  "actual": 101,
+  "pct_male": 72.0,
+  "pct_jewish": 59.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 35,
+    "vacant": 11
+   },
+   "missing_patrol": {
+    "required": 55,
+    "vacant": 10
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת נתיבות": {
+  "district": "דרום",
+  "area": "נגב",
+  "staffing_pct": 81.43,
+  "required": 70,
+  "actual": 57,
+  "pct_male": 65.0,
+  "pct_jewish": 87.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 19,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 29,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת רהט": {
+  "district": "דרום",
+  "area": "נגב",
+  "staffing_pct": 86.0,
+  "required": 100,
+  "actual": 86,
+  "pct_male": 72.0,
+  "pct_jewish": 70.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 27,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 44,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 14,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת שדרות": {
+  "district": "דרום",
+  "area": "נגב",
+  "staffing_pct": 99.17,
+  "required": 120,
+  "actual": 119,
+  "pct_male": 68.0,
+  "pct_jewish": 90.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 34,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 50,
+    "vacant": 0
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 0
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת דימונה": {
+  "district": "דרום",
+  "area": "רותם",
+  "staffing_pct": 82.86,
+  "required": 70,
+  "actual": 58,
+  "pct_male": 64.0,
+  "pct_jewish": 65.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 20,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 28,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת העיירות": {
+  "district": "דרום",
+  "area": "רותם",
+  "staffing_pct": 88.46,
+  "required": 130,
+  "actual": 115,
+  "pct_male": 75.0,
+  "pct_jewish": 89.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 35,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 56,
+    "vacant": 5
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת ערד": {
+  "district": "דרום",
+  "area": "רותם",
+  "staffing_pct": 65.71,
+  "required": 70,
+  "actual": 46,
+  "pct_male": 73.0,
+  "pct_jewish": 60.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 18,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 29,
+    "vacant": 8
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת ערוער": {
+  "district": "דרום",
+  "area": "רותם",
+  "staffing_pct": 76.67,
+  "required": 90,
+  "actual": 69,
+  "pct_male": 73.0,
+  "pct_jewish": 81.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 27,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 36,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת שגב שלום": {
+  "district": "דרום",
+  "area": "רותם",
+  "staffing_pct": 82.5,
+  "required": 120,
+  "actual": 99,
+  "pct_male": 64.0,
+  "pct_jewish": 74.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 35,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 50,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 19,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת אום אל פחם": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 99.17,
+  "required": 120,
+  "actual": 119,
+  "pct_male": 65.0,
+  "pct_jewish": 69.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 33,
+    "vacant": 0
+   },
+   "missing_patrol": {
+    "required": 52,
+    "vacant": 1
+   },
+   "missing_detectives": {
+    "required": 18,
+    "vacant": 0
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת באקה אלע'רביה": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 96.92,
+  "required": 130,
+  "actual": 126,
+  "pct_male": 73.0,
+  "pct_jewish": 76.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 35,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 57,
+    "vacant": 2
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת ג'סר א-זרקא": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 84.62,
+  "required": 130,
+  "actual": 110,
+  "pct_male": 71.0,
+  "pct_jewish": 87.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 38,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 53,
+    "vacant": 8
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת גליל מערבי": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 85.38,
+  "required": 130,
+  "actual": 111,
+  "pct_male": 77.0,
+  "pct_jewish": 90.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 38,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 55,
+    "vacant": 8
+   },
+   "missing_detectives": {
+    "required": 19,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת זבולון": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 84.62,
+  "required": 130,
+  "actual": 110,
+  "pct_male": 64.0,
+  "pct_jewish": 62.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 56,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת זכרון יעקב": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 90.0,
+  "required": 100,
+  "actual": 90,
+  "pct_male": 71.0,
+  "pct_jewish": 81.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 26,
+    "vacant": 3
+   },
+   "missing_patrol": {
+    "required": 41,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 17,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת חדרה": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 73.75,
+  "required": 80,
+  "actual": 59,
+  "pct_male": 71.0,
+  "pct_jewish": 71.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 24,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 33,
+    "vacant": 11
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת חיפה": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 84.44,
+  "required": 90,
+  "actual": 76,
+  "pct_male": 75.0,
+  "pct_jewish": 59.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 23,
+    "vacant": 3
+   },
+   "missing_patrol": {
+    "required": 39,
+    "vacant": 7
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 13,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת טירת הכרמל": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 71.0,
+  "required": 100,
+  "actual": 71,
+  "pct_male": 68.0,
+  "pct_jewish": 87.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 26,
+    "vacant": 7
+   },
+   "missing_patrol": {
+    "required": 42,
+    "vacant": 14
+   },
+   "missing_detectives": {
+    "required": 17,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת נהריה": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 84.44,
+  "required": 90,
+  "actual": 76,
+  "pct_male": 70.0,
+  "pct_jewish": 75.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 25,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 38,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת נשר": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 76.67,
+  "required": 90,
+  "actual": 69,
+  "pct_male": 75.0,
+  "pct_jewish": 80.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 26,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 40,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת עירון": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 100.0,
+  "required": 80,
+  "actual": 80,
+  "pct_male": 66.0,
+  "pct_jewish": 88.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 21,
+    "vacant": 0
+   },
+   "missing_patrol": {
+    "required": 36,
+    "vacant": 0
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 0
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת עכו": {
+  "district": "חוף",
+  "area": "חוף",
+  "staffing_pct": 75.83,
+  "required": 120,
+  "actual": 91,
+  "pct_male": 76.0,
+  "pct_jewish": 67.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 36,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 47,
+    "vacant": 12
+   },
+   "missing_detectives": {
+    "required": 18,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 4
+   }
+  }
+ },
+ "מרחב דוד": {
+  "district": "ירושלים",
+  "area": "מרחב דוד",
+  "staffing_pct": 75.83,
+  "required": 120,
+  "actual": 91,
+  "pct_male": 68.0,
+  "pct_jewish": 78.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 31,
+    "vacant": 7
+   },
+   "missing_patrol": {
+    "required": 52,
+    "vacant": 12
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 5
+   }
+  }
+ },
+ "תחנת בית שמש": {
+  "district": "ירושלים",
+  "area": "ציון",
+  "staffing_pct": 80.83,
+  "required": 120,
+  "actual": 97,
+  "pct_male": 78.0,
+  "pct_jewish": 73.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 47,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 19,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 5
+   }
+  }
+ },
+ "תחנת הראל": {
+  "district": "ירושלים",
+  "area": "ציון",
+  "staffing_pct": 85.0,
+  "required": 80,
+  "actual": 68,
+  "pct_male": 64.0,
+  "pct_jewish": 83.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 22,
+    "vacant": 3
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת לב הבירה": {
+  "district": "ירושלים",
+  "area": "ציון",
+  "staffing_pct": 82.5,
+  "required": 120,
+  "actual": 99,
+  "pct_male": 77.0,
+  "pct_jewish": 76.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 36,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 49,
+    "vacant": 8
+   },
+   "missing_detectives": {
+    "required": 18,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת מוריה": {
+  "district": "ירושלים",
+  "area": "ציון",
+  "staffing_pct": 82.31,
+  "required": 130,
+  "actual": 107,
+  "pct_male": 74.0,
+  "pct_jewish": 58.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 35,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 57,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 5
+   }
+  }
+ },
+ "תחנת עוז": {
+  "district": "ירושלים",
+  "area": "קדם",
+  "staffing_pct": 86.67,
+  "required": 120,
+  "actual": 104,
+  "pct_male": 72.0,
+  "pct_jewish": 67.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 31,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 51,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת שלם": {
+  "district": "ירושלים",
+  "area": "קדם",
+  "staffing_pct": 77.69,
+  "required": 130,
+  "actual": 101,
+  "pct_male": 69.0,
+  "pct_jewish": 67.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 57,
+    "vacant": 11
+   },
+   "missing_detectives": {
+    "required": 19,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 5
+   }
+  }
+ },
+ "תחנת שפט": {
+  "district": "ירושלים",
+  "area": "קדם",
+  "staffing_pct": 57.69,
+  "required": 130,
+  "actual": 75,
+  "pct_male": 76.0,
+  "pct_jewish": 92.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 13
+   },
+   "missing_patrol": {
+    "required": 54,
+    "vacant": 21
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 10
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 11
+   }
+  }
+ },
+ "תחנת מטה יהודה": {
+  "district": "מג\"ב",
+  "area": "מג\"ב י-ם",
+  "staffing_pct": 83.85,
+  "required": 130,
+  "actual": 109,
+  "pct_male": 66.0,
+  "pct_jewish": 68.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 54,
+    "vacant": 10
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 3
+   }
+  }
+ },
+ "מרחב נתב\"ג": {
+  "district": "מרכז",
+  "area": "מרכז",
+  "staffing_pct": 76.25,
+  "required": 80,
+  "actual": 61,
+  "pct_male": 68.0,
+  "pct_jewish": 80.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 23,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 10
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת יבנה": {
+  "district": "מרכז",
+  "area": "שפלה",
+  "staffing_pct": 72.5,
+  "required": 80,
+  "actual": 58,
+  "pct_male": 75.0,
+  "pct_jewish": 60.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 23,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 32,
+    "vacant": 11
+   },
+   "missing_detectives": {
+    "required": 14,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת לוד": {
+  "district": "מרכז",
+  "area": "שפלה",
+  "staffing_pct": 82.22,
+  "required": 90,
+  "actual": 74,
+  "pct_male": 67.0,
+  "pct_jewish": 77.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 24,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 39,
+    "vacant": 8
+   },
+   "missing_detectives": {
+    "required": 14,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 13,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת מודיעין": {
+  "district": "מרכז",
+  "area": "שפלה",
+  "staffing_pct": 90.0,
+  "required": 100,
+  "actual": 90,
+  "pct_male": 60.0,
+  "pct_jewish": 63.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 29,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 43,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 13,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת ראשון לציון": {
+  "district": "מרכז",
+  "area": "שפלה",
+  "staffing_pct": 77.86,
+  "required": 140,
+  "actual": 109,
+  "pct_male": 62.0,
+  "pct_jewish": 74.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 60,
+    "vacant": 15
+   },
+   "missing_detectives": {
+    "required": 25,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת רחובות": {
+  "district": "מרכז",
+  "area": "שפלה",
+  "staffing_pct": 73.08,
+  "required": 130,
+  "actual": 95,
+  "pct_male": 67.0,
+  "pct_jewish": 82.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 54,
+    "vacant": 19
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת רמלה": {
+  "district": "מרכז",
+  "area": "שפלה",
+  "staffing_pct": 66.67,
+  "required": 60,
+  "actual": 40,
+  "pct_male": 60.0,
+  "pct_jewish": 74.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 17,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 25,
+    "vacant": 10
+   },
+   "missing_detectives": {
+    "required": 9,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 9,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת טייבה": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 80.0,
+  "required": 130,
+  "actual": 104,
+  "pct_male": 63.0,
+  "pct_jewish": 88.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 39,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 51,
+    "vacant": 14
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 20,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת טירה": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 92.5,
+  "required": 80,
+  "actual": 74,
+  "pct_male": 61.0,
+  "pct_jewish": 73.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 19,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 36,
+    "vacant": 3
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת כפר סבא": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 95.0,
+  "required": 80,
+  "actual": 76,
+  "pct_male": 61.0,
+  "pct_jewish": 79.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 23,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 2
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת כפר קאסם": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 85.45,
+  "required": 55,
+  "actual": 47,
+  "pct_male": 60.0,
+  "pct_jewish": 80.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 16,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 22,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 9,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת נתניה": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 78.18,
+  "required": 55,
+  "actual": 43,
+  "pct_male": 61.0,
+  "pct_jewish": 69.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 15,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 25,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 8,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 7,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת פתח תקוה": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 76.92,
+  "required": 130,
+  "actual": 100,
+  "pct_male": 77.0,
+  "pct_jewish": 59.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 35,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 58,
+    "vacant": 15
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת ראש העין": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 71.67,
+  "required": 120,
+  "actual": 86,
+  "pct_male": 66.0,
+  "pct_jewish": 60.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 33,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 46,
+    "vacant": 19
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת שדות": {
+  "district": "מרכז",
+  "area": "שרון",
+  "staffing_pct": 65.0,
+  "required": 60,
+  "actual": 39,
+  "pct_male": 71.0,
+  "pct_jewish": 90.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 15,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 27,
+    "vacant": 11
+   },
+   "missing_detectives": {
+    "required": 10,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת טמרה": {
+  "district": "צפון",
+  "area": "גליל",
+  "staffing_pct": 79.29,
+  "required": 140,
+  "actual": 111,
+  "pct_male": 64.0,
+  "pct_jewish": 55.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 43,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 54,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 9
+   },
+   "missing_other": {
+    "required": 21,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת כרמיאל": {
+  "district": "צפון",
+  "area": "גליל",
+  "staffing_pct": 80.0,
+  "required": 70,
+  "actual": 56,
+  "pct_male": 62.0,
+  "pct_jewish": 64.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 21,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 28,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 11,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת מג'דל כרום": {
+  "district": "צפון",
+  "area": "גליל",
+  "staffing_pct": 83.64,
+  "required": 55,
+  "actual": 46,
+  "pct_male": 67.0,
+  "pct_jewish": 65.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 15,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 22,
+    "vacant": 3
+   },
+   "missing_detectives": {
+    "required": 10,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת משגב": {
+  "district": "צפון",
+  "area": "גליל",
+  "staffing_pct": 79.17,
+  "required": 120,
+  "actual": 95,
+  "pct_male": 74.0,
+  "pct_jewish": 63.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 46,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 7
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת שפרעם": {
+  "district": "צפון",
+  "area": "גליל",
+  "staffing_pct": 85.0,
+  "required": 120,
+  "actual": 102,
+  "pct_male": 62.0,
+  "pct_jewish": 71.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 33,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 52,
+    "vacant": 5
+   },
+   "missing_detectives": {
+    "required": 18,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת גולן": {
+  "district": "צפון",
+  "area": "כנרת",
+  "staffing_pct": 73.75,
+  "required": 80,
+  "actual": 59,
+  "pct_male": 72.0,
+  "pct_jewish": 70.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 24,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 32,
+    "vacant": 7
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 6
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 3
+   }
+  }
+ },
+ "תחנת טבריה": {
+  "district": "צפון",
+  "area": "כנרת",
+  "staffing_pct": 86.36,
+  "required": 110,
+  "actual": 95,
+  "pct_male": 72.0,
+  "pct_jewish": 92.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 33,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 47,
+    "vacant": 5
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת ירדן": {
+  "district": "צפון",
+  "area": "כנרת",
+  "staffing_pct": 92.5,
+  "required": 120,
+  "actual": 111,
+  "pct_male": 76.0,
+  "pct_jewish": 90.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 32,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 54,
+    "vacant": 3
+   },
+   "missing_detectives": {
+    "required": 17,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 17,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת מעלות תרשיחא": {
+  "district": "צפון",
+  "area": "כנרת",
+  "staffing_pct": 95.71,
+  "required": 70,
+  "actual": 67,
+  "pct_male": 73.0,
+  "pct_jewish": 78.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 21,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 28,
+    "vacant": 1
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 9,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת צפת": {
+  "district": "צפון",
+  "area": "כנרת",
+  "staffing_pct": 90.91,
+  "required": 55,
+  "actual": 50,
+  "pct_male": 72.0,
+  "pct_jewish": 56.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 15,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 24,
+    "vacant": 2
+   },
+   "missing_detectives": {
+    "required": 8,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת קרית שמונה": {
+  "district": "צפון",
+  "area": "כנרת",
+  "staffing_pct": 87.5,
+  "required": 80,
+  "actual": 70,
+  "pct_male": 70.0,
+  "pct_jewish": 81.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 23,
+    "vacant": 3
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 3
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת בית שאן": {
+  "district": "צפון",
+  "area": "עמקים",
+  "staffing_pct": 85.38,
+  "required": 130,
+  "actual": 111,
+  "pct_male": 77.0,
+  "pct_jewish": 85.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 38,
+    "vacant": 5
+   },
+   "missing_patrol": {
+    "required": 55,
+    "vacant": 7
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת כפר כנא": {
+  "district": "צפון",
+  "area": "עמקים",
+  "staffing_pct": 68.57,
+  "required": 140,
+  "actual": 96,
+  "pct_male": 77.0,
+  "pct_jewish": 76.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 39,
+    "vacant": 13
+   },
+   "missing_patrol": {
+    "required": 60,
+    "vacant": 15
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 10
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 6
+   }
+  }
+ },
+ "תחנת מגדל העמק": {
+  "district": "צפון",
+  "area": "עמקים",
+  "staffing_pct": 74.55,
+  "required": 110,
+  "actual": 82,
+  "pct_male": 69.0,
+  "pct_jewish": 65.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 29,
+    "vacant": 7
+   },
+   "missing_patrol": {
+    "required": 50,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 16,
+    "vacant": 7
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 5
+   }
+  }
+ },
+ "תחנת נוף הגליל": {
+  "district": "צפון",
+  "area": "עמקים",
+  "staffing_pct": 92.5,
+  "required": 80,
+  "actual": 74,
+  "pct_male": 72.0,
+  "pct_jewish": 57.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 22,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 2
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 11,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת נצרת": {
+  "district": "צפון",
+  "area": "עמקים",
+  "staffing_pct": 100.0,
+  "required": 80,
+  "actual": 80,
+  "pct_male": 78.0,
+  "pct_jewish": 90.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 22,
+    "vacant": 0
+   },
+   "missing_patrol": {
+    "required": 31,
+    "vacant": 0
+   },
+   "missing_detectives": {
+    "required": 15,
+    "vacant": 0
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת עפולה": {
+  "district": "צפון",
+  "area": "עמקים",
+  "staffing_pct": 82.5,
+  "required": 80,
+  "actual": 66,
+  "pct_male": 64.0,
+  "pct_jewish": 61.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 21,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 34,
+    "vacant": 5
+   },
+   "missing_detectives": {
+    "required": 13,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת תבור": {
+  "district": "צפון",
+  "area": "צפון",
+  "staffing_pct": 91.25,
+  "required": 80,
+  "actual": 73,
+  "pct_male": 67.0,
+  "pct_jewish": 94.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 25,
+    "vacant": 2
+   },
+   "missing_patrol": {
+    "required": 33,
+    "vacant": 2
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת הבקעה": {
+  "district": "ש\"י",
+  "area": "גלעד",
+  "staffing_pct": 76.15,
+  "required": 130,
+  "actual": 99,
+  "pct_male": 72.0,
+  "pct_jewish": 64.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 13
+   },
+   "missing_patrol": {
+    "required": 53,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 22,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת מעלה אדומים": {
+  "district": "ש\"י",
+  "area": "גלעד",
+  "staffing_pct": 80.0,
+  "required": 55,
+  "actual": 44,
+  "pct_male": 72.0,
+  "pct_jewish": 66.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 16,
+    "vacant": 4
+   },
+   "missing_patrol": {
+    "required": 22,
+    "vacant": 3
+   },
+   "missing_detectives": {
+    "required": 9,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת חברון": {
+  "district": "ש\"י",
+  "area": "יהודה",
+  "staffing_pct": 67.27,
+  "required": 55,
+  "actual": 37,
+  "pct_male": 64.0,
+  "pct_jewish": 80.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 15,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 24,
+    "vacant": 5
+   },
+   "missing_detectives": {
+    "required": 8,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת עציון": {
+  "district": "ש\"י",
+  "area": "יהודה",
+  "staffing_pct": 63.0,
+  "required": 100,
+  "actual": 63,
+  "pct_male": 75.0,
+  "pct_jewish": 89.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 29,
+    "vacant": 13
+   },
+   "missing_patrol": {
+    "required": 40,
+    "vacant": 10
+   },
+   "missing_detectives": {
+    "required": 16,
+    "vacant": 8
+   },
+   "missing_other": {
+    "required": 15,
+    "vacant": 6
+   }
+  }
+ },
+ "תחנת אריאל": {
+  "district": "ש\"י",
+  "area": "שומרון",
+  "staffing_pct": 94.29,
+  "required": 70,
+  "actual": 66,
+  "pct_male": 66.0,
+  "pct_jewish": 57.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 21,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 29,
+    "vacant": 1
+   },
+   "missing_detectives": {
+    "required": 11,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 9,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת בנימין": {
+  "district": "ש\"י",
+  "area": "שומרון",
+  "staffing_pct": 56.36,
+  "required": 55,
+  "actual": 31,
+  "pct_male": 76.0,
+  "pct_jewish": 83.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 14,
+    "vacant": 9
+   },
+   "missing_patrol": {
+    "required": 24,
+    "vacant": 6
+   },
+   "missing_detectives": {
+    "required": 9,
+    "vacant": 5
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת מודיעין עילית": {
+  "district": "ש\"י",
+  "area": "שומרון",
+  "staffing_pct": 74.17,
+  "required": 120,
+  "actual": 89,
+  "pct_male": 71.0,
+  "pct_jewish": 83.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 32,
+    "vacant": 12
+   },
+   "missing_patrol": {
+    "required": 50,
+    "vacant": 9
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 6
+   },
+   "missing_other": {
+    "required": 18,
+    "vacant": 4
+   }
+  }
+ },
+ "תחנת בת ים": {
+  "district": "תל אביב",
+  "area": "איילון",
+  "staffing_pct": 92.73,
+  "required": 110,
+  "actual": 102,
+  "pct_male": 72.0,
+  "pct_jewish": 81.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 29,
+    "vacant": 3
+   },
+   "missing_patrol": {
+    "required": 49,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 18,
+    "vacant": 1
+   },
+   "missing_other": {
+    "required": 14,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת חולון": {
+  "district": "תל אביב",
+  "area": "איילון",
+  "staffing_pct": 97.86,
+  "required": 140,
+  "actual": 137,
+  "pct_male": 69.0,
+  "pct_jewish": 89.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 39,
+    "vacant": 1
+   },
+   "missing_patrol": {
+    "required": 57,
+    "vacant": 2
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 0
+   },
+   "missing_other": {
+    "required": 23,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת יפו": {
+  "district": "תל אביב",
+  "area": "איילון",
+  "staffing_pct": 76.92,
+  "required": 130,
+  "actual": 100,
+  "pct_male": 60.0,
+  "pct_jewish": 71.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 34,
+    "vacant": 10
+   },
+   "missing_patrol": {
+    "required": 57,
+    "vacant": 15
+   },
+   "missing_detectives": {
+    "required": 20,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת שרת": {
+  "district": "תל אביב",
+  "area": "איילון",
+  "staffing_pct": 81.54,
+  "required": 130,
+  "actual": 106,
+  "pct_male": 75.0,
+  "pct_jewish": 93.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 36,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 51,
+    "vacant": 12
+   },
+   "missing_detectives": {
+    "required": 23,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 20,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת תל אביב דרום": {
+  "district": "תל אביב",
+  "area": "איילון",
+  "staffing_pct": 68.57,
+  "required": 70,
+  "actual": 48,
+  "pct_male": 66.0,
+  "pct_jewish": 75.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 19,
+    "vacant": 7
+   },
+   "missing_patrol": {
+    "required": 31,
+    "vacant": 11
+   },
+   "missing_detectives": {
+    "required": 10,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 10,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת בני ברק": {
+  "district": "תל אביב",
+  "area": "דן",
+  "staffing_pct": 85.71,
+  "required": 140,
+  "actual": 120,
+  "pct_male": 65.0,
+  "pct_jewish": 70.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 38,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 62,
+    "vacant": 10
+   },
+   "missing_detectives": {
+    "required": 19,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 21,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת גבעתיים": {
+  "district": "תל אביב",
+  "area": "דן",
+  "staffing_pct": 60.0,
+  "required": 55,
+  "actual": 33,
+  "pct_male": 66.0,
+  "pct_jewish": 62.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 16,
+    "vacant": 6
+   },
+   "missing_patrol": {
+    "required": 23,
+    "vacant": 12
+   },
+   "missing_detectives": {
+    "required": 8,
+    "vacant": 3
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת מסובים": {
+  "district": "תל אביב",
+  "area": "דן",
+  "staffing_pct": 85.0,
+  "required": 60,
+  "actual": 51,
+  "pct_male": 69.0,
+  "pct_jewish": 58.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 17,
+    "vacant": 3
+   },
+   "missing_patrol": {
+    "required": 26,
+    "vacant": 4
+   },
+   "missing_detectives": {
+    "required": 9,
+    "vacant": 2
+   },
+   "missing_other": {
+    "required": 8,
+    "vacant": 0
+   }
+  }
+ },
+ "תחנת גלילות": {
+  "district": "תל אביב",
+  "area": "ירקון",
+  "staffing_pct": 65.71,
+  "required": 140,
+  "actual": 92,
+  "pct_male": 67.0,
+  "pct_jewish": 79.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 41,
+    "vacant": 16
+   },
+   "missing_patrol": {
+    "required": 60,
+    "vacant": 23
+   },
+   "missing_detectives": {
+    "required": 23,
+    "vacant": 7
+   },
+   "missing_other": {
+    "required": 16,
+    "vacant": 2
+   }
+  }
+ },
+ "תחנת לב ת\"א": {
+  "district": "תל אביב",
+  "area": "ירקון",
+  "staffing_pct": 67.5,
+  "required": 80,
+  "actual": 54,
+  "pct_male": 64.0,
+  "pct_jewish": 61.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 24,
+    "vacant": 8
+   },
+   "missing_patrol": {
+    "required": 32,
+    "vacant": 13
+   },
+   "missing_detectives": {
+    "required": 12,
+    "vacant": 4
+   },
+   "missing_other": {
+    "required": 12,
+    "vacant": 1
+   }
+  }
+ },
+ "תחנת ת\"א צפון": {
+  "district": "תל אביב",
+  "area": "ירקון",
+  "staffing_pct": 73.85,
+  "required": 130,
+  "actual": 96,
+  "pct_male": 74.0,
+  "pct_jewish": 88.0,
+  "roles": {
+   "missing_investigators": {
+    "required": 37,
+    "vacant": 10
+   },
+   "missing_patrol": {
+    "required": 53,
+    "vacant": 17
+   },
+   "missing_detectives": {
+    "required": 21,
+    "vacant": 6
+   },
+   "missing_other": {
+    "required": 19,
+    "vacant": 1
+   }
+  }
+ }
+}

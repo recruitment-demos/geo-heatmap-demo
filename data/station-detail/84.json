@@ -1,0 +1,55 @@
+{
+ "id": 84,
+ "name": "תחנת הבקעה",
+ "district": "ש\"י",
+ "area": "גלעד",
+ "staffing_pct": 76.15,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.07,
+ "lng": 35.42,
+ "coord_verified": false,
+ "missing_positions": 31,
+ "required_positions": 130,
+ "actual_positions": 99,
+ "pct_male": 72.0,
+ "pct_jewish": 64.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 13,
+   "required_positions": 37,
+   "actual_positions": 24,
+   "staffing_pct": 64.86
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 9,
+   "required_positions": 53,
+   "actual_positions": 44,
+   "staffing_pct": 83.02
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 22,
+   "actual_positions": 17,
+   "staffing_pct": 77.27
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 4,
+   "required_positions": 18,
+   "actual_positions": 14,
+   "staffing_pct": 77.78
+  }
+ ],
+ "candidates_in_process": 36,
+ "nearby_settlements": [],
+ "insights": []
+}

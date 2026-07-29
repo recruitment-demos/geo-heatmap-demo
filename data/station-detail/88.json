@@ -1,0 +1,55 @@
+{
+ "id": 88,
+ "name": "תחנת עציון",
+ "district": "ש\"י",
+ "area": "יהודה",
+ "staffing_pct": 63.0,
+ "status": "קריטי",
+ "status_key": "critical",
+ "color": "#DC2626",
+ "lat": 31.65,
+ "lng": 35.125,
+ "coord_verified": false,
+ "missing_positions": 37,
+ "required_positions": 100,
+ "actual_positions": 63,
+ "pct_male": 75.0,
+ "pct_jewish": 89.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 13,
+   "required_positions": 29,
+   "actual_positions": 16,
+   "staffing_pct": 55.17
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 10,
+   "required_positions": 40,
+   "actual_positions": 30,
+   "staffing_pct": 75.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 8,
+   "required_positions": 16,
+   "actual_positions": 8,
+   "staffing_pct": 50.0
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 6,
+   "required_positions": 15,
+   "actual_positions": 9,
+   "staffing_pct": 60.0
+  }
+ ],
+ "candidates_in_process": 42,
+ "nearby_settlements": [],
+ "insights": []
+}

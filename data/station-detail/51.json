@@ -1,0 +1,55 @@
+{
+ "id": 51,
+ "name": "תחנת שגב שלום",
+ "district": "דרום",
+ "area": "רותם",
+ "staffing_pct": 82.5,
+ "status": "בינוני",
+ "status_key": "medium",
+ "color": "#EAB308",
+ "lat": 31.2009,
+ "lng": 34.8401,
+ "coord_verified": false,
+ "missing_positions": 21,
+ "required_positions": 120,
+ "actual_positions": 99,
+ "pct_male": 64.0,
+ "pct_jewish": 74.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 9,
+   "required_positions": 35,
+   "actual_positions": 26,
+   "staffing_pct": 74.29
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 50,
+   "actual_positions": 44,
+   "staffing_pct": 88.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 3,
+   "required_positions": 19,
+   "actual_positions": 16,
+   "staffing_pct": 84.21
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 3,
+   "required_positions": 16,
+   "actual_positions": 13,
+   "staffing_pct": 81.25
+  }
+ ],
+ "candidates_in_process": 25,
+ "nearby_settlements": [],
+ "insights": []
+}

@@ -1,0 +1,55 @@
+{
+ "id": 30,
+ "name": "מרחב דוד",
+ "district": "ירושלים",
+ "area": "מרחב דוד",
+ "staffing_pct": 75.83,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 31.7784,
+ "lng": 35.21,
+ "coord_verified": false,
+ "missing_positions": 29,
+ "required_positions": 120,
+ "actual_positions": 91,
+ "pct_male": 68.0,
+ "pct_jewish": 78.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 7,
+   "required_positions": 31,
+   "actual_positions": 24,
+   "staffing_pct": 77.42
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 12,
+   "required_positions": 52,
+   "actual_positions": 40,
+   "staffing_pct": 76.92
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 5,
+   "required_positions": 22,
+   "actual_positions": 17,
+   "staffing_pct": 77.27
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 5,
+   "required_positions": 15,
+   "actual_positions": 10,
+   "staffing_pct": 66.67
+  }
+ ],
+ "candidates_in_process": 34,
+ "nearby_settlements": [],
+ "insights": []
+}

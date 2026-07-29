@@ -1,0 +1,55 @@
+{
+ "id": 75,
+ "name": "תחנת נתניה",
+ "district": "מרכז",
+ "area": "שרון",
+ "staffing_pct": 78.18,
+ "status": "דחוף",
+ "status_key": "urgent",
+ "color": "#EA580C",
+ "lat": 32.3286,
+ "lng": 34.8566,
+ "coord_verified": false,
+ "missing_positions": 12,
+ "required_positions": 55,
+ "actual_positions": 43,
+ "pct_male": 61.0,
+ "pct_jewish": 69.0,
+ "roles": [
+  {
+   "key": "missing_investigators",
+   "label": "חוקר",
+   "missing": 4,
+   "required_positions": 15,
+   "actual_positions": 11,
+   "staffing_pct": 73.33
+  },
+  {
+   "key": "missing_patrol",
+   "label": "סייר",
+   "missing": 6,
+   "required_positions": 25,
+   "actual_positions": 19,
+   "staffing_pct": 76.0
+  },
+  {
+   "key": "missing_detectives",
+   "label": "בלש",
+   "missing": 1,
+   "required_positions": 8,
+   "actual_positions": 7,
+   "staffing_pct": 87.5
+  },
+  {
+   "key": "missing_other",
+   "label": "אחר",
+   "missing": 1,
+   "required_positions": 7,
+   "actual_positions": 6,
+   "staffing_pct": 85.71
+  }
+ ],
+ "candidates_in_process": 15,
+ "nearby_settlements": [],
+ "insights": []
+}
