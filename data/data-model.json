@@ -125,7 +125,7 @@
    "rows": 12583,
    "source": "קובץ תקן ומצבה",
    "table": "police_positions",
-   "updated": "2026-08-09T12:55:23"
+   "updated": "2026-08-09T18:15:06"
   },
   {
    "edited_at": null,
@@ -134,7 +134,7 @@
    "rows": 254,
    "source": "מסוכם מ-police_positions",
    "table": "admin_staffing",
-   "updated": "2026-08-10T14:55:23"
+   "updated": "2026-08-10T20:15:06"
   },
   {
    "edited_at": "ניהול נתונים › איוש תחנות",
@@ -179,7 +179,7 @@
    "rows": 6,
    "source": "קובץ סיווג יחידות",
    "table": "recruit_unit",
-   "updated": "2026-08-10T14:55:23"
+   "updated": "2026-08-10T20:15:06"
   },
   {
    "edited_at": "ניהול נתונים › קשרי תחנה‑יישוב",
@@ -224,7 +224,7 @@
    "rows": 1,
    "source": "קובץ הסיווג + עריכה",
    "table": "unit_alias",
-   "updated": "2026-08-10T14:55:23"
+   "updated": "2026-08-10T20:15:06"
   },
   {
    "edited_at": "הגדרות",
@@ -269,7 +269,7 @@
    "rows": 4,
    "source": "נרשם בכל טעינה",
    "table": "load_log",
-   "updated": "2026-08-09T12:55:23"
+   "updated": "2026-08-09T18:15:06"
   },
   {
    "edited_at": "ניהול נתונים › יומן שינויים",
@@ -287,7 +287,7 @@
    "rows": 7,
    "source": "נרשם בכל רענון",
    "table": "status_alerts",
-   "updated": "2026-08-09T14:55:23"
+   "updated": "2026-08-09T20:15:06"
   },
   {
    "edited_at": null,

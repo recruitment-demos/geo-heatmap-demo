@@ -298,6 +298,9 @@
       return true;
     });
 
+    // §38: כל שורה בקובץ הקפוא היא **משרה אחת**: מספר שחוזר בכמה שורות
+    // בקובץ המקור אוחד כבר בשרת, לפני ההקפאה. הספירה כאן היא לכן ספירת
+    // משרות, לא ספירת שורות.
     const counts = new Map();
     rows.forEach((row) => counts.set(row.profession, (counts.get(row.profession) || 0) + 1));
     const byLabel = [...counts.entries()]

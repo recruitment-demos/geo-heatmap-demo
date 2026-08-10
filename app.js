@@ -36,7 +36,12 @@ const DISTRICT_TINT = {
 
 // שמות המחוזות מוצגים רק במבט הרחב. בזום קרוב הם מיותרים — שמות התחנות
 // כבר על המסך — והם היו מתחרים בהם על אותו מקום.
+//
+// §38: ומעליו נכנסים שמות המרחבים, ברמה אחת פנימה. בכל זום יש שכבת
+// התמצאות אחת בלבד: שתיהן יחד היו שתי רשתות שמות על אותה מפה.
 const DISTRICT_LABEL_MAX_ZOOM = 10;
+const REGION_LABEL_MIN_ZOOM = 11;
+const REGION_LABEL_MAX_ZOOM = 13;
 
 // מבט הפתיחה. fitBounds על מאגר ארצי מציג את כל המדינה, ובזום כזה סיכות
 // גוש דן נדחסות לכתם אחד. ההגדלה מקרבת למרכז הכובד, ששם רוב המידע; התקרה
@@ -109,8 +114,10 @@ const state = {
   orientationLayer: null, // §26 — 20 הערים הגדולות, שמות התמצאות בלבד
   labelLayer: null,   // §27 — שמות התחנות/היחידות/המרחבים, בלי חפיפה
   districtLayer: null,      // §37 — גבולות המחוזות, מהמפה הרשמית
-  districtLabelLayer: null, // §37 — שמות המחוזות, במבט הרחב בלבד
+  districtLabelLayer: null, // §37 — שמות המחוזות והמרחבים, לפי הזום
   districtLabels: [],       // {name, lat, lng} — נקודה בתוך כל מחוז
+  regionLayer: null,        // §38 — גבולות המרחבים, בתוך המחוזות
+  regionLabels: [],         // {name, lat, lng} — נקודה בתוך כל מרחב
   cityBoxes: [],            // §37 — המקום שתפסו שמות הערים שהוצגו בפועל
   baseMarkers: new Map(),
   nearbyStationMarkers: [], // תחנות קרובות בטאב היישובים, לרענון גודל בזום
@@ -1215,6 +1222,27 @@ async function initMap() {
     // אין קובץ גבולות — המפה נשארת כשהייתה, בלי חצי גבול על המסך.
   }
 
+  // §38: **וגם המרחבים.** המחוז לבדו גס מדי: "בצפון חסר" אינו מספיק
+  // כשהצפון הוא חמישה מרחבים. הקו כאן דק ובהיר יותר מזה של המחוז ובלי
+  // מילוי משלו — היררכיה שנקראת במבט אחד, ולא שתי רשתות שמתחרות זו בזו.
+  try {
+    const regions = await (await fetch("/web/vendor/police-regions.geojson")).json();
+    state.regionLayer = L.geoJSON(regions, {
+      pane: "tilePane",
+      interactive: false,
+      style: { color: "#9aa6b8", weight: 0.9, dashArray: "3 4", fill: false },
+    }).addTo(state.map);
+    state.regionLabels = regions.features
+      .filter((feature) => feature.properties.label)
+      .map((feature) => ({
+        name: feature.properties.name,
+        lat: feature.properties.label[1],
+        lng: feature.properties.label[0],
+      }));
+  } catch (err) {
+    // אין קובץ מרחבים — המחוזות לבדם עדיין נכונים.
+  }
+
   // שמות המחוזות יושבים בשכבה משלהם, מתחת לסיכות ומעל הרקע. **לא**
   // zIndexOffset שלילי גדול: Leaflet גוזר את ה-z מקו הרוחב, וקיזוז של
   // אלף ומשהו הוציא חלק מהשמות ל-z שלילי — שם הם נעלמו מאחורי רקע המפה.
@@ -1448,16 +1476,28 @@ function renderEntityLabels() {
 function renderDistrictLabels() {
   if (!state.map || !state.districtLabelLayer) return;
   state.districtLabelLayer.clearLayers();
-  if (state.map.getZoom() > DISTRICT_LABEL_MAX_ZOOM) return;
 
-  state.districtLabels.forEach((district) => {
-    L.marker([district.lat, district.lng], {
+  const zoom = state.map.getZoom();
+  // רמה אחת בכל זום: מחוזות במבט הארצי, מרחבים ברמה אחת פנימה, וכלום
+  // כשמתקרבים עד שהמפה כבר מלאה בשמות התחנות עצמן.
+  const items =
+    zoom <= DISTRICT_LABEL_MAX_ZOOM
+      ? state.districtLabels
+      : zoom >= REGION_LABEL_MIN_ZOOM && zoom <= REGION_LABEL_MAX_ZOOM
+        ? state.regionLabels
+        : [];
+  const wide = zoom <= DISTRICT_LABEL_MAX_ZOOM;
+
+  items.forEach((item) => {
+    L.marker([item.lat, item.lng], {
       interactive: false,
       keyboard: false,
       pane: "districtLabels", // מתחת לסיכות ולשמותיהן, מעל רקע המפה
       icon: L.divIcon({
         className: "",
-        html: `<div class="district-label">${escapeHtml(district.name)}</div>`,
+        html: `<div class="district-label${wide ? "" : " district-label--region"}">${escapeHtml(
+          item.name
+        )}</div>`,
         iconSize: null,
         iconAnchor: [0, 8],
       }),
@@ -4752,7 +4792,7 @@ async function loadAdminPositions() {
   //
   // שדות אחרים רשאים לגלוש לשתי שורות; **מספר המשרה לא.** מזהה שנחתך
   // אינו מזהה, ולכן הוא `nowrap` גם כשהעמודה צרה.
-  const columns = showSubunit ? 11 : 10;
+  const columns = showSubunit ? 12 : 11;
   el("admin-positions-table").querySelector("tbody").innerHTML = data.items.length
     ? data.items
         .map(
@@ -4760,6 +4800,7 @@ async function loadAdminPositions() {
             <td class="col-position"><strong class="mono">${escapeHtml(p.position_no)}</strong></td>
             <td>${employmentText(p.employment)}</td>
             <td class="mono">${scopeText(p.scope_pct)}</td>
+            <td class="mono">${vacantText(p.vacant_pct)}</td>
             <td>${escapeHtml(p.occupation || "—")}</td>
             <td>${escapeHtml(p.profession)}</td>
             <td>${escapeHtml(p.subgroup || "—")}</td>
@@ -4779,6 +4820,16 @@ async function loadAdminPositions() {
 // §35: סטודנט או רגיל. **סטודנט מסומן, רגיל לא** — ברשימה של אלף שורות
 // שבה 96% רגילות, סימון של שתיהן מוסיף רעש ולא מידע. הצבע נושא את ההבחנה
 // יחד עם המילה, ולא במקומה.
+// §38: כמה מהמשרה פנוי. 100% הוא משרה שאיש אינו יושב בה, ו-25% היא משרה
+// שרבע ממנה פנוי — מצב שנוצר כששניים או שלושה חולקים משרה אחת בחלקי משרה.
+// מלא מוצג דהוי, וחלקי מודגש: החלקי הוא מה שדורש מהמגייס תשומת לב.
+function vacantText(pct) {
+  if (pct === null || pct === undefined) return '<span class="muted">—</span>';
+  return pct >= 100
+    ? `<span class="muted">100%</span>`
+    : `<strong class="tag-partial">${pct}%</strong>`;
+}
+
 function employmentText(value) {
   if (value === "סטודנט") return '<span class="tag-student">סטודנט</span>';
   return `<span class="muted">${escapeHtml(value || "רגיל")}</span>`;

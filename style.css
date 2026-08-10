@@ -342,6 +342,13 @@ body {
   pointer-events: none;
 }
 
+/* §38: שם המרחב. קטן ודהוי משם המחוז — הוא נכנס ברמה אחת פנימה, ואם
+   ייראה זהה לו שתי הרמות ייקראו כאותה רמה. */
+.district-label--region {
+  font-size: 12px; letter-spacing: 1.2px; font-weight: 600;
+  color: rgba(71, 85, 105, .5);
+}
+
 /* §26: 20 הערים הגדולות במפת התחנות והיחידות. דהויות בכוונה — הן רקע
    שמאפשר לקרוא את המפה, ואסור להן להתחרות בסיכות. pointer-events: none
    כדי שלחיצה תעבור דרכן אל המפה ותנקה בחירה, כמו בכל מקום ריק. */
@@ -1034,6 +1041,14 @@ body {
 .tag-student {
   display: inline-block; padding: 1px 8px; border-radius: 999px;
   background: #fef3c7; color: #92400e; font-size: 11.5px; font-weight: 600;
+  white-space: nowrap;
+}
+
+/* §38: משרה שרק חלק ממנה פנוי. אותו היגיון כמו סטודנט — החריג מסומן
+   והרגיל לא: ברשימה שרובה 100% פנוי, סימון של כולם הוא רעש. */
+.tag-partial {
+  display: inline-block; padding: 1px 7px; border-radius: 999px;
+  background: #e0f2fe; color: #075985; font-size: 11.5px; font-weight: 700;
   white-space: nowrap;
 }
 .table th { background: #f8fafc; color: var(--ink-soft); font-weight: 600; font-size: 12.5px; }
