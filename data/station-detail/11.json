@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 34,
+ "candidates_gender_coverage": 29,
  "candidates_in_process": 75,
- "candidates_pct_jewish": 92.3,
- "candidates_pct_male": 61.8,
- "candidates_religion_coverage": 26,
+ "candidates_pct_jewish": 79.4,
+ "candidates_pct_male": 55.2,
+ "candidates_religion_coverage": 34,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",

@@ -94,6 +94,10 @@
     // המפתח הוא **הרמה הספציפית ביותר בלבד**. הסינון היררכי, ולכן תחנה
     // מגדירה חד-משמעית גם את המרחב וגם את המחוז; צירופים היו מכפילים את
     // מספר הקבצים בלי להוסיף ולו תשובה אחת שונה.
+    //
+    // לשני מסכים יש בורר נוסף מעל ההיררכיה, והוא קידומת למפתח: המקצוע
+    // בלוח הבקרה, וכמות התחנות (N) בתכנון האסטרטגי. שניהם מחושבים בשרת
+    // ולכן אינם ניתנים לסינון כאן.
     const SCOPED = {
       "/api/dashboard": "dashboard__by-scope.json",
       "/api/recruiter": "recruiter__by-scope.json",
@@ -104,31 +108,101 @@
       const station = p.get("station");
       const region = p.get("region");
       const district = p.get("district");
-      const key = station
+      const scope = station
         ? `s|${station}`
         : region
           ? `r|${region}`
           : district
             ? `d|${district}`
             : "all";
-      const found = await fromBundle(SCOPED[path], key);
-      if (found) return json(found);
-    }
-
-    // תכנון אסטרטגי — בורר כמות התחנות (N), כשאין סינון היררכי פעיל.
-    if (path === "/api/strategic") {
-      const n = new URLSearchParams(query).get("n") || "10";
-      const found = await fromBundle("strategic__by-n.json", n);
-      if (found) return json(found);
+      const prefix =
+        path === "/api/dashboard"
+          ? p.get("family") || ""
+          : path === "/api/strategic"
+            ? p.get("n") || "10"
+            : "";
+      const found = await fromBundle(SCOPED[path], prefix ? `${prefix}|${scope}` : scope);
+      // ממשק המגייס מסנן גם לפי סטטוס וטקסט חופשי. אלה אינם ניתנים
+      // להקפאה — טקסט חופשי אינו רשימה סגורה — ולכן הם מיושמים כאן,
+      // על התשובה המוקפאת. ראו recruiterFilter.
+      if (found) return json(path === "/api/recruiter" ? recruiterFilter(found, p) : found);
     }
 
     // מסך המנהלה — הסינון מחושב כאן, ראו adminOptions/adminPositions.
     if (path === "/api/admin-options") return json(await adminOptions(query));
     if (path === "/api/admin-positions") return json(await adminPositions(query));
+    if (path === "/api/admin-gaps") {
+      const scope = new URLSearchParams(query).get("scope") || "";
+      const found = await fromBundle("admin-gaps__by-scope.json", scope);
+      if (found) return json(found);
+    }
 
     const res = await fetch(flatten(path));
     if (!res.ok) throw new Error(path + " → " + res.status);
     return json(await res.json());
+  }
+
+  /* --- ממשק המגייס: סטטוס וחיפוש חופשי -----------------------------------
+     שני הסינונים האלה אינם ניתנים להקפאה. הסטטוס היה אפשרי (ארבעה ערכים),
+     אבל החיפוש החופשי אינו רשימה סגורה — ומסך שבו חצי מהסרגל עובד גרוע
+     ממסך שבו כולו עובד.
+
+     בשרת שניהם **מסננים את רשימת התחנות אחרי שהיא נבנתה**, ואז ה-KPI
+     והעץ נגזרים ממה שנשאר. אותו סדר בדיוק כאן, על התשובה המוקפאת: אין
+     חישוב חדש, יש בחירה מתוך שורות שהשרת כבר חישב. העץ נשמר במבנהו
+     המקורי ורק נחתך, כדי שסדר המחוזות והמרחבים יישאר של השרת. */
+  function recruiterFilter(payload, p) {
+    const status = p.get("status") || "";
+    const term = (p.get("q") || "").trim();
+    if ((!status && !term) || !payload.tree) return payload;
+
+    const matches = (s) =>
+      [s.name, s.district || "", s.area || ""]
+        .concat((s.nearby_settlements || []).map((n) => n.name))
+        .some((value) => value.indexOf(term) !== -1);
+
+    const kept = new Set();
+    payload.tree.forEach((d) =>
+      d.areas.forEach((a) =>
+        a.stations.forEach((s) => {
+          if ((!term || matches(s)) && (!status || s.status_key === status)) kept.add(s);
+        })
+      )
+    );
+
+    const tree = payload.tree
+      .map((d) => ({
+        district: d.district,
+        areas: d.areas
+          .map((a) => ({ area: a.area, stations: a.stations.filter((s) => kept.has(s)) }))
+          .filter((a) => a.stations.length),
+      }))
+      .filter((d) => d.areas.length);
+
+    // סכום מה שיש עליו נתון. אין לאף אחד — null, ולא 0: אפס נקרא כמו
+    // מספר, והיעדר נתון נקרא כמו מה שהוא.
+    const rows = [...kept];
+    const sum = (key) => {
+      const values = rows.map((s) => s[key]).filter((v) => v !== null && v !== undefined);
+      return values.length ? values.reduce((a, b) => a + b, 0) : null;
+    };
+    const required = sum("required_positions");
+    const actual = sum("actual_positions");
+    const missing = sum("missing_positions");
+    const pct = required ? Math.round((actual / required) * 1000) / 10 : null;
+
+    return Object.assign({}, payload, {
+      units_count: rows.length,
+      kpis: {
+        total_required: { available: Boolean(required), value: required },
+        actual: { available: actual !== null, value: actual, pct: actual === null ? null : pct },
+        gap: { available: missing !== null, value: missing === null ? null : -missing },
+        critical_units: Object.assign({}, payload.kpis.critical_units, {
+          value: rows.filter((s) => s.status_key === "critical").length,
+        }),
+      },
+      tree: tree,
+    });
   }
 
   /* --- סינון מסך המנהלה -------------------------------------------------
@@ -163,6 +237,10 @@
       profession: p.get("profession") || "", area: p.get("area") || "",
       department: p.get("department") || "", region: p.get("region") || "",
       q: (p.get("q") || "").trim(), position: (p.get("position") || "").trim(),
+      // §31: סינון היחידה. הוא **אינו** מחושב כאן — הוא נשען על רשימת
+      // היחידות המוגדרות ועל טבלת ההיררכיה, ושתיהן בשרת. חומר הגלם מוקפא
+      // פעם לכל אחד מחמשת הערכים, וכאן רק נבחר הנכון.
+      scope: p.get("scope") || "",
     };
   };
 
@@ -173,7 +251,7 @@
 
   async function adminOptions(query) {
     const f = params(query);
-    const facets = await table("admin-facets");
+    const facets = (await table("admin-facets"))[f.scope] || [];
 
     // כל רשימה מחושבת מול *שאר* הסינונים ולא מול עצמה — אחרת הבחירה
     // הנוכחית מצמצמת את הרשימה שממנה היא נבחרה, והמשתמש ננעל עליה.
@@ -200,15 +278,21 @@
 
   async function adminPositions(query) {
     const f = params(query);
-    const LIMIT = 1000; // POSITIONS_LIMIT בשרת
+    const meta = await table("admin-meta");
+    const LIMIT = meta.limit; // POSITIONS_LIMIT בשרת
     const like = (value, term) => String(value || "").indexOf(term) !== -1;
 
     const rows = (await table("admin-vacancies")).filter((row) => {
       if (!matches(row, f, null)) return false;
-      // חיפוש חופשי מחפש גם בסיווג, גם בתיאור העיסוק וגם במספר המשרה:
-      // מי שמדביק מספר לשדה מחפש משרה, ולא סיווג.
+      // §31: השורה נושאת את הסינונים שהיא שייכת להם, כי מי שקובע זאת הוא
+      // השרת — ראו הערת scope למעלה.
+      if (f.scope && (row.scopes || []).indexOf(f.scope) === -1) return false;
+      // חיפוש חופשי מחפש גם בסיווג, גם בתיאור העיסוק, גם במספר המשרה וגם
+      // בשם רמה 05: מי שמדביק מספר לשדה מחפש משרה, ומי שמקליד שם יחידה
+      // מחפש אותה — ורשימה שמחפשת רק בסיווג מחזירה לשניהם ריק.
       if (f.q && !f.profession &&
-          !(like(row.profession, f.q) || like(row.occupation, f.q) || like(row.position_no, f.q)))
+          !(like(row.profession, f.q) || like(row.occupation, f.q) ||
+            like(row.position_no, f.q) || like(row.subunit, f.q)))
         return false;
       if (f.position && !like(row.position_no, f.position)) return false;
       return true;
@@ -221,10 +305,21 @@
       .sort((a, b) => b.n - a.n)
       .slice(0, 12);
 
-    const items = rows.slice(0, LIMIT);
+    // `scopes` הוא תווית עבודה של ההדגמה ולא שדה של השרת. הוא יורד כאן,
+    // כדי שהתשובה תהיה **זהה** לזו של השרת ולא "כמעט זהה": שדה עודף
+    // בתשובה מזמין קוד שנשען עליו, וכזה לא יעבוד בהתקנה האמיתית.
+    const items = rows.slice(0, LIMIT).map((row) => {
+      const item = Object.assign({}, row);
+      delete item.scopes;
+      return item;
+    });
     return {
       profession: f.profession || null, q: f.q, position: f.position,
       area: f.area || null, department: f.department || null, region: f.region || null,
+      scope: f.scope,
+      // §25: עמודת רמה 05 מוצגת רק כשיש במאגר נתון כזה. זו תשובה של
+      // השרת (admin-meta), ולא ניחוש מתוך אלף השורות שהוחזרו במקרה.
+      has_subunit: meta.has_subunit,
       total: rows.length, shown: items.length, limit: LIMIT,
       by_label: byLabel, items: items,
     };

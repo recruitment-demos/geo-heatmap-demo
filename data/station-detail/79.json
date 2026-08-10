@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 13,
+ "candidates_gender_coverage": 18,
  "candidates_in_process": 36,
- "candidates_pct_jewish": 60.0,
- "candidates_pct_male": 61.5,
- "candidates_religion_coverage": 15,
+ "candidates_pct_jewish": 66.7,
+ "candidates_pct_male": 55.6,
+ "candidates_religion_coverage": 12,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",

@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 38,
+   "count": 48,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 16,
+   "count": 21,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 22,
+   "count": 27,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,23 +34,23 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 15,
+   "count": 18,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 75,
- "candidates_in_process": 182,
- "candidates_pct_jewish": 84.1,
- "candidates_pct_male": 41.3,
- "candidates_religion_coverage": 88,
+ "candidates_gender_coverage": 112,
+ "candidates_in_process": 228,
+ "candidates_pct_jewish": 46.7,
+ "candidates_pct_male": 58.9,
+ "candidates_religion_coverage": 105,
  "color": "#DC2626",
  "coord_verified": false,
  "district": "דרום",
  "id": 8,
  "insights": [
   {
-   "created_at": "2026-08-03T17:19:36",
+   "created_at": "2026-08-07T14:55:23",
    "done": 0,
    "id": 1,
    "text": "ריכוז חוסר בסיור — לשקול יום גיוס ממוקד באזור."

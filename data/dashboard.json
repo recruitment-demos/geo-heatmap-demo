@@ -49,10 +49,10 @@
    "pct_male": 67.82
   }
  ],
- "candidates_gender_coverage": 1808,
- "candidates_pct_jewish": 72.8,
- "candidates_pct_male": 58.8,
- "candidates_religion_coverage": 1722,
+ "candidates_gender_coverage": 1812,
+ "candidates_pct_jewish": 70.8,
+ "candidates_pct_male": 59.4,
+ "candidates_religion_coverage": 1699,
  "candidates_source": "national",
  "filters": {
   "district": null,

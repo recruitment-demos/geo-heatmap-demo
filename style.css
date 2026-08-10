@@ -320,6 +320,60 @@ body {
 .dot--label::before { display: none; }
 .dot--label span { color: var(--muted, #64748b); font-weight: 600; }
 
+/* §37: יישוב במפת היישובים — נקודה, והשם מגיע מתווית שיודעת להיעלם
+   כשאין לה מקום. הנקודה קטנה ומאופקת: היא סימון מיקום, לא מדד. */
+.dot--place::before {
+  width: 7px; height: 7px; flex: 0 0 7px;
+  background: #64748b; border-width: 1.5px;
+}
+
+/* §37: שם המחוז, במרכז שטחו ובמבט הרחב בלבד. גדול ודהוי — כותרת של
+   הרקע, לא נתון. אינו לוכד לחיצה, כמו כל שאר הרקע. */
+.district-label {
+  /* אותו מבנה תיבה של .map-label בדיוק. הסמן של Leaflet הוא תיבה ברוחב
+     אפס, ותווית שאינה מכריזה על רוחב מקבלת אותו — כלומר אות אחת. */
+  transform: translateX(-50%);
+  width: max-content; max-width: 200px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px; font-weight: 700; letter-spacing: 2.5px; line-height: 18px;
+  color: rgba(51, 65, 85, .62);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .9), 0 0 7px rgba(255, 255, 255, .95);
+  pointer-events: none;
+}
+
+/* §26: 20 הערים הגדולות במפת התחנות והיחידות. דהויות בכוונה — הן רקע
+   שמאפשר לקרוא את המפה, ואסור להן להתחרות בסיכות. pointer-events: none
+   כדי שלחיצה תעבור דרכן אל המפה ותנקה בחירה, כמו בכל מקום ריק. */
+.dot--city { pointer-events: none; }
+.dot--city::before { display: none; }
+.dot--city span {
+  color: #7c8798; font-weight: 600; font-size: 10.5px;
+  background: rgba(255, 255, 255, .72); letter-spacing: .2px;
+}
+
+/* §27: שם התחנה / היחידה / המרחב, מתחת לסיכה.
+   מודגש כדי שייקרא מעל אריחי הרקע. הרוחב נקבע בתוכן ולא בסיכה, ולכן
+   translateX(-50%) הוא מה שממרכז אותו על הנקודה. אינו לוכד לחיצה: הוא
+   יושב מעל המפה, ולחיצה שנעצרת בו הייתה נראית כמו מפה תקועה. */
+.map-label {
+  transform: translateX(-50%);
+  width: max-content; max-width: 150px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 11px; font-weight: 700; color: var(--ink);
+  /* הגובה קבוע ומוסכם עם LABEL_HEIGHT שב-app.js: חישוב החפיפה נשען עליו,
+     וגובה שנקבע רק בתוכן היה מזיז את הגבול בלי שהחישוב ידע. */
+  line-height: 15px;
+  background: rgba(255, 255, 255, .86);
+  border-radius: 3px; padding: 0 4px; text-align: center;
+  pointer-events: none;
+}
+.map-label--selected {
+  background: #fff; color: var(--accent);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .28);
+}
+
 /* --- סיכות --- */
 /* הרקע מוזרק מהשרת. גבול לבן כדי שהסיכה תיקרא מעל אריחי המפה. */
 .pin {
@@ -351,14 +405,9 @@ body {
   border-width: 3.5px;
   box-shadow: 0 0 0 5px rgba(37, 99, 235, .35), 0 2px 9px rgba(0, 0, 0, .42);
 }
-.region-pin-pct { font-weight: 700; font-size: 13px; }
-/* שם המרחב נחתך ולא נשפך: הסיכה בגודל קבוע, ושם ארוך היה מרחיב אותה
-   ומזיז את מרכזה מהנקודה שהיא מסמנת. */
-.region-pin-name {
-  font-size: 9px; font-weight: 600; opacity: .95;
-  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  padding: 0 3px;
-}
+/* §27: השם ירד מתוך הסיכה לתווית חיצונית (ראה .map-label), ולכן האחוז
+   נשאר לבדו ויכול להיות גדול יותר. */
+.region-pin-pct { font-weight: 700; font-size: 15px; }
 
 .settlement-pin {
   display: flex; align-items: center; gap: 5px;
@@ -942,6 +991,51 @@ body {
 .table-wrap--tall thead th { position: sticky; top: 0; z-index: 1; }
 .table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 .table th, .table td { text-align: right; padding: 9px 16px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+
+/* §31: "שהכל ייכנס לתוך הגודל של המחשב."
+   ============================================================
+   לוח המשרות הוא 11 עמודות עם שמות ארוכים ("רמה 04 — תחנה / יחידת משנה"),
+   ולכן הוא נגלל אופקית גם על מסך מלא — ומי שנגלל ימינה מאבד את מספר
+   המשרה, שהוא העמודה שהוא בא בשבילה.
+
+   הפתרון אינו הקטנת גופן עד שנכנס: הוא **גלישת שורה**. ריפוד צר, גופן
+   קטן מעט, ושמות ארוכים נשברים לשתי שורות במקום לדחוף את הטבלה. הכותרת
+   נשארת קריאה, וכל העמודות על המסך בבת אחת. */
+.table--wide { font-size: 12.5px; table-layout: auto; }
+.table--wide th, .table--wide td {
+  padding: 7px 9px;
+  white-space: normal;
+}
+/* §36: שבירה **בין מילים בלבד**, ולא בתוך מילה.
+   `overflow-wrap: anywhere` היה גם על הכותרות, ולכן הוא חתך מילים עבריות
+   באמצע. הכותרות נשברות יפה ברווחים ("רמה 04 — תחנה / יחידת משנה"), ואין
+   סיבה לחתוך מילה. */
+.table--wide td { overflow-wrap: break-word; }
+
+/* §36: **מספר המשרה בשורה אחת — הכותרת והערך.**
+   ============================================================
+   הכלל הקודם היה `.table--wide td.mono`, ומחלקת `mono` יושבת על ה-
+   `<strong>` שבתוך התא ולא על התא עצמו — ולכן הוא **מעולם לא חל על מספר
+   המשרה**. הוא חל על עמודת ההיקף, שממילא קצרה.
+
+   וגם הכותרת נשברה: "מספר משרה" הן שתי מילים, ו-`white-space: normal`
+   שבר אותן לשתי שורות.
+
+   עכשיו שתיהן מסומנות במחלקה אחת. **מזהה שנחתך לשתי שורות אינו מזהה**,
+   וכותרת שנשברת מעליו מכפילה את גובה כל שורה בטבלה בלי סיבה. */
+.table--wide .col-position,
+.table--wide td.mono,
+.table--wide td .pill { white-space: nowrap; overflow-wrap: normal; }
+
+/* §35: **סטודנט מסומן, רגיל לא.**
+   ברשימה של אלף שורות שבה 96% רגילות, סימון של שתיהן מוסיף רעש ולא
+   מידע. הצבע נושא את ההבחנה יחד עם המילה ולא במקומה — מי שאינו מבחין
+   בצבע קורא "סטודנט". */
+.tag-student {
+  display: inline-block; padding: 1px 8px; border-radius: 999px;
+  background: #fef3c7; color: #92400e; font-size: 11.5px; font-weight: 600;
+  white-space: nowrap;
+}
 .table th { background: #f8fafc; color: var(--ink-soft); font-weight: 600; font-size: 12.5px; }
 .table tbody tr:last-child td { border-bottom: none; }
 .table tbody tr { cursor: pointer; }
@@ -1202,63 +1296,65 @@ body {
    "תווית: ערך", כשהתווית מגיעה מ-data-th שנכתב אוטומטית מכותרת העמודה
    (labelTableCells ב-app.js) — ולא מ-nth-child, שנשבר ברגע שמזיזים עמודה.
 
-   טבלאות .table--wide (נתוני גלם רחבים, כותרת מקוננת) לא נפרשות ונשארות
-   בגלילה אופקית: פרישה של עשרה שדות לכרטיס ארוכה מדי מכדי לקרוא.
+   §31: **גם הטבלאות הרחבות נפרשות.** קודם הן נשארו בגלילה אופקית, בהנחה
+   שכרטיס של עשרה שדות ארוך מדי. הבקשה הייתה מפורשת — "ללא צורך לקחת
+   ימינה/שמאלה" — וכרטיס ארוך שנקרא עדיף על עמודה שאי אפשר להגיע אליה.
    ============================================================ */
 @media (max-width: 620px) {
-  .table:not(.table--wide) { display: block; width: auto; }
-  .table:not(.table--wide) thead { display: none; }
-  .table:not(.table--wide) tbody,
-  .table:not(.table--wide) tr,
-  .table:not(.table--wide) td { display: block; width: auto; }
+  .table { display: block; width: auto; }
+  .table thead { display: none; }
+  .table tbody,
+  .table tr,
+  .table td { display: block; width: auto; }
 
-  .table:not(.table--wide) tbody tr {
+  .table tbody tr {
     border: 1px solid var(--line); border-radius: 9px;
     margin: 10px 12px; padding: 4px 0; background: #fff;
   }
-  .table:not(.table--wide) tbody tr:hover { background: #fff; }
-  .table:not(.table--wide) tbody tr.row--selected {
+  .table tbody tr:hover { background: #fff; }
+  .table tbody tr.row--selected {
     background: #eff6ff; box-shadow: inset 0 0 0 2px var(--accent);
   }
 
-  .table:not(.table--wide) td {
+  .table td {
     display: flex; align-items: center; justify-content: space-between; gap: 12px;
     padding: 7px 13px; border-bottom: 1px dashed var(--line);
     white-space: normal; text-align: left;
   }
-  .table:not(.table--wide) tbody tr td:last-child { border-bottom: none; }
+  .table tbody tr td:last-child { border-bottom: none; }
 
-  .table:not(.table--wide) td[data-th]::before {
+  .table td[data-th]::before {
     content: attr(data-th);
     color: var(--ink-soft); font-size: 11.5px; font-weight: 600;
     text-align: right; flex: 0 0 auto;
   }
 
   /* התא הראשון (שם התחנה/היחידה) הוא כותרת הכרטיס ולא עוד שדה */
-  .table:not(.table--wide) tbody tr td:first-child {
+  .table tbody tr td:first-child {
     background: #f8fafc; border-radius: 8px 8px 0 0;
     padding: 9px 13px; font-size: 14px; justify-content: flex-start;
   }
-  .table:not(.table--wide) tbody tr td:first-child::before { display: none; }
+  .table tbody tr td:first-child::before { display: none; }
 
   /* תא עם פס התקדמות: הפס יורד לשורה משלו מתחת למספר */
-  .table:not(.table--wide) td.td-bar { flex-wrap: wrap; }
-  .table:not(.table--wide) td.td-bar .bar { flex: 1 1 100%; }
+  .table td.td-bar { flex-wrap: wrap; }
+  .table td.td-bar .bar { flex: 1 1 100%; }
 
-  .table:not(.table--wide) td.cell-actions { justify-content: flex-end; }
-  .table:not(.table--wide) td.cell-actions::before { display: none; }
-  .table:not(.table--wide) td .unit-input,
-  .table:not(.table--wide) td .travel-input { max-width: 55%; }
+  .table td.cell-actions { justify-content: flex-end; }
+  .table td.cell-actions::before { display: none; }
+  .table td .unit-input,
+  .table td .travel-input { max-width: 55%; }
 
   /* שורת "אין תוצאות" היא colspan יחיד — בלי תווית וללא מסגרת כרטיס */
-  .table:not(.table--wide) tbody tr td[colspan] { text-align: center; background: none; }
+  .table tbody tr td[colspan] { text-align: center; background: none; }
 
-  /* הטבלאות הרחבות נשארות גוללות — עם רמז שאפשר לגלול אותן */
-  .table--wide { font-size: 12px; }
-  .table-wrap:has(.table--wide)::after {
-    content: "↔ טבלה רחבה — ניתן לגלול לצדדים";
-    display: block; padding: 6px 12px; font-size: 11px; color: var(--ink-soft);
-  }
+
+  /* §31: גם הטבלאות הרחבות נפרשות. "ללא צורך לקחת ימינה/שמאלה" —
+     ולכן אין יותר גלילה אופקית באף טבלה, וגם לא רמז אליה.
+     לוח המשרות הוא 11 עמודות, ולכן הכרטיס שלו ארוך; ארוך וקריא עדיף
+     על צר ומוסתר. */
+  .table--wide { font-size: 12.5px; }
+  .table-wrap { overflow-x: visible; }
 }
 
 /* גובה חלון אמיתי בדפדפני מובייל: 100vh אינו מחשיב את סרגל הכתובת,

@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 21,
+   "count": 17,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 9,
+   "count": 7,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 12,
+   "count": 10,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,23 +34,23 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 8,
+   "count": 6,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 47,
- "candidates_in_process": 100,
- "candidates_pct_jewish": 67.4,
- "candidates_pct_male": 55.3,
- "candidates_religion_coverage": 46,
+ "candidates_gender_coverage": 40,
+ "candidates_in_process": 80,
+ "candidates_pct_jewish": 77.4,
+ "candidates_pct_male": 60.0,
+ "candidates_religion_coverage": 31,
  "color": "#DC2626",
  "coord_verified": false,
  "district": "מרכז",
  "id": 78,
  "insights": [
   {
-   "created_at": "2026-07-29T17:19:36",
+   "created_at": "2026-08-02T14:55:23",
    "done": 1,
    "id": 3,
    "text": "להסיט תקציב פרסום לתחנות האדומות."

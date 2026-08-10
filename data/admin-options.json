@@ -2,254 +2,299 @@
  "areas": [
   {
    "name": "דרום",
-   "required": 1605,
-   "vacant": 257
+   "required": 1654,
+   "vacant": 265
   },
   {
    "name": "חוף",
-   "required": 1590,
-   "vacant": 273
+   "required": 1554,
+   "vacant": 285
   },
   {
    "name": "ירושלים",
-   "required": 1075,
-   "vacant": 161
+   "required": 1112,
+   "vacant": 180
   },
   {
    "name": "מג\"ב",
-   "required": 256,
+   "required": 240,
    "vacant": 26
   },
   {
+   "name": "מטה ארצי",
+   "required": 587,
+   "vacant": 82
+  },
+  {
    "name": "מרכז",
-   "required": 1940,
-   "vacant": 372
+   "required": 2012,
+   "vacant": 395
   },
   {
    "name": "צפון",
-   "required": 2260,
-   "vacant": 361
+   "required": 2302,
+   "vacant": 391
   },
   {
    "name": "ש\"י",
-   "required": 930,
-   "vacant": 109
+   "required": 972,
+   "vacant": 129
   },
   {
    "name": "תל אביב",
-   "required": 1597,
-   "vacant": 221
+   "required": 1577,
+   "vacant": 247
   }
  ],
  "departments": [
   {
+   "name": "אג\"מ ארצי",
+   "required": 165,
+   "vacant": 20
+  },
+  {
+   "name": "אגף משאבי אנוש",
+   "required": 166,
+   "vacant": 19
+  },
+  {
+   "name": "אח\"מ ארצי",
+   "required": 109,
+   "vacant": 12
+  },
+  {
+   "name": "את\"ן ארצי",
+   "required": 147,
+   "vacant": 31
+  },
+  {
    "name": "מחוז דרום",
-   "required": 1605,
-   "vacant": 257
+   "required": 1654,
+   "vacant": 265
   },
   {
    "name": "מחוז חוף",
-   "required": 1590,
-   "vacant": 273
+   "required": 1554,
+   "vacant": 285
   },
   {
    "name": "מחוז ירושלים",
-   "required": 1075,
-   "vacant": 161
+   "required": 1112,
+   "vacant": 180
   },
   {
    "name": "מחוז מג\"ב",
-   "required": 256,
+   "required": 240,
    "vacant": 26
   },
   {
    "name": "מחוז מרכז",
-   "required": 1940,
-   "vacant": 372
+   "required": 2012,
+   "vacant": 395
   },
   {
    "name": "מחוז צפון",
-   "required": 2260,
-   "vacant": 361
+   "required": 2302,
+   "vacant": 391
   },
   {
    "name": "מחוז ש\"י",
-   "required": 930,
-   "vacant": 109
+   "required": 972,
+   "vacant": 129
   },
   {
    "name": "מחוז תל אביב",
-   "required": 1597,
-   "vacant": 221
+   "required": 1577,
+   "vacant": 247
   }
  ],
  "professions": [
   {
    "name": "בילוש",
    "required": 1693,
-   "vacant": 264
+   "vacant": 272
   },
   {
    "name": "הדרכה והכשרות",
-   "required": 367,
-   "vacant": 71
+   "required": 410,
+   "vacant": 70
   },
   {
    "name": "חקירות",
    "required": 2255,
-   "vacant": 356
+   "vacant": 374
   },
   {
    "name": "ייעוץ משפטי",
-   "required": 344,
-   "vacant": 53
+   "required": 432,
+   "vacant": 85
   },
   {
    "name": "כספים ותקציב",
-   "required": 309,
-   "vacant": 47
+   "required": 433,
+   "vacant": 72
   },
   {
    "name": "לוגיסטיקה",
-   "required": 244,
-   "vacant": 37
+   "required": 409,
+   "vacant": 61
   },
   {
    "name": "מנהלה וכוח אדם",
-   "required": 299,
-   "vacant": 37
+   "required": 427,
+   "vacant": 72
   },
   {
    "name": "מערכות מידע",
-   "required": 278,
-   "vacant": 50
+   "required": 487,
+   "vacant": 79
   },
   {
    "name": "סיור",
    "required": 3955,
-   "vacant": 624
+   "vacant": 667
   },
   {
    "name": "שיטור קהילתי",
    "required": 1509,
-   "vacant": 241
+   "vacant": 248
   }
  ],
  "units": [
   {
-   "name": "איילון",
-   "required": 701,
-   "vacant": 72
+   "name": "אג\"מ ארצי",
+   "required": 165,
+   "vacant": 20
   },
   {
-   "name": "אילת",
-   "required": 183,
-   "vacant": 16
+   "name": "אגף משאבי אנוש",
+   "required": 166,
+   "vacant": 19
   },
   {
-   "name": "אשר",
-   "required": 573,
-   "vacant": 93
+   "name": "אח\"מ ארצי",
+   "required": 109,
+   "vacant": 12
   },
   {
-   "name": "גליל",
-   "required": 744,
-   "vacant": 107
+   "name": "את\"ן ארצי",
+   "required": 147,
+   "vacant": 31
   },
   {
-   "name": "גלעד",
-   "required": 347,
-   "vacant": 53
-  },
-  {
-   "name": "דוד",
-   "required": 215,
-   "vacant": 21
-  },
-  {
-   "name": "דן",
-   "required": 455,
-   "vacant": 69
-  },
-  {
-   "name": "יהודה",
-   "required": 263,
-   "vacant": 34
-  },
-  {
-   "name": "ירקון",
-   "required": 441,
+   "name": "מרחב איילון",
+   "required": 682,
    "vacant": 80
   },
   {
-   "name": "כנרת",
-   "required": 708,
-   "vacant": 104
+   "name": "מרחב אילת",
+   "required": 223,
+   "vacant": 24
   },
   {
-   "name": "כרמל",
-   "required": 438,
-   "vacant": 53
+   "name": "מרחב אשר",
+   "required": 557,
+   "vacant": 100
   },
   {
-   "name": "לכיש",
-   "required": 426,
-   "vacant": 118
+   "name": "מרחב גליל",
+   "required": 726,
+   "vacant": 107
   },
   {
-   "name": "מג\"ב י-ם",
-   "required": 256,
-   "vacant": 26
-  },
-  {
-   "name": "מנשה",
-   "required": 579,
-   "vacant": 127
-  },
-  {
-   "name": "נגב",
-   "required": 515,
+   "name": "מרחב גלעד",
+   "required": 359,
    "vacant": 62
   },
   {
-   "name": "נתב\"ג",
-   "required": 268,
+   "name": "מרחב דוד",
+   "required": 207,
+   "vacant": 25
+  },
+  {
+   "name": "מרחב דן",
+   "required": 443,
+   "vacant": 75
+  },
+  {
+   "name": "מרחב יהודה",
+   "required": 281,
+   "vacant": 40
+  },
+  {
+   "name": "מרחב ירקון",
+   "required": 452,
+   "vacant": 92
+  },
+  {
+   "name": "מרחב כנרת",
+   "required": 739,
+   "vacant": 117
+  },
+  {
+   "name": "מרחב כרמל",
+   "required": 407,
+   "vacant": 51
+  },
+  {
+   "name": "מרחב לכיש",
+   "required": 434,
+   "vacant": 119
+  },
+  {
+   "name": "מרחב מג\"ב י-ם",
+   "required": 240,
    "vacant": 26
   },
   {
-   "name": "עמקים",
-   "required": 808,
-   "vacant": 150
+   "name": "מרחב מנשה",
+   "required": 590,
+   "vacant": 134
   },
   {
-   "name": "ציון",
-   "required": 454,
-   "vacant": 70
+   "name": "מרחב נגב",
+   "required": 513,
+   "vacant": 55
   },
   {
-   "name": "קדם",
-   "required": 406,
-   "vacant": 70
+   "name": "מרחב נתב\"ג",
+   "required": 302,
+   "vacant": 28
   },
   {
-   "name": "רותם",
-   "required": 481,
-   "vacant": 61
+   "name": "מרחב עמקים",
+   "required": 837,
+   "vacant": 167
   },
   {
-   "name": "שומרון",
-   "required": 320,
-   "vacant": 22
+   "name": "מרחב ציון",
+   "required": 468,
+   "vacant": 74
   },
   {
-   "name": "שפלה",
-   "required": 671,
-   "vacant": 144
+   "name": "מרחב קדם",
+   "required": 437,
+   "vacant": 81
   },
   {
-   "name": "שרון",
-   "required": 1001,
-   "vacant": 202
+   "name": "מרחב רותם",
+   "required": 484,
+   "vacant": 67
+  },
+  {
+   "name": "מרחב שומרון",
+   "required": 332,
+   "vacant": 27
+  },
+  {
+   "name": "מרחב שפלה",
+   "required": 697,
+   "vacant": 158
+  },
+  {
+   "name": "מרחב שרון",
+   "required": 1013,
+   "vacant": 209
   }
  ]
 }

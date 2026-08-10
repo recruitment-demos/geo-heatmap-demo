@@ -1,0 +1,347 @@
+{
+ "base": {
+  "admin_rows": 254,
+  "ok": true,
+  "positions": 12583,
+  "vacant": 2000
+ },
+ "checks": [
+  {
+   "label": "מספר התחנות",
+   "note": "כל תחנה בטבלה מקבלת סיכה במפה",
+   "ok": true,
+   "screen": 88,
+   "table": 88
+  },
+  {
+   "label": "סכום התקן בתחנות",
+   "note": "",
+   "ok": true,
+   "screen": 9412,
+   "table": 9412
+  },
+  {
+   "label": "סכום התקן — שורות התקן מול היחידות והמרחבים",
+   "note": "כל שורת תקן נספרת לישות אחת בדיוק — לא פחות ולא פעמיים",
+   "ok": true,
+   "screen": 12010,
+   "table": 12010
+  },
+  {
+   "label": "סכום האיוש — שורות התקן מול היחידות והמרחבים",
+   "note": "",
+   "ok": true,
+   "screen": 10101,
+   "table": 10101
+  },
+  {
+   "label": "יחידות עניין",
+   "note": "כל יחידה בטבלה מופיעה במסך היחידות",
+   "ok": true,
+   "screen": 6,
+   "table": 6
+  },
+  {
+   "label": "מרחבים",
+   "note": "",
+   "ok": true,
+   "screen": 23,
+   "table": 23
+  },
+  {
+   "label": "תקן המנהלה — מול שורות התקן שממנו נגזר",
+   "note": "מסוכם משורות התקן בלי סיווג 'למחיקה', ומעוגל לשלם בכל שורה",
+   "ok": true,
+   "screen": 12010,
+   "table": 12010
+  },
+  {
+   "label": "מועמדים בהליך",
+   "note": "הסך הארצי שווה לסכום ארבע משפחות התפקיד",
+   "ok": false,
+   "screen": 0,
+   "table": 2173
+  },
+  {
+   "label": "יישובים עם קואורדינטה",
+   "note": "יישוב עם רוחב ובלי אורך לא יוצג",
+   "ok": true,
+   "screen": 255,
+   "table": 255
+  },
+  {
+   "label": "קשרי תחנה‑יישוב",
+   "note": "קשר שמצביע על יישוב שאינו קיים נעלם מהמסך",
+   "ok": true,
+   "screen": 1493,
+   "table": 1493
+  },
+  {
+   "label": "קשרי מרחב‑יישוב",
+   "note": "קשר שמצביע על יישוב שאינו קיים נעלם מהמסך",
+   "ok": true,
+   "screen": 987,
+   "table": 987
+  },
+  {
+   "label": "משרות פנויות לגיוס",
+   "note": "משרה פנויה נספרת גם כשאינה משויכת לתחנה",
+   "ok": true,
+   "screen": 2000,
+   "table": 2000
+  }
+ ],
+ "findings": [
+  {
+   "count": 15,
+   "examples": [
+    "unit · יחידת אכיפה כלכלית",
+    "unit · יחידת חילוץ ארצית",
+    "unit · יחידת סיור מיוחדת",
+    "unit · מפקדת מרחב תפעולית",
+    "unit · מרכז הדרכה ארצי"
+   ],
+   "hint": "אינן משתתפות בחישובי מרחק. להגדרה: ניהול נתונים -> מיקומי יחידות.",
+   "severity": "אזהרה",
+   "title": "יחידות שטרם הוגדר להן יישוב"
+  }
+ ],
+ "optional_failed": [],
+ "summary": {
+  "base_ok": true,
+  "checks": 12,
+  "errors": 0,
+  "gaps": 1,
+  "optional_failed": 0,
+  "rows": 18293,
+  "tables": 25,
+  "warnings": 1
+ },
+ "tables": [
+  {
+   "edited_at": null,
+   "kind": "בסיס",
+   "label": "שורות התקן והמצבה — משרה אחת בכל שורה",
+   "rows": 12583,
+   "source": "קובץ תקן ומצבה",
+   "table": "police_positions",
+   "updated": "2026-08-09T12:55:23"
+  },
+  {
+   "edited_at": null,
+   "kind": "בסיס",
+   "label": "תקן ואיוש לפי יחידה × תפקיד — מפת חום המנהלה",
+   "rows": 254,
+   "source": "מסוכם מ-police_positions",
+   "table": "admin_staffing",
+   "updated": "2026-08-10T14:55:23"
+  },
+  {
+   "edited_at": "ניהול נתונים › איוש תחנות",
+   "kind": "מקור",
+   "label": "התחנות, המחוז והמרחב שלהן",
+   "rows": 88,
+   "source": "קובץ איוש תחנות",
+   "table": "stations",
+   "updated": null
+  },
+  {
+   "edited_at": "ניהול נתונים › יישובים על המפה",
+   "kind": "מקור",
+   "label": "כל יישובי ישראל, עם קואורדינטה",
+   "rows": 255,
+   "source": "מרשם היישובים הרשמי",
+   "table": "settlements",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "מקור",
+   "label": "מחוז → מרחב → תחנה בשמות הרשמיים",
+   "rows": 88,
+   "source": "קובץ מרחבים משטרה",
+   "table": "org_hierarchy",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "מקור",
+   "label": "מועמדים בהליך לפי מחוז ומרחב",
+   "rows": 32,
+   "source": "קובץ מועמדים בהליך",
+   "table": "candidates_by_scope",
+   "updated": null
+  },
+  {
+   "edited_at": "ניהול נתונים › יחידות עניין",
+   "kind": "מקור",
+   "label": "היחידות המגייסות — רמות 02 עד 05",
+   "rows": 6,
+   "source": "קובץ סיווג יחידות",
+   "table": "recruit_unit",
+   "updated": "2026-08-10T14:55:23"
+  },
+  {
+   "edited_at": "ניהול נתונים › קשרי תחנה‑יישוב",
+   "kind": "מקור",
+   "label": "זמן נסיעה מתחנה ליישוב",
+   "rows": 1493,
+   "source": "מחולל מהקואורדינטות",
+   "table": "station_settlement",
+   "updated": null
+  },
+  {
+   "edited_at": "ניהול נתונים › קשרי מרחב‑יישוב",
+   "kind": "מקור",
+   "label": "זמן נסיעה ממפקדת מרחב ליישוב",
+   "rows": 987,
+   "source": "מחולל מהקואורדינטות",
+   "table": "region_settlement",
+   "updated": null
+  },
+  {
+   "edited_at": "הגדרות › מיפוי עיסוקים",
+   "kind": "מקור",
+   "label": "עיסוק → קבוצת תפקידים",
+   "rows": 38,
+   "source": "נזרע מהנתונים",
+   "table": "occupation_map",
+   "updated": null
+  },
+  {
+   "edited_at": "ניהול נתונים › מיקומי יחידות",
+   "kind": "מקור",
+   "label": "היכן כל תחנה, מרחב, יחידה ומטה יושבים",
+   "rows": 126,
+   "source": "נזרע ונערך",
+   "table": "unit_location",
+   "updated": null
+  },
+  {
+   "edited_at": "ניהול נתונים › יחידות עניין",
+   "kind": "מקור",
+   "label": "כתיבים חלופיים של אותה יחידה",
+   "rows": 1,
+   "source": "קובץ הסיווג + עריכה",
+   "table": "unit_alias",
+   "updated": "2026-08-10T14:55:23"
+  },
+  {
+   "edited_at": "הגדרות",
+   "kind": "הגדרות",
+   "label": "ספי הצבע, סף הקרבה והמקדמים",
+   "rows": 0,
+   "source": "ברירות מחדל + עריכה",
+   "table": "system_config",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "נגזרת",
+   "label": "אחוז יהודים וגברים לפי משפחת תפקיד",
+   "rows": 352,
+   "source": "מסוכם מ-police_positions",
+   "table": "station_family_staffing",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "נגזרת",
+   "label": "זמן נסיעה מיחידה ליישוב",
+   "rows": 1453,
+   "source": "מועתק מהמרחב שיושב באותו יישוב",
+   "table": "unit_settlement",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "נגזרת",
+   "label": "העוגן של יישוב שאין לו תחנה בטווח",
+   "rows": 0,
+   "source": "מחושב מהקואורדינטות",
+   "table": "settlement_neighbor",
+   "updated": null
+  },
+  {
+   "edited_at": "טעינת נתונים",
+   "kind": "יומן",
+   "label": "יומן טעינות — איזה קובץ, מתי, כמה שורות",
+   "rows": 4,
+   "source": "נרשם בכל טעינה",
+   "table": "load_log",
+   "updated": "2026-08-09T12:55:23"
+  },
+  {
+   "edited_at": "ניהול נתונים › יומן שינויים",
+   "kind": "יומן",
+   "label": "יומן שינויים ידניים, עם הערך הקודם",
+   "rows": 0,
+   "source": "נרשם בכל עריכה",
+   "table": "change_log",
+   "updated": null
+  },
+  {
+   "edited_at": "התראות",
+   "kind": "יומן",
+   "label": "התראות כניסה ויציאה מסטטוס קריטי",
+   "rows": 7,
+   "source": "נרשם בכל רענון",
+   "table": "status_alerts",
+   "updated": "2026-08-09T14:55:23"
+  },
+  {
+   "edited_at": null,
+   "kind": "יומן",
+   "label": "הסטטוס האחרון שנצפה — נקודת ההשוואה להתראות",
+   "rows": 88,
+   "source": "נרשם בכל רענון",
+   "table": "status_baseline",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "טרם נטען",
+   "label": "מועמדים ברמת תחנה",
+   "rows": 431,
+   "source": "עמודת 'תחנה' בקובץ המועמדים ריקה",
+   "table": "candidates_in_process",
+   "updated": null
+  },
+  {
+   "edited_at": null,
+   "kind": "טרם נטען",
+   "label": "צילומי מצב להצגת מגמה לאורך זמן",
+   "rows": 2,
+   "source": "נדרשים שני צילומים לפחות",
+   "table": "kpi_snapshots",
+   "updated": null
+  },
+  {
+   "edited_at": "מסך המגייס",
+   "kind": "טרם נטען",
+   "label": "ימי גיוס מתוכננים",
+   "rows": 2,
+   "source": "נוסף מהמסך",
+   "table": "recruitment_days",
+   "updated": null
+  },
+  {
+   "edited_at": "מסך המגייס",
+   "kind": "טרם נטען",
+   "label": "תובנות שהמגייס רשם",
+   "rows": 3,
+   "source": "נוסף מהמסך",
+   "table": "recruiter_insights",
+   "updated": null
+  },
+  {
+   "edited_at": "הגדרות › מיפוי עיסוקים",
+   "kind": "טרם נטען",
+   "label": "קבוצות תפקידים שנוספו ידנית",
+   "rows": 0,
+   "source": "נוסף מהמסך",
+   "table": "occupation_category",
+   "updated": null
+  }
+ ]
+}

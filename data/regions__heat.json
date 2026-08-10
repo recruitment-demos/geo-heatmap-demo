@@ -2,11 +2,11 @@
  {
   "actual_positions": 526,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 74,
-  "candidates_in_process": 92,
-  "candidates_pct_jewish": 69.8,
-  "candidates_pct_male": 50.0,
-  "candidates_religion_coverage": 63,
+  "candidates_gender_coverage": 89,
+  "candidates_in_process": 103,
+  "candidates_pct_jewish": 69.9,
+  "candidates_pct_male": 65.2,
+  "candidates_religion_coverage": 73,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -60,16 +60,16 @@
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "חולון",
     "population": 13000,
     "settlement_id": 84,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "גבעתיים",
     "population": 5400,
     "settlement_id": 60,
@@ -84,16 +84,16 @@
     "travel_min": 7
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "רמת גן",
     "population": 17100,
     "settlement_id": 230,
     "travel_min": 8
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "בני ברק",
     "population": 15600,
     "settlement_id": 36,
@@ -108,8 +108,8 @@
     "travel_min": 14
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ראשון לציון",
     "population": 12700,
     "settlement_id": 223,
@@ -158,10 +158,10 @@
   "actual_positions": 107,
   "candidates_by_role": null,
   "candidates_gender_coverage": 2,
-  "candidates_in_process": 4,
-  "candidates_pct_jewish": 66.7,
+  "candidates_in_process": 3,
+  "candidates_pct_jewish": 50.0,
   "candidates_pct_male": 50.0,
-  "candidates_religion_coverage": 3,
+  "candidates_religion_coverage": 2,
   "candidates_source": "area",
   "color": "#16A34A",
   "coord_verified": true,
@@ -228,11 +228,11 @@
  {
   "actual_positions": 396,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 100,
-  "candidates_in_process": 109,
-  "candidates_pct_jewish": 75.8,
-  "candidates_pct_male": 67.0,
-  "candidates_religion_coverage": 99,
+  "candidates_gender_coverage": 74,
+  "candidates_in_process": 89,
+  "candidates_pct_jewish": 80.0,
+  "candidates_pct_male": 64.9,
+  "candidates_religion_coverage": 70,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -278,16 +278,16 @@
   ],
   "settlements": [
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "נהרייה",
     "population": 5300,
     "settlement_id": 160,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "קריית ביאליק",
     "population": 6200,
     "settlement_id": 216,
@@ -326,16 +326,16 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה זיו",
     "population": 112400,
     "settlement_id": 162,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שלומי",
     "population": 86300,
     "settlement_id": 246,
@@ -350,8 +350,8 @@
     "travel_min": 22
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "חיפה",
     "population": 1500,
     "settlement_id": 87,
@@ -366,8 +366,8 @@
     "travel_min": 23
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ירכא",
     "population": 1400,
     "settlement_id": 106,
@@ -398,16 +398,16 @@
     "travel_min": 26
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אדמית",
     "population": 25200,
     "settlement_id": 5,
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין יעקב",
     "population": 33600,
     "settlement_id": 186,
@@ -430,11 +430,11 @@
  {
   "actual_positions": 547,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 115,
-  "candidates_in_process": 135,
-  "candidates_pct_jewish": 70.3,
-  "candidates_pct_male": 57.4,
-  "candidates_religion_coverage": 91,
+  "candidates_gender_coverage": 124,
+  "candidates_in_process": 148,
+  "candidates_pct_jewish": 74.8,
+  "candidates_pct_male": 56.5,
+  "candidates_religion_coverage": 111,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -480,8 +480,8 @@
   ],
   "settlements": [
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ירכא",
     "population": 1400,
     "settlement_id": 106,
@@ -552,16 +552,16 @@
     "travel_min": 15
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שזור",
     "population": 44200,
     "settlement_id": 243,
     "travel_min": 17
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "קריית ביאליק",
     "population": 6200,
     "settlement_id": 216,
@@ -624,40 +624,40 @@
     "travel_min": 23
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "מגאר",
     "population": 3300,
     "settlement_id": 140,
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין יעקב",
     "population": 33600,
     "settlement_id": 186,
     "travel_min": 26
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה זיו",
     "population": 112400,
     "settlement_id": 162,
     "travel_min": 28
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שדה יעקב",
     "population": 31800,
     "settlement_id": 238,
     "travel_min": 28
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גבעת אלה",
     "population": 37000,
     "settlement_id": 55,
@@ -681,11 +681,11 @@
  {
   "actual_positions": 217,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 67,
-  "candidates_in_process": 77,
-  "candidates_pct_jewish": 64.1,
-  "candidates_pct_male": 58.2,
-  "candidates_religion_coverage": 64,
+  "candidates_gender_coverage": 21,
+  "candidates_in_process": 25,
+  "candidates_pct_jewish": 68.2,
+  "candidates_pct_male": 57.1,
+  "candidates_religion_coverage": 22,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -747,8 +747,8 @@
     "travel_min": 14
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גיתית",
     "population": 27600,
     "settlement_id": 62,
@@ -763,8 +763,8 @@
     "travel_min": 16
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "מגדלים",
     "population": 26000,
     "settlement_id": 142,
@@ -787,8 +787,8 @@
     "travel_min": 26
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פסגות",
     "population": 37400,
     "settlement_id": 201,
@@ -809,11 +809,11 @@
  {
   "actual_positions": 130,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 6,
-  "candidates_in_process": 9,
-  "candidates_pct_jewish": 75.0,
+  "candidates_gender_coverage": 4,
+  "candidates_in_process": 5,
+  "candidates_pct_jewish": 50.0,
   "candidates_pct_male": 50.0,
-  "candidates_religion_coverage": 8,
+  "candidates_religion_coverage": 4,
   "candidates_source": "area",
   "color": "#16A34A",
   "coord_verified": true,
@@ -859,16 +859,16 @@
   ],
   "settlements": [
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כוכב מיכאל",
     "population": 76100,
     "settlement_id": 111,
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נהורה",
     "population": 33500,
     "settlement_id": 159,
@@ -883,8 +883,8 @@
     "travel_min": 13
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בת הדר",
     "population": 20300,
     "settlement_id": 45,
@@ -899,24 +899,24 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שחר",
     "population": 29400,
     "settlement_id": 244,
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אבן שמואל",
     "population": 93500,
     "settlement_id": 3,
     "travel_min": 23
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "איתן",
     "population": 168600,
     "settlement_id": 15,
@@ -939,8 +939,8 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נועם",
     "population": 29100,
     "settlement_id": 165,
@@ -976,11 +976,11 @@
  {
   "actual_positions": 313,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 60,
-  "candidates_in_process": 74,
-  "candidates_pct_jewish": 56.7,
-  "candidates_pct_male": 63.3,
-  "candidates_religion_coverage": 67,
+  "candidates_gender_coverage": 52,
+  "candidates_in_process": 61,
+  "candidates_pct_jewish": 74.5,
+  "candidates_pct_male": 65.4,
+  "candidates_religion_coverage": 47,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -1026,24 +1026,24 @@
   ],
   "settlements": [
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "בני ברק",
     "population": 15600,
     "settlement_id": 36,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "גבעתיים",
     "population": 5400,
     "settlement_id": 60,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "רמת גן",
     "population": 17100,
     "settlement_id": 230,
@@ -1114,16 +1114,16 @@
     "travel_min": 16
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "הוד השרון",
     "population": 10800,
     "settlement_id": 72,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אחיעזר",
     "population": 33800,
     "settlement_id": 12,
@@ -1138,16 +1138,16 @@
     "travel_min": 21
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה ירק",
     "population": 131100,
     "settlement_id": 163,
     "travel_min": 22
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נחשונים",
     "population": 24400,
     "settlement_id": 168,
@@ -1178,8 +1178,8 @@
     "travel_min": 25
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ראש העין",
     "population": 4600,
     "settlement_id": 221,
@@ -1202,8 +1202,8 @@
     "travel_min": 26
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חורשים",
     "population": 22200,
     "settlement_id": 86,
@@ -1233,11 +1233,11 @@
  {
   "actual_positions": 166,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 25,
-  "candidates_in_process": 28,
-  "candidates_pct_jewish": 52.4,
-  "candidates_pct_male": 64.0,
-  "candidates_religion_coverage": 21,
+  "candidates_gender_coverage": 37,
+  "candidates_in_process": 44,
+  "candidates_pct_jewish": 66.7,
+  "candidates_pct_male": 59.5,
+  "candidates_religion_coverage": 36,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -1299,8 +1299,8 @@
     "travel_min": 6
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "הר גילה",
     "population": 25900,
     "settlement_id": 75,
@@ -1323,8 +1323,8 @@
     "travel_min": 11
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "צור הדסה",
     "population": 37000,
     "settlement_id": 208,
@@ -1369,11 +1369,11 @@
  {
   "actual_positions": 292,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 65,
-  "candidates_in_process": 75,
-  "candidates_pct_jewish": 61.4,
-  "candidates_pct_male": 60.0,
-  "candidates_religion_coverage": 44,
+  "candidates_gender_coverage": 42,
+  "candidates_in_process": 57,
+  "candidates_pct_jewish": 58.3,
+  "candidates_pct_male": 54.8,
+  "candidates_religion_coverage": 36,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -1419,16 +1419,16 @@
   ],
   "settlements": [
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "גבעתיים",
     "population": 5400,
     "settlement_id": 60,
     "travel_min": 8
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "בני ברק",
     "population": 15600,
     "settlement_id": 36,
@@ -1443,8 +1443,8 @@
     "travel_min": 9
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "חולון",
     "population": 13000,
     "settlement_id": 84,
@@ -1459,8 +1459,8 @@
     "travel_min": 12
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "רמת גן",
     "population": 17100,
     "settlement_id": 230,
@@ -1491,8 +1491,8 @@
     "travel_min": 15
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "הוד השרון",
     "population": 10800,
     "settlement_id": 72,
@@ -1515,8 +1515,8 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "ארסוף",
     "population": 53200,
     "settlement_id": 23,
@@ -1539,16 +1539,16 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה ירק",
     "population": 131100,
     "settlement_id": 163,
     "travel_min": 26
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "כפר סבא",
     "population": 4800,
     "settlement_id": 127,
@@ -1570,11 +1570,11 @@
  {
   "actual_positions": 554,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 103,
-  "candidates_in_process": 130,
-  "candidates_pct_jewish": 72.1,
-  "candidates_pct_male": 51.5,
-  "candidates_religion_coverage": 104,
+  "candidates_gender_coverage": 97,
+  "candidates_in_process": 123,
+  "candidates_pct_jewish": 67.4,
+  "candidates_pct_male": 56.7,
+  "candidates_religion_coverage": 89,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -1628,32 +1628,32 @@
     "travel_min": 3
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "קצרין",
     "population": 53800,
     "settlement_id": 214,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "קריית שמונה",
     "population": 3100,
     "settlement_id": 218,
     "travel_min": 3
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר חיטים",
     "population": 21500,
     "settlement_id": 122,
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "מנרה",
     "population": 44100,
     "settlement_id": 149,
@@ -1676,8 +1676,8 @@
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פסוטה",
     "population": 356400,
     "settlement_id": 202,
@@ -1732,8 +1732,8 @@
     "travel_min": 15
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין יעקב",
     "population": 33600,
     "settlement_id": 186,
@@ -1772,40 +1772,40 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה זיו",
     "population": 112400,
     "settlement_id": 162,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חוקוק",
     "population": 73900,
     "settlement_id": 85,
     "travel_min": 21
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ירכא",
     "population": 1400,
     "settlement_id": 106,
     "travel_min": 21
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עלמה",
     "population": 29600,
     "settlement_id": 193,
     "travel_min": 21
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אדמית",
     "population": 25200,
     "settlement_id": 5,
@@ -1836,8 +1836,8 @@
     "travel_min": 24
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר כמא",
     "population": 21700,
     "settlement_id": 126,
@@ -1852,8 +1852,8 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "טפחות",
     "population": 70400,
     "settlement_id": 95,
@@ -1868,16 +1868,16 @@
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שזור",
     "population": 44200,
     "settlement_id": 243,
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "יסוד המעלה",
     "population": 33100,
     "settlement_id": 102,
@@ -1900,24 +1900,24 @@
     "travel_min": 28
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "מגאר",
     "population": 3300,
     "settlement_id": 140,
     "travel_min": 29
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שלומי",
     "population": 86300,
     "settlement_id": 246,
     "travel_min": 29
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שעל",
     "population": 25700,
     "settlement_id": 248,
@@ -1942,11 +1942,11 @@
  {
   "actual_positions": 312,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 48,
-  "candidates_in_process": 56,
-  "candidates_pct_jewish": 72.5,
-  "candidates_pct_male": 66.7,
-  "candidates_religion_coverage": 40,
+  "candidates_gender_coverage": 58,
+  "candidates_in_process": 63,
+  "candidates_pct_jewish": 67.4,
+  "candidates_pct_male": 60.3,
+  "candidates_religion_coverage": 43,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -1992,16 +1992,16 @@
   ],
   "settlements": [
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "חיפה",
     "population": 1500,
     "settlement_id": 87,
     "travel_min": 4
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "החותרים",
     "population": 21300,
     "settlement_id": 73,
@@ -2032,8 +2032,8 @@
     "travel_min": 14
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "קריית ביאליק",
     "population": 6200,
     "settlement_id": 216,
@@ -2064,24 +2064,24 @@
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גבע כרמל",
     "population": 27700,
     "settlement_id": 53,
     "travel_min": 28
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שדה יעקב",
     "population": 31800,
     "settlement_id": 238,
     "travel_min": 28
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין איילה",
     "population": 42600,
     "settlement_id": 182,
@@ -2103,11 +2103,11 @@
  {
   "actual_positions": 240,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 146,
-  "candidates_in_process": 183,
-  "candidates_pct_jewish": 81.4,
-  "candidates_pct_male": 47.9,
-  "candidates_religion_coverage": 156,
+  "candidates_gender_coverage": 201,
+  "candidates_in_process": 218,
+  "candidates_pct_jewish": 59.2,
+  "candidates_pct_male": 60.7,
+  "candidates_religion_coverage": 184,
   "candidates_source": "area",
   "color": "#EA580C",
   "coord_verified": true,
@@ -2161,56 +2161,56 @@
     "travel_min": 4
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אבן שמואל",
     "population": 93500,
     "settlement_id": 3,
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בת הדר",
     "population": 20300,
     "settlement_id": 45,
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בני דרום",
     "population": 101600,
     "settlement_id": 38,
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "זבדיאל",
     "population": 24500,
     "settlement_id": 79,
     "travel_min": 12
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "איתן",
     "population": 168600,
     "settlement_id": 15,
     "travel_min": 13
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נהורה",
     "population": 33500,
     "settlement_id": 159,
     "travel_min": 13
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נועם",
     "population": 29100,
     "settlement_id": 165,
@@ -2225,8 +2225,8 @@
     "travel_min": 14
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שחר",
     "population": 29400,
     "settlement_id": 244,
@@ -2265,16 +2265,16 @@
     "travel_min": 17
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה מבטח",
     "population": 34000,
     "settlement_id": 164,
     "travel_min": 17
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "רבדים",
     "population": 20100,
     "settlement_id": 224,
@@ -2297,8 +2297,8 @@
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כוכב מיכאל",
     "population": 76100,
     "settlement_id": 111,
@@ -2321,8 +2321,8 @@
     "travel_min": 30
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "יסודות",
     "population": 41200,
     "settlement_id": 103,
@@ -2345,11 +2345,11 @@
  {
   "actual_positions": 159,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 8,
-  "candidates_in_process": 10,
-  "candidates_pct_jewish": 71.4,
-  "candidates_pct_male": 50.0,
-  "candidates_religion_coverage": 7,
+  "candidates_gender_coverage": 17,
+  "candidates_in_process": 21,
+  "candidates_pct_jewish": 63.2,
+  "candidates_pct_male": 52.9,
+  "candidates_religion_coverage": 19,
   "candidates_source": "area",
   "color": "#16A34A",
   "coord_verified": true,
@@ -2427,16 +2427,16 @@
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בית מאיר",
     "population": 45800,
     "settlement_id": 33,
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "רמת רזיאל",
     "population": 44000,
     "settlement_id": 232,
@@ -2467,16 +2467,16 @@
     "travel_min": 17
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "צור הדסה",
     "population": 37000,
     "settlement_id": 208,
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין נקובא",
     "population": 59500,
     "settlement_id": 189,
@@ -2491,8 +2491,8 @@
     "travel_min": 22
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שדות מיכה",
     "population": 26000,
     "settlement_id": 239,
@@ -2528,11 +2528,11 @@
  {
   "actual_positions": 388,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 147,
-  "candidates_in_process": 170,
-  "candidates_pct_jewish": 72.1,
-  "candidates_pct_male": 57.8,
-  "candidates_religion_coverage": 147,
+  "candidates_gender_coverage": 109,
+  "candidates_in_process": 142,
+  "candidates_pct_jewish": 85.2,
+  "candidates_pct_male": 53.2,
+  "candidates_religion_coverage": 122,
   "candidates_source": "area",
   "color": "#EA580C",
   "coord_verified": true,
@@ -2602,8 +2602,8 @@
     "travel_min": 11
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין איילה",
     "population": 42600,
     "settlement_id": 182,
@@ -2618,8 +2618,8 @@
     "travel_min": 13
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בית ינאי",
     "population": 27500,
     "settlement_id": 32,
@@ -2642,8 +2642,8 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גבע כרמל",
     "population": 27700,
     "settlement_id": 53,
@@ -2658,16 +2658,16 @@
     "travel_min": 26
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חבר",
     "population": 50300,
     "settlement_id": 83,
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חבצלת השרון",
     "population": 38600,
     "settlement_id": 82,
@@ -2708,11 +2708,11 @@
  {
   "actual_positions": 376,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 77,
-  "candidates_in_process": 94,
-  "candidates_pct_jewish": 62.9,
-  "candidates_pct_male": 55.8,
-  "candidates_religion_coverage": 70,
+  "candidates_gender_coverage": 59,
+  "candidates_in_process": 67,
+  "candidates_pct_jewish": 70.4,
+  "candidates_pct_male": 50.8,
+  "candidates_religion_coverage": 54,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -2774,8 +2774,8 @@
     "travel_min": 6
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שרשרת",
     "population": 173800,
     "settlement_id": 253,
@@ -2798,8 +2798,8 @@
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "להבים",
     "population": 25800,
     "settlement_id": 133,
@@ -2814,16 +2814,16 @@
     "travel_min": 11
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עומר",
     "population": 63900,
     "settlement_id": 180,
     "travel_min": 12
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "ברוש",
     "population": 30100,
     "settlement_id": 42,
@@ -2886,8 +2886,8 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בת הדר",
     "population": 20300,
     "settlement_id": 45,
@@ -2912,10 +2912,10 @@
   "actual_positions": 179,
   "candidates_by_role": null,
   "candidates_gender_coverage": 20,
-  "candidates_in_process": 28,
-  "candidates_pct_jewish": 78.3,
+  "candidates_in_process": 24,
+  "candidates_pct_jewish": 79.2,
   "candidates_pct_male": 60.0,
-  "candidates_religion_coverage": 23,
+  "candidates_religion_coverage": 24,
   "candidates_source": "area",
   "color": "#16A34A",
   "coord_verified": true,
@@ -2985,8 +2985,8 @@
     "travel_min": 10
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אחיעזר",
     "population": 33800,
     "settlement_id": 12,
@@ -3025,8 +3025,8 @@
     "travel_min": 15
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "באר יעקב",
     "population": 4800,
     "settlement_id": 26,
@@ -3041,16 +3041,16 @@
     "travel_min": 16
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "לוד",
     "population": 8600,
     "settlement_id": 134,
     "travel_min": 16
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נחשונים",
     "population": 24400,
     "settlement_id": 168,
@@ -3073,8 +3073,8 @@
     "travel_min": 19
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "רמלה",
     "population": 14100,
     "settlement_id": 229,
@@ -3097,8 +3097,8 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גמזו",
     "population": 42900,
     "settlement_id": 65,
@@ -3113,8 +3113,8 @@
     "travel_min": 26
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ראש העין",
     "population": 4600,
     "settlement_id": 221,
@@ -3134,11 +3134,11 @@
  {
   "actual_positions": 620,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 147,
-  "candidates_in_process": 174,
-  "candidates_pct_jewish": 79.7,
-  "candidates_pct_male": 61.9,
-  "candidates_religion_coverage": 133,
+  "candidates_gender_coverage": 152,
+  "candidates_in_process": 195,
+  "candidates_pct_jewish": 67.8,
+  "candidates_pct_male": 60.5,
+  "candidates_religion_coverage": 143,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -3184,8 +3184,8 @@
   ],
   "settlements": [
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "זמרת",
     "population": 43100,
     "settlement_id": 80,
@@ -3200,8 +3200,8 @@
     "travel_min": 3
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בלפוריה",
     "population": 63600,
     "settlement_id": 35,
@@ -3224,16 +3224,16 @@
     "travel_min": 6
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "ריינה",
     "population": 40700,
     "settlement_id": 228,
     "travel_min": 6
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "יפעת",
     "population": 76700,
     "settlement_id": 105,
@@ -3256,16 +3256,16 @@
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר גדעון",
     "population": 23600,
     "settlement_id": 117,
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "סולם",
     "population": 212600,
     "settlement_id": 178,
@@ -3280,8 +3280,8 @@
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גבעת אלה",
     "population": 37000,
     "settlement_id": 55,
@@ -3304,8 +3304,8 @@
     "travel_min": 13
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר כמא",
     "population": 21700,
     "settlement_id": 126,
@@ -3328,8 +3328,8 @@
     "travel_min": 16
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חבר",
     "population": 50300,
     "settlement_id": 83,
@@ -3344,24 +3344,24 @@
     "travel_min": 16
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "מצפה נטופה",
     "population": 21100,
     "settlement_id": 156,
     "travel_min": 17
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בית השיטה",
     "population": 36200,
     "settlement_id": 30,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "מגן שאול",
     "population": 75800,
     "settlement_id": 143,
@@ -3384,8 +3384,8 @@
     "travel_min": 24
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שדה יעקב",
     "population": 31800,
     "settlement_id": 238,
@@ -3435,11 +3435,11 @@
  {
   "actual_positions": 312,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 60,
-  "candidates_in_process": 75,
-  "candidates_pct_jewish": 74.1,
-  "candidates_pct_male": 56.7,
-  "candidates_religion_coverage": 54,
+  "candidates_gender_coverage": 81,
+  "candidates_in_process": 92,
+  "candidates_pct_jewish": 69.3,
+  "candidates_pct_male": 54.3,
+  "candidates_religion_coverage": 75,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -3501,8 +3501,8 @@
     "travel_min": 7
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "הר גילה",
     "population": 25900,
     "settlement_id": 75,
@@ -3549,8 +3549,8 @@
     "travel_min": 14
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בית מאיר",
     "population": 45800,
     "settlement_id": 33,
@@ -3573,16 +3573,16 @@
     "travel_min": 15
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שדות מיכה",
     "population": 26000,
     "settlement_id": 239,
     "travel_min": 16
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "יסודות",
     "population": 41200,
     "settlement_id": 103,
@@ -3629,8 +3629,8 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "רמת רזיאל",
     "population": 44000,
     "settlement_id": 232,
@@ -3661,16 +3661,16 @@
     "travel_min": 23
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין נקובא",
     "population": 59500,
     "settlement_id": 189,
     "travel_min": 23
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פתחיה",
     "population": 134000,
     "settlement_id": 205,
@@ -3685,24 +3685,24 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "צור הדסה",
     "population": 37000,
     "settlement_id": 208,
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "רבדים",
     "population": 20100,
     "settlement_id": 224,
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "לוזית",
     "population": 27600,
     "settlement_id": 135,
@@ -3717,8 +3717,8 @@
     "travel_min": 29
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פסגות",
     "population": 37400,
     "settlement_id": 201,
@@ -3749,11 +3749,11 @@
  {
   "actual_positions": 279,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 93,
-  "candidates_in_process": 110,
-  "candidates_pct_jewish": 70.8,
-  "candidates_pct_male": 67.7,
-  "candidates_religion_coverage": 96,
+  "candidates_gender_coverage": 59,
+  "candidates_in_process": 67,
+  "candidates_pct_jewish": 55.8,
+  "candidates_pct_male": 44.1,
+  "candidates_religion_coverage": 52,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -3807,8 +3807,8 @@
     "travel_min": 12
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "הר גילה",
     "population": 25900,
     "settlement_id": 75,
@@ -3839,8 +3839,8 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין נקובא",
     "population": 59500,
     "settlement_id": 189,
@@ -3863,8 +3863,8 @@
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "צור הדסה",
     "population": 37000,
     "settlement_id": 208,
@@ -3887,8 +3887,8 @@
     "travel_min": 26
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פסגות",
     "population": 37400,
     "settlement_id": 201,
@@ -3903,8 +3903,8 @@
     "travel_min": 27
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "רמת רזיאל",
     "population": 44000,
     "settlement_id": 232,
@@ -3926,11 +3926,11 @@
  {
   "actual_positions": 367,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 59,
-  "candidates_in_process": 79,
-  "candidates_pct_jewish": 67.7,
-  "candidates_pct_male": 55.9,
-  "candidates_religion_coverage": 62,
+  "candidates_gender_coverage": 58,
+  "candidates_in_process": 72,
+  "candidates_pct_jewish": 68.4,
+  "candidates_pct_male": 56.9,
+  "candidates_religion_coverage": 57,
   "candidates_source": "area",
   "color": "#EAB308",
   "coord_verified": true,
@@ -3984,8 +3984,8 @@
     "travel_min": 12
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "שרשרת",
     "population": 173800,
     "settlement_id": 253,
@@ -4000,8 +4000,8 @@
     "travel_min": 14
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "ברוש",
     "population": 30100,
     "settlement_id": 42,
@@ -4016,8 +4016,8 @@
     "travel_min": 15
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עומר",
     "population": 63900,
     "settlement_id": 180,
@@ -4081,11 +4081,11 @@
  {
   "actual_positions": 231,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 17,
-  "candidates_in_process": 26,
-  "candidates_pct_jewish": 85.0,
-  "candidates_pct_male": 52.9,
-  "candidates_religion_coverage": 20,
+  "candidates_gender_coverage": 15,
+  "candidates_in_process": 19,
+  "candidates_pct_jewish": 87.5,
+  "candidates_pct_male": 46.7,
+  "candidates_religion_coverage": 16,
   "candidates_source": "area",
   "color": "#16A34A",
   "coord_verified": true,
@@ -4139,8 +4139,8 @@
     "travel_min": 5
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר חיטים",
     "population": 21500,
     "settlement_id": 122,
@@ -4155,8 +4155,8 @@
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פסגות",
     "population": 37400,
     "settlement_id": 201,
@@ -4195,16 +4195,16 @@
     "travel_min": 18
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "הר גילה",
     "population": 25900,
     "settlement_id": 75,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עין נקובא",
     "population": 59500,
     "settlement_id": 189,
@@ -4235,8 +4235,8 @@
     "travel_min": 22
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חוקוק",
     "population": 73900,
     "settlement_id": 85,
@@ -4259,8 +4259,8 @@
     "travel_min": 28
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר כמא",
     "population": 21700,
     "settlement_id": 126,
@@ -4275,8 +4275,8 @@
     "travel_min": 29
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "מצפה נטופה",
     "population": 21100,
     "settlement_id": 156,
@@ -4298,11 +4298,11 @@
  {
   "actual_positions": 474,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 176,
-  "candidates_in_process": 209,
-  "candidates_pct_jewish": 80.2,
-  "candidates_pct_male": 61.9,
-  "candidates_religion_coverage": 167,
+  "candidates_gender_coverage": 167,
+  "candidates_in_process": 184,
+  "candidates_pct_jewish": 73.0,
+  "candidates_pct_male": 59.9,
+  "candidates_religion_coverage": 148,
   "candidates_source": "area",
   "color": "#EA580C",
   "coord_verified": true,
@@ -4348,24 +4348,24 @@
   ],
   "settlements": [
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "לוד",
     "population": 8600,
     "settlement_id": 134,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ראשון לציון",
     "population": 12700,
     "settlement_id": 223,
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "רמלה",
     "population": 14100,
     "settlement_id": 229,
@@ -4388,8 +4388,8 @@
     "travel_min": 7
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "באר יעקב",
     "population": 4800,
     "settlement_id": 26,
@@ -4404,8 +4404,8 @@
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גן שלמה",
     "population": 39100,
     "settlement_id": 67,
@@ -4436,16 +4436,16 @@
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אחיעזר",
     "population": 33800,
     "settlement_id": 12,
     "travel_min": 10
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גמזו",
     "population": 42900,
     "settlement_id": 65,
@@ -4492,8 +4492,8 @@
     "travel_min": 16
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בני דרום",
     "population": 101600,
     "settlement_id": 38,
@@ -4508,16 +4508,16 @@
     "travel_min": 18
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה מבטח",
     "population": 34000,
     "settlement_id": 164,
     "travel_min": 18
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פתחיה",
     "population": 134000,
     "settlement_id": 205,
@@ -4572,16 +4572,16 @@
     "travel_min": 24
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "יסודות",
     "population": 41200,
     "settlement_id": 103,
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בית מאיר",
     "population": 45800,
     "settlement_id": 33,
@@ -4604,8 +4604,8 @@
     "travel_min": 29
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "רבדים",
     "population": 20100,
     "settlement_id": 224,
@@ -4630,11 +4630,11 @@
  {
   "actual_positions": 742,
   "candidates_by_role": null,
-  "candidates_gender_coverage": 193,
-  "candidates_in_process": 239,
-  "candidates_pct_jewish": 73.2,
-  "candidates_pct_male": 61.7,
-  "candidates_religion_coverage": 183,
+  "candidates_gender_coverage": 274,
+  "candidates_in_process": 351,
+  "candidates_pct_jewish": 75.4,
+  "candidates_pct_male": 66.8,
+  "candidates_religion_coverage": 272,
   "candidates_source": "area",
   "color": "#EA580C",
   "coord_verified": true,
@@ -4712,32 +4712,32 @@
     "travel_min": 3
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "כפר סבא",
     "population": 4800,
     "settlement_id": 127,
     "travel_min": 4
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "נתניה",
     "population": 10000,
     "settlement_id": 176,
     "travel_min": 4
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ראש העין",
     "population": 4600,
     "settlement_id": 221,
     "travel_min": 4
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "הוד השרון",
     "population": 10800,
     "settlement_id": 72,
@@ -4752,8 +4752,8 @@
     "travel_min": 6
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "באר יעקב",
     "population": 4800,
     "settlement_id": 26,
@@ -4776,8 +4776,8 @@
     "travel_min": 7
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר יעבץ",
     "population": 104500,
     "settlement_id": 125,
@@ -4816,8 +4816,8 @@
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עזריאל",
     "population": 25600,
     "settlement_id": 181,
@@ -4832,32 +4832,32 @@
     "travel_min": 8
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "אחיעזר",
     "population": 33800,
     "settlement_id": 12,
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חורשים",
     "population": 22200,
     "settlement_id": 86,
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "כפר עבודה",
     "population": 68400,
     "settlement_id": 128,
     "travel_min": 9
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "ראשון לציון",
     "population": 12700,
     "settlement_id": 223,
@@ -4872,24 +4872,24 @@
     "travel_min": 9
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נווה ירק",
     "population": 131100,
     "settlement_id": 163,
     "travel_min": 10
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נחשונים",
     "population": 24400,
     "settlement_id": 168,
     "travel_min": 10
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "נירית",
     "population": 94100,
     "settlement_id": 174,
@@ -4904,8 +4904,8 @@
     "travel_min": 11
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "בני ברק",
     "population": 15600,
     "settlement_id": 36,
@@ -4936,24 +4936,24 @@
     "travel_min": 11
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "רמלה",
     "population": 14100,
     "settlement_id": 229,
     "travel_min": 11
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "בית ינאי",
     "population": 27500,
     "settlement_id": 32,
     "travel_min": 12
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "חבצלת השרון",
     "population": 38600,
     "settlement_id": 82,
@@ -4976,16 +4976,16 @@
     "travel_min": 12
    },
    {
-    "focus": true,
-    "large": true,
+    "focus": false,
+    "large": false,
     "name": "לוד",
     "population": 8600,
     "settlement_id": 134,
     "travel_min": 13
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "עץ אפרים",
     "population": 41900,
     "settlement_id": 196,
@@ -5080,32 +5080,32 @@
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גן שלמה",
     "population": 39100,
     "settlement_id": 67,
     "travel_min": 19
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "ארסוף",
     "population": 53200,
     "settlement_id": 23,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "גמזו",
     "population": 42900,
     "settlement_id": 65,
     "travel_min": 20
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פדואל",
     "population": 87700,
     "settlement_id": 198,
@@ -5160,8 +5160,8 @@
     "travel_min": 25
    },
    {
-    "focus": false,
-    "large": false,
+    "focus": true,
+    "large": true,
     "name": "פתחיה",
     "population": 134000,
     "settlement_id": 205,

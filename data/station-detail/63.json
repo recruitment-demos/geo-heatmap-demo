@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 22,
+   "count": 18,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 10,
+   "count": 8,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 13,
+   "count": 11,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,23 +34,23 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 8,
+   "count": 7,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 47,
- "candidates_in_process": 106,
- "candidates_pct_jewish": 58.8,
- "candidates_pct_male": 68.1,
- "candidates_religion_coverage": 51,
+ "candidates_gender_coverage": 31,
+ "candidates_in_process": 88,
+ "candidates_pct_jewish": 97.4,
+ "candidates_pct_male": 58.1,
+ "candidates_religion_coverage": 39,
  "color": "#DC2626",
  "coord_verified": false,
  "district": "חוף",
  "id": 63,
  "insights": [
   {
-   "created_at": "2026-08-05T17:19:36",
+   "created_at": "2026-08-09T14:55:23",
    "done": 0,
    "id": 2,
    "text": "פער מתמשך בחקירות — לבחון שיתוף מרחבי."

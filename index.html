@@ -36,7 +36,7 @@
 
       <nav class="nav">
         <button class="nav-item active" id="nav-map">מפת חום</button>
-        <button class="nav-item" id="nav-admin">לוח משרות</button>
+        <button class="nav-item" id="nav-admin">לוח משרות לגיוס</button>
         <button class="nav-item" id="nav-strategic">לוח בקרה</button>
         <button class="nav-item" id="nav-recruiter">סטטוס תחנות</button>
         <button class="nav-item" id="nav-alerts">התראות <em id="alerts-badge" hidden></em></button>
@@ -134,7 +134,7 @@
       </section>
      </section>
 
-     <!-- ===== מסך: לוח משרות =====
+     <!-- ===== מסך: לוח משרות לגיוס =====
           מאז מעבר למקור "משרות משטרה" המסך מכסה את **כל** התפקידים ולא רק
           תפקידי מנהלה: הקובץ הוא תמונת התקן המלאה, משרה‑משרה.
 
@@ -143,7 +143,7 @@
      <section class="screen" id="screen-admin" hidden>
       <header class="topbar">
         <div class="topbar-row">
-          <h1>לוח משרות</h1>
+          <h1>לוח משרות לגיוס</h1>
           <span class="topbar-note">תקנים פנויים לגיוס</span>
         </div>
       </header>
@@ -180,11 +180,19 @@
             <input type="search" id="a-position" placeholder="מספר משרה" autocomplete="off"
                    inputmode="numeric">
           </label>
+          <!-- §31: היה "תצוגה" עם שתי אפשרויות. עכשיו זו השאלה עצמה —
+               על איזה סוג ישות מדובר.
+               §32: **מרחב מכיל את התחנות שתחתיו**, ולכן "ותחנות" אינו
+               נכתב באפשרות המאוחדת — הוא מובן מאליו. "הכול" נשאר, כי
+               אגפים ארציים אינם מרחב. -->
           <label>
-            <span>תצוגה</span>
+            <span>סינון יחידה</span>
             <select id="a-scope">
               <option value="">הכול</option>
-              <option value="units">יחידות בלבד</option>
+              <option value="stations">תחנות</option>
+              <option value="regions">מרחבים</option>
+              <option value="units">יחידות עניין</option>
+              <option value="all3">יחידות עניין ומרחבים</option>
             </select>
           </label>
           <button class="filters-reset" id="a-reset">איפוס</button>
@@ -207,12 +215,18 @@
           <div class="table-wrap table-wrap--tall">
             <table class="table table--wide" id="admin-positions-table">
               <thead>
+                <!-- §35: **מספר המשרה חזר לשורה אחת עם השאר.**
+                     §34 הוציא אותו לשורה משלו כי 11 עמודות לא נכנסו
+                     למסך. מ"מצב משרה" התפנה מקום — הוא היה תמיד "פנוי",
+                     כי זו כל הרשימה — ולכן הכול חוזר לשורה אחת.
+                     שדות אחרים רשאים לגלוש לשתי שורות; **מספר המשרה
+                     לא** — מזהה שנחתך אינו מזהה. -->
                 <tr>
-                  <th>מספר משרה</th><th>היקף</th><th>תיאור עיסוק</th>
+                  <th class="col-position">מספר משרה</th><th>סוג משרה</th><th>היקף</th><th>תיאור עיסוק</th>
                   <th>סיווג תפקיד</th><th>תת קבוצה</th><th>דרגת תקן</th>
                   <th>רמה 02 — מחוז / אגף</th><th>רמה 03 — מרחב / יחידה</th>
                   <th>רמה 04 — תחנה / יחידת משנה</th>
-                  <th>רמה 05 — יחידה</th><th>מצב משרה</th>
+                  <th id="th-subunit" hidden>רמה 05 — יחידת עניין</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -296,7 +310,7 @@
               <span class="scope-sub">סייר · בלש · חוקר · אחר</span>
             </button>
             <button class="scope-btn" data-scope="admin">
-              <span class="scope-title">כלל התפקידים</span>
+              <span class="scope-title">כלל המשרות</span>
               <span class="scope-sub">כלל התקנים הפנויים</span>
             </button>
           </div>
@@ -325,6 +339,19 @@
               <option value="detectives">בלשים</option>
               <option value="investigators">חוקרים</option>
               <option value="other">יתר התפקידים</option>
+            </select>
+          </label>
+          <!-- §31: אותו סינון יחידה כמו בלוח המשרות. מוצג בתצוגת "כלל
+               המשרות", ששם הנתון קיים ברמת המשרה; בתצוגת התחנות הוא
+               חסר משמעות, כי כל השורות שם הן תחנות. -->
+          <label id="str-scope-label" hidden>
+            <span>סינון יחידה</span>
+            <select id="str-scope-filter">
+              <option value="">הכול</option>
+              <option value="stations">תחנות</option>
+              <option value="regions">מרחבים</option>
+              <option value="units">יחידות עניין</option>
+              <option value="all3">יחידות עניין ומרחבים</option>
             </select>
           </label>
           <button class="filters-reset" id="str-reset">איפוס</button>
@@ -567,9 +594,15 @@
           <button class="tab" data-dataset="candidates">מועמדים בהליך</button>
           <button class="tab" data-dataset="admin">איוש מנהלה</button>
           <button class="tab" data-dataset="occupations">קשרי קבוצות תפקידים</button>
-          <button class="tab" data-dataset="units">יחידות מגייסות</button>
+          <button class="tab" data-dataset="units">יחידות עניין</button>
           <button class="tab" data-dataset="unit_locations">מיקומי יחידות</button>
+          <!-- §28: מי מצויר על המפה — היה קבוע בקוד ונזרע בכל התנעה. -->
+          <button class="tab" data-dataset="settlements">יישובים על המפה</button>
           <button class="tab" data-dataset="changes">יומן שינויים</button>
+          <!-- §29: "אני רוצה מבנה של טבלאות שניתן לעדכן והן משקפות את
+               עצמן. איך ניתן לוודא שזה המצב?" — כאן. כל טבלה, ולצדה
+               המספר שבה מול המספר שעל המסך. -->
+          <button class="tab" data-dataset="model">מבנה הנתונים · בדיקה עצמית</button>
         </div>
 
         <div class="kpis" id="manage-kpis"></div>
@@ -578,6 +611,9 @@
         <div class="filters" id="manage-filters"></div>
 
         <datalist id="settlement-options"></datalist>
+
+        <!-- §29: בדיקות ההשתקפות. מוצג רק במסך מבנה הנתונים. -->
+        <div class="panel" id="model-checks" hidden></div>
 
         <div class="panel">
           <div class="panel-head">
@@ -610,10 +646,20 @@
           </div>
 
           <!-- §21: ניהול קבוצות התפקידים. מוצג רק בלשונית העיסוקים. -->
-          <!-- §23: הוספת יחידה מגייסת ידנית, בלי לטעון קובץ מחדש. -->
+          <!-- §23: הוספת יחידת עניין ידנית, בלי לטעון קובץ מחדש.
+               §28: כל הרמות ההיררכיות, כמו בטבלה עצמה. רמה 05 היא השם
+               שדרכו היחידה מתחברת לקובץ התקן והמצבה; כשהיא ריקה, שם
+               התצוגה הוא שמתחבר. -->
           <div class="add-row" id="add-unit-row" hidden>
-            <input type="text" id="add-unit-name" placeholder="שם היחידה">
-            <input type="text" id="add-unit-district" placeholder="מחוז / אגף (רשות)">
+            <input type="text" id="add-unit-name" placeholder="שם להצגה">
+            <select id="add-unit-kind">
+              <option>יחידה</option><option>מרחב</option><option>מחוז</option>
+              <option>אגף</option><option>מפקדה</option>
+            </select>
+            <input type="text" id="add-unit-district" placeholder="רמה 02 — מחוז / אגף">
+            <input type="text" id="add-unit-region" placeholder="רמה 03 — מרחב / יחידה">
+            <input type="text" id="add-unit-parent" placeholder="רמה 04 — יחידת אם">
+            <input type="text" id="add-unit-level5" placeholder="רמה 05 — שם בקובץ התקן">
             <input type="text" id="add-unit-settlement" list="settlement-options"
                    placeholder="יישוב (רשות)">
             <button class="add-save" id="add-unit-save">שמור</button>
@@ -799,9 +845,18 @@
                   <tr><td>מספר משרה</td><td class="req">חובה</td><td>מזהה המשרה — זה מה שמוצג למגייס</td></tr>
                   <tr><td>מצב משרה</td><td class="req">חובה</td><td>מאויישת · פנויה · פנויה ‑ קשורה · זמנית · מוקפאת · מיועד לביטול</td></tr>
                   <tr><td>תיאור עיסוק</td><td class="req">חובה</td><td>התפקיד המילולי — סייר, בלש, תובע פלילי</td></tr>
-                  <tr><td>סה"כ תקן נטו + מעל הנטו</td><td class="req">חובה</td><td>המונה של אחוז האיוש</td></tr>
-                  <tr><td>סה"כ איוש בתקן אג"ת</td><td class="req">חובה</td><td>המכנה של אחוז האיוש</td></tr>
-                  <tr><td>סיווג תיאור משרה</td><td class="req">חובה</td><td>קיבוץ העיסוקים לתפקיד. 'למחיקה' = תפקיד שיוצא מהמבנה</td></tr>
+                  <!-- §28: המונה והמכנה היו הפוכים כאן. אחוז איוש = איוש / תקן,
+                       ולכן התקן הוא המכנה. -->
+                  <tr><td>סה"כ תקן נטו + מעל הנטו</td><td class="req">חובה</td><td><strong>המכנה</strong> של אחוז האיוש</td></tr>
+                  <tr><td>סה"כ איוש בתקן אג"ת</td><td class="req">חובה</td><td><strong>המונה</strong> של אחוז האיוש</td></tr>
+                  <!-- §28: היה מסומן "חובה", והקובץ שנטען בפועל (9.8.2026) אינו
+                       נושא אותו כלל — הסיווג נגזר ממיפוי העיסוקים. עמודה שמסומנת
+                       חובה ואינה נדרשת שולחת את המזמין לחפש נתון שאינו קיים. -->
+                  <tr><td>סיווג תיאור משרה</td><td class="opt">רשות</td><td>קיבוץ העיסוקים לתפקיד. <strong>כשאינה בקובץ הסיווג נגזר ממיפוי העיסוקים</strong> שבמסך ההגדרות. 'למחיקה' = תפקיד שיוצא מהמבנה</td></tr>
+                  <tr><td>רמה היררכית 05</td><td class="opt">רשות</td><td>הרמה שבה יושבות היחידות המגייסות. בלעדיה יחידות אחיות חולקות מספר אחד</td></tr>
+                  <tr><td>משרה פנויה לתכנון גיוס</td><td class="opt">רשות</td><td>סימון X. <strong>כשהעמודה בקובץ היא שקובעת מהי משרה לגיוס</strong> וגוברת על סיווג 'למחיקה'</td></tr>
+                  <tr><td>דרגת תקן</td><td class="opt">רשות</td><td>דרגה מעל רפ"ק נספרת באיוש ואינה משימת גיוס</td></tr>
+                  <tr><td>מין · דת</td><td class="opt">רשות</td><td>מהן נגזרים אחוז הגברים ואחוז היהודים לכל תחנה ומשפחת תפקיד</td></tr>
                 </tbody>
               </table>
               <p class="spec-note">
@@ -848,9 +903,15 @@
           </div>
 
           <!-- §8: מי מוצג במפת חום היחידות. רשימת בחירה ולא מדידה. -->
+          <!-- §28: הכרטיס תיאר את המבנה הישן (יחידה · מחוז/אגף · יישוב) בזמן
+               שמה שנטען בפועל הוא **קובץ הסיווג** — ארבע רמות היררכיות, מיקום
+               ושם תצוגה. תיאור שאינו מה שהמערכת מקבלת גורם לשליחת הקובץ הלא
+               נכון, וזו התקלה שהכי קל למנוע. שני המבנים ממשיכים להיקרא. -->
           <div class="drop" id="drop-recruit_units" data-type="recruit_units">
-            <h2>יחידות לגיוס</h2>
-            <p class="drop-cols">יחידה · מחוז/אגף · יישוב</p>
+            <h2>סיווג יחידות למפת חום</h2>
+            <p class="drop-cols">
+              רמה 02 · רמה 03 · רמה 04 · רמה 05 · מיקום גאוגרפי · שם יחידה להצגה
+            </p>
             <div class="drop-zone">
               <strong>גרור לכאן קובץ</strong>
               <span>או</span>
@@ -865,9 +926,12 @@
               <table class="spec-table">
                 <thead><tr><th>עמודה</th><th></th><th>הסבר</th></tr></thead>
                 <tbody>
-                  <tr><td>יחידה</td><td class="req">חובה</td><td>השם ברמה היררכית 03, כפי שהוא בקובץ התקן והמצבה — "ימ"ר צפון", "מפקדת מג"ב ירושלים"</td></tr>
-                  <tr><td>מחוז/אגף</td><td>רשות</td><td>רמה 02. בלעדיה נלקח מקובץ התקן</td></tr>
-                  <tr><td>יישוב</td><td>רשות</td><td>היכן היחידה יושבת — לסיכה על המפה</td></tr>
+                  <tr><td>רמה היררכית 02</td><td class="req">חובה</td><td>המחוז או האגף. גם מקור המיקום של יחידה שאין לה מיקום משלה — מטה הרמה הזו</td></tr>
+                  <tr><td>רמה היררכית 03</td><td class="req">חובה</td><td>המרחב או היחידה שמתחתיו</td></tr>
+                  <tr><td>שם יחידה להצגה</td><td class="req">חובה</td><td><strong>מה שיופיע על המפה.</strong> חוזר על עצמו בכמה שורות — הוא מה שמאחד אותן ליחידה אחת</td></tr>
+                  <tr><td>רמה היררכית 04</td><td>רשות</td><td>יחידת האם. מפתח החיבור לתקן כשרמה 05 ריקה</td></tr>
+                  <tr><td>רמה היררכית 05</td><td>רשות</td><td><strong>מפתח החיבור לקובץ התקן והמצבה.</strong> כשהיא מלאה, לכל יחידה יש מספרים משלה; כשהיא ריקה, אחיות תחת אותה רמה 04 חולקות מספר אחד</td></tr>
+                  <tr><td>מיקום גאוגרפי</td><td>רשות</td><td>היכן היחידה יושבת. בלעדיו — מיקום מטה רמה 02</td></tr>
                 </tbody>
               </table>
               <p class="spec-note">
@@ -875,8 +939,12 @@
                 ימ"רים, מפקדות מג"ב, יחידות ארציות — מגייסות בדיוק כמו מרחב.
                 <strong>המרחבים מוצגים תמיד</strong> גם בלי הקובץ; הקובץ קובע אילו
                 יחידות נוספות מצטרפות אליהם.
-                שם שאינו קיים ברמה 03 מדווח ואינו נטען — אין מאחוריו תקן ואיוש.
-                יחידה בלי יישוב מופיעה ברשימה בלי סיכה ואינה נעלמת.
+                תא ריק נכתב בקובץ הזה כ־<strong>#</strong> והוא נקרא כתא ריק.
+                <strong>מלא את רמה 05 בכל שורה שאפשר</strong> — זה מה שמפריד את
+                המספרים בין יחידות אחיות, ובלעדיו הן מוצגות בלי תקן.
+                המבנה הישן (יחידה · מחוז/אגף · יישוב) ממשיך להיקרא כמו שהוא.
+                <strong>כל מה שבקובץ נערך גם במסך</strong> — ניהול נתונים ›
+                יחידות עניין.
               </p>
             </details>
             <div class="drop-result" hidden></div>

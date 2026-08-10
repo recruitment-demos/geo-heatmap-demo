@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 23,
+ "candidates_gender_coverage": 26,
  "candidates_in_process": 60,
- "candidates_pct_jewish": 50.0,
- "candidates_pct_male": 60.9,
- "candidates_religion_coverage": 30,
+ "candidates_pct_jewish": 83.3,
+ "candidates_pct_male": 69.2,
+ "candidates_religion_coverage": 24,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "תל אביב",

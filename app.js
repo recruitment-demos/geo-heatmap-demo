@@ -20,6 +20,24 @@ const ISRAEL_BOUNDS = [
 ];
 const MIN_ZOOM = 7; // רואים את כל המדינה, ולא פחות מזה
 
+// §37: גוון הרקע של כל מחוז. **ההיגיון של המפה הרשמית, לא הצבע שלה** —
+// צפון ירוק, חוף כחול, דרום חול — כדי שמי שמכיר את המפה ההיא יזהה כאן
+// את אותה חלוקה. הרוויה נמוכה במכוון: הרקע מסביר איפה, והסיכות אומרות
+// כמה חסר, ורקע רווי היה מתחרה בהן על אותה עין.
+const DISTRICT_TINT = {
+  "צפון": "#7fa06a",
+  "חוף": "#7ba7cf",
+  "מרכז": "#e08a4a",
+  "תל אביב": "#6c8296",
+  'ש"י': "#a97cc0",
+  "ירושלים": "#d9c05e",
+  "דרום": "#c2a878",
+};
+
+// שמות המחוזות מוצגים רק במבט הרחב. בזום קרוב הם מיותרים — שמות התחנות
+// כבר על המסך — והם היו מתחרים בהם על אותו מקום.
+const DISTRICT_LABEL_MAX_ZOOM = 10;
+
 // מבט הפתיחה. fitBounds על מאגר ארצי מציג את כל המדינה, ובזום כזה סיכות
 // גוש דן נדחסות לכתם אחד. ההגדלה מקרבת למרכז הכובד, ששם רוב המידע; התקרה
 // מונעת מצב שבו מאגר מצומצם (מחוז אחד) נפתח בזום רחוב. שני מספרים במקום
@@ -88,6 +106,12 @@ const state = {
   selectedId: null,
   baseLayer: null,    // הסיכות של המצב הנוכחי
   nearbyLayer: null,  // שכבת הבחירה: מי שקרוב + קווי החיבור
+  orientationLayer: null, // §26 — 20 הערים הגדולות, שמות התמצאות בלבד
+  labelLayer: null,   // §27 — שמות התחנות/היחידות/המרחבים, בלי חפיפה
+  districtLayer: null,      // §37 — גבולות המחוזות, מהמפה הרשמית
+  districtLabelLayer: null, // §37 — שמות המחוזות, במבט הרחב בלבד
+  districtLabels: [],       // {name, lat, lng} — נקודה בתוך כל מחוז
+  cityBoxes: [],            // §37 — המקום שתפסו שמות הערים שהוצגו בפועל
   baseMarkers: new Map(),
   nearbyStationMarkers: [], // תחנות קרובות בטאב היישובים, לרענון גודל בזום
   // אילו עיסוקים נכללים בכל משפחה, **לפי היקף** (תחנה / מרחב / יחידה).
@@ -128,6 +152,9 @@ const MODES = {
       return Boolean(settlement && settlement.focus);
     },
     baseIcon: (entity, selected) => stationIcon(entity, selected),
+    // §27: קוטר הסיכה בפיקסלים — ממנו נגזר גם מה שהיא תופסת וגם היכן
+    // התווית מתחילה. מספר אחד, כדי שהתווית לא תיפרד מהסיכה בזום.
+    pinExtent: (entity, selected) => pinSize(selected),
     nearbyMarkers: (rel, other) => [labelMarker(other.name, rel.travel_min)],
     // צבע קו החיבור. הוא תמיד נלקח מהצד שנצבע לפי אחוז איוש: בתחנות
     // ובמרחבים זו הישות הנבחרת, ביישובים זו התחנה שבקצה השני — ליישוב
@@ -179,6 +206,7 @@ const MODES = {
     mapFilter: (rel) => rel.focus,
     otherById: (id) => state.settlementsById.get(id),
     baseIcon: (entity, selected) => regionIcon(entity, selected),
+    pinExtent: (entity, selected) => regionPinSize(selected),
     nearbyMarkers: (rel, other) => [labelMarker(other.name, rel.travel_min)],
     lineColor: (entity) => entity.color,
     listTitle: "יישובים",
@@ -239,6 +267,7 @@ const MODES = {
     mapFilter: (rel) => rel.focus,
     otherById: (id) => state.settlementsById.get(id),
     baseIcon: (entity, selected) => regionIcon(entity, selected),
+    pinExtent: (entity, selected) => regionPinSize(selected),
     nearbyMarkers: (rel, other) => [labelMarker(other.name, rel.travel_min)],
     lineColor: (entity) => entity.color,
     listTitle: "יישובים",
@@ -293,7 +322,15 @@ const MODES = {
     // `settlementsById` נשאר מלא בכוונה: היישובים שאינם ברשימה עדיין
     // קיימים בחיפוש, בקשרי תחנה‑יישוב ובניהול הנתונים. מה שהצטמצם הוא
     // מה שמצויר, ולא מה שהמערכת יודעת.
-    base: () => state.settlements.filter((s) => s.focus),
+    //
+    // §26: **והנבחר תמיד בפנים.** בלי זה יישוב שאינו במיקוד היה נבחר
+    // מהחיפוש ולא מקבל סיכה — הכרטיס נפתח והמפה נשארה ריקה במקומו.
+    base: () => state.settlements.filter((s) => s.focus || s.id === state.selectedId),
+    // §26: **החיפוש מכיר את כל 1,242 היישובים.** קודם הוא רץ על base,
+    // כלומר על 77 יישובי המיקוד בלבד, וחיפוש "שוהם" החזיר "לא נמצא
+    // יישוב" — על יישוב שקיים במאגר, עם קואורדינטה ועם תשעה קשרי תחנה.
+    // "לא נמצא" על מה שקיים הוא התשובה הגרועה ביותר שמסך יכול לתת.
+    searchBase: () => state.settlements,
     byId: (id) => state.settlementsById.get(id),
     nearbyOf: (id) =>
       state.relations
@@ -302,6 +339,9 @@ const MODES = {
         .sort((a, b) => a.travel_min - b.travel_min),
     otherById: (id) => state.stationsById.get(id),
     baseIcon: (entity, selected) => settlementIcon(entity, selected),
+    // ליישוב יש שם משלו על הנקודה, ולכן renderEntityLabels מדלג עליו.
+    // הערך כאן קיים כדי שכל מצב יענה על אותה שאלה.
+    pinExtent: () => 13,
     // ביישובים הצד השני הוא תחנה — ולכן הוא נצבע לפי אחוז האיוש, בדיוק
     // כמו בטאב התחנות. זה מה שהופך את המסך ל"מפת חום" ולא לרשימת מרחקים.
     nearbyMarkers: (rel, other) => [stationMarkerFor(other, rel), labelMarker(null, rel.travel_min)],
@@ -374,6 +414,11 @@ const MODES = {
 
 const mode = () => MODES[state.mode];
 
+// §26: מה שהחיפוש רואה. ברוב המסכים זהה למה שמצויר, וביישובים רחב ממנו:
+// המפה מציגה 77 והמאגר מכיר 1,242. מסך שמחפש רק במה שהוא מצייר עונה
+// "לא נמצא" על מה שקיים.
+const searchBase = () => (mode().searchBase || mode().base)();
+
 /* --- עזר ----------------------------------------------------------------- */
 
 const api = async (path) => {
@@ -401,7 +446,10 @@ const escapeHtml = (s) =>
    מסומנות .table--wide ונשארות בגלילה אופקית — פרישה לכרטיס של עשרה שדות
    ארוכה מדי מכדי לקרוא. */
 function labelTableCells(table) {
-  if (!table || table.classList.contains("table--wide")) return;
+  if (!table) return;
+  // §34: הטבלאות הרחבות **אינן מוחרגות יותר.** הן הוחרגו כשהן נשארו
+  // בגלילה אופקית בנייד ולא נפרשו לכרטיסים; מ-§31 הן נפרשות, ובלי
+  // התיוג הכרטיס שלהן הציג ערכים בלי לומר מה כל אחד מהם.
   const headRows = table.querySelectorAll("thead tr");
   if (headRows.length !== 1) return; // כותרת מקוננת — לא ניתן למפות 1:1
   const heads = [...headRows[0].children].map((th) => th.textContent.trim());
@@ -960,17 +1008,25 @@ function stationIcon(station, selected) {
   });
 }
 
+function regionPinSize(selected) {
+  return selected ? 52 : 44;
+}
+
 // סמן מרחב: מרובע ולא עגול, וגדול מסיכת תחנה. מרחב הוא צירוף של תחנות
 // ולא מקום — הסיכה יושבת במרכז הכובד שלהן, לא בכתובת. צורה אחרת אומרת
 // את זה בלי להסביר, ומונעת מהמשתמש לחשוב שהוא רואה תחנה.
+//
+// §27: **השם ירד מתוך הסיכה.** הוא היה נחתך ל-9px בתוך ריבוע של 44
+// פיקסלים, כלומר כשישה תווים ואז שלוש נקודות — "מרחב אילת ד…". שם קטוע
+// אינו שם. הוא עבר לתווית חיצונית שנקראת, ומופיעה רק כשיש לה מקום —
+// ראה renderEntityLabels.
 function regionIcon(region, selected) {
-  const size = selected ? 52 : 44;
+  const size = regionPinSize(selected);
   return L.divIcon({
     className: "",
     html: `<div class="region-pin ${selected ? "region-pin--selected" : ""}"
                 style="background:${region.color}; width:${size}px; height:${size}px">
              <span class="region-pin-pct">${pctText(region)}</span>
-             <span class="region-pin-name">${escapeHtml(region.name)}</span>
            </div>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
@@ -1004,10 +1060,15 @@ function settlementIcon(settlement, selected) {
   if (!selected && !settlement.focus) {
     return L.divIcon({ className: "", html: "", iconSize: [0, 0] });
   }
-  const classes = selected ? "dot dot--selected" : "dot dot--label";
+  // §37: **נקודה, והשם מגיע מהתווית.** קודם היישוב היה שם בלבד, ושבעים
+  // ושבעה שמות במבט הארצי נערמו זה על זה — מפה שאי אפשר לקרוא בה אף שם
+  // גרועה ממפה עם פחות שמות. עכשיו הנקודה תמיד על המפה (היא המיקום, והיא
+  // מה שנלחץ), והשם עובר דרך אותה בדיקת חפיפה כמו שמות התחנות: ככל
+  // שמגדילים, נכנסים עוד שמות.
+  const classes = selected ? "dot dot--selected" : "dot dot--place";
   return L.divIcon({
     className: "",
-    html: `<div class="${classes}"><span>${escapeHtml(settlement.name)}</span></div>`,
+    html: `<div class="${classes}" title="${escapeHtml(settlement.name)}"></div>`,
     iconSize: [null, 20],
     iconAnchor: [7, 10],
   });
@@ -1121,8 +1182,51 @@ async function initMap() {
     // מתאר חסר אינו שובר את המפה — הסיכות עדיין נכונות.
   }
 
+  // §37: **גבולות המחוזות.**
+  //
+  // המחוז הוא הרמה שכל המסכים מסננים לפיה, והוא היה הדבר היחיד שלא נראה
+  // על המפה: סיכה אדומה בלי גבול סביבה אומרת "כאן חסר", ולא "בשומרון
+  // חסר". הגבולות נגזרו מהמפה הרשמית שנמסרה (tools/build_district_outline.py).
+  //
+  // **גוון ולא צבע.** לכל מחוז נשמר ההיגיון של המפה המקורית — צפון ירוק,
+  // חוף כחול, דרום חול — אבל בשקיפות נמוכה: מפת חום שהרקע שלה צבעוני
+  // כמו הסיכות אינה מפת חום. הקו הוא מה שנושא את הגבול, לא המילוי.
+  try {
+    const districts = await (await fetch("/web/vendor/police-districts.geojson")).json();
+    state.districtLayer = L.geoJSON(districts, {
+      pane: "tilePane",
+      interactive: false,
+      style: (feature) => ({
+        color: "#8794a8",
+        weight: 1.4,
+        dashArray: "5 4",
+        fillColor: DISTRICT_TINT[feature.properties.name] || "#c9cfd8",
+        fillOpacity: 0.3,
+      }),
+    }).addTo(state.map);
+    state.districtLabels = districts.features
+      .filter((feature) => feature.properties.label)
+      .map((feature) => ({
+        name: feature.properties.name,
+        lat: feature.properties.label[1],
+        lng: feature.properties.label[0],
+      }));
+  } catch (err) {
+    // אין קובץ גבולות — המפה נשארת כשהייתה, בלי חצי גבול על המסך.
+  }
 
+  // שמות המחוזות יושבים בשכבה משלהם, מתחת לסיכות ומעל הרקע. **לא**
+  // zIndexOffset שלילי גדול: Leaflet גוזר את ה-z מקו הרוחב, וקיזוז של
+  // אלף ומשהו הוציא חלק מהשמות ל-z שלילי — שם הם נעלמו מאחורי רקע המפה.
+  // שכבה עם z קבוע אינה תלויה במיקום שבו התווית במקרה יושבת.
+  state.map.createPane("districtLabels");
+  state.map.getPane("districtLabels").style.zIndex = 450;
+  state.map.getPane("districtLabels").style.pointerEvents = "none";
+
+  state.districtLabelLayer = L.layerGroup().addTo(state.map);
+  state.orientationLayer = L.layerGroup().addTo(state.map);
   state.baseLayer = L.layerGroup().addTo(state.map);
+  state.labelLayer = L.layerGroup().addTo(state.map);
   state.nearbyLayer = L.layerGroup().addTo(state.map);
 
   // לחיצה על רקע המפה מנקה — אחרת אין דרך לחזור למבט הכללי בלי לרענן.
@@ -1176,7 +1280,194 @@ function fitToBase() {
   DEFAULT_VIEW.zoom = state.map.getZoom();
 }
 
+// §26: 20 היישובים הגדולים כנקודות התמצאות במפת התחנות, המרחבים
+// והיחידות. מפה של סיכות בלי שם עיר אחד היא כתם צבע: אפשר לראות שמשהו
+// אדום, ואי אפשר לדעת איפה.
+//
+// **שם בלבד, בלי עיגול ובלי לחיצה.** הן רקע ולא ישות — נקודה לצידן
+// מתחרה בסיכות התחנות, ולחיצה עליהן פותחת כרטיס של מה שלא נבחר.
+//
+// במפת היישובים הן אינן מצוירות כאן: שם הן ישויות אמיתיות שכבר מוצגות
+// כיישובי מיקוד, וציור כפול היה מכפיל את השם.
+// §37: **וגם הן נעלמות כשאין להן מקום.** במבט הארצי עשרים שמות ערים
+// נופלים בדיוק על גוש דן, ששם צפופות גם התחנות — והתוצאה היא ערימת
+// טקסט שאי אפשר לקרוא בה לא את העיר ולא את התחנה. עכשיו הן עוברות את
+// אותה בדיקת חפיפה כמו שמות התחנות: מי שאין לה מקום יורדת, ובהגדלה היא
+// חוזרת מעצמה. הגבולות והשמות של המחוזות נותנים את ההתמצאות במבט הרחב,
+// ולכן אין כאן אובדן — יש חילוף.
+function renderOrientationCities() {
+  if (!state.orientationLayer) return;
+  state.orientationLayer.clearLayers();
+  state.cityBoxes = [];
+  if (state.mode === "settlements") return;
+
+  const point = (item) => state.map.latLngToContainerPoint([item.lat, item.lng]);
+  // הסיכות תופסות את מקומן קודם: שם עיר שנוחת על סיכה מסתיר בדיוק את
+  // הנתון שהמפה קיימת בשבילו.
+  const taken = mode()
+    .base()
+    .filter((entity) => entity.lat !== null && entity.lng !== null)
+    .map((entity) => {
+      const p = point(entity);
+      return squareBox(p.x, p.y, mode().pinExtent(entity, entity.id === state.selectedId));
+    });
+
+  state.settlements
+    .filter((s) => s.major && s.lat !== null && s.lng !== null)
+    // הגדולה קודמת: כשאין מקום לשתיים, העיר שמזוהה יותר היא זו שמועילה
+    // להתמצאות. סדר קבוע גם מונע מפה שנראית אחרת בכל רענון.
+    .sort((a, b) => (b.population || 0) - (a.population || 0) || a.name.localeCompare(b.name, "he"))
+    .forEach((city) => {
+      const p = point(city);
+      const box = textBox(p.x, p.y, city.name, { align: "start" });
+      if (taken.some((other) => boxesOverlap(box, other))) return;
+      taken.push(box);
+      state.cityBoxes.push(box);
+
+      L.marker([city.lat, city.lng], {
+        interactive: false,
+        keyboard: false,
+        // §27: מתחת לכל סיכה. סמנים ב-Leaflet מסודרים לפי קו רוחב ולא
+        // לפי סדר ההוספה, ולכן סדר השכבות לבדו לא היה מספיק — עיר
+        // צפונית הייתה יושבת מעל סיכת תחנה דרומית.
+        zIndexOffset: -1000,
+        icon: L.divIcon({
+          className: "",
+          html: `<div class="dot dot--city"><span>${escapeHtml(city.name)}</span></div>`,
+          iconSize: [null, 18],
+          iconAnchor: [7, 9],
+        }),
+      }).addTo(state.orientationLayer);
+    });
+}
+
+/* --- §27: שמות על המפה, בלי שיעלו זה על זה ------------------------------- */
+//
+// הבעיה: 88 תחנות ו-236 יחידות, וסיכה בלי שם אומרת רק "כאן משהו אדום".
+// השם בתוך הסיכה נחתך אחרי שישה תווים, ושם קטוע אינו שם.
+//
+// הפתרון: תווית חיצונית מודגשת, **ומי שאין לו מקום פשוט לא מקבל אותה**.
+// לא הקטנת גופן ולא קיצור — שתיהן הופכות מפה עמוסה למפה עמוסה ובלתי
+// קריאה. ככל שמגדילים, המרחק בפיקסלים בין הסיכות גדל, ועוד שמות נכנסים
+// מעצמם. זה מה שהופך את הזום לכלי ולא רק לתצוגה.
+//
+// הבדיקה נעשית בפיקסלים של המסך ולא במעלות: חפיפה היא שאלה של מה שהעין
+// רואה, והיא משתנה עם הזום בלבד — הזזה של המפה מזיזה את כולם יחד.
+const LABEL_CHAR = 6.15;   // רוחב תו ממוצע ב-11px מודגש
+const LABEL_HEIGHT = 15;
+const LABEL_MAX = 150;     // רוחב מרבי; מעבר לו הטקסט נחתך ב-CSS
+const LABEL_PAD = 3;       // מרווח נשימה, כדי ששתי תוויות לא ייגעו
+
+function textBox(x, y, text, { align = "center" } = {}) {
+  const width = Math.min(text.length * LABEL_CHAR + 12, LABEL_MAX);
+  const left = align === "start" ? x - 7 : x - width / 2;
+  return {
+    left: left - LABEL_PAD,
+    right: left + width + LABEL_PAD,
+    top: y - LABEL_HEIGHT / 2 - LABEL_PAD,
+    bottom: y + LABEL_HEIGHT / 2 + LABEL_PAD,
+  };
+}
+
+function squareBox(x, y, size) {
+  return { left: x - size / 2, right: x + size / 2, top: y - size / 2, bottom: y + size / 2 };
+}
+
+const boxesOverlap = (a, b) =>
+  a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+
+// סדר הקדימות כשאין מקום לכולם: הנבחר תמיד, ואחריו הגדולים בתקן. מפה
+// שמראה שם אקראי מבין שניים חופפים אינה עקבית — אותה מפה בשני רענונים
+// הייתה נראית אחרת.
+function labelPriority(a, b) {
+  if (a.id === state.selectedId) return -1;
+  if (b.id === state.selectedId) return 1;
+  // §37: ביישובים אין תקן, והמידה המקבילה היא גודל היישוב. אותו כלל
+  // בדיוק — מי שגדול יותר מקבל את המקום כשאין לשניים.
+  const size = (entity) => entity.required_positions || entity.population || 0;
+  return size(b) - size(a) || a.name.localeCompare(b.name, "he");
+}
+
+function renderEntityLabels() {
+  if (!state.map || !state.labelLayer) return;
+  state.labelLayer.clearLayers();
+
+  const point = (entity) => state.map.latLngToContainerPoint([entity.lat, entity.lng]);
+  const entities = mode()
+    .base()
+    .filter((e) => e.lat !== null && e.lng !== null);
+
+  // שמות הערים והסיכות עצמן תופסים את מקומם **לפני** התוויות: תווית
+  // שנוחתת על סיכה מסתירה בדיוק את מה שהיא באה להסביר.
+  //
+  // §37: הערים שנלקחות בחשבון הן אלה **שהוצגו בפועל**, ולא עשרים תמיד.
+  // מאז שגם הן נכנעות לחפיפה, שמירת מקום לעיר שלא צוירה הייתה מוחקת שם
+  // תחנה בשביל טקסט שאינו על המסך.
+  const taken = state.cityBoxes.slice();
+  entities.forEach((entity) => {
+    const p = point(entity);
+    taken.push(squareBox(p.x, p.y, mode().pinExtent(entity, entity.id === state.selectedId)));
+  });
+
+  entities
+    .slice()
+    .sort(labelPriority)
+    .forEach((entity) => {
+      const selected = entity.id === state.selectedId;
+      const gap = mode().pinExtent(entity, selected) / 2 + 4;
+      const p = point(entity);
+      const box = textBox(p.x, p.y + gap + LABEL_HEIGHT / 2, entity.name);
+      if (taken.some((other) => boxesOverlap(box, other))) return;
+      taken.push(box);
+
+      L.marker([entity.lat, entity.lng], {
+        interactive: false, // התווית אינה נלחצת — הסיכה שמעליה כן
+        keyboard: false,
+        zIndexOffset: -900, // מתחת לסיכות, מעל שמות הערים
+        icon: L.divIcon({
+          className: "",
+          html: `<div class="map-label ${selected ? "map-label--selected" : ""}">${escapeHtml(
+            entity.name
+          )}</div>`,
+          // iconSize: null — הרוחב נקבע בתוכן, והגובה ב-CSS. ערך מספרי
+          // כאן היה נכתב כסגנון inline וגובר על הגיליון.
+          iconSize: null,
+          iconAnchor: [0, -gap],
+        }),
+      }).addTo(state.labelLayer);
+    });
+}
+
+// §37: שם המחוז במרכזו, במבט הרחב בלבד.
+//
+// זו ההתמצאות שהחליפה את עשרים שמות הערים כשאין להם מקום: במבט הארצי
+// שבעה שמות מסבירים את המפה טוב יותר מעשרים שמות שנערמים על גוש דן.
+// הנקודה אינה מרכז המסה אלא הנקודה הרחוקה ביותר מהגבול (ראו
+// tools/build_district_outline.py) — מרכז המסה של ש"י נופל בירושלים,
+// ותווית מחוץ לשטח נקראת כאילו היא של השכן.
+function renderDistrictLabels() {
+  if (!state.map || !state.districtLabelLayer) return;
+  state.districtLabelLayer.clearLayers();
+  if (state.map.getZoom() > DISTRICT_LABEL_MAX_ZOOM) return;
+
+  state.districtLabels.forEach((district) => {
+    L.marker([district.lat, district.lng], {
+      interactive: false,
+      keyboard: false,
+      pane: "districtLabels", // מתחת לסיכות ולשמותיהן, מעל רקע המפה
+      icon: L.divIcon({
+        className: "",
+        html: `<div class="district-label">${escapeHtml(district.name)}</div>`,
+        iconSize: null,
+        iconAnchor: [0, 8],
+      }),
+    }).addTo(state.districtLabelLayer);
+  });
+}
+
 function renderBaseMarkers() {
+  renderDistrictLabels();
+  renderOrientationCities();
   state.baseLayer.clearLayers();
   state.baseMarkers.clear();
 
@@ -1197,6 +1488,7 @@ function renderBaseMarkers() {
       });
       state.baseMarkers.set(entity.id, marker);
     });
+  renderEntityLabels();
 }
 
 function refreshBaseIcons() {
@@ -1211,6 +1503,16 @@ function refreshBaseIcons() {
   state.nearbyStationMarkers.forEach(({ marker, station }) =>
     marker.setIcon(stationIcon(station, false))
   );
+  // §27: גודל הסיכה משתנה עם הזום ועם הבחירה, ולכן גם מה שנשאר פנוי
+  // לתוויות. חישוב מחדש כאן מכסה את שני המקרים — refreshBaseIcons נקרא
+  // גם ב-zoomend וגם בכל בחירה.
+  //
+  // §37: וגם שמות הערים והמחוזות — שניהם תלויי זום מאז שהם נכנעים
+  // לחפיפה, ורק שמות התחנות חושבו מחדש. התוצאה הייתה עיר שנעלמה בזום
+  // אחד ולא חזרה בשני.
+  renderDistrictLabels();
+  renderOrientationCities();
+  renderEntityLabels();
 }
 
 /* --- כתובת הדף ----------------------------------------------------------- */
@@ -1241,7 +1543,7 @@ function syncHash(id) {
 /* --- בחירה --------------------------------------------------------------- */
 
 function selectEntity(id, { animate = true } = {}) {
-  const entity = mode().base().find((e) => e.id === id);
+  const entity = searchBase().find((e) => e.id === id);
   if (id !== null && !entity) id = null;
   // ישות בלי קואורדינטה קיימת ויש לה נתונים — היא רק לא ניתנת למיקוד.
   // בחירתה פותחת את הכרטיס ומשאירה את המפה במקומה, במקום להתעלם ממנה
@@ -1249,6 +1551,13 @@ function selectEntity(id, { animate = true } = {}) {
   const placed = Boolean(entity) && entity.lat !== null && entity.lng !== null;
 
   state.selectedId = id;
+  // §26: ב-base של היישובים הנבחר נכנס גם כשאינו במיקוד, ולכן **הרכב
+  // הסמנים משתנה עם הבחירה**. refreshBaseIcons מעדכן סמנים קיימים בלבד,
+  // ולכן בלי הבנייה מחדש היישוב שנבחר מהחיפוש היה נשאר בלי סיכה — וזו
+  // שנעזבה הייתה נשארת מודגשת.
+  if (mode().base().filter((e) => e.lat !== null).length !== state.baseMarkers.size) {
+    renderBaseMarkers();
+  }
   syncHash(id);
   state.nearbyLayer.clearLayers();
   state.nearbyStationMarkers = []; // הסמנים נמחקו עם השכבה; לא להשאיר הפניות מתות
@@ -1392,7 +1701,7 @@ function renderMapInfo(entity, nearby) {
     }
     ${
       entity.lat === null || entity.lng === null
-        ? '<div class="info-warn">אין ליחידה מיקום — היא אינה מופיעה כסיכה על המפה. הוסף לה יישוב בקובץ "יחידות לגיוס".</div>'
+        ? '<div class="info-warn">אין ליחידה מיקום — היא אינה מופיעה כסיכה על המפה. הוסף לה יישוב בניהול נתונים › יחידות עניין.</div>'
         : entity.coord_verified
         ? ""
         : '<div class="info-warn">מיקום הסיכה הוא ערך זרע שטרם אומת</div>'
@@ -1642,7 +1951,7 @@ function renderSuggestions(term) {
   if (!q) return hideSuggestions();
 
   const current = mode();
-  const matches = current.base().filter((e) => e.name.includes(q));
+  const matches = searchBase().filter((e) => e.name.includes(q));
   if (!matches.length) {
     box.innerHTML = `<li class="empty">לא נמצא ${current.label} בשם "${escapeHtml(q)}"</li>`;
     box.hidden = false;
@@ -2204,7 +2513,33 @@ function sumOr(values) {
 
 // §23: סוגי היחידות שיש להן מיקום. "unit" הוא היחידה המגייסת שיושבת
 // ברמה ההיררכית 05 — הרמה שממנה נגזר מי נחשב יחידה.
-const UNIT_TYPE_LABEL = { station: "תחנה", region: "מרחב", unit: "יחידה", district: "מחוז" };
+// §28: "מחוז / אגף" ולא "מחוז" — 19 מתוך 27 השורות ברמה הזו הן אגפים
+// וחטיבות ארציות ולא מחוזות, ותווית שאומרת "מחוז" על חטיבת התביעות
+// נקראת כמו שגיאה.
+const UNIT_TYPE_LABEL = {
+  station: "תחנה",
+  region: "מרחב",
+  unit: "יחידה",
+  district: "רמה 02 — מחוז / אגף",
+};
+
+// §28: מה יחידה יכולה להיקרא. הקובץ אינו נושא את זה וההחלטה היא של
+// המזמין — לכן רשימה סגורה וקצרה, ולא שדה חופשי: כינוי שנכתב בכל פעם
+// אחרת מפצל את הסינון לשתי שורות שנראות זהות.
+const UNIT_KINDS = ["יחידה", "מרחב", "מחוז", "אגף", "מפקדה"];
+
+// תא נערך אחד בטבלת היחידות. שבע עמודות באותו מבנה בדיוק — כתיבתן
+// בנפרד הייתה שבע הזדמנויות לשכוח את data-original, ובלעדיו התא נשמר
+// בכל יציאה ממנו גם כשלא נגעו בו.
+function unitCell(row, fieldName, value, placeholder, settlements = false) {
+  const text = value || "";
+  return `<td class="cell-edit">
+      <input class="unit-field" data-field="${fieldName}" data-id="${row.id}"
+             ${settlements ? 'list="settlement-options"' : ""}
+             value="${escapeHtml(text)}" placeholder="${escapeHtml(placeholder)}"
+             data-original="${escapeHtml(text)}">
+    </td>`;
+}
 
 const MANAGE_DATASETS = {
   relations: {
@@ -2251,19 +2586,35 @@ const MANAGE_DATASETS = {
   // עד עכשיו הרשימה נקבעה אך ורק בקובץ. קובץ הוא דרך טובה להזין 200 שורות
   // בבת אחת ודרך גרועה לתקן שם אחד שגוי — היה צריך לערוך אקסל, לטעון
   // מחדש, ולקוות. השם, המחוז והיישוב נערכים כאן ונשמרים מיד.
+  // §28: **כל טבלת הרמות ההיררכיות, עד 05, נערכת כאן.**
+  //
+  // קודם נערכו שלוש עמודות — שם, רמה 02 ויישוב. שורה שרמה 03 או 04 שלה
+  // שגויה הייתה טעונה תיקון בקובץ וטעינה מחדש, וזה בדיוק מה שאי אפשר
+  // לעשות אחרי שהמערכת באוויר. מה שאין לו עמודה במסך אי אפשר לתקן במסך.
+  //
+  // **רמה 05 היא מפתח החיבור לקובץ התקן והמצבה, והשם הוא מה שרואים.**
+  // שתי עמודות ולא אחת: תיקון הכיתוב אינו אמור לנתק את היחידה מהמספרים
+  // שלה, ותיקון החיבור אינו אמור לשנות את מה שכתוב על המפה.
   units: {
-    title: "יחידות מגייסות",
-    columns: ["שם היחידה", "מחוז / אגף", "היישוב שבו היא יושבת", "תקן", "פנויות", ""],
+    title: "יחידות עניין",
+    columns: [
+      "שם להצגה", "סוג", "רמה 02 — מחוז / אגף", "רמה 03 — מרחב / יחידה",
+      "רמה 04 — יחידת אם", "רמה 05 — שם בקובץ התקן", "היישוב שבו היא יושבת",
+      "תקן", "פנויות", "",
+    ],
     addRow: "add-unit-row",
     addLabel: "+ הוסף יחידה",
     filters: [
-      { label: "מחוז / אגף", of: (r) => r.district },
+      { label: "סוג", of: (r) => r.kind },
+      { label: "רמה 02 — מחוז / אגף", of: (r) => r.district },
+      { label: "רמה 03 — מרחב / יחידה", of: (r) => r.region },
       { label: "מיקום", of: (r) => (r.settlement_name ? "מוגדר" : "טעון הגדרה") },
       { label: "תקן", of: (r) => (r.required ? "יש נתון" : "אין נתון בקובץ המשרות") },
     ],
     rows: () => state.units_editable || [],
     search: (r, term) =>
-      r.name.includes(term) || (r.settlement_name || "").includes(term),
+      [r.name, r.district, r.region, r.parent_unit, r.level5, r.settlement_name]
+        .some((v) => (v || "").includes(term)),
     kpis: () => {
       const rows = state.units_editable || [];
       return [
@@ -2280,22 +2631,22 @@ const MANAGE_DATASETS = {
     // יחידה בלי תקן היא יחידה ששמה אינו קיים בקובץ התקן והמצבה — היא תופיע
     // במפה ריקה. מסומנת, כי זו הבעיה שהכי קשה לגלות בלי סימון.
     render: (r) => `<tr class="${r.required ? "" : "row-pending"}" data-unit="${r.id}">
+        ${unitCell(r, "name", r.name, "")}
         <td class="cell-edit">
-          <input class="unit-field" data-field="name" data-id="${r.id}"
-                 value="${escapeHtml(r.name)}" data-original="${escapeHtml(r.name)}">
+          <select class="unit-field" data-field="kind" data-id="${r.id}"
+                  data-original="${escapeHtml(r.kind)}">
+            ${UNIT_KINDS.map(
+              (k) =>
+                `<option${k === r.kind ? " selected" : ""}>${escapeHtml(k)}</option>`
+            ).join("")}
+          </select>
         </td>
-        <td class="cell-edit">
-          <input class="unit-field" data-field="district" data-id="${r.id}"
-                 value="${escapeHtml(r.district || "")}" placeholder="—"
-                 data-original="${escapeHtml(r.district || "")}">
-        </td>
-        <td class="cell-edit">
-          <input class="unit-field" list="settlement-options" data-field="settlement_name"
-                 data-id="${r.id}" value="${escapeHtml(r.settlement_name || "")}"
-                 placeholder="הקלד שם יישוב…"
-                 data-original="${escapeHtml(r.settlement_name || "")}">
-        </td>
-        <td>${r.required ? Math.round(r.required) : '<span class="muted">אין נתון</span>'}</td>
+        ${unitCell(r, "district", r.district, "—")}
+        ${unitCell(r, "region", r.region, "—")}
+        ${unitCell(r, "parent_unit", r.parent_unit, "—")}
+        ${unitCell(r, "level5", r.level5, "כשם התצוגה")}
+        ${unitCell(r, "settlement_name", r.settlement_name, "הקלד שם יישוב…", true)}
+        <td>${r.required ? r.required : '<span class="muted">אין נתון</span>'}</td>
         <td>${r.vacant || 0}</td>
         <td class="cell-actions">
           <button class="row-del" data-unit-del="${r.id}"
@@ -2303,9 +2654,11 @@ const MANAGE_DATASETS = {
         </td>
       </tr>`,
     note:
-      "השם, המחוז והיישוב נערכים כאן ונשמרים מיד. יחידה מסומנת כשאין לה תקן " +
-      "בקובץ התקן והמצבה — שמה אינו מזוהה שם, ולכן המפה שלה תהיה ריקה.",
-    empty: "עדיין לא הוגדרו יחידות מגייסות. טען קובץ 'יחידות לגיוס' או הוסף ידנית.",
+      "כל העמודות נערכות כאן ונשמרות מיד — שם, סוג, רמות 02 עד 05 והיישוב. " +
+      "רמה 05 היא השם שדרכו היחידה מתחברת לקובץ התקן והמצבה; כשהיא ריקה, " +
+      "שם התצוגה הוא שמתחבר. יחידה מסומנת כשאין לה תקן — מפתח החיבור שלה " +
+      "אינו מזוהה בקובץ, ולכן המפה שלה תהיה ריקה.",
+    empty: "עדיין לא הוגדרו יחידות עניין. טען את קובץ סיווג היחידות או הוסף ידנית.",
   },
 
   // §23: יומן השינויים הידניים.
@@ -2384,6 +2737,124 @@ const MANAGE_DATASETS = {
         <td>${r.located ? escapeHtml(r.source) : '<span class="muted">טעון הגדרה</span>'}</td>
         <td></td>
       </tr>`,
+  },
+
+  // §29: מבנה הנתונים, ובדיקה שהמסך משקף אותו.
+  //
+  // "אני רוצה מבנה של טבלאות שניתן לעדכן והן משקפות את עצמן. איך ניתן
+  // לוודא שזה המצב?" — כאן. כל טבלה: מה בה, מאיפה, מתי, ואיפה עורכים.
+  // ולמעלה: **המספר שבטבלה מול המספר שעל המסך**, זה ליד זה.
+  //
+  // עד עכשיו התשובה הייתה שני כלים בשורת פקודה. במערכת שאין לה מתחזק,
+  // בדיקה שדורשת שורת פקודה היא בדיקה שלא תרוץ.
+  model: {
+    title: "מבנה הנתונים · בדיקה עצמית",
+    columns: ["טבלה", "מה יש בה", "סוג", "שורות", "מאיפה", "עודכן", "נערך ב"],
+    filters: [
+      { label: "סוג", of: (r) => r.kind },
+      { label: "יש נתון", of: (r) => (r.rows ? "כן" : "לא") },
+      { label: "נערך במסך", of: (r) => (r.edited_at ? "כן" : "לא") },
+    ],
+    rows: () => (state.dataModel || {}).tables || [],
+    search: (r, term) => r.table.includes(term) || r.label.includes(term),
+    kpis: () => {
+      const model = state.dataModel || { summary: {} };
+      const s = model.summary || {};
+      return [
+        { n: s.rows || 0, label: "שורות נתונים בסך הכול" },
+        { n: s.tables || 0, label: "טבלאות" },
+        {
+          n: `${(s.checks || 0) - (s.gaps || 0)}/${s.checks || 0}`,
+          label: "בדיקות שהמסך משקף את הטבלה",
+          cls: s.gaps ? "kpi--bad" : "kpi--ok",
+        },
+        {
+          n: s.errors || 0,
+          label: "סתירות פנימיות",
+          cls: s.errors ? "kpi--bad" : "",
+        },
+      ];
+    },
+    // טבלה בלי שורות מסומנת — היא יכולת שקיימת ואין מאחוריה נתון, וזה
+    // מידע שכדאי לראות ולא להסתיר.
+    render: (r) => `<tr class="${r.rows ? "" : "row-pending"}">
+        <td><code>${escapeHtml(r.table)}</code></td>
+        <td><strong>${escapeHtml(r.label)}</strong></td>
+        <td>${escapeHtml(r.kind)}</td>
+        <td>${r.rows ? r.rows.toLocaleString("he-IL") : '<span class="muted">ריקה</span>'}</td>
+        <td class="muted">${escapeHtml(r.source || "—")}</td>
+        <td class="muted">${r.updated ? formatDateTime(r.updated) : "—"}</td>
+        <td>${
+          r.edited_at
+            ? escapeHtml(r.edited_at)
+            : '<span class="muted">לא נערך במסך</span>'
+        }</td>
+      </tr>`,
+    note:
+      "המערכת היא טבלאות, והמסכים הם השתקפות שלהן. הבדיקות שלמעלה מעמידות " +
+      "את המספר שבטבלה מול המספר שהמסך מציג — זה ליד זה. הן מוכיחות שהמסך " +
+      "אינו מאבד שורות בדרך; הן אינן מוכיחות שהנתון שבקובץ נכון, ולזה יש " +
+      "את השורה \"האם המאגר תואם לקבצים\" למעלה.",
+    empty: "אין נתונים.",
+  },
+
+  // §28: מי מצויר על המפה — החלטה שנעשית כאן ולא בקוד.
+  //
+  // שתי הרשימות (77 יישובי מיקוד ו-20 נקודות התמצאות) היו קבועות בקוד
+  // ונזרעו למאגר **בכל עליית השרת**, כך ששינוי נמחק בהפעלה הבאה. במערכת
+  // שאין בה תחזוקת קוד אחרי העלייה לאוויר זה אומר שהמפה קפואה לתמיד.
+  //
+  // **היישוב עצמו אינו נעלם בשום מקרה** — הוא נשאר בחיפוש, בקשרים
+  // ובניהול הנתונים. הסימון קובע מי מצויר, לא מי קיים.
+  settlements: {
+    title: "יישובים על המפה",
+    columns: [
+      "יישוב", "תושבים", "מוצג במפת היישובים", "נקודת התמצאות",
+      "תחנות בטווח", "קואורדינטה",
+    ],
+    filters: [
+      { label: "מוצג במפה", of: (r) => (r.focus ? "כן" : "לא") },
+      { label: "נקודת התמצאות", of: (r) => (r.major ? "כן" : "לא") },
+      { label: "תחנה בטווח", of: (r) => (r.nearby_stations ? "יש" : "אין") },
+      { label: "קואורדינטה", of: (r) => (r.lat === null ? "חסרה" : "יש") },
+    ],
+    rows: () => state.settlements || [],
+    search: (r, term) => r.name.includes(term),
+    kpis: () => {
+      const rows = state.settlements || [];
+      return [
+        { n: rows.length, label: "יישובים במאגר" },
+        { n: rows.filter((r) => r.focus).length, label: "מוצגים במפת היישובים" },
+        { n: rows.filter((r) => r.major).length, label: "נקודות התמצאות" },
+        {
+          n: rows.filter((r) => r.lat === null).length,
+          label: "בלי קואורדינטה",
+          cls: rows.some((r) => r.lat === null) ? "kpi--bad" : "",
+        },
+      ];
+    },
+    // יישוב בלי קואורדינטה מסומן: הוא לא יופיע על המפה גם אם יסומן
+    // כמוצג, וזו הבעיה שהכי קשה לגלות בלי סימון.
+    render: (r) => `<tr class="${r.lat === null ? "row-pending" : ""}">
+        <td><strong>${escapeHtml(r.name)}</strong></td>
+        <td class="muted">${r.population ? r.population.toLocaleString("he-IL") : "—"}</td>
+        <td class="cell-edit">
+          <input type="checkbox" class="settlement-flag" data-field="focus"
+                 data-id="${r.id}"${r.focus ? " checked" : ""}>
+        </td>
+        <td class="cell-edit">
+          <input type="checkbox" class="settlement-flag" data-field="major"
+                 data-id="${r.id}"${r.major ? " checked" : ""}>
+        </td>
+        <td>${r.nearby_stations || '<span class="muted">אין</span>'}</td>
+        <td>${r.lat === null ? '<span class="no">חסרה</span>' : '<span class="yes">יש</span>'}</td>
+      </tr>`,
+    note:
+      "הסימון קובע מי מצויר על המפה — לא מי קיים. יישוב שאינו מסומן נשאר " +
+      "בחיפוש, בקשרי התחנות ובכל המסכים. \"נקודת התמצאות\" היא עיר ששמה " +
+      "מוצג על מפת התחנות והיחידות בלי סיכה ובלי לחיצה. יישוב בלי " +
+      "קואורדינטה מסומן — הוא לא יופיע על המפה גם אם יסומן כמוצג.",
+    empty: "אין יישובים במאגר.",
   },
 
   region_relations: {
@@ -2783,7 +3254,108 @@ function renderManageRows() {
   el("rel-add").hidden = !config.addRow;
   if (config.addRow) el("rel-add").textContent = config.addLabel;
 
+  renderReflectionChecks();
   wireInlineEdit(table);
+}
+
+// §29: בדיקות ההשתקפות — המספר שבטבלה מול המספר שעל המסך.
+//
+// **שני מספרים זה ליד זה, ולא "תקין".** "תקין" הוא מסקנה שהמערכת מספרת
+// על עצמה; שני מספרים הם משהו שאדם יכול לבדוק בעצמו — ואם הוא רואה
+// 45,146 בשני הצדדים, הוא אינו צריך להאמין לי.
+function renderReflectionChecks() {
+  const box = el("model-checks");
+  if (!box) return;
+  if (state.dataset !== "model") {
+    box.hidden = true;
+    return;
+  }
+  box.hidden = false;
+  const model = state.dataModel || { checks: [], findings: [] };
+  const checks = model.checks || [];
+  const findings = model.findings || [];
+  const base = model.base || {};
+  const failed = model.optional_failed || [];
+
+  box.innerHTML = `
+    <!-- §30: הבסיס קודם, ולחוד. "מפת חום מנהלה ומשרות פנויות זה הבסיס" —
+         ולכן השורה הראשונה במסך אומרת אם הוא שלם, בלי תלות בכל השאר. -->
+    <div class="panel-head">
+      <h2>הבסיס — מפת חום מנהלה ומשרות פנויות</h2>
+      <span class="panel-note">${
+        base.ok
+          ? "שלם. תקלה בתוספת אינה פוגעת בו."
+          : "חסר — טען את קובץ התקן והמצבה."
+      }</span>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead><tr><th>מה</th><th>כמה</th><th></th></tr></thead>
+        <tbody>
+          <tr><td><strong>שורות תקן ומצבה</strong></td>
+            <td>${(base.positions || 0).toLocaleString("he-IL")}</td>
+            <td>${base.positions ? '<span class="yes">יש</span>' : '<span class="no">חסר</span>'}</td></tr>
+          <tr><td><strong>שורות מפת חום המנהלה</strong></td>
+            <td>${(base.admin_rows || 0).toLocaleString("he-IL")}</td>
+            <td>${base.admin_rows ? '<span class="yes">יש</span>' : '<span class="no">חסר</span>'}</td></tr>
+          <tr><td><strong>משרות פנויות לגיוס</strong></td>
+            <td>${(base.vacant || 0).toLocaleString("he-IL")}</td>
+            <td>${base.vacant ? '<span class="yes">יש</span>' : '<span class="no">חסר</span>'}</td></tr>
+        </tbody>
+      </table>
+    </div>
+    ${
+      failed.length
+        ? `<p class="panel-note"><strong>${failed.length} תוספות לא נטענו,
+             והבסיס לא נפגע:</strong> ${escapeHtml(failed.join(" · "))}</p>`
+        : ""
+    }
+
+    <div class="panel-head">
+      <h2>האם המסך משקף את הטבלאות?</h2>
+      <span class="panel-note">${checks.filter((c) => c.ok).length} מתוך
+        ${checks.length} בדיקות — המספר בטבלה מול המספר שמוצג</span>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead><tr><th>מה נבדק</th><th>בטבלה</th><th>על המסך</th><th></th>
+          <th>מה זה אומר</th></tr></thead>
+        <tbody>${checks
+          .map(
+            (c) => `<tr class="${c.ok ? "" : "row-pending"}">
+              <td><strong>${escapeHtml(c.label)}</strong></td>
+              <td>${Number(c.table).toLocaleString("he-IL")}</td>
+              <td>${Number(c.screen).toLocaleString("he-IL")}</td>
+              <td>${
+                c.ok
+                  ? '<span class="yes">זהה</span>'
+                  : '<span class="no">פער</span>'
+              }</td>
+              <td class="muted">${escapeHtml(c.note || "")}</td>
+            </tr>`
+          )
+          .join("")}</tbody>
+      </table>
+    </div>
+    ${
+      findings.length
+        ? `<div class="panel-head"><h2>סתירות פנימיות</h2>
+             <span class="panel-note">מצבים שאינם אפשריים אם הכול תקין</span></div>
+           <div class="table-wrap"><table class="table">
+             <thead><tr><th>חומרה</th><th>מה נמצא</th><th>כמה</th>
+               <th>מה לעשות</th></tr></thead>
+             <tbody>${findings
+               .map(
+                 (f) => `<tr class="${f.severity === "שגיאה" ? "row-pending" : ""}">
+                   <td>${escapeHtml(f.severity)}</td>
+                   <td><strong>${escapeHtml(f.title)}</strong></td>
+                   <td>${f.count ?? ""}</td>
+                   <td class="muted">${escapeHtml(f.hint || "")}</td>
+                 </tr>`
+               )
+               .join("")}</tbody></table></div>`
+        : `<p class="panel-note">אין סתירות פנימיות במאגר.</p>`
+    }`;
 }
 
 // §21: רענון המיפוי אחרי שינוי. הקבוצות והשיוכים מזינים גם את בוררי
@@ -2882,6 +3454,58 @@ function wireOccupationGroups() {
   };
 }
 
+// §28: שלוש הפונקציות הבאות היו חמישה עותקים של אותו קוד.
+//
+// חמש קריאות ל-`querySelectorAll` הכילו את אותן שש שורות של Enter/Escape,
+// ושלוש מהן גם את אותן 20 שורות של fetch → בדיקת ok → שחזור בשגיאה. זה
+// אינו רק אורך: תא נערך חדש נכתב בהעתקה, וכל העתקה היא הזדמנות לשכוח את
+// שחזור הערך בשגיאה — ואז השדה מציג ערך שלא נשמר.
+
+/** Enter שומר, Escape מחזיר. `SELECT` נשמר גם ב-change (ראו בורר הסוג). */
+function bindCellKeys(input, save) {
+  if (input.tagName === "SELECT") input.onchange = save;
+  input.onblur = save;
+  input.onkeydown = (e) => {
+    if (e.key === "Enter") input.blur();
+    if (e.key === "Escape") {
+      input.value = input.dataset.original;
+      input.blur();
+    }
+  };
+}
+
+/** שולח את הערך, ובשגיאה **מחזיר את מה שהיה** ומסמן את השדה באדום. */
+async function saveField(input, url, body, after) {
+  const original = input.dataset.original;
+  const data = await (
+    await fetch(url, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    })
+  ).json();
+  if (!data.ok) {
+    input.value = original;
+    input.classList.add("input--err");
+    setTimeout(() => input.classList.remove("input--err"), 1500);
+    return alert(data.error);
+  }
+  input.dataset.original = input.value;
+  input.classList.add("input--ok");
+  await after();
+}
+
+/** תא `data-field` על ישות אחת: נשמר רק כשהערך באמת השתנה. */
+function fieldSave(input, url, after) {
+  if (input.value === input.dataset.original) return undefined;
+  return saveField(input, url, { [input.dataset.field]: input.value.trim() }, after);
+}
+
+async function refreshAndRerender() {
+  await refreshAll();
+  renderManageTable();
+}
+
 // עריכה בשורה: נשמרת ב-blur או ב-Enter, ורק אם הערך באמת השתנה — אחרת
 // כל מעבר עם Tab על הטבלה היה יוצר גיבוי וכתיבה מיותרים.
 function wireInlineEdit(table) {
@@ -2912,106 +3536,34 @@ function wireInlineEdit(table) {
     };
   });
 
-  // §23: עריכת שדות היחידה. אותה תבנית כמו שאר העריכה בשורה — נשמר
-  // ב-blur/Enter ורק כשהערך באמת השתנה.
   // §24: שינוי שם מחוז או מרחב. שינוי כזה נוגע בכל הטבלאות שמחזיקות את
   // השם, ולכן אחריו נדרש רענון מלא ולא עדכון מקומי.
   table.querySelectorAll(".org-field").forEach((input) => {
-    const save = async () => {
+    bindCellKeys(input, () => {
       const original = input.dataset.original;
-      if (input.value === original || !original) return;
-      const response = await fetch(
+      if (input.value === original || !original) return undefined;
+      return saveField(
+        input,
         `/api/org/${input.dataset.level}/${encodeURIComponent(original)}`,
-        {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ name: input.value.trim() }),
-        }
+        { name: input.value.trim() },
+        refreshAndRerender
       );
-      const data = await response.json();
-      if (!data.ok) {
-        input.value = original;
-        input.classList.add("input--err");
-        setTimeout(() => input.classList.remove("input--err"), 1500);
-        return alert(data.error);
-      }
-      await refreshAll();
-      renderManageTable();
-    };
-    input.onblur = save;
-    input.onkeydown = (e) => {
-      if (e.key === "Enter") input.blur();
-      if (e.key === "Escape") {
-        input.value = input.dataset.original;
-        input.blur();
-      }
-    };
+    });
   });
 
-  // §23: עריכת שדות התחנה.
+  // §23: עריכת שדות התחנה. שינוי בתחנה משנה את המפה, המדדים והמרחבים —
+  // רענון מלא ולא מקומי.
   table.querySelectorAll(".station-field").forEach((input) => {
-    const save = async () => {
-      if (input.value === input.dataset.original) return;
-      const body = {};
-      body[input.dataset.field] = input.value.trim();
-      const response = await fetch(`/api/stations/${input.dataset.id}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-      });
-      const data = await response.json();
-      if (!data.ok) {
-        input.value = input.dataset.original;
-        input.classList.add("input--err");
-        setTimeout(() => input.classList.remove("input--err"), 1500);
-        return alert(data.error);
-      }
-      input.dataset.original = input.value;
-      input.classList.add("input--ok");
-      // שינוי בתחנה משנה את המפה, המדדים והמרחבים — רענון מלא ולא מקומי.
-      await refreshAll();
-      renderManageTable();
-    };
-    input.onblur = save;
-    input.onkeydown = (e) => {
-      if (e.key === "Enter") input.blur();
-      if (e.key === "Escape") {
-        input.value = input.dataset.original;
-        input.blur();
-      }
-    };
+    bindCellKeys(input, () =>
+      fieldSave(input, `/api/stations/${input.dataset.id}`, refreshAndRerender)
+    );
   });
 
+  // §23: עריכת שדות היחידה. §28: כל שבע העמודות, כולל בורר הסוג.
   table.querySelectorAll(".unit-field").forEach((input) => {
-    const save = async () => {
-      if (input.value === input.dataset.original) return;
-      const body = {};
-      body[input.dataset.field] = input.value.trim();
-      const response = await fetch(`/api/units/${input.dataset.id}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-      });
-      const data = await response.json();
-      if (!data.ok) {
-        input.value = input.dataset.original;
-        input.classList.add("input--err");
-        setTimeout(() => input.classList.remove("input--err"), 1500);
-        return alert(data.error);
-      }
-      input.dataset.original = input.value;
-      input.classList.add("input--ok");
-      setTimeout(() => input.classList.remove("input--ok"), 900);
-      await refreshUnits();
-    };
-    input.onblur = save;
-    input.onkeydown = (e) => {
-      if (e.key === "Enter") input.blur();
-      if (e.key === "Escape") {
-        input.value = input.dataset.original;
-        input.blur();
-      }
-    };
+    bindCellKeys(input, () =>
+      fieldSave(input, `/api/units/${input.dataset.id}`, refreshUnits)
+    );
   });
 
   table.querySelectorAll("[data-unit-del]").forEach((button) => {
@@ -3026,25 +3578,34 @@ function wireInlineEdit(table) {
     };
   });
 
-  table.querySelectorAll(".unit-input").forEach((input) => {
-    input.onblur = () => saveUnitLocation(input);
-    input.onkeydown = (e) => {
-      if (e.key === "Enter") input.blur();
-      if (e.key === "Escape") {
-        input.value = input.dataset.original;
-        input.blur();
+  // §28: סימון יישוב על המפה. שמירה מיד ורענון מלא — הסימון משנה את
+  // המפה עצמה, ולא רק את השורה בטבלה.
+  table.querySelectorAll(".settlement-flag").forEach((box) => {
+    box.onchange = async () => {
+      const body = {};
+      body[box.dataset.field] = box.checked;
+      const data = await (
+        await fetch(`/api/settlements/${box.dataset.id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+        })
+      ).json();
+      if (!data.ok) {
+        box.checked = !box.checked;
+        return alert(data.error);
       }
+      await refreshAll();
+      renderManageKpis();
+      renderManageTable();
     };
   });
+
+  table.querySelectorAll(".unit-input").forEach((input) => {
+    bindCellKeys(input, () => saveUnitLocation(input));
+  });
   table.querySelectorAll(".travel-input").forEach((input) => {
-    input.onblur = () => saveTravel(input);
-    input.onkeydown = (e) => {
-      if (e.key === "Enter") input.blur();
-      if (e.key === "Escape") {
-        input.value = input.dataset.original;
-        input.blur();
-      }
-    };
+    bindCellKeys(input, () => saveTravel(input));
   });
   table.querySelectorAll(".row-del").forEach((button) => {
     button.onclick = () =>
@@ -3107,11 +3668,17 @@ async function saveUnitLocation(input) {
   await refreshAll();
 }
 
-function switchDataset(name) {
+async function switchDataset(name) {
   state.dataset = name;
   document.querySelectorAll("#manage-tabs .tab").forEach((tab) => {
     tab.classList.toggle("active", tab.dataset.dataset === name);
   });
+  // §29: מבנה הנתונים נטען בכל כניסה למסך ולא בעליית המערכת. הוא סופר את
+  // כל הטבלאות ומריץ 12 בדיקות — עבודה שאין טעם לעשות למי שלא ביקש
+  // לראות אותה, וכשכן ביקש הוא רוצה את המצב **עכשיו** ולא מלפני שעה.
+  if (name === "model") {
+    state.dataModel = await api("/api/data-model");
+  }
   ["add-row", "add-row-region", "add-unit-row"].forEach((id) => {
     if (el(id)) el(id).hidden = true;
   });
@@ -3145,6 +3712,8 @@ function wireManage() {
     renderUnitAliasBar();
   };
   el("add-unit-cancel").onclick = () => (el("add-unit-row").hidden = true);
+  // §28: שורת ההוספה מקבלת את אותן עמודות שהטבלה נערכת בהן. יחידה שנוספת
+  // בשלושה שדות ואז נערכת בשבעה היא שני מסכים לאותה פעולה.
   el("add-unit-save").onclick = async () => {
     const name = el("add-unit-name").value.trim();
     if (!name) return (el("add-unit-error").textContent = "יש להזין שם יחידה.");
@@ -3153,15 +3722,18 @@ function wireManage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         name,
+        kind: el("add-unit-kind").value,
         district: el("add-unit-district").value.trim(),
+        region: el("add-unit-region").value.trim(),
+        parent_unit: el("add-unit-parent").value.trim(),
+        level5: el("add-unit-level5").value.trim(),
         settlement_name: el("add-unit-settlement").value.trim(),
       }),
     });
     const data = await response.json();
     if (!data.ok) return (el("add-unit-error").textContent = data.error);
-    ["add-unit-name", "add-unit-district", "add-unit-settlement"].forEach(
-      (id) => (el(id).value = "")
-    );
+    ["add-unit-name", "add-unit-district", "add-unit-region", "add-unit-parent",
+     "add-unit-level5", "add-unit-settlement"].forEach((id) => (el(id).value = ""));
     el("add-unit-error").textContent = "";
     el("add-unit-row").hidden = true;
     await refreshUnits();
@@ -3749,7 +4321,9 @@ let strategicFilter = null;
 // נשען על תקן ובפועל ברמת תחנה, ולמנהלה אין רמה כזו. הדירוג הוא לפי
 // גודל הפער בפועל, שהוא מה שהתכנון נשען עליו.
 async function loadStrategicAdmin() {
-  const data = await api("/api/admin-gaps");
+  // §31: סינון יחידה — אותו סינון בדיוק כמו בלוח המשרות.
+  const scope = el("str-scope-filter") ? el("str-scope-filter").value : "";
+  const data = await api(`/api/admin-gaps${scope ? `?scope=${scope}` : ""}`);
   const totals = data.totals;
 
   el("str-kpis").innerHTML = [
@@ -3914,7 +4488,18 @@ function applyStrategicScope() {
   document.querySelectorAll("#str-scope .scope-btn").forEach((b) => {
     b.classList.toggle("active", b.dataset.scope === state.strategicScope);
   });
-  el("str-filters").hidden = !core;
+  // §31: סרגל הסינון נשאר גלוי בשני התחומים, ומחליף תוכן.
+  //
+  // קודם הוא הוסתר לגמרי בתצוגת המשרות, כי הסינונים שבו (מחוז · מרחב ·
+  // תחנה · מקצוע) הם של התחנות ואין להם משמעות שם. אבל **סינון היחידה כן
+  // רלוונטי דווקא שם** — הוא נשען על רמת המשרה. הסתרת הסרגל כולו הייתה
+  // מסתירה אותו יחד עם מה שלא שייך.
+  el("str-filters").hidden = false;
+  ["str-district", "str-region", "str-station", "f-family"].forEach((id) => {
+    if (el(id) && el(id).parentElement) el(id).parentElement.hidden = !core;
+  });
+  if (el("str-scope-label")) el("str-scope-label").hidden = core;
+  el("str-reset").hidden = false;
   el("str-core-panel").hidden = !core;
   el("str-admin-panel").hidden = core;
   el("str-n").parentElement.hidden = !core;
@@ -3967,8 +4552,10 @@ async function wireStrategic() {
   });
   el("str-reset").onclick = () => {
     el("f-family").value = "";
+    if (el("str-scope-filter")) el("str-scope-filter").value = "";
     strategicFilter.reset();
   };
+  if (el("str-scope-filter")) el("str-scope-filter").onchange = loadBoard;
 
   document.querySelectorAll("#str-scope .scope-btn").forEach((button) => {
     button.onclick = () => {
@@ -4013,7 +4600,7 @@ async function wireStrategic() {
   };
 }
 
-/* --- מסך לוח משרות -------------------------------------------------------- */
+/* --- מסך לוח משרות לגיוס -------------------------------------------------- */
 //
 // **במסך הזה יש טבלה אחת בלבד**: המשרות שאפשר לגייס אליהן, עם מספר המשרה.
 // סקירת החוסרים (הגרף, התפקידים החסרים, היחידות המרוקנות) עברה ללוח
@@ -4031,6 +4618,9 @@ async function loadAdminOptions() {
   if (el("a-area").value) params.set("area", el("a-area").value);
   if (el("a-department").value) params.set("department", el("a-department").value);
   if (el("a-unit").value) params.set("region", el("a-unit").value);
+  // §33: סינון היחידה נשלח גם לרשימת האפשרויות. בלעדיו המספר שליד כל
+  // תפקיד נספר על כל המשרות, והלחיצה עליו מחזירה רשימה ריקה.
+  if (el("a-scope") && el("a-scope").value) params.set("scope", el("a-scope").value);
 
   const data = await api(`/api/admin-options?${params}`);
   state.adminProfessions = data.professions.map((p) => p.name);
@@ -4125,10 +4715,23 @@ async function loadAdminPositions() {
     .filter(Boolean)
     .join(" · ");
   el("admin-positions-title").textContent = scope ? `משרות פנויות — ${scope}` : "כל המשרות הפנויות";
+
+  // §32: **אותו נוסח בכל סינון — מספר המשרות, וזה הכול.**
+  //
+  // קודם ההערה התחלפה: כשהרשימה לא נחתכה היא הוסיפה 'מסומנות "פנויה
+  // לתכנון גיוס" עם תקן פנוי', וכשנחתכה (מעל 1,000 שורות) הטקסט הזה נעלם.
+  // התוצאה: סינון מרחב (84 שורות) הציג אותו וסינון תחנות (1,048) לא —
+  // וזה נראה כאילו הכלל חל רק על חלק מהסינונים. הוא חל על כולם תמיד,
+  // ולכן אין מה לכתוב אותו בכלל.
+  //
+  // החיתוך כן נאמר, בקצרה. רשימה חתוכה שנראית שלמה היא תמונה חלקית שמגייס
+  // עובד לפיה בלי לדעת — וזה גרוע יותר מהערה אחת.
   el("admin-positions-note").textContent =
     data.total > data.shown
-      ? `מוצגות ${data.shown} מתוך ${data.total.toLocaleString("he-IL")} משרות — צמצם בסרגל שלמעלה`
-      : `${data.total.toLocaleString("he-IL")} משרות · מסומנות "פנויה לתכנון גיוס" עם תקן פנוי`;
+      ? `${data.total.toLocaleString("he-IL")} משרות · מוצגות ${data.shown.toLocaleString(
+          "he-IL"
+        )} הראשונות`
+      : `${data.total.toLocaleString("he-IL")} משרות`;
 
   // פילוח לפי סיווג התפקיד. כשמקלידים טקסט חופשי התוצאה עשויה לחצות כמה
   // סיווגים, והפילוח הוא מה שמראה זאת במקום להסתיר בסכום אחד.
@@ -4136,11 +4739,26 @@ async function loadAdminPositions() {
     .map((l) => `<span class="chip">${escapeHtml(l.name)} <b>${l.n}</b></span>`)
     .join("");
 
+  // §25: רמה 05 מוצגת רק כשיש לה נתון. קובץ בלי העמודה הזו השאיר עמודה
+  // שלמה של מקפים, שנראית כמו יכולת שבורה ולא כמו נתון שטרם נטען.
+  const showSubunit = Boolean(data.has_subunit);
+  const th = el("th-subunit");
+  if (th) th.hidden = !showSubunit;
+
+  // §35: **מספר המשרה חזר לשורה אחת עם השאר.**
+  //
+  // §34 הוציא אותו לשורה משלו כי 11 עמודות לא נכנסו למסך. "מצב משרה" ירד
+  // — הוא היה "פנוי" בכל שורה, כי זו כל הרשימה — והתפנה המקום.
+  //
+  // שדות אחרים רשאים לגלוש לשתי שורות; **מספר המשרה לא.** מזהה שנחתך
+  // אינו מזהה, ולכן הוא `nowrap` גם כשהעמודה צרה.
+  const columns = showSubunit ? 11 : 10;
   el("admin-positions-table").querySelector("tbody").innerHTML = data.items.length
     ? data.items
         .map(
           (p) => `<tr>
-            <td><strong class="mono">${escapeHtml(p.position_no)}</strong></td>
+            <td class="col-position"><strong class="mono">${escapeHtml(p.position_no)}</strong></td>
+            <td>${employmentText(p.employment)}</td>
             <td class="mono">${scopeText(p.scope_pct)}</td>
             <td>${escapeHtml(p.occupation || "—")}</td>
             <td>${escapeHtml(p.profession)}</td>
@@ -4149,12 +4767,21 @@ async function loadAdminPositions() {
             <td class="muted">${escapeHtml(p.district || "—")}</td>
             <td>${escapeHtml(p.region || "—")}</td>
             <td class="muted">${escapeHtml(p.unit || "—")}</td>
-            <td>${escapeHtml(p.subunit || "—")}</td>
-            <td>${escapeHtml(p.state_label)}</td>
+            <td class="col-subunit"${showSubunit ? "" : " hidden"}>${escapeHtml(
+              p.subunit || "—"
+            )}</td>
           </tr>`
         )
         .join("")
-    : `<tr><td colspan="11" class="muted">אין משרות פנויות בסינון הזה.</td></tr>`;
+    : `<tr><td colspan="${columns}" class="muted">אין משרות פנויות בסינון הזה.</td></tr>`;
+}
+
+// §35: סטודנט או רגיל. **סטודנט מסומן, רגיל לא** — ברשימה של אלף שורות
+// שבה 96% רגילות, סימון של שתיהן מוסיף רעש ולא מידע. הצבע נושא את ההבחנה
+// יחד עם המילה, ולא במקומה.
+function employmentText(value) {
+  if (value === "סטודנט") return '<span class="tag-student">סטודנט</span>';
+  return `<span class="muted">${escapeHtml(value || "רגיל")}</span>`;
 }
 
 async function refreshAdmin() {
@@ -4464,7 +5091,37 @@ function showScreen(name) {
   if (name === "admin") refreshAdmin();
   // ההגדרות נטענות מחדש בכל כניסה ללשונית שלהן: אם נשמרו במקום אחר,
   // המסך היה מציג ערך ישן.
-  if (name === "settings") showSettingsPane(state.settingsPane || "manage");
+  if (name === "settings") {
+    loadManageData().then(() => showSettingsPane(state.settingsPane || "manage"));
+  }
+}
+
+// §31: מערכי הנתונים של מסך ההגדרות — נטענים בכניסה אליו ולא בעליית
+// המערכת.
+//
+// הם היו 2.8MB מתוך 6.3MB שהדפדפן הוריד **בכל רענון**, גם למי שרק פתח את
+// המפה. בפלאפון זה נראה כמו מערכת תקועה, וזה מה שדווח.
+//
+// **נטענים פעם אחת ומרועננים אחרי כל עריכה** (refreshUnits ואחיותיה עושות
+// זאת ממילא). `loaded` מונע הורדה חוזרת של 1.4MB בכל מעבר בין לשוניות.
+let manageDataLoaded = false;
+
+async function loadManageData(force = false) {
+  if (manageDataLoaded && !force) return;
+  const [adminRows, occupationGroups, editableUnits, changeLog, unitAliases] =
+    await Promise.all([
+      api("/api/admin-rows"),
+      api("/api/occupation-groups"),
+      api("/api/units"),
+      api("/api/change-log"),
+      api("/api/unit-aliases"),
+    ]);
+  state.adminRows = adminRows;
+  state.occupationGroups = occupationGroups;
+  state.units_editable = editableUnits;
+  state.changeLog = changeLog;
+  state.unitAliases = unitAliases;
+  manageDataLoaded = true;
 }
 
 function wireNav() {
@@ -4572,9 +5229,14 @@ async function refreshAll() {
 
   // /api/regions מחזיר את שמות המרחבים לרשימות הסינון; /api/regions/heat
   // מחזיר את מפת החום שלהם. שני נתונים שונים, ולכן שני נתיבים.
+  // §31: **חמישה מערכי נתונים ירדו מהטעינה הראשונית.** הם נצרכים רק במסך
+  // ההגדרות, והם היו 2.8MB מתוך 6.3MB שהדפדפן הוריד בכל רענון — גם למי
+  // שרק רצה לראות את המפה. בפלאפון זה נראה כמו מערכת תקועה.
+  //
+  // הם נטענים עכשיו בכניסה למסך ההגדרות (ראו loadManageData), בדיוק כמו
+  // שמסך מבנה הנתונים נטען בכניסה אליו.
   const [legend, stations, settlements, relations, lastUpdate, regions, regionHeat,
-         regionRelations, candidates, adminRows, unitLocations, unitHeat,
-         occupationGroups, editableUnits, changeLog, unitAliases] =
+         regionRelations, candidates, unitLocations, unitHeat] =
     await Promise.all([
       api("/api/legend"),
       api("/api/stations"),
@@ -4585,13 +5247,8 @@ async function refreshAll() {
       api("/api/regions/heat"),
       api("/api/region-relations"),
       api("/api/candidates-breakdown"),
-      api("/api/admin-rows"),
       api("/api/unit-locations"),
       api("/api/units/heat"),
-      api("/api/occupation-groups"),
-      api("/api/units"),
-      api("/api/change-log"),
-      api("/api/unit-aliases"),
     ]);
 
   state.stations = stations;
@@ -4605,11 +5262,7 @@ async function refreshAll() {
   state.unitsById = new Map(unitHeat.items.map((u) => [u.id, u]));
   state.regionRelations = regionRelations;
   state.candidateScopes = candidates.scopes;
-  state.adminRows = adminRows;
-  state.occupationGroups = occupationGroups;
-  state.units_editable = editableUnits;
-  state.changeLog = changeLog;
-  state.unitAliases = unitAliases;
+
   state.unitLocations = unitLocations.units;
   // רשימת היישובים ל-datalist נבנית פעם אחת: 1,400 אפשרויות בכל שורה
   // היו הופכות את הטבלה לאיטית בלי להוסיף דבר.
@@ -4646,7 +5299,7 @@ async function refreshAll() {
     // נשמרת; אם לא — חוזרים למבט הכללי במקום להשאיר חלונית של ישות שאיננה.
     const previous = state.selectedId;
     renderBaseMarkers();
-    const stillExists = mode().base().some((e) => e.id === previous);
+    const stillExists = searchBase().some((e) => e.id === previous);
     selectEntity(stillExists ? previous : null, { animate: false });
   }
 

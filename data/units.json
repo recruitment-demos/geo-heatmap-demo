@@ -1,62 +1,94 @@
 [
  {
-  "actual": 291.0,
+  "actual": 345,
   "district": null,
   "id": 5,
+  "join_keys": [],
+  "kind": "יחידה",
+  "level5": "יחידת אכיפה כלכלית",
   "name": "יחידת אכיפה כלכלית",
-  "positions": 344,
-  "required": 344.0,
+  "parent_unit": null,
+  "positions": 442,
+  "region": "מרחב גלעד",
+  "required": 419,
   "settlement_name": "בית ברל",
-  "vacant": 53
+  "vacant": 78
  },
  {
-  "actual": 262.0,
+  "actual": 373,
   "district": null,
   "id": 1,
+  "join_keys": [
+   "יחידת חילוץ ארצי"
+  ],
+  "kind": "יחידה",
+  "level5": "יחידת חילוץ ארצית",
   "name": "יחידת חילוץ ארצית",
-  "positions": 299,
-  "required": 299.0,
+  "parent_unit": null,
+  "positions": 457,
+  "region": "מרחב איילון",
+  "required": 438,
   "settlement_name": "אבטליון",
-  "vacant": 37
+  "vacant": 67
  },
  {
-  "actual": 262.0,
+  "actual": 378,
   "district": null,
   "id": 3,
+  "join_keys": [],
+  "kind": "יחידה",
+  "level5": "יחידת סיור מיוחדת",
   "name": "יחידת סיור מיוחדת",
-  "positions": 309,
-  "required": 309.0,
+  "parent_unit": null,
+  "positions": 470,
+  "region": "מרחב אשר",
+  "required": 454,
   "settlement_name": "איתן",
-  "vacant": 47
+  "vacant": 77
  },
  {
-  "actual": 207.0,
+  "actual": 369,
   "district": null,
   "id": 2,
+  "join_keys": [],
+  "kind": "מפקדה",
+  "level5": "מפקדת מרחב תפעולית",
   "name": "מפקדת מרחב תפעולית",
-  "positions": 244,
-  "required": 244.0,
+  "parent_unit": null,
+  "positions": 461,
+  "region": "מרחב אילת",
+  "required": 439,
   "settlement_name": "אור יהודה",
-  "vacant": 37
- },
- {
-  "actual": 296.0,
-  "district": null,
-  "id": 6,
-  "name": "מרכז הדרכה ארצי",
-  "positions": 367,
-  "required": 367.0,
-  "settlement_name": "בני ברק",
   "vacant": 71
  },
  {
-  "actual": 228.0,
+  "actual": 329,
+  "district": null,
+  "id": 6,
+  "join_keys": [],
+  "kind": "יחידה",
+  "level5": "מרכז הדרכה ארצי",
+  "name": "מרכז הדרכה ארצי",
+  "parent_unit": null,
+  "positions": 410,
+  "region": "מרחב דוד",
+  "required": 393,
+  "settlement_name": "בני ברק",
+  "vacant": 66
+ },
+ {
+  "actual": 380,
   "district": null,
   "id": 4,
+  "join_keys": [],
+  "kind": "מרכז",
+  "level5": "מרכז שליטה ארצי",
   "name": "מרכז שליטה ארצי",
-  "positions": 278,
-  "required": 278.0,
+  "parent_unit": null,
+  "positions": 476,
+  "region": "מרחב גליל",
+  "required": 455,
   "settlement_name": "ארבל",
-  "vacant": 50
+  "vacant": 80
  }
 ]

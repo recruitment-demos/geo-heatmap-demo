@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 10,
+   "count": 11,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 5,
    "key": "detectives",
    "label": "בלש"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 22,
- "candidates_in_process": 47,
- "candidates_pct_jewish": 73.3,
- "candidates_pct_male": 59.1,
- "candidates_religion_coverage": 15,
+ "candidates_gender_coverage": 27,
+ "candidates_in_process": 53,
+ "candidates_pct_jewish": 63.2,
+ "candidates_pct_male": 63.0,
+ "candidates_religion_coverage": 19,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",

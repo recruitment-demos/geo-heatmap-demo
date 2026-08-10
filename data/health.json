@@ -1,9 +1,16 @@
 {
+ "base": {
+  "admin_rows": 254,
+  "ok": true,
+  "positions": 12583,
+  "vacant": 2000
+ },
  "db": "(demo)",
- "focus_settlements": 33,
+ "focus_settlements": 99,
  "large_settlement_population": 20000,
  "nearby_minutes": 30,
  "ok": true,
+ "optional_failed": [],
  "population_known": 255,
  "relations": 1493,
  "settlements": 255,

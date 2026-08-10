@@ -4,7 +4,7 @@
    "roles": null,
    "scope_name": "ארצי",
    "scope_type": "national",
-   "total": 2186
+   "total": 2173
   },
   {
    "roles": null,
@@ -16,181 +16,181 @@
    "roles": null,
    "scope_name": "חוף",
    "scope_type": "district",
-   "total": 335
+   "total": 294
   },
   {
    "roles": null,
    "scope_name": "ירושלים",
    "scope_type": "district",
-   "total": 194
+   "total": 164
   },
   {
    "roles": null,
    "scope_name": "מג\"ב",
    "scope_type": "district",
-   "total": 10
+   "total": 21
   },
   {
    "roles": null,
    "scope_name": "מרכז",
    "scope_type": "district",
-   "total": 476
+   "total": 559
   },
   {
    "roles": null,
    "scope_name": "צפון",
    "scope_type": "district",
-   "total": 439
+   "total": 466
   },
   {
    "roles": null,
    "scope_name": "ש\"י",
    "scope_type": "district",
-   "total": 131
+   "total": 88
   },
   {
    "roles": null,
    "scope_name": "תל אביב",
    "scope_type": "district",
-   "total": 241
+   "total": 221
   },
   {
    "roles": null,
    "scope_name": "איילון",
    "scope_type": "area",
-   "total": 92
+   "total": 103
   },
   {
    "roles": null,
    "scope_name": "אילת",
    "scope_type": "area",
-   "total": 4
+   "total": 3
   },
   {
    "roles": null,
    "scope_name": "אשר",
    "scope_type": "area",
-   "total": 109
+   "total": 89
   },
   {
    "roles": null,
    "scope_name": "גליל",
    "scope_type": "area",
-   "total": 135
+   "total": 148
   },
   {
    "roles": null,
    "scope_name": "גלעד",
    "scope_type": "area",
-   "total": 77
+   "total": 25
   },
   {
    "roles": null,
    "scope_name": "דוד",
    "scope_type": "area",
-   "total": 9
+   "total": 5
   },
   {
    "roles": null,
    "scope_name": "דן",
    "scope_type": "area",
-   "total": 74
+   "total": 61
   },
   {
    "roles": null,
    "scope_name": "יהודה",
    "scope_type": "area",
-   "total": 28
+   "total": 44
   },
   {
    "roles": null,
    "scope_name": "ירקון",
    "scope_type": "area",
-   "total": 75
+   "total": 57
   },
   {
    "roles": null,
    "scope_name": "כנרת",
    "scope_type": "area",
-   "total": 130
+   "total": 123
   },
   {
    "roles": null,
    "scope_name": "כרמל",
    "scope_type": "area",
-   "total": 56
+   "total": 63
   },
   {
    "roles": null,
    "scope_name": "לכיש",
    "scope_type": "area",
-   "total": 183
+   "total": 218
   },
   {
    "roles": null,
    "scope_name": "מג\"ב י-ם",
    "scope_type": "area",
-   "total": 10
+   "total": 21
   },
   {
    "roles": null,
    "scope_name": "מנשה",
    "scope_type": "area",
-   "total": 170
+   "total": 142
   },
   {
    "roles": null,
    "scope_name": "נגב",
    "scope_type": "area",
-   "total": 94
+   "total": 67
   },
   {
    "roles": null,
    "scope_name": "נתב\"ג",
    "scope_type": "area",
-   "total": 28
+   "total": 24
   },
   {
    "roles": null,
    "scope_name": "עמקים",
    "scope_type": "area",
-   "total": 174
+   "total": 195
   },
   {
    "roles": null,
    "scope_name": "ציון",
    "scope_type": "area",
-   "total": 75
+   "total": 92
   },
   {
    "roles": null,
    "scope_name": "קדם",
    "scope_type": "area",
-   "total": 110
+   "total": 67
   },
   {
    "roles": null,
    "scope_name": "רותם",
    "scope_type": "area",
-   "total": 79
+   "total": 72
   },
   {
    "roles": null,
    "scope_name": "שומרון",
    "scope_type": "area",
-   "total": 26
+   "total": 19
   },
   {
    "roles": null,
    "scope_name": "שפלה",
    "scope_type": "area",
-   "total": 209
+   "total": 184
   },
   {
    "roles": null,
    "scope_name": "שרון",
    "scope_type": "area",
-   "total": 239
+   "total": 351
   }
  ],
  "stations": [
@@ -204,7 +204,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 1,
      "key": "patrol",
      "label": "סייר"
     },
@@ -231,13 +231,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 0,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 1,
-   "total": 9
+   "total": 6
   },
   {
    "area": "דוד",
@@ -249,7 +249,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 2,
      "key": "patrol",
      "label": "סייר"
     },
@@ -258,7 +258,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -267,7 +267,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 1,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -282,7 +282,7 @@
     }
    ],
    "station_id": 2,
-   "total": 18
+   "total": 10
   },
   {
    "area": "נתב\"ג",
@@ -294,27 +294,9 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 12,
+     "count": 10,
      "key": "patrol",
      "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
-     "key": "investigators",
-     "label": "חוקר"
     },
     {
      "candidates_gender_coverage": null,
@@ -322,78 +304,6 @@
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
      "count": 4,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 3,
-   "total": 56
-  },
-  {
-   "area": "מנשה",
-   "district": "חוף",
-   "name": "תחנת אום אל פחם",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 12,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 4,
-   "total": 56
-  },
-  {
-   "area": "נגב",
-   "district": "דרום",
-   "name": "תחנת אופקים",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 11,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
      "key": "detectives",
      "label": "בלש"
     },
@@ -416,118 +326,20 @@
      "label": "אחר"
     }
    ],
-   "station_id": 5,
-   "total": 52
-  },
-  {
-   "area": "שומרון",
-   "district": "ש\"י",
-   "name": "תחנת אריאל",
-   "roles": null,
-   "station_id": 6,
-   "total": 1
-  },
-  {
-   "area": "לכיש",
-   "district": "דרום",
-   "name": "תחנת אשדוד",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 25,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 11,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 14,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 9,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 7,
-   "total": 118
-  },
-  {
-   "area": "לכיש",
-   "district": "דרום",
-   "name": "תחנת אשקלון",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 38,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 16,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 22,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 15,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 8,
-   "total": 182
+   "station_id": 3,
+   "total": 48
   },
   {
    "area": "מנשה",
    "district": "חוף",
-   "name": "תחנת באקה אלע'רביה",
+   "name": "תחנת אום אל פחם",
    "roles": [
     {
      "candidates_gender_coverage": null,
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 9,
+     "count": 8,
      "key": "patrol",
      "label": "סייר"
     },
@@ -554,25 +366,168 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 3,
      "key": "other",
      "label": "אחר"
     }
    ],
-   "station_id": 9,
-   "total": 44
+   "station_id": 4,
+   "total": 40
   },
   {
    "area": "נגב",
    "district": "דרום",
-   "name": "תחנת באר שבע",
+   "name": "תחנת אופקים",
    "roles": [
     {
      "candidates_gender_coverage": null,
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 8,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 5,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 5,
+   "total": 38
+  },
+  {
+   "area": "שומרון",
+   "district": "ש\"י",
+   "name": "תחנת אריאל",
+   "roles": null,
+   "station_id": 6,
+   "total": 1
+  },
+  {
+   "area": "לכיש",
+   "district": "דרום",
+   "name": "תחנת אשדוד",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 28,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 12,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 16,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 11,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 7,
+   "total": 133
+  },
+  {
+   "area": "לכיש",
+   "district": "דרום",
+   "name": "תחנת אשקלון",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 48,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 21,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 27,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 18,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 8,
+   "total": 228
+  },
+  {
+   "area": "מנשה",
+   "district": "חוף",
+   "name": "תחנת באקה אלע'רביה",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
      "key": "patrol",
      "label": "סייר"
     },
@@ -599,13 +554,58 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 9,
+   "total": 30
+  },
+  {
+   "area": "נגב",
+   "district": "דרום",
+   "name": "תחנת באר שבע",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 8,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 5,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
      "count": 3,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 10,
-   "total": 33
+   "total": 38
   },
   {
    "area": "עמקים",
@@ -662,7 +662,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 4,
      "key": "patrol",
      "label": "סייר"
     },
@@ -671,7 +671,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "detectives",
      "label": "בלש"
     },
@@ -680,7 +680,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -695,7 +695,7 @@
     }
    ],
    "station_id": 12,
-   "total": 10
+   "total": 18
   },
   {
    "area": "דן",
@@ -707,7 +707,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 10,
      "key": "patrol",
      "label": "סייר"
     },
@@ -716,7 +716,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "detectives",
      "label": "בלש"
     },
@@ -725,7 +725,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 6,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -734,13 +734,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 13,
-   "total": 33
+   "total": 47
   },
   {
    "area": "שומרון",
@@ -752,7 +752,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 3,
      "key": "patrol",
      "label": "סייר"
     },
@@ -761,7 +761,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -770,7 +770,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -779,13 +779,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 14,
-   "total": 25
+   "total": 14
   },
   {
    "area": "איילון",
@@ -797,7 +797,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 9,
      "key": "patrol",
      "label": "סייר"
     },
@@ -806,7 +806,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "detectives",
      "label": "בלש"
     },
@@ -815,7 +815,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -824,13 +824,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 15,
-   "total": 33
+   "total": 44
   },
   {
    "area": "מנשה",
@@ -842,7 +842,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 16,
      "key": "patrol",
      "label": "סייר"
     },
@@ -851,7 +851,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 7,
      "key": "detectives",
      "label": "בלש"
     },
@@ -860,7 +860,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 9,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -869,13 +869,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 6,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 16,
-   "total": 33
+   "total": 75
   },
   {
    "area": "דן",
@@ -965,7 +965,7 @@
     }
    ],
    "station_id": 18,
-   "total": 24
+   "total": 23
   },
   {
    "area": "אשר",
@@ -977,7 +977,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 13,
      "key": "patrol",
      "label": "סייר"
     },
@@ -986,7 +986,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 5,
      "key": "detectives",
      "label": "בלש"
     },
@@ -995,7 +995,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 7,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1004,13 +1004,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 5,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 19,
-   "total": 10
+   "total": 60
   },
   {
    "area": "ירקון",
@@ -1022,7 +1022,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 9,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1031,7 +1031,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 4,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1040,7 +1040,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 5,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1049,58 +1049,21 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 3,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 20,
-   "total": 18
+   "total": 42
   },
   {
    "area": "רותם",
    "district": "דרום",
    "name": "תחנת דימונה",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 1,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 1,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 1,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
+   "roles": null,
    "station_id": 21,
-   "total": 9
+   "total": 1
   },
   {
    "area": "גלעד",
@@ -1112,7 +1075,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 4,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1121,7 +1084,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 2,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1130,7 +1093,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1139,13 +1102,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 2,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 22,
-   "total": 34
+   "total": 20
   },
   {
    "area": "רותם",
@@ -1202,7 +1165,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 16,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1211,7 +1174,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 7,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1220,7 +1183,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 9,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1229,13 +1192,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 6,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 24,
-   "total": 47
+   "total": 77
   },
   {
    "area": "אשר",
@@ -1247,7 +1210,277 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 18,
+     "count": 7,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 25,
+   "total": 34
+  },
+  {
+   "area": "מנשה",
+   "district": "חוף",
+   "name": "תחנת זכרון יעקב",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 7,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 26,
+   "total": 33
+  },
+  {
+   "area": "יהודה",
+   "district": "ש\"י",
+   "name": "תחנת חברון",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 8,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 27,
+   "total": 36
+  },
+  {
+   "area": "מנשה",
+   "district": "חוף",
+   "name": "תחנת חדרה",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 28,
+   "total": 20
+  },
+  {
+   "area": "איילון",
+   "district": "תל אביב",
+   "name": "תחנת חולון",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 29,
+   "total": 28
+  },
+  {
+   "area": "כרמל",
+   "district": "חוף",
+   "name": "תחנת חיפה",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 1,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 30,
+   "total": 18
+  },
+  {
+   "area": "כנרת",
+   "district": "צפון",
+   "name": "תחנת טבריה",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 19,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1279,278 +1512,8 @@
      "label": "אחר"
     }
    ],
-   "station_id": 25,
-   "total": 88
-  },
-  {
-   "area": "מנשה",
-   "district": "חוף",
-   "name": "תחנת זכרון יעקב",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 11,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 6,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 26,
-   "total": 53
-  },
-  {
-   "area": "יהודה",
-   "district": "ש\"י",
-   "name": "תחנת חברון",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 27,
-   "total": 24
-  },
-  {
-   "area": "מנשה",
-   "district": "חוף",
-   "name": "תחנת חדרה",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 10,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 6,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 28,
-   "total": 48
-  },
-  {
-   "area": "איילון",
-   "district": "תל אביב",
-   "name": "תחנת חולון",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 29,
-   "total": 20
-  },
-  {
-   "area": "כרמל",
-   "district": "חוף",
-   "name": "תחנת חיפה",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 6,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 30,
-   "total": 28
-  },
-  {
-   "area": "כנרת",
-   "district": "צפון",
-   "name": "תחנת טבריה",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 20,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 8,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 11,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 8,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
    "station_id": 31,
-   "total": 94
+   "total": 90
   },
   {
    "area": "שרון",
@@ -1595,7 +1558,7 @@
     }
    ],
    "station_id": 32,
-   "total": 76
+   "total": 77
   },
   {
    "area": "שרון",
@@ -1607,7 +1570,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 12,
+     "count": 13,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1634,13 +1597,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 33,
-   "total": 56
+   "total": 60
   },
   {
    "area": "כרמל",
@@ -1652,7 +1615,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 11,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1661,7 +1624,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 5,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1670,7 +1633,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 6,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1679,13 +1642,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 34,
-   "total": 38
+   "total": 53
   },
   {
    "area": "גליל",
@@ -1724,13 +1687,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 35,
-   "total": 42
+   "total": 44
   },
   {
    "area": "שפלה",
@@ -1787,7 +1750,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 7,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1796,7 +1759,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 3,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1805,7 +1768,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 4,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1814,13 +1777,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 3,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 37,
-   "total": 20
+   "total": 34
   },
   {
    "area": "כנרת",
@@ -1832,7 +1795,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 11,
+     "count": 12,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1850,7 +1813,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 7,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1859,13 +1822,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 38,
-   "total": 52
+   "total": 58
   },
   {
    "area": "עמקים",
@@ -1877,7 +1840,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 12,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1886,7 +1849,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 5,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1895,7 +1858,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 7,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1904,13 +1867,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 39,
-   "total": 36
+   "total": 56
   },
   {
    "area": "שרון",
@@ -1922,7 +1885,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 25,
+     "count": 47,
      "key": "patrol",
      "label": "סייר"
     },
@@ -1931,7 +1894,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 11,
+     "count": 20,
      "key": "detectives",
      "label": "בלש"
     },
@@ -1940,7 +1903,97 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 14,
+     "count": 27,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 18,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 40,
+   "total": 224
+  },
+  {
+   "area": "שרון",
+   "district": "מרכז",
+   "name": "תחנת כפר קאסם",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 1,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 1,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 41,
+   "total": 15
+  },
+  {
+   "area": "גליל",
+   "district": "צפון",
+   "name": "תחנת כרמיאל",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 24,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 10,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 13,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -1954,98 +2007,8 @@
      "label": "אחר"
     }
    ],
-   "station_id": 40,
-   "total": 118
-  },
-  {
-   "area": "שרון",
-   "district": "מרכז",
-   "name": "תחנת כפר קאסם",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 2,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 41,
-   "total": 25
-  },
-  {
-   "area": "גליל",
-   "district": "צפון",
-   "name": "תחנת כרמיאל",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 18,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 8,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 10,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
    "station_id": 42,
-   "total": 85
+   "total": 112
   },
   {
    "area": "ציון",
@@ -2057,7 +2020,97 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 13,
+     "count": 16,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 7,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 9,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 43,
+   "total": 77
+  },
+  {
+   "area": "ירקון",
+   "district": "תל אביב",
+   "name": "תחנת לב תל אביב",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 9,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 5,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 44,
+   "total": 42
+  },
+  {
+   "area": "שפלה",
+   "district": "מרכז",
+   "name": "תחנת לוד",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 14,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2076,96 +2129,6 @@
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
      "count": 8,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 43,
-   "total": 64
-  },
-  {
-   "area": "ירקון",
-   "district": "תל אביב",
-   "name": "תחנת לב תל אביב",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 22,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 9,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 12,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 8,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 44,
-   "total": 103
-  },
-  {
-   "area": "שפלה",
-   "district": "מרכז",
-   "name": "תחנת לוד",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 12,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 5,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2180,7 +2143,7 @@
     }
    ],
    "station_id": 45,
-   "total": 58
+   "total": 66
   },
   {
    "area": "גליל",
@@ -2237,7 +2200,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 5,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2246,7 +2209,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2255,7 +2218,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 3,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2264,13 +2227,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 47,
-   "total": 9
+   "total": 24
   },
   {
    "area": "שפלה",
@@ -2282,7 +2245,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 26,
+     "count": 18,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2291,7 +2254,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 11,
+     "count": 8,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2300,7 +2263,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 15,
+     "count": 11,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2309,13 +2272,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 7,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 48,
-   "total": 125
+   "total": 88
   },
   {
    "area": "שומרון",
@@ -2360,7 +2323,7 @@
     }
    ],
    "station_id": 49,
-   "total": 24
+   "total": 23
   },
   {
    "area": "ציון",
@@ -2372,7 +2335,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 2,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2381,7 +2344,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2390,7 +2353,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2399,13 +2362,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 50,
-   "total": 30
+   "total": 10
   },
   {
    "area": "מג\"ב י-ם",
@@ -2417,7 +2380,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 9,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2426,7 +2389,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 4,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2435,7 +2398,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 5,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2444,13 +2407,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 3,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 51,
-   "total": 20
+   "total": 42
   },
   {
    "area": "דן",
@@ -2462,7 +2425,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 12,
+     "count": 3,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2471,7 +2434,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2480,7 +2443,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2489,63 +2452,18 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 52,
-   "total": 56
+   "total": 15
   },
   {
    "area": "גלעד",
    "district": "ש\"י",
    "name": "תחנת מעלה אדומים",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 25,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 11,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 14,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 10,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 53,
-   "total": 120
-  },
-  {
-   "area": "כנרת",
-   "district": "צפון",
-   "name": "תחנת מעלות תרשיחא",
    "roles": [
     {
      "candidates_gender_coverage": null,
@@ -2570,7 +2488,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2584,20 +2502,20 @@
      "label": "אחר"
     }
    ],
-   "station_id": 54,
-   "total": 28
+   "station_id": 53,
+   "total": 30
   },
   {
-   "area": "גליל",
+   "area": "כנרת",
    "district": "צפון",
-   "name": "תחנת משגב",
+   "name": "תחנת מעלות תרשיחא",
    "roles": [
     {
      "candidates_gender_coverage": null,
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 8,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2606,7 +2524,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2615,7 +2533,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2629,13 +2547,13 @@
      "label": "אחר"
     }
    ],
-   "station_id": 55,
-   "total": 34
+   "station_id": 54,
+   "total": 40
   },
   {
-   "area": "אשר",
-   "district": "חוף",
-   "name": "תחנת נהריה",
+   "area": "גליל",
+   "district": "צפון",
+   "name": "תחנת משגב",
    "roles": [
     {
      "candidates_gender_coverage": null,
@@ -2674,8 +2592,53 @@
      "label": "אחר"
     }
    ],
-   "station_id": 56,
+   "station_id": 55,
    "total": 58
+  },
+  {
+   "area": "אשר",
+   "district": "חוף",
+   "name": "תחנת נהריה",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 7,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 56,
+   "total": 34
   },
   {
    "area": "עמקים",
@@ -2687,7 +2650,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 15,
+     "count": 14,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2714,13 +2677,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 5,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 57,
-   "total": 70
+   "total": 66
   },
   {
    "area": "עמקים",
@@ -2732,7 +2695,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 18,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2741,7 +2704,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 8,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2750,7 +2713,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 10,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2759,13 +2722,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 7,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 58,
-   "total": 38
+   "total": 86
   },
   {
    "area": "כרמל",
@@ -2777,7 +2740,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 11,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2786,7 +2749,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2810,7 +2773,7 @@
     }
    ],
    "station_id": 59,
-   "total": 47
+   "total": 53
   },
   {
    "area": "נגב",
@@ -2912,7 +2875,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 3,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2921,7 +2884,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2930,7 +2893,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2939,13 +2902,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 62,
-   "total": 47
+   "total": 14
   },
   {
    "area": "מנשה",
@@ -2957,7 +2920,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 22,
+     "count": 18,
      "key": "patrol",
      "label": "סייר"
     },
@@ -2966,7 +2929,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 8,
      "key": "detectives",
      "label": "בלש"
     },
@@ -2975,7 +2938,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 13,
+     "count": 11,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -2984,13 +2947,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 7,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 63,
-   "total": 106
+   "total": 88
   },
   {
    "area": "אשר",
@@ -3002,7 +2965,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 13,
+     "count": 10,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3011,7 +2974,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 4,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3020,7 +2983,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 6,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3029,13 +2992,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 64,
-   "total": 62
+   "total": 49
   },
   {
    "area": "עמקים",
@@ -3047,7 +3010,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 13,
+     "count": 6,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3056,7 +3019,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 3,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3065,7 +3028,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 3,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3074,108 +3037,18 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 2,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 65,
-   "total": 62
+   "total": 28
   },
   {
    "area": "יהודה",
    "district": "ש\"י",
    "name": "תחנת עציון",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 66,
-   "total": 33
-  },
-  {
-   "area": "רותם",
-   "district": "דרום",
-   "name": "תחנת ערד",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 8,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 4,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 3,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 67,
-   "total": 36
-  },
-  {
-   "area": "רותם",
-   "district": "דרום",
-   "name": "תחנת ערוער",
    "roles": [
     {
      "candidates_gender_coverage": null,
@@ -3214,8 +3087,98 @@
      "label": "אחר"
     }
    ],
-   "station_id": 68,
+   "station_id": 66,
    "total": 52
+  },
+  {
+   "area": "רותם",
+   "district": "דרום",
+   "name": "תחנת ערד",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 9,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 5,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 67,
+   "total": 42
+  },
+  {
+   "area": "רותם",
+   "district": "דרום",
+   "name": "תחנת ערוער",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 8,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 5,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 68,
+   "total": 38
   },
   {
    "area": "שרון",
@@ -3227,7 +3190,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 20,
+     "count": 18,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3236,7 +3199,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 9,
+     "count": 8,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3245,7 +3208,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 12,
+     "count": 10,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3254,13 +3217,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 7,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 69,
-   "total": 97
+   "total": 85
   },
   {
    "area": "כנרת",
@@ -3272,7 +3235,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3281,7 +3244,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3299,13 +3262,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 70,
-   "total": 14
+   "total": 20
   },
   {
    "area": "לכיש",
@@ -3317,7 +3280,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3335,7 +3298,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 3,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3344,13 +3307,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 2,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 71,
-   "total": 18
+   "total": 24
   },
   {
    "area": "לכיש",
@@ -3362,7 +3325,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 11,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3371,7 +3334,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 5,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3395,7 +3358,7 @@
     }
    ],
    "station_id": 72,
-   "total": 48
+   "total": 52
   },
   {
    "area": "כנרת",
@@ -3407,7 +3370,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 10,
+     "count": 3,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3416,7 +3379,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3425,7 +3388,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3434,13 +3397,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 73,
-   "total": 48
+   "total": 15
   },
   {
    "area": "שרון",
@@ -3452,7 +3415,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 11,
+     "count": 29,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3461,7 +3424,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 12,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3470,7 +3433,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 16,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3479,13 +3442,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 11,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 74,
-   "total": 53
+   "total": 136
   },
   {
    "area": "שפלה",
@@ -3497,7 +3460,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 11,
+     "count": 19,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3506,7 +3469,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 8,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3515,7 +3478,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
+     "count": 11,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3524,13 +3487,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 7,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 75,
-   "total": 52
+   "total": 90
   },
   {
    "area": "נגב",
@@ -3542,7 +3505,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 3,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3551,7 +3514,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 1,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3560,7 +3523,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3569,13 +3532,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 76,
-   "total": 34
+   "total": 12
   },
   {
    "area": "שפלה",
@@ -3587,7 +3550,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 12,
+     "count": 4,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3596,7 +3559,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 2,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3605,7 +3568,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 7,
+     "count": 2,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3614,13 +3577,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 4,
+     "count": 1,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 77,
-   "total": 56
+   "total": 18
   },
   {
    "area": "שפלה",
@@ -3632,7 +3595,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 21,
+     "count": 17,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3641,7 +3604,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 9,
+     "count": 7,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3650,7 +3613,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 12,
+     "count": 10,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3659,13 +3622,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 6,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 78,
-   "total": 100
+   "total": 80
   },
   {
    "area": "רותם",
@@ -3722,7 +3685,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 14,
      "key": "patrol",
      "label": "סייר"
     },
@@ -3731,7 +3694,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 6,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3740,7 +3703,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 2,
+     "count": 8,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -3749,18 +3712,153 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 1,
+     "count": 5,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 80,
-   "total": 14
+   "total": 66
   },
   {
    "area": "נגב",
    "district": "דרום",
    "name": "תחנת שדרות",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 3,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 2,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 81,
+   "total": 30
+  },
+  {
+   "area": "קדם",
+   "district": "ירושלים",
+   "name": "תחנת שלם",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 10,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 4,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 82,
+   "total": 48
+  },
+  {
+   "area": "קדם",
+   "district": "ירושלים",
+   "name": "תחנת שפט",
+   "roles": [
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 15,
+     "key": "patrol",
+     "label": "סייר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
+     "key": "detectives",
+     "label": "בלש"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 9,
+     "key": "investigators",
+     "label": "חוקר"
+    },
+    {
+     "candidates_gender_coverage": null,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": null,
+     "count": 6,
+     "key": "other",
+     "label": "אחר"
+    }
+   ],
+   "station_id": 83,
+   "total": 72
+  },
+  {
+   "area": "גליל",
+   "district": "צפון",
+   "name": "תחנת שפרעם",
    "roles": [
     {
      "candidates_gender_coverage": null,
@@ -3799,85 +3897,22 @@
      "label": "אחר"
     }
    ],
-   "station_id": 81,
-   "total": 53
+   "station_id": 84,
+   "total": 52
   },
   {
-   "area": "קדם",
-   "district": "ירושלים",
-   "name": "תחנת שלם",
+   "area": "איילון",
+   "district": "תל אביב",
+   "name": "תחנת שרת",
    "roles": [
     {
      "candidates_gender_coverage": null,
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 16,
+     "count": 18,
      "key": "patrol",
      "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 9,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 6,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 82,
-   "total": 75
-  },
-  {
-   "area": "קדם",
-   "district": "ירושלים",
-   "name": "תחנת שפט",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 21,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 9,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 12,
-     "key": "investigators",
-     "label": "חוקר"
     },
     {
      "candidates_gender_coverage": null,
@@ -3885,33 +3920,6 @@
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
      "count": 8,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 83,
-   "total": 100
-  },
-  {
-   "area": "גליל",
-   "district": "צפון",
-   "name": "תחנת שפרעם",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 17,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 7,
      "key": "detectives",
      "label": "בלש"
     },
@@ -3929,58 +3937,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 6,
-     "key": "other",
-     "label": "אחר"
-    }
-   ],
-   "station_id": 84,
-   "total": 80
-  },
-  {
-   "area": "איילון",
-   "district": "תל אביב",
-   "name": "תחנת שרת",
-   "roles": [
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 21,
-     "key": "patrol",
-     "label": "סייר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 9,
-     "key": "detectives",
-     "label": "בלש"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 12,
-     "key": "investigators",
-     "label": "חוקר"
-    },
-    {
-     "candidates_gender_coverage": null,
-     "candidates_pct_jewish": null,
-     "candidates_pct_male": null,
-     "candidates_religion_coverage": null,
-     "count": 8,
+     "count": 7,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 85,
-   "total": 99
+   "total": 86
   },
   {
    "area": "עמקים",
@@ -3992,7 +3955,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 13,
+     "count": 12,
      "key": "patrol",
      "label": "סייר"
     },
@@ -4019,13 +3982,13 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 5,
+     "count": 4,
      "key": "other",
      "label": "אחר"
     }
    ],
    "station_id": 86,
-   "total": 60
+   "total": 56
   },
   {
    "area": "איילון",
@@ -4100,7 +4063,7 @@
      "candidates_pct_jewish": null,
      "candidates_pct_male": null,
      "candidates_religion_coverage": null,
-     "count": 3,
+     "count": 4,
      "key": "investigators",
      "label": "חוקר"
     },
@@ -4115,7 +4078,7 @@
     }
    ],
    "station_id": 88,
-   "total": 28
+   "total": 30
   }
  ]
 }

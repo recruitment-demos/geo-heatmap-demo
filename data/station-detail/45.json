@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 12,
+   "count": 14,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 6,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 8,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 23,
- "candidates_in_process": 58,
- "candidates_pct_jewish": 78.9,
- "candidates_pct_male": 78.3,
- "candidates_religion_coverage": 19,
+ "candidates_gender_coverage": 31,
+ "candidates_in_process": 66,
+ "candidates_pct_jewish": 48.0,
+ "candidates_pct_male": 64.5,
+ "candidates_religion_coverage": 25,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",

@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 15,
+ "candidates_gender_coverage": 17,
  "candidates_in_process": 38,
- "candidates_pct_jewish": 91.7,
- "candidates_pct_male": 73.3,
- "candidates_religion_coverage": 12,
+ "candidates_pct_jewish": 64.7,
+ "candidates_pct_male": 58.8,
+ "candidates_religion_coverage": 17,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "מרכז",
