@@ -759,10 +759,8 @@ function chipPopoverContent(kind, roleKey, entity) {
           isMissing ? "אין חוסר בתפקיד הזה באף תחנה" : "אין מועמדים משויכים לתחנה"
         }</div>`;
     }
-    // §17.1: שורת הסיכום. הסכום של הרשימה **חייב** להיות המספר שעל השבב,
-    // ומי שבא לבדוק את זה צריך לראות את התשובה ולא לחבר בעצמו.
-    const sum = rows.reduce((total, row) => total + row.value, 0);
-    const surplus = rows.some((row) => row.value < 0);
+    // §41: **רשימה בלבד, כמו בחלונית העיסוקים.** שורת הסיכום והערת
+    // העודף ירדו — מי שמרחף רוצה לדעת באילו תחנות, לא לקרוא הסבר.
     return `<div class="chip-pop-title">${title}</div>
       <ul class="chip-pop-list">${rows
         .map((row) =>
@@ -773,14 +771,7 @@ function chipPopoverContent(kind, roleKey, entity) {
               : row.value
           )
         )
-        .join("")}</ul>
-      <div class="chip-pop-total"><span>סה"כ</span><b>${sum}</b></div>
-      ${
-        surplus
-          ? `<div class="chip-pop-more">תחנה בעודף מקזזת את החוסר של השאר, ולכן
-               הסכום קטן מסכום החוסרים לבדם.</div>`
-          : ""
-      }`;
+        .join("")}</ul>`;
   }
 
   if (kind === "candidates-no-stations") {
@@ -791,7 +782,9 @@ function chipPopoverContent(kind, roleKey, entity) {
       </div>`;
   }
 
-  return demo;
+  // §41: היה `return demo` — משתנה שנמחק כאן. kind שאינו מוכר אינו
+  // חלונית ריקה אלא ReferenceError ששובר את הריחוף כולו.
+  return "";
 }
 
 // ממקם את החלונית מתחת לשבב, ומחזיר אותה פנימה כשהיא חורגת מהמסך.
@@ -2201,10 +2194,7 @@ function uploadNotes(data) {
     );
   if (data.stations_updated)
     notes.push(`${data.stations_updated} תחנות עודכנו · ${data.assigned_rows} משרות שויכו לתחנה`);
-  if (data.vacant != null)
-    notes.push(`${data.vacant} משרות שאפשר לגייס אליהן — תקן פנוי, בלי סיווג "למחיקה"`);
-  if (data.to_delete)
-    notes.push(`${data.to_delete} שורות בסיווג 'למחיקה' — נספרות בתקן, לא מוצגות כתפקיד`);
+  if (data.vacant != null) notes.push(`${data.vacant} משרות לגיוס`);
   if (data.excluded)
     notes.push(`${data.excluded} משרות לא נספרו לפי הכלל — מיועד לביטול או מוקפאת`);
   if (data.unknown_statuses && Object.keys(data.unknown_statuses).length)
