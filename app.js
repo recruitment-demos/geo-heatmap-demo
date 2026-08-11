@@ -176,9 +176,10 @@ const MODES = {
     grid: (entity) =>
       `<div><span>מרחב</span><b>${escapeHtml(entity.area || "—")}</b></div>
        <div><span>אחוז איוש</span><b>${pctFull(entity)}</b></div>
+       <div><span>משרות לגיוס</span><b>${vacantCountText(entity)}</b></div>
        <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
        <div><span>מועמדים בהליך</span><b>${candidatesText(entity)}</b></div>`,
-    breakdown: (entity) => demographics(entity) + familyBreakdown(entity),
+    breakdown: (entity) => vacancyNote(entity) + demographics(entity) + familyBreakdown(entity),
     suggestionMeta: (e) => `<span class="sugg-dot" style="background:${e.color}"></span>`,
     suggestionTrailing: (e) => `<span class="sugg-pct">${pctText(e)}</span>`,
   },
@@ -229,7 +230,7 @@ const MODES = {
        <div><span>תקן</span><b>${entity.required_positions ?? "—"}</b></div>
        <div><span>בפועל</span><b>${entity.actual_positions ?? "—"}</b></div>
        <div><span>אחוז איוש</span><b>${pctFull(entity)}</b></div>
-       <div><span>משרות לגיוס</span><b>${vacantText(entity)}</b></div>
+       <div><span>משרות לגיוס</span><b>${vacantCountText(entity)}</b></div>
        <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>` +
       // §40: "משרות פנויות" הוצג ליחידה בלבד, ולמרחב לא הוצג כלל. עכשיו
       // "משרות לגיוס" מופיע לשניהם למעלה, וכאן נשאר רק מה שמבדיל ביניהם.
@@ -295,7 +296,7 @@ const MODES = {
          <span>תחנות במרחב</span><b>${entity.stations_count} ›</b>
        </div>
        <div><span>אחוז איוש משוקלל</span><b>${pctFull(entity)}</b></div>
-       <div><span>משרות לגיוס</span><b>${vacantText(entity)}</b></div>
+       <div><span>משרות לגיוס</span><b>${vacantCountText(entity)}</b></div>
        <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
        <div><span>מועמדים בהליך</span><b>${candidatesText(entity)}</b></div>`,
     // מקור המספר מוצג במפורש: ברמת מרחב הוא נגזר משדה "דרישה" בקובץ
@@ -511,7 +512,12 @@ const candidatesText = (s) =>
 //
 // חוסר תקן לא נעלם: הוא נשאר "תקנים חסרים" ובשבבי הפילוח, בשמו. הוא
 // שאלה אחרת — כמה תקן ריק — ולא כמה משרות אפשר לאייש.
-const vacantText = (s) =>
+//
+// **`vacantCountText` ולא `vacantText`** — השם השני כבר תפוס בקובץ הזה
+// (אחוז הפנוי במשרה בטבלת לוח המשרות, §38). שתי הצהרות באותו שם ברמה
+// העליונה הן SyntaxError, וקובץ שאינו נטען כלל נראה כמו "המפה לא עולה
+// ואי אפשר לעבור בין המסכים" — בלי שום רמז שמדובר בשורה אחת.
+const vacantCountText = (s) =>
   s.vacant_positions === null || s.vacant_positions === undefined
     ? '<span class="muted">אין נתון</span>'
     : s.vacant_positions;
@@ -1701,9 +1707,11 @@ function openDrawer(station, rel) {
         settlement ? ` מ${escapeHtml(settlement.name)}` : ""
       }</span><b>${rel.travel_min} דק'</b></div>
       <div><span>אחוז איוש</span><b>${pctFull(station)}</b></div>
+      <div><span>משרות לגיוס</span><b>${vacantCountText(station)}</b></div>
       <div><span>תקנים חסרים</span><b>${missingText(station)}</b></div>
       <div><span>מועמדים בהליך</span><b>${candidatesText(station)}</b></div>
     </div>
+    ${vacancyNote(station)}
     ${demographics(station)}
     ${familyBreakdown(station)}
     <div class="drawer-foot">מרחב ${escapeHtml(station.area || "—")}</div>`;
@@ -1860,9 +1868,11 @@ function openStationInRegion(station, region) {
       <div><span>תקן</span><b>${station.required_positions ?? "—"}</b></div>
       <div><span>בפועל</span><b>${station.actual_positions ?? "—"}</b></div>
       <div><span>אחוז איוש</span><b>${pctFull(station)}</b></div>
+      <div><span>משרות לגיוס</span><b>${vacantCountText(station)}</b></div>
       <div><span>תקנים חסרים</span><b>${missingText(station)}</b></div>
       <div><span>מועמדים בהליך</span><b>${candidatesText(station)}</b></div>
     </div>
+    ${vacancyNote(station)}
     ${demographics(station)}
     ${familyBreakdown(station)}
     <div class="info-list-head">יישובים עד ${state.nearbyMinutes} דק' <em>(${nearby.length})</em></div>
