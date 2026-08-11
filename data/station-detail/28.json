@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 20,
  "id": 28,
  "insights": [],
  "lat": 32.44074,
  "lng": 34.94011,
- "missing_positions": 20,
+ "missing_positions": 12,
  "missing_to_delete": 0,
  "name": "תחנת חדרה",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 5,
    "pct_jewish": 77.4,
    "pct_male": 46.8
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 68.9,
    "pct_male": 59.6
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 3,
    "pct_jewish": 64.2,
    "pct_male": 52.0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 72.9,
    "pct_male": 61.3
   }

@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 23,
  "id": 39,
  "insights": [],
  "lat": 32.74599,
  "lng": 35.3398,
- "missing_positions": 23,
+ "missing_positions": 9,
  "missing_to_delete": 2,
  "name": "תחנת כפר כנא",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 9,
+   "missing": 3,
    "pct_jewish": 75.7,
    "pct_male": 76.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 75.8,
    "pct_male": 71.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 2,
    "pct_jewish": 67.9,
    "pct_male": 74.3
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 58.5,
    "pct_male": 63.4
   }

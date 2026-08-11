@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "תל אביב",
+ "gap_positions": 7,
  "id": 29,
  "insights": [],
  "lat": 32.0158,
  "lng": 34.7742,
- "missing_positions": 7,
+ "missing_positions": 4,
  "missing_to_delete": 1,
  "name": "תחנת חולון",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 90.0,
    "pct_male": 61.4
   },

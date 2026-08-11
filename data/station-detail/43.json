@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 22,
  "id": 43,
  "insights": [],
  "lat": 31.781,
  "lng": 35.217,
- "missing_positions": 22,
+ "missing_positions": 11,
  "missing_to_delete": 0,
  "name": "תחנת לב הבירה",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 9,
+   "missing": 5,
    "pct_jewish": 89.0,
    "pct_male": 62.3
   },
@@ -77,14 +78,14 @@
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 0,
    "pct_jewish": 91.7,
    "pct_male": 73.0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 80.8,
    "pct_male": 66.5
   }

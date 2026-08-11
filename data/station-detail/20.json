@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "תל אביב",
+ "gap_positions": 27,
  "id": 20,
  "insights": [],
  "lat": 32.131,
  "lng": 34.802,
- "missing_positions": 27,
+ "missing_positions": 11,
  "missing_to_delete": 3,
  "name": "תחנת גלילות",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 10,
+   "missing": 4,
    "pct_jewish": 73.1,
    "pct_male": 67.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 66.5,
    "pct_male": 77.7
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 6,
+   "missing": 2,
    "pct_jewish": 60.7,
    "pct_male": 63.5
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 69.4,
    "pct_male": 70.1
   }

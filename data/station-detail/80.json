@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 16,
  "id": 80,
  "insights": [],
  "lat": 31.95483,
  "lng": 34.84434,
- "missing_positions": 16,
+ "missing_positions": 7,
  "missing_to_delete": 1,
  "name": "תחנת שדות",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 3,
    "pct_jewish": 79.4,
    "pct_male": 66.3
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 81.4,
    "pct_male": 66.3
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 75.4,
    "pct_male": 55.6
   },

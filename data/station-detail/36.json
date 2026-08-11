@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 12,
  "id": 36,
  "insights": [],
  "lat": 31.87689,
  "lng": 34.7383,
- "missing_positions": 12,
+ "missing_positions": 5,
  "missing_to_delete": 1,
  "name": "תחנת יבנה",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 81.6,
    "pct_male": 65.0
   },
@@ -77,14 +78,14 @@
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 85.3,
    "pct_male": 58.2
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 74.5,
    "pct_male": 58.1
   }

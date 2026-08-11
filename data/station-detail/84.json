@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 14,
  "id": 84,
  "insights": [],
  "lat": 32.80636,
  "lng": 35.17126,
- "missing_positions": 14,
+ "missing_positions": 3,
  "missing_to_delete": 2,
  "name": "תחנת שפרעם",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 5,
+   "missing": 0,
    "pct_jewish": 65.3,
    "pct_male": 67.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 74.2,
    "pct_male": 65.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 73.6,
    "pct_male": 66.0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 78.1,
    "pct_male": 61.3
   }

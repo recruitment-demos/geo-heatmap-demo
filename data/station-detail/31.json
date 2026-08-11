@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 26,
  "id": 31,
  "insights": [],
  "lat": 32.79385,
  "lng": 35.53286,
- "missing_positions": 26,
+ "missing_positions": 12,
  "missing_to_delete": 2,
  "name": "תחנת טבריה",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 10,
+   "missing": 3,
    "pct_jewish": 55.8,
    "pct_male": 76.6
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 61.0,
    "pct_male": 81.8
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 6,
+   "missing": 5,
    "pct_jewish": 58.1,
    "pct_male": 77.5
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 61.9,
    "pct_male": 73.5
   }

@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 17,
  "id": 72,
  "insights": [],
  "lat": 31.7316,
  "lng": 34.74461,
- "missing_positions": 17,
+ "missing_positions": 11,
  "missing_to_delete": 2,
  "name": "תחנת קרית מלאכי",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 5,
    "pct_jewish": 72.7,
    "pct_male": 64.0
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 82.4,
    "pct_male": 56.3
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 82.5,
    "pct_male": 59.2
   },

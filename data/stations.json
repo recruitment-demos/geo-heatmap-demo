@@ -11,6 +11,7 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 0,
   "id": 1,
   "lat": 29.55693,
   "lng": 34.94979,
@@ -106,10 +107,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 6,
   "id": 2,
   "lat": 31.6,
   "lng": 34.65,
-  "missing_positions": 6,
+  "missing_positions": 4,
   "missing_to_delete": 1,
   "name": "מרחב דוד",
   "open_positions": 6,
@@ -141,7 +143,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 77.4,
     "pct_male": 65.1
    }
@@ -201,10 +203,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 14,
   "id": 3,
   "lat": 32.009,
   "lng": 34.883,
-  "missing_positions": 14,
+  "missing_positions": 8,
   "missing_to_delete": 1,
   "name": "מרחב נתב\"ג",
   "open_positions": 14,
@@ -215,7 +218,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 4,
     "pct_jewish": 85.5,
     "pct_male": 71.2
    },
@@ -229,14 +232,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 80.5,
     "pct_male": 67.1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 87.4,
     "pct_male": 57.9
    }
@@ -296,10 +299,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 20,
   "id": 4,
   "lat": 32.5158,
   "lng": 35.1523,
-  "missing_positions": 20,
+  "missing_positions": 10,
   "missing_to_delete": 3,
   "name": "תחנת אום אל פחם",
   "open_positions": 21,
@@ -310,28 +314,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 7,
+    "missing": 6,
     "pct_jewish": 67.9,
     "pct_male": 62.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 76.6,
     "pct_male": 76.7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 72.0,
     "pct_male": 62.6
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 74.7,
     "pct_male": 75.8
    }
@@ -391,10 +395,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 12,
   "id": 5,
   "lat": 31.31258,
   "lng": 34.62085,
-  "missing_positions": 12,
+  "missing_positions": 4,
   "missing_to_delete": 0,
   "name": "תחנת אופקים",
   "open_positions": 12,
@@ -405,28 +410,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 63.2,
     "pct_male": 67.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 61.2,
     "pct_male": 54.3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 74.5,
     "pct_male": 65.4
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 61.1,
     "pct_male": 68.2
    }
@@ -449,6 +454,7 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 0,
   "id": 6,
   "lat": 31.79011,
   "lng": 35.20329,
@@ -544,10 +550,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 30,
   "id": 7,
   "lat": 31.79773,
   "lng": 34.65299,
-  "missing_positions": 30,
+  "missing_positions": 11,
   "missing_to_delete": 2,
   "name": "תחנת אשדוד",
   "open_positions": 31,
@@ -558,28 +565,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 12,
+    "missing": 3,
     "pct_jewish": 70.4,
     "pct_male": 62.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 80.3,
     "pct_male": 59.0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 7,
+    "missing": 5,
     "pct_jewish": 84.7,
     "pct_male": 66.8
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 69.4,
     "pct_male": 65.9
    }
@@ -639,10 +646,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 45,
   "id": 8,
   "lat": 31.66532,
   "lng": 34.56504,
-  "missing_positions": 45,
+  "missing_positions": 18,
   "missing_to_delete": 4,
   "name": "תחנת אשקלון",
   "open_positions": 45,
@@ -653,28 +661,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 17,
+    "missing": 9,
     "pct_jewish": 79.7,
     "pct_male": 82.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 7,
+    "missing": 2,
     "pct_jewish": 72.0,
     "pct_male": 86.6
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 10,
+    "missing": 5,
     "pct_jewish": 68.2,
     "pct_male": 91.6
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 7,
+    "missing": 2,
     "pct_jewish": 75.4,
     "pct_male": 83.3
    }
@@ -734,10 +742,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 14,
   "id": 9,
   "lat": 32.4181,
   "lng": 35.0378,
-  "missing_positions": 14,
+  "missing_positions": 7,
   "missing_to_delete": 1,
   "name": "תחנת באקה אלע'רביה",
   "open_positions": 15,
@@ -748,21 +757,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 4,
     "pct_jewish": 70.7,
     "pct_male": 86.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 68.9,
     "pct_male": 76.0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 65.2,
     "pct_male": 77.5
    },
@@ -829,10 +838,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 9,
   "id": 10,
   "lat": 31.24574,
   "lng": 34.79252,
-  "missing_positions": 9,
+  "missing_positions": 8,
   "missing_to_delete": 1,
   "name": "תחנת באר שבע",
   "open_positions": 11,
@@ -857,14 +867,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 3,
     "pct_jewish": 73.5,
     "pct_male": 64.1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 74.5,
     "pct_male": 65.8
    }
@@ -924,10 +934,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 23,
   "id": 11,
   "lat": 32.49675,
   "lng": 35.4973,
-  "missing_positions": 23,
+  "missing_positions": 5,
   "missing_to_delete": 3,
   "name": "תחנת בית שאן",
   "open_positions": 26,
@@ -938,28 +949,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 2,
     "pct_jewish": 91.7,
     "pct_male": 60.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 83.2,
     "pct_male": 58.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 0,
     "pct_jewish": 86.0,
     "pct_male": 63.6
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 90.1,
     "pct_male": 62.5
    }
@@ -1019,10 +1030,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 4,
   "id": 12,
   "lat": 31.74621,
   "lng": 34.98868,
-  "missing_positions": 4,
+  "missing_positions": 3,
   "missing_to_delete": 0,
   "name": "תחנת בית שמש",
   "open_positions": 4,
@@ -1033,14 +1045,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 74.1,
     "pct_male": 70.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 65.7,
     "pct_male": 67.0
    },
@@ -1054,7 +1066,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 0,
+    "missing": 1,
     "pct_jewish": 70.7,
     "pct_male": 70.7
    }
@@ -1114,10 +1126,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 14,
   "id": 13,
   "lat": 32.0809,
   "lng": 34.8338,
-  "missing_positions": 14,
+  "missing_positions": 7,
   "missing_to_delete": 2,
   "name": "תחנת בני ברק",
   "open_positions": 14,
@@ -1128,7 +1141,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 60.1,
     "pct_male": 76.5
    },
@@ -1142,14 +1155,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 65.8,
     "pct_male": 70.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 65.1,
     "pct_male": 76.7
    }
@@ -1209,10 +1222,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 6,
   "id": 14,
   "lat": 31.87,
   "lng": 35.24,
-  "missing_positions": 6,
+  "missing_positions": 2,
   "missing_to_delete": 0,
   "name": "תחנת בנימין",
   "open_positions": 6,
@@ -1223,21 +1237,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 78.9,
     "pct_male": 63.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 85.3,
     "pct_male": 61.7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 71.3,
     "pct_male": 73.3
    },
@@ -1304,10 +1318,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 10,
   "id": 15,
   "lat": 32.0231,
   "lng": 34.7503,
-  "missing_positions": 10,
+  "missing_positions": 6,
   "missing_to_delete": 1,
   "name": "תחנת בת ים",
   "open_positions": 10,
@@ -1318,21 +1333,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 57.0,
     "pct_male": 63.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 50.4,
     "pct_male": 59.5
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 59.4,
     "pct_male": 62.3
    },
@@ -1399,10 +1414,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 18,
   "id": 16,
   "lat": 32.53775,
   "lng": 34.91137,
-  "missing_positions": 18,
+  "missing_positions": 10,
   "missing_to_delete": 1,
   "name": "תחנת ג'סר א זרקא",
   "open_positions": 20,
@@ -1413,28 +1429,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 7,
+    "missing": 2,
     "pct_jewish": 78.2,
     "pct_male": 68.5
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 73.6,
     "pct_male": 70.3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 5,
     "pct_jewish": 77.2,
     "pct_male": 61.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 78.3,
     "pct_male": 62.9
    }
@@ -1494,10 +1510,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 21,
   "id": 17,
   "lat": 32.0723,
   "lng": 34.8104,
-  "missing_positions": 21,
+  "missing_positions": 8,
   "missing_to_delete": 2,
   "name": "תחנת גבעתיים",
   "open_positions": 22,
@@ -1508,28 +1525,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 5,
     "pct_jewish": 74.4,
     "pct_male": 75.9
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 79.9,
     "pct_male": 81.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 1,
     "pct_jewish": 89.4,
     "pct_male": 72.1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 76.5,
     "pct_male": 73.7
    }
@@ -1589,10 +1606,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 6,
   "id": 18,
   "lat": 32.993,
   "lng": 35.691,
-  "missing_positions": 6,
+  "missing_positions": 5,
   "missing_to_delete": 1,
   "name": "תחנת גולן",
   "open_positions": 6,
@@ -1603,7 +1621,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 78.8,
     "pct_male": 46.9
    },
@@ -1624,7 +1642,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 2,
     "pct_jewish": 73.0,
     "pct_male": 69.4
    }
@@ -1684,10 +1702,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 13,
   "id": 19,
   "lat": 32.955,
   "lng": 35.095,
-  "missing_positions": 13,
+  "missing_positions": 7,
   "missing_to_delete": 0,
   "name": "תחנת גליל מערבי",
   "open_positions": 13,
@@ -1698,21 +1717,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 92.2,
     "pct_male": 78.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 86.6,
     "pct_male": 69.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 86.0,
     "pct_male": 68.8
    },
@@ -1779,10 +1798,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 27,
   "id": 20,
   "lat": 32.131,
   "lng": 34.802,
-  "missing_positions": 27,
+  "missing_positions": 11,
   "missing_to_delete": 3,
   "name": "תחנת גלילות",
   "open_positions": 27,
@@ -1793,28 +1813,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 10,
+    "missing": 4,
     "pct_jewish": 73.1,
     "pct_male": 67.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 66.5,
     "pct_male": 77.7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
+    "missing": 2,
     "pct_jewish": 60.7,
     "pct_male": 63.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 69.4,
     "pct_male": 70.1
    }
@@ -1874,6 +1894,7 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 0,
   "id": 21,
   "lat": 31.06866,
   "lng": 35.03665,
@@ -1969,10 +1990,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 7,
   "id": 22,
   "lat": 32.1,
   "lng": 35.45,
-  "missing_positions": 7,
+  "missing_positions": 6,
   "missing_to_delete": 1,
   "name": "תחנת הבקעה",
   "open_positions": 9,
@@ -1983,7 +2005,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 81.1,
     "pct_male": 73.9
    },
@@ -1997,14 +2019,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 1,
+    "missing": 2,
     "pct_jewish": 80.4,
     "pct_male": 71.1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 2,
     "pct_jewish": 77.1,
     "pct_male": 63.1
    }
@@ -2064,10 +2086,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 14,
   "id": 23,
   "lat": 31.42,
   "lng": 34.68,
-  "missing_positions": 14,
+  "missing_positions": 8,
   "missing_to_delete": 0,
   "name": "תחנת העיירות",
   "open_positions": 14,
@@ -2078,14 +2101,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 72.7,
     "pct_male": 66.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 73.7,
     "pct_male": 73.5
    },
@@ -2099,7 +2122,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 81.2,
     "pct_male": 74.4
    }
@@ -2159,10 +2182,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 19,
   "id": 24,
   "lat": 31.80938,
   "lng": 34.94908,
-  "missing_positions": 19,
+  "missing_positions": 9,
   "missing_to_delete": 2,
   "name": "תחנת הראל",
   "open_positions": 22,
@@ -2173,28 +2197,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 7,
+    "missing": 5,
     "pct_jewish": 83.5,
     "pct_male": 77.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 74.4,
     "pct_male": 86.5
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 62.5,
     "pct_male": 91.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 62.9,
     "pct_male": 72.3
    }
@@ -2254,10 +2278,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 21,
   "id": 25,
   "lat": 32.83,
   "lng": 35.1,
-  "missing_positions": 21,
+  "missing_positions": 8,
   "missing_to_delete": 1,
   "name": "תחנת זבולון",
   "open_positions": 24,
@@ -2268,28 +2293,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 3,
     "pct_jewish": 94.7,
     "pct_male": 75.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 87.5,
     "pct_male": 66.5
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 92.0,
     "pct_male": 70.8
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 89.0,
     "pct_male": 61.8
    }
@@ -2349,10 +2374,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 14,
   "id": 26,
   "lat": 32.57116,
   "lng": 34.953,
-  "missing_positions": 14,
+  "missing_positions": 10,
   "missing_to_delete": 1,
   "name": "תחנת זכרון יעקב",
   "open_positions": 15,
@@ -2363,28 +2389,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 1,
     "pct_jewish": 62.1,
     "pct_male": 69.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 3,
     "pct_jewish": 65.4,
     "pct_male": 63.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 5,
     "pct_jewish": 51.3,
     "pct_male": 50.4
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 57.1,
     "pct_male": 58.6
    }
@@ -2444,10 +2470,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 11,
   "id": 27,
   "lat": 31.73254,
   "lng": 35.2074,
-  "missing_positions": 11,
+  "missing_positions": 4,
   "missing_to_delete": 0,
   "name": "תחנת חברון",
   "open_positions": 11,
@@ -2458,28 +2485,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 81.2,
     "pct_male": 68.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 77.5,
     "pct_male": 70.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 84.5,
     "pct_male": 71.4
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 80.7,
     "pct_male": 71.2
    }
@@ -2539,10 +2566,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 20,
   "id": 28,
   "lat": 32.44074,
   "lng": 34.94011,
-  "missing_positions": 20,
+  "missing_positions": 12,
   "missing_to_delete": 0,
   "name": "תחנת חדרה",
   "open_positions": 21,
@@ -2553,28 +2581,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 5,
     "pct_jewish": 77.4,
     "pct_male": 46.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 68.9,
     "pct_male": 59.6
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 64.2,
     "pct_male": 52.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 72.9,
     "pct_male": 61.3
    }
@@ -2634,10 +2662,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 7,
   "id": 29,
   "lat": 32.0158,
   "lng": 34.7742,
-  "missing_positions": 7,
+  "missing_positions": 4,
   "missing_to_delete": 1,
   "name": "תחנת חולון",
   "open_positions": 7,
@@ -2648,7 +2677,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 90.0,
     "pct_male": 61.4
    },
@@ -2729,10 +2758,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 10,
   "id": 30,
   "lat": 32.81912,
   "lng": 34.99839,
-  "missing_positions": 10,
+  "missing_positions": 3,
   "missing_to_delete": 1,
   "name": "תחנת חיפה",
   "open_positions": 10,
@@ -2743,28 +2773,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 57.6,
     "pct_male": 59.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 65.3,
     "pct_male": 63.0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 59.9,
     "pct_male": 61.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 56.6,
     "pct_male": 75.3
    }
@@ -2824,10 +2854,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 26,
   "id": 31,
   "lat": 32.79385,
   "lng": 35.53286,
-  "missing_positions": 26,
+  "missing_positions": 12,
   "missing_to_delete": 2,
   "name": "תחנת טבריה",
   "open_positions": 26,
@@ -2838,28 +2869,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 10,
+    "missing": 3,
     "pct_jewish": 55.8,
     "pct_male": 76.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 61.0,
     "pct_male": 81.8
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
+    "missing": 5,
     "pct_jewish": 58.1,
     "pct_male": 77.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 61.9,
     "pct_male": 73.5
    }
@@ -2919,10 +2950,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 19,
   "id": 32,
   "lat": 32.26712,
   "lng": 35.0089,
-  "missing_positions": 19,
+  "missing_positions": 15,
   "missing_to_delete": 0,
   "name": "תחנת טייבה",
   "open_positions": 20,
@@ -2933,7 +2965,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 7,
     "pct_jewish": 71.0,
     "pct_male": 69.9
    },
@@ -2947,14 +2979,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 4,
     "pct_jewish": 77.5,
     "pct_male": 74.9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 70.7,
     "pct_male": 72.1
    }
@@ -3014,10 +3046,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 24,
   "id": 33,
   "lat": 32.23469,
   "lng": 34.95446,
-  "missing_positions": 24,
+  "missing_positions": 14,
   "missing_to_delete": 1,
   "name": "תחנת טירה",
   "open_positions": 25,
@@ -3028,14 +3061,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 10,
+    "missing": 4,
     "pct_jewish": 69.9,
     "pct_male": 61.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 60.9,
     "pct_male": 71.2
    },
@@ -3049,7 +3082,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 74.5,
     "pct_male": 63.5
    }
@@ -3109,10 +3142,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 12,
   "id": 34,
   "lat": 32.7603,
   "lng": 34.9722,
-  "missing_positions": 12,
+  "missing_positions": 4,
   "missing_to_delete": 1,
   "name": "תחנת טירת הכרמל",
   "open_positions": 12,
@@ -3123,28 +3157,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 72.8,
     "pct_male": 60.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 74.4,
     "pct_male": 69.7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 73.6,
     "pct_male": 59.4
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 59.3,
     "pct_male": 61.0
    }
@@ -3204,10 +3238,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 12,
   "id": 35,
   "lat": 32.85481,
   "lng": 35.19668,
-  "missing_positions": 12,
+  "missing_positions": 6,
   "missing_to_delete": 1,
   "name": "תחנת טמרה",
   "open_positions": 13,
@@ -3218,14 +3253,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 63.5,
     "pct_male": 72.5
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 76.3,
     "pct_male": 71.0
    },
@@ -3239,7 +3274,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 71.7,
     "pct_male": 76.0
    }
@@ -3299,10 +3334,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 12,
   "id": 36,
   "lat": 31.87689,
   "lng": 34.7383,
-  "missing_positions": 12,
+  "missing_positions": 5,
   "missing_to_delete": 1,
   "name": "תחנת יבנה",
   "open_positions": 12,
@@ -3313,7 +3349,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 81.6,
     "pct_male": 65.0
    },
@@ -3327,14 +3363,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 85.3,
     "pct_male": 58.2
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 74.5,
     "pct_male": 58.1
    }
@@ -3394,10 +3430,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 9,
   "id": 37,
   "lat": 32.053,
   "lng": 34.755,
-  "missing_positions": 9,
+  "missing_positions": 4,
   "missing_to_delete": 0,
   "name": "תחנת יפו",
   "open_positions": 9,
@@ -3408,28 +3445,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 79.7,
     "pct_male": 60.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 84.8,
     "pct_male": 67.7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 77.3,
     "pct_male": 57.7
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 81.7,
     "pct_male": 62.7
    }
@@ -3489,10 +3526,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 19,
   "id": 38,
   "lat": 32.7,
   "lng": 35.57,
-  "missing_positions": 19,
+  "missing_positions": 10,
   "missing_to_delete": 0,
   "name": "תחנת ירדן",
   "open_positions": 21,
@@ -3503,28 +3541,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 4,
     "pct_jewish": 74.1,
     "pct_male": 67.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 88.6,
     "pct_male": 59.4
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 4,
     "pct_jewish": 89.5,
     "pct_male": 57.9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 81.7,
     "pct_male": 67.4
    }
@@ -3584,10 +3622,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 23,
   "id": 39,
   "lat": 32.74599,
   "lng": 35.3398,
-  "missing_positions": 23,
+  "missing_positions": 9,
   "missing_to_delete": 2,
   "name": "תחנת כפר כנא",
   "open_positions": 23,
@@ -3598,28 +3637,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 9,
+    "missing": 3,
     "pct_jewish": 75.7,
     "pct_male": 76.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 75.8,
     "pct_male": 71.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 67.9,
     "pct_male": 74.3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 58.5,
     "pct_male": 63.4
    }
@@ -3679,10 +3718,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 44,
   "id": 40,
   "lat": 32.17735,
   "lng": 34.90746,
-  "missing_positions": 44,
+  "missing_positions": 22,
   "missing_to_delete": 1,
   "name": "תחנת כפר סבא",
   "open_positions": 45,
@@ -3693,28 +3733,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 18,
+    "missing": 8,
     "pct_jewish": 85.5,
     "pct_male": 67.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 8,
+    "missing": 2,
     "pct_jewish": 93.7,
     "pct_male": 64.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 10,
+    "missing": 8,
     "pct_jewish": 85.3,
     "pct_male": 63.7
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 7,
+    "missing": 4,
     "pct_jewish": 92.8,
     "pct_male": 73.3
    }
@@ -3774,10 +3814,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 6,
   "id": 41,
   "lat": 32.11471,
   "lng": 34.9756,
-  "missing_positions": 6,
+  "missing_positions": 4,
   "missing_to_delete": 1,
   "name": "תחנת כפר קאסם",
   "open_positions": 6,
@@ -3795,7 +3836,7 @@
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 85.2,
     "pct_male": 70.3
    },
@@ -3869,10 +3910,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 26,
   "id": 42,
   "lat": 32.91591,
   "lng": 35.29343,
-  "missing_positions": 26,
+  "missing_positions": 12,
   "missing_to_delete": 3,
   "name": "תחנת כרמיאל",
   "open_positions": 29,
@@ -3883,28 +3925,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 10,
+    "missing": 7,
     "pct_jewish": 98.1,
     "pct_male": 73.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 93.6,
     "pct_male": 71.0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 4,
     "pct_jewish": 82.3,
     "pct_male": 76.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 0,
     "pct_jewish": 89.2,
     "pct_male": 65.7
    }
@@ -3964,10 +4006,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 22,
   "id": 43,
   "lat": 31.781,
   "lng": 35.217,
-  "missing_positions": 22,
+  "missing_positions": 11,
   "missing_to_delete": 0,
   "name": "תחנת לב הבירה",
   "open_positions": 22,
@@ -3978,7 +4021,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 9,
+    "missing": 5,
     "pct_jewish": 89.0,
     "pct_male": 62.3
    },
@@ -3992,14 +4035,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 0,
     "pct_jewish": 91.7,
     "pct_male": 73.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 80.8,
     "pct_male": 66.5
    }
@@ -4059,10 +4102,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 39,
   "id": 44,
   "lat": 32.0668,
   "lng": 34.7745,
-  "missing_positions": 39,
+  "missing_positions": 22,
   "missing_to_delete": 4,
   "name": "תחנת לב תל אביב",
   "open_positions": 40,
@@ -4073,28 +4117,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 15,
+    "missing": 13,
     "pct_jewish": 83.8,
     "pct_male": 77.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 6,
+    "missing": 4,
     "pct_jewish": 91.9,
     "pct_male": 75.0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 8,
+    "missing": 4,
     "pct_jewish": 88.0,
     "pct_male": 79.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 6,
+    "missing": 1,
     "pct_jewish": 80.3,
     "pct_male": 67.4
    }
@@ -4154,10 +4198,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 22,
   "id": 45,
   "lat": 31.9489,
   "lng": 34.88849,
-  "missing_positions": 22,
+  "missing_positions": 11,
   "missing_to_delete": 1,
   "name": "תחנת לוד",
   "open_positions": 22,
@@ -4168,28 +4213,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 9,
+    "missing": 4,
     "pct_jewish": 70.1,
     "pct_male": 61.8
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 70.0,
     "pct_male": 64.6
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 79.4,
     "pct_male": 77.8
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 75.7,
     "pct_male": 78.3
    }
@@ -4249,10 +4294,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 9,
   "id": 46,
   "lat": 32.918,
   "lng": 35.238,
-  "missing_positions": 9,
+  "missing_positions": 1,
   "missing_to_delete": 0,
   "name": "תחנת מג'דל כרום",
   "open_positions": 10,
@@ -4263,21 +4309,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 0,
     "pct_jewish": 79.6,
     "pct_male": 73.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 54.5,
     "pct_male": 69.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 71.9,
     "pct_male": 68.3
    },
@@ -4344,10 +4390,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 5,
   "id": 47,
   "lat": 32.67657,
   "lng": 35.24132,
-  "missing_positions": 5,
+  "missing_positions": 4,
   "missing_to_delete": 0,
   "name": "תחנת מגדל העמק",
   "open_positions": 6,
@@ -4365,7 +4412,7 @@
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 84.1,
     "pct_male": 57.4
    },
@@ -4439,10 +4486,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 31,
   "id": 48,
   "lat": 31.90857,
   "lng": 35.00693,
-  "missing_positions": 31,
+  "missing_positions": 11,
   "missing_to_delete": 3,
   "name": "תחנת מודיעין",
   "open_positions": 35,
@@ -4453,28 +4501,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 12,
+    "missing": 6,
     "pct_jewish": 84.0,
     "pct_male": 84.3
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 77.8,
     "pct_male": 87.9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 7,
+    "missing": 1,
     "pct_jewish": 82.7,
     "pct_male": 74.3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 78.9,
     "pct_male": 78.9
    }
@@ -4534,10 +4582,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 8,
   "id": 49,
   "lat": 32.79618,
   "lng": 35.53342,
-  "missing_positions": 8,
+  "missing_positions": 4,
   "missing_to_delete": 0,
   "name": "תחנת מודיעין עילית",
   "open_positions": 8,
@@ -4548,14 +4597,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 74.4,
     "pct_male": 65.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 79.7,
     "pct_male": 70.5
    },
@@ -4629,10 +4678,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 10,
   "id": 50,
   "lat": 31.75,
   "lng": 35.21,
-  "missing_positions": 10,
+  "missing_positions": 5,
   "missing_to_delete": 0,
   "name": "תחנת מוריה",
   "open_positions": 11,
@@ -4643,7 +4693,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 79.5,
     "pct_male": 74.4
    },
@@ -4664,7 +4714,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 90.4,
     "pct_male": 62.7
    }
@@ -4724,10 +4774,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "מג\"ב",
+  "gap_positions": 13,
   "id": 51,
   "lat": 31.77,
   "lng": 35.02,
-  "missing_positions": 13,
+  "missing_positions": 6,
   "missing_to_delete": 0,
   "name": "תחנת מטה יהודה",
   "open_positions": 14,
@@ -4738,28 +4789,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 90.9,
     "pct_male": 61.5
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 90.9,
     "pct_male": 53.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 92.9,
     "pct_male": 58.9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 99.0,
     "pct_male": 56.4
    }
@@ -4819,10 +4870,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 27,
   "id": 52,
   "lat": 32.0442,
   "lng": 34.83,
-  "missing_positions": 27,
+  "missing_positions": 17,
   "missing_to_delete": 0,
   "name": "תחנת מסובים",
   "open_positions": 28,
@@ -4833,21 +4885,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 11,
+    "missing": 8,
     "pct_jewish": 76.0,
     "pct_male": 65.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 88.9,
     "pct_male": 57.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 7,
+    "missing": 3,
     "pct_jewish": 77.9,
     "pct_male": 54.8
    },
@@ -4914,10 +4966,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 35,
   "id": 53,
   "lat": 31.80289,
   "lng": 35.25262,
-  "missing_positions": 35,
+  "missing_positions": 17,
   "missing_to_delete": 2,
   "name": "תחנת מעלה אדומים",
   "open_positions": 36,
@@ -4928,28 +4981,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 14,
+    "missing": 9,
     "pct_jewish": 63.1,
     "pct_male": 71.5
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 60.9,
     "pct_male": 72.3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 8,
+    "missing": 2,
     "pct_jewish": 58.7,
     "pct_male": 70.1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 66.0,
     "pct_male": 69.0
    }
@@ -5009,10 +5062,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 13,
   "id": 54,
   "lat": 33.017,
   "lng": 35.287,
-  "missing_positions": 13,
+  "missing_positions": 5,
   "missing_to_delete": 0,
   "name": "תחנת מעלות תרשיחא",
   "open_positions": 13,
@@ -5023,28 +5077,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 63.3,
     "pct_male": 71.3
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 68.9,
     "pct_male": 80.9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 73.4,
     "pct_male": 68.6
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 63.3,
     "pct_male": 81.5
    }
@@ -5104,10 +5158,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 21,
   "id": 55,
   "lat": 32.91971,
   "lng": 35.29473,
-  "missing_positions": 21,
+  "missing_positions": 9,
   "missing_to_delete": 0,
   "name": "תחנת משגב",
   "open_positions": 21,
@@ -5118,28 +5173,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 9,
+    "missing": 4,
     "pct_jewish": 86.8,
     "pct_male": 48.3
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 87.7,
     "pct_male": 63.8
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 91.0,
     "pct_male": 58.3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 76.4,
     "pct_male": 65.9
    }
@@ -5199,10 +5254,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 21,
   "id": 56,
   "lat": 33.00631,
   "lng": 35.09456,
-  "missing_positions": 21,
+  "missing_positions": 13,
   "missing_to_delete": 2,
   "name": "תחנת נהריה",
   "open_positions": 21,
@@ -5213,21 +5269,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 6,
     "pct_jewish": 90.0,
     "pct_male": 62.9
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 75.8,
     "pct_male": 76.8
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 3,
     "pct_jewish": 74.9,
     "pct_male": 77.9
    },
@@ -5294,10 +5350,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 24,
   "id": 57,
   "lat": 32.70231,
   "lng": 35.31832,
-  "missing_positions": 24,
+  "missing_positions": 12,
   "missing_to_delete": 0,
   "name": "תחנת נוף הגליל",
   "open_positions": 25,
@@ -5308,14 +5365,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 10,
+    "missing": 5,
     "pct_jewish": 85.8,
     "pct_male": 66.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 0,
     "pct_jewish": 82.1,
     "pct_male": 68.9
    },
@@ -5329,7 +5386,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 80.0,
     "pct_male": 67.7
    }
@@ -5389,10 +5446,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 20,
   "id": 58,
   "lat": 32.70663,
   "lng": 35.30482,
-  "missing_positions": 20,
+  "missing_positions": 7,
   "missing_to_delete": 3,
   "name": "תחנת נצרת",
   "open_positions": 20,
@@ -5403,28 +5461,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 7,
+    "missing": 2,
     "pct_jewish": 77.9,
     "pct_male": 57.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 4,
     "pct_jewish": 76.1,
     "pct_male": 65.6
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 76.0,
     "pct_male": 60.7
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 93.2,
     "pct_male": 55.3
    }
@@ -5484,10 +5542,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 17,
   "id": 59,
   "lat": 32.77088,
   "lng": 35.03812,
-  "missing_positions": 17,
+  "missing_positions": 10,
   "missing_to_delete": 1,
   "name": "תחנת נשר",
   "open_positions": 17,
@@ -5498,21 +5557,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 7,
+    "missing": 3,
     "pct_jewish": 88.1,
     "pct_male": 58.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 86.6,
     "pct_male": 67.0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 85.5,
     "pct_male": 69.0
    },
@@ -5542,6 +5601,7 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 2,
   "id": 60,
   "lat": 31.42135,
   "lng": 34.58843,
@@ -5570,14 +5630,14 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 78.7,
     "pct_male": 71.8
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 0,
+    "missing": 1,
     "pct_jewish": 74.7,
     "pct_male": 74.2
    }
@@ -5637,10 +5697,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 9,
   "id": 61,
   "lat": 32.32862,
   "lng": 34.85662,
-  "missing_positions": 9,
+  "missing_positions": 7,
   "missing_to_delete": 0,
   "name": "תחנת נתניה",
   "open_positions": 9,
@@ -5651,14 +5712,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 84.0,
     "pct_male": 79.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 87.2,
     "pct_male": 83.0
    },
@@ -5732,10 +5793,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 14,
   "id": 62,
   "lat": 31.77,
   "lng": 35.2,
-  "missing_positions": 14,
+  "missing_positions": 7,
   "missing_to_delete": 0,
   "name": "תחנת עוז",
   "open_positions": 14,
@@ -5746,28 +5808,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 4,
     "pct_jewish": 45.9,
     "pct_male": 61.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 54.2,
     "pct_male": 71.7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 61.0,
     "pct_male": 65.9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 51.2,
     "pct_male": 63.6
    }
@@ -5827,10 +5889,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 25,
   "id": 63,
   "lat": 32.47,
   "lng": 35.1,
-  "missing_positions": 25,
+  "missing_positions": 10,
   "missing_to_delete": 0,
   "name": "תחנת עירון",
   "open_positions": 27,
@@ -5841,28 +5904,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 11,
+    "missing": 4,
     "pct_jewish": 67.7,
     "pct_male": 69.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 60.2,
     "pct_male": 78.4
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
+    "missing": 2,
     "pct_jewish": 77.1,
     "pct_male": 88.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 60.1,
     "pct_male": 71.9
    }
@@ -5922,10 +5985,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "חוף",
+  "gap_positions": 21,
   "id": 64,
   "lat": 32.92817,
   "lng": 35.07564,
-  "missing_positions": 21,
+  "missing_positions": 8,
   "missing_to_delete": 0,
   "name": "תחנת עכו",
   "open_positions": 23,
@@ -5936,28 +6000,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 9,
+    "missing": 4,
     "pct_jewish": 79.0,
     "pct_male": 79.3
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 74.9,
     "pct_male": 75.9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 75.1,
     "pct_male": 60.7
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 77.9,
     "pct_male": 72.2
    }
@@ -6017,10 +6081,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 32,
   "id": 65,
   "lat": 32.60756,
   "lng": 35.28909,
-  "missing_positions": 32,
+  "missing_positions": 16,
   "missing_to_delete": 0,
   "name": "תחנת עפולה",
   "open_positions": 32,
@@ -6031,28 +6096,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 13,
+    "missing": 6,
     "pct_jewish": 99.0,
     "pct_male": 61.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 89.1,
     "pct_male": 68.5
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 8,
+    "missing": 5,
     "pct_jewish": 91.1,
     "pct_male": 74.9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 95.4,
     "pct_male": 60.5
    }
@@ -6112,10 +6177,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "ש\"י",
+  "gap_positions": 13,
   "id": 66,
   "lat": 31.65,
   "lng": 35.12,
-  "missing_positions": 13,
+  "missing_positions": 6,
   "missing_to_delete": 0,
   "name": "תחנת עציון",
   "open_positions": 14,
@@ -6126,14 +6192,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 2,
     "pct_jewish": 68.5,
     "pct_male": 67.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 75.2,
     "pct_male": 72.4
    },
@@ -6147,7 +6213,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 71.9,
     "pct_male": 87.2
    }
@@ -6207,10 +6273,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 11,
   "id": 67,
   "lat": 31.26122,
   "lng": 35.21458,
-  "missing_positions": 11,
+  "missing_positions": 6,
   "missing_to_delete": 1,
   "name": "תחנת ערד",
   "open_positions": 11,
@@ -6221,7 +6288,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 70.7,
     "pct_male": 64.4
    },
@@ -6235,7 +6302,7 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 0,
     "pct_jewish": 58.4,
     "pct_male": 85.7
    },
@@ -6302,10 +6369,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 10,
   "id": 68,
   "lat": 31.14,
   "lng": 34.98,
-  "missing_positions": 10,
+  "missing_positions": 6,
   "missing_to_delete": 0,
   "name": "תחנת ערוער",
   "open_positions": 11,
@@ -6316,28 +6384,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 95.0,
     "pct_male": 69.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 90.4,
     "pct_male": 66.3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 86.7,
     "pct_male": 61.9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 78.1,
     "pct_male": 60.1
    }
@@ -6397,10 +6465,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 33,
   "id": 69,
   "lat": 32.08776,
   "lng": 34.886,
-  "missing_positions": 33,
+  "missing_positions": 17,
   "missing_to_delete": 2,
   "name": "תחנת פתח תקוה",
   "open_positions": 36,
@@ -6411,28 +6480,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 13,
+    "missing": 4,
     "pct_jewish": 56.3,
     "pct_male": 62.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 6,
+    "missing": 4,
     "pct_jewish": 59.7,
     "pct_male": 85.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 7,
+    "missing": 5,
     "pct_jewish": 58.5,
     "pct_male": 67.3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 5,
+    "missing": 4,
     "pct_jewish": 69.1,
     "pct_male": 73.6
    }
@@ -6492,10 +6561,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 4,
   "id": 70,
   "lat": 32.96463,
   "lng": 35.50245,
-  "missing_positions": 4,
+  "missing_positions": 2,
   "missing_to_delete": 0,
   "name": "תחנת צפת",
   "open_positions": 4,
@@ -6506,7 +6576,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 60.6,
     "pct_male": 83.9
    },
@@ -6520,7 +6590,7 @@
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 76.1,
     "pct_male": 71.4
    },
@@ -6587,10 +6657,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 8,
   "id": 71,
   "lat": 31.6094,
   "lng": 34.7712,
-  "missing_positions": 8,
+  "missing_positions": 4,
   "missing_to_delete": 0,
   "name": "תחנת קרית גת",
   "open_positions": 8,
@@ -6601,28 +6672,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 69.2,
     "pct_male": 56.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 76.8,
     "pct_male": 66.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 79.3,
     "pct_male": 61.7
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 73.1,
     "pct_male": 65.4
    }
@@ -6682,10 +6753,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 17,
   "id": 72,
   "lat": 31.7316,
   "lng": 34.74461,
-  "missing_positions": 17,
+  "missing_positions": 11,
   "missing_to_delete": 2,
   "name": "תחנת קרית מלאכי",
   "open_positions": 17,
@@ -6696,21 +6768,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 5,
     "pct_jewish": 72.7,
     "pct_male": 64.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 82.4,
     "pct_male": 56.3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 82.5,
     "pct_male": 59.2
    },
@@ -6777,10 +6849,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 28,
   "id": 73,
   "lat": 33.20747,
   "lng": 35.57078,
-  "missing_positions": 28,
+  "missing_positions": 13,
   "missing_to_delete": 2,
   "name": "תחנת קרית שמונה",
   "open_positions": 29,
@@ -6791,21 +6864,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 11,
+    "missing": 5,
     "pct_jewish": 54.6,
     "pct_male": 61.2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 61.3,
     "pct_male": 76.8
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
+    "missing": 2,
     "pct_jewish": 59.5,
     "pct_male": 69.9
    },
@@ -6872,10 +6945,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 36,
   "id": 74,
   "lat": 32.09529,
   "lng": 34.95332,
-  "missing_positions": 36,
+  "missing_positions": 21,
   "missing_to_delete": 0,
   "name": "תחנת ראש העין",
   "open_positions": 39,
@@ -6886,28 +6960,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 15,
+    "missing": 9,
     "pct_jewish": 98.6,
     "pct_male": 63.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 99.0,
     "pct_male": 73.1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 9,
+    "missing": 6,
     "pct_jewish": 84.8,
     "pct_male": 77.1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 97.0,
     "pct_male": 71.8
    }
@@ -6967,10 +7041,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 22,
   "id": 75,
   "lat": 31.96357,
   "lng": 34.81011,
-  "missing_positions": 22,
+  "missing_positions": 9,
   "missing_to_delete": 1,
   "name": "תחנת ראשון לציון",
   "open_positions": 25,
@@ -6981,28 +7056,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 9,
+    "missing": 3,
     "pct_jewish": 68.9,
     "pct_male": 63.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 75.2,
     "pct_male": 71.8
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 1,
     "pct_jewish": 76.1,
     "pct_male": 72.7
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 74.6,
     "pct_male": 61.0
    }
@@ -7062,10 +7137,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 15,
   "id": 76,
   "lat": 31.39336,
   "lng": 34.75468,
-  "missing_positions": 15,
+  "missing_positions": 11,
   "missing_to_delete": 0,
   "name": "תחנת רהט",
   "open_positions": 17,
@@ -7076,14 +7152,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 5,
     "pct_jewish": 82.3,
     "pct_male": 68.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 0,
     "pct_jewish": 86.5,
     "pct_male": 71.1
    },
@@ -7157,10 +7233,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 18,
   "id": 77,
   "lat": 31.89525,
   "lng": 34.81056,
-  "missing_positions": 18,
+  "missing_positions": 10,
   "missing_to_delete": 2,
   "name": "תחנת רחובות",
   "open_positions": 21,
@@ -7171,21 +7248,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 7,
+    "missing": 1,
     "pct_jewish": 86.5,
     "pct_male": 60.6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 91.0,
     "pct_male": 73.9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 5,
     "pct_jewish": 86.3,
     "pct_male": 78.1
    },
@@ -7252,10 +7329,11 @@
   "color": "#DC2626",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 29,
   "id": 78,
   "lat": 31.928,
   "lng": 34.86235,
-  "missing_positions": 29,
+  "missing_positions": 14,
   "missing_to_delete": 3,
   "name": "תחנת רמלה",
   "open_positions": 29,
@@ -7266,28 +7344,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 11,
+    "missing": 6,
     "pct_jewish": 59.1,
     "pct_male": 72.0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 5,
+    "missing": 4,
     "pct_jewish": 57.6,
     "pct_male": 58.4
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
+    "missing": 1,
     "pct_jewish": 72.4,
     "pct_male": 60.8
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 72.0,
     "pct_male": 58.8
    }
@@ -7347,10 +7425,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 12,
   "id": 79,
   "lat": 31.20088,
   "lng": 34.84009,
-  "missing_positions": 12,
+  "missing_positions": 7,
   "missing_to_delete": 1,
   "name": "תחנת שגב שלום",
   "open_positions": 12,
@@ -7361,28 +7440,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 74.1,
     "pct_male": 82.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 78.7,
     "pct_male": 85.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 82.2,
     "pct_male": 92.4
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 72.8,
     "pct_male": 91.1
    }
@@ -7442,10 +7521,11 @@
   "color": "#EA580C",
   "coord_verified": false,
   "district": "מרכז",
+  "gap_positions": 16,
   "id": 80,
   "lat": 31.95483,
   "lng": 34.84434,
-  "missing_positions": 16,
+  "missing_positions": 7,
   "missing_to_delete": 1,
   "name": "תחנת שדות",
   "open_positions": 17,
@@ -7456,21 +7536,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 3,
     "pct_jewish": 79.4,
     "pct_male": 66.3
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 81.4,
     "pct_male": 66.3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 75.4,
     "pct_male": 55.6
    },
@@ -7537,10 +7617,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "דרום",
+  "gap_positions": 11,
   "id": 81,
   "lat": 31.52647,
   "lng": 34.59697,
-  "missing_positions": 11,
+  "missing_positions": 7,
   "missing_to_delete": 1,
   "name": "תחנת שדרות",
   "open_positions": 11,
@@ -7551,14 +7632,14 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 4,
+    "missing": 3,
     "pct_jewish": 55.7,
     "pct_male": 62.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 72.1,
     "pct_male": 70.7
    },
@@ -7572,7 +7653,7 @@
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 73.7,
     "pct_male": 66.1
    }
@@ -7632,10 +7713,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 22,
   "id": 82,
   "lat": 31.78,
   "lng": 35.23,
-  "missing_positions": 22,
+  "missing_positions": 9,
   "missing_to_delete": 2,
   "name": "תחנת שלם",
   "open_positions": 23,
@@ -7646,21 +7728,21 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 4,
     "pct_jewish": 71.0,
     "pct_male": 69.7
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 76.8,
     "pct_male": 73.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 1,
     "pct_jewish": 74.2,
     "pct_male": 78.0
    },
@@ -7727,10 +7809,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "ירושלים",
+  "gap_positions": 24,
   "id": 83,
   "lat": 31.81,
   "lng": 35.23,
-  "missing_positions": 24,
+  "missing_positions": 10,
   "missing_to_delete": 4,
   "name": "תחנת שפט",
   "open_positions": 26,
@@ -7741,28 +7824,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 8,
+    "missing": 5,
     "pct_jewish": 73.6,
     "pct_male": 88.9
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 73.2,
     "pct_male": 78.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 5,
+    "missing": 2,
     "pct_jewish": 72.8,
     "pct_male": 75.6
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 73.8,
     "pct_male": 64.9
    }
@@ -7822,10 +7905,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 14,
   "id": 84,
   "lat": 32.80636,
   "lng": 35.17126,
-  "missing_positions": 14,
+  "missing_positions": 3,
   "missing_to_delete": 2,
   "name": "תחנת שפרעם",
   "open_positions": 16,
@@ -7836,28 +7920,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 5,
+    "missing": 0,
     "pct_jewish": 65.3,
     "pct_male": 67.1
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 74.2,
     "pct_male": 65.2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
+    "missing": 1,
     "pct_jewish": 73.6,
     "pct_male": 66.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 78.1,
     "pct_male": 61.3
    }
@@ -7917,10 +8001,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 31,
   "id": 85,
   "lat": 32.057,
   "lng": 34.788,
-  "missing_positions": 31,
+  "missing_positions": 12,
   "missing_to_delete": 5,
   "name": "תחנת שרת",
   "open_positions": 33,
@@ -7931,28 +8016,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 11,
+    "missing": 5,
     "pct_jewish": 80.2,
     "pct_male": 55.5
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 5,
+    "missing": 1,
     "pct_jewish": 88.3,
     "pct_male": 50.8
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
+    "missing": 5,
     "pct_jewish": 87.5,
     "pct_male": 51.2
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
+    "missing": 1,
     "pct_jewish": 88.1,
     "pct_male": 64.1
    }
@@ -8012,10 +8097,11 @@
   "color": "#EAB308",
   "coord_verified": false,
   "district": "צפון",
+  "gap_positions": 15,
   "id": 86,
   "lat": 32.687,
   "lng": 35.4,
-  "missing_positions": 15,
+  "missing_positions": 9,
   "missing_to_delete": 0,
   "name": "תחנת תבור",
   "open_positions": 15,
@@ -8026,28 +8112,28 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
+    "missing": 4,
     "pct_jewish": 81.2,
     "pct_male": 60.4
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
+    "missing": 2,
     "pct_jewish": 85.8,
     "pct_male": 72.9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 4,
+    "missing": 2,
     "pct_jewish": 81.4,
     "pct_male": 67.0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 83.6,
     "pct_male": 64.1
    }
@@ -8107,10 +8193,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 4,
   "id": 87,
   "lat": 32.053,
   "lng": 34.778,
-  "missing_positions": 4,
+  "missing_positions": 3,
   "missing_to_delete": 0,
   "name": "תחנת תל אביב דרום",
   "open_positions": 4,
@@ -8121,7 +8208,7 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 2,
+    "missing": 1,
     "pct_jewish": 74.8,
     "pct_male": 69.3
    },
@@ -8202,10 +8289,11 @@
   "color": "#16A34A",
   "coord_verified": false,
   "district": "תל אביב",
+  "gap_positions": 5,
   "id": 88,
   "lat": 32.095,
   "lng": 34.781,
-  "missing_positions": 5,
+  "missing_positions": 2,
   "missing_to_delete": 0,
   "name": "תחנת תל אביב צפון",
   "open_positions": 5,
@@ -8223,21 +8311,21 @@
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 71.8,
     "pct_male": 69.6
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 80.6,
     "pct_male": 71.5
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
+    "missing": 0,
     "pct_jewish": 78.6,
     "pct_male": 67.3
    }

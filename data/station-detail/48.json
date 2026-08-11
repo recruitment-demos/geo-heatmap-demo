@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 31,
  "id": 48,
  "insights": [],
  "lat": 31.90857,
  "lng": 35.00693,
- "missing_positions": 31,
+ "missing_positions": 11,
  "missing_to_delete": 3,
  "name": "תחנת מודיעין",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 12,
+   "missing": 6,
    "pct_jewish": 84.0,
    "pct_male": 84.3
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 5,
+   "missing": 3,
    "pct_jewish": 77.8,
    "pct_male": 87.9
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 7,
+   "missing": 1,
    "pct_jewish": 82.7,
    "pct_male": 74.3
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 78.9,
    "pct_male": 78.9
   }

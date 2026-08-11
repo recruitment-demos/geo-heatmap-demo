@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 10,
  "id": 50,
  "insights": [],
  "lat": 31.75,
  "lng": 35.21,
- "missing_positions": 10,
+ "missing_positions": 5,
  "missing_to_delete": 0,
  "name": "תחנת מוריה",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 79.5,
    "pct_male": 74.4
   },
@@ -84,7 +85,7 @@
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 90.4,
    "pct_male": 62.7
   }

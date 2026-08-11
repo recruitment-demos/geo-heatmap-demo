@@ -178,9 +178,9 @@ const MODES = {
       `<div><span>מרחב</span><b>${escapeHtml(entity.area || "—")}</b></div>
        <div><span>אחוז איוש</span><b>${pctFull(entity)}</b></div>
        <div><span>משרות לגיוס</span><b>${vacantCountText(entity)}</b></div>
-       <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
+       <div title="${vacancyTip(entity)}"><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
        <div><span>מועמדים בהליך</span><b>${candidatesText(entity)}</b></div>`,
-    breakdown: (entity) => vacancyNote(entity) + demographics(entity) + familyBreakdown(entity),
+    breakdown: (entity) => demographics(entity) + familyBreakdown(entity),
     suggestionMeta: (e) => `<span class="sugg-dot" style="background:${e.color}"></span>`,
     suggestionTrailing: (e) => `<span class="sugg-pct">${pctText(e)}</span>`,
   },
@@ -232,7 +232,7 @@ const MODES = {
        <div><span>בפועל</span><b>${entity.actual_positions ?? "—"}</b></div>
        <div><span>אחוז איוש</span><b>${pctFull(entity)}</b></div>
        <div><span>משרות לגיוס</span><b>${vacantCountText(entity)}</b></div>
-       <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>` +
+       <div title="${vacancyTip(entity)}"><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>` +
       // §40: "משרות פנויות" הוצג ליחידה בלבד, ולמרחב לא הוצג כלל. עכשיו
       // "משרות לגיוס" מופיע לשניהם למעלה, וכאן נשאר רק מה שמבדיל ביניהם.
       (entity.kind === "unit"
@@ -242,7 +242,6 @@ const MODES = {
              <span>תחנות במרחב</span><b>${entity.stations_count} ›</b>
            </div>`),
     breakdown: (entity) =>
-      vacancyNote(entity) +
       demographics(entity) +
       (entity.kind === "unit"
         ? `<div class="card-empty">יחידה שאינה מרחב — התקן והאיוש מגיעים מרמה 03 בקובץ התקן והמצבה, ואין לה פילוח לפי תחנה.</div>`
@@ -298,7 +297,7 @@ const MODES = {
        </div>
        <div><span>אחוז איוש משוקלל</span><b>${pctFull(entity)}</b></div>
        <div><span>משרות לגיוס</span><b>${vacantCountText(entity)}</b></div>
-       <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
+       <div title="${vacancyTip(entity)}"><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
        <div><span>מועמדים בהליך</span><b>${candidatesText(entity)}</b></div>`,
     // מקור המספר מוצג במפורש: ברמת מרחב הוא נגזר משדה "דרישה" בקובץ
     // המועמדים, וזה נתון אחר מסכימת המועמדים שכן שויכו לתחנות. בלי הכיתוב
@@ -306,7 +305,6 @@ const MODES = {
     // הריחוף על שבב תפקיד פותח את הפילוח לפי תחנה — "חסרים 40 סיירים
     // במרחב" אינו משימה, וארבע התחנות שהם יושבים בהן הן.
     breakdown: (entity) =>
-      vacancyNote(entity) +
       demographics(entity) +
       familyChips("חוסר לפי תפקיד במרחב", missingItems(entity), "missing-by-station") +
       familyChips(
@@ -525,14 +523,19 @@ const vacantCountText = (s) =>
 
 // שורת ההסבר. מוצגת **רק כשיש מה להסביר** — כלומר כשיש פער בין המשרות
 // שמצבן "פנויה" לבין אלה שמסומנות לתכנון גיוס. בלי פער היא רעש.
-function vacancyNote(entity) {
+//
+// §43: **הפך מריבוע קבוע על הכרטיס לריחוף על השדה עצמו.** הוא תפס שלוש
+// שורות בכל כרטיס תחנה, בזמן שהוא עונה על שאלה שנשאלת פעם אחת. עכשיו
+// הוא ה-title של "תקנים חסרים" — מי שרוצה לדעת למה 21 ולא 23, מרחף.
+function vacancyTip(entity) {
   const open = entity && entity.open_positions;
   const vacant = entity && entity.vacant_positions;
   if (open === null || open === undefined || vacant === null || vacant === undefined) return "";
   if (!open || open === vacant) return "";
-  return `<div class="card-note">חוסר של <b>${open}</b> משרות פנויות, אבל רק
-    <b>${vacant}</b> מהן מסומנות "משרה פנויה לתכנון גיוס" — ורק הן מופיעות
-    בלוח המשרות.</div>`;
+  return escapeHtml(
+    `${open} משרות במצב "פנויה", ומתוכן ${vacant} מסומנות "משרה פנויה לתכנון גיוס" — ` +
+      `רק הן משימת גיוס, ורק הן מופיעות בלוח המשרות.`
+  );
 }
 
 // --- פילוח לפי משפחת תפקיד (סייר · בלש · חוקר · אחר) ----------------------
@@ -1067,38 +1070,15 @@ async function initMap() {
   // שכבת האריחים אינה נטענת יותר. tools/download_tiles.py והחבילה
   // נשארו במאגר למי שירצה מפת רחובות בהתקנה מסוימת, אבל הן אינן חלק
   // מברירת המחדל ואינן נדרשות כדי שהמערכת תעבוד.
-  // §21.3: **מתאר מדינת ישראל, מצויר מקומית.**
+  // §43: **מתאר "ארץ ישראל" המקורי הוסר — הוא היה המפה השנייה.**
   //
-  // כשהרקע החיצוני הוסר, מי שאין לו את חבילת האריחים נשאר עם סיכות
-  // מרחפות על ריק — היישובים מוצגים, אבל בלי מדינה מתחתיהם אי אפשר
-  // להבין איפה הם. מפת רחובות אינה נדרשת כאן; תמונה כללית של הארץ כן.
+  // הרקע צויר מ-israel.geojson (קו חוף, גבולות, הכנרת וים המלח), ומעליו
+  // ישבו מצולעי המחוזות שנגזרו מהמפה הרשמית. שני מקורות, שני קווי חוף,
+  // ואי-התאמה של כמה קילומטרים ביניהם — שנראית על המסך כמו שתי מפות
+  // מוזזות זו על גבי זו. זה מה שהפריע, וזה מה שירד.
   //
-  // המתאר יושב בקובץ GeoJSON קטן (103 נקודות) ונטען מהשרת המקומי, ולכן
-  // הוא עובד ברשת סגורה. במבט הפתיחה הוא נראה כמו מפה רגילה; בהגדלה
-  // ניכר שאין בו כבישים ושבילים — וזה בדיוק ההסכם.
-  //
-  // הוא מצויר **רק כשאין דימוי אחר** — כלומר בהתקנה שהרקע שלה מקומי
-  // וחבילת האריחים אינה שם. כשיש אריחים (מקומיים או בפריסה שהזריקה רקע
-  // מקוון) הם עשירים ממנו, וציור מעליהם היה מכסה מפה טובה במתאר שטוח.
-  try {
-    const outline = await (await fetch("/web/vendor/israel.geojson")).json();
-    // §22.2: הצבעים. ישראל בהירה וחמה ובולטת משכנותיה (שהן צבע הרקע),
-    // והמים כחולים. ההיררכיה הזו היא מה שמאפשר לסיכות להיות הדבר הבולט
-    // במסך — רקע שמתחרה בהן הופך מפת חום לתמונה יפה שקשה לקרוא.
-    const MAP_STYLE = {
-      sea: { color: "#a9d3ea", weight: 1, fillColor: "#c3e0f2", fillOpacity: 1 },
-      land: { color: "#8d9bb0", weight: 1.5, fillColor: "#f4f1e6", fillOpacity: 1 },
-      water: { color: "#8ec5e8", weight: 1, fillColor: "#b3dcf2", fillOpacity: 1 },
-      river: { color: "#9ccbe6", weight: 1.6, fillOpacity: 0 },
-    };
-    L.geoJSON(outline, {
-      pane: "tilePane", // מתחת לכל שכבות המידע, כמו רקע
-      style: (feature) => MAP_STYLE[feature.properties.kind] || MAP_STYLE.land,
-      interactive: false, // רקע אינו נלחץ — לחיצה על המפה מנקה בחירה
-    }).addTo(state.map);
-  } catch (err) {
-    // מתאר חסר אינו שובר את המפה — הסיכות עדיין נכונות.
-  }
+  // **מצולעי המחוזות הם המפה עכשיו.** הם מכסים את כל שטח המדינה, הם
+  // מגיעים ממקור אחד, ולכן אין יותר מה שלא יתאים.
 
   // §37: **גבולות המחוזות.**
   //
@@ -1404,14 +1384,18 @@ function applyBoundaryZoom() {
   if (!state.map) return;
 
   if (state.districtLayer) {
-    // קו בלבד. `fill: false` ולא אטימות נמוכה — מילוי שקוף למחצה על פני
-    // שבעה מחוזות עדיין צובע את כל המסך, וזה מה שהפריע.
-    state.districtLayer.setStyle({
-      color: "#5b6880",
-      weight: 2.6,
+    // §43: **הצבעים חזרו, והפעם הם המפה עצמה.**
+    //
+    // ב-§42.1 הורדתי את המילוי כדי לפתור את הכפילות — אבל הכפילות
+    // הייתה מתאר הארץ שמתחת, לא הצבע. בלי המילוי המחוזות הפכו לקווים
+    // מרחפים על רקע ריק, ואיתו הם מפה שאפשר לקרוא במבט אחד.
+    state.districtLayer.setStyle((feature) => ({
+      color: "#6b7789",
+      weight: 2.4,
       dashArray: null,
-      fill: false,
-    });
+      fillColor: DISTRICT_TINT[feature.properties.name] || "#c9cfd8",
+      fillOpacity: 0.42,
+    }));
   }
 
   if (state.regionLayer && !state.map.hasLayer(state.regionLayer)) {
@@ -1746,10 +1730,9 @@ function openDrawer(station, rel) {
       }</span><b>${rel.travel_min} דק'</b></div>
       <div><span>אחוז איוש</span><b>${pctFull(station)}</b></div>
       <div><span>משרות לגיוס</span><b>${vacantCountText(station)}</b></div>
-      <div><span>תקנים חסרים</span><b>${missingText(station)}</b></div>
+      <div title="${vacancyTip(station)}"><span>תקנים חסרים</span><b>${missingText(station)}</b></div>
       <div><span>מועמדים בהליך</span><b>${candidatesText(station)}</b></div>
     </div>
-    ${vacancyNote(station)}
     ${demographics(station)}
     ${familyBreakdown(station)}
     <div class="drawer-foot">מרחב ${escapeHtml(station.area || "—")}</div>`;
@@ -1907,10 +1890,9 @@ function openStationInRegion(station, region) {
       <div><span>בפועל</span><b>${station.actual_positions ?? "—"}</b></div>
       <div><span>אחוז איוש</span><b>${pctFull(station)}</b></div>
       <div><span>משרות לגיוס</span><b>${vacantCountText(station)}</b></div>
-      <div><span>תקנים חסרים</span><b>${missingText(station)}</b></div>
+      <div title="${vacancyTip(station)}"><span>תקנים חסרים</span><b>${missingText(station)}</b></div>
       <div><span>מועמדים בהליך</span><b>${candidatesText(station)}</b></div>
     </div>
-    ${vacancyNote(station)}
     ${demographics(station)}
     ${familyBreakdown(station)}
     <div class="info-list-head">יישובים עד ${state.nearbyMinutes} דק' <em>(${nearby.length})</em></div>
@@ -4614,6 +4596,25 @@ async function loadAdminOptions() {
   const data = await api(`/api/admin-options?${params}`);
   state.adminProfessions = data.professions.map((p) => p.name);
 
+  // §43: רשימת התחנות נטענת פעם אחת. היא אינה תלויה בשאר הסינונים —
+  // 88 התחנות הן רשימה סגורה, ולא תוצאה של שאילתה שמצטמצמת.
+  if (!state.adminStations) {
+    state.adminStations = await api("/api/admin-stations");
+    const select = el("a-station");
+    if (select) {
+      select.innerHTML =
+        `<option value="">כל התחנות</option>` +
+        state.adminStations
+          .map(
+            (s) =>
+              `<option value="${s.id}">${escapeHtml(s.name)} — ${
+                s.vacant ? `${s.vacant} לגיוס` : "אין"
+              }</option>`
+          )
+          .join("");
+    }
+  }
+
   // המספר הוא **משרות פנויות**, ולא חוסר תקן. חוסר של תקן אחד שכולו
   // משרה מוקפאת אינו משרה שאפשר לגייס אליה, והמספר שמופיע כאן חייב
   // להיות בדיוק מה שייפתח בטבלה מתחת — אחרת הסינון מבטיח ומאכזב.
@@ -4691,11 +4692,19 @@ async function loadAdminPositions() {
   // המחוזות ולא במקומם. ברירת המחדל היא הכול.
   const scopeFilter = el("a-scope") ? el("a-scope").value : "";
   if (scopeFilter) params.set("scope", scopeFilter);
+  // §43: תחנה בודדת. `station_id` הוא מה שמפת החום סופרת לפיו, ולכן
+  // המספר כאן זהה למה שהכרטיס מציג בשדה "תקנים חסרים".
+  const stationFilter = el("a-station") ? el("a-station").value : "";
+  if (stationFilter) params.set("station", stationFilter);
 
   const data = await api(`/api/admin-positions?${params}`);
 
+  const stationName = stationFilter
+    ? ((state.adminStations || []).find((s) => String(s.id) === stationFilter) || {}).name
+    : "";
   const scope = [
     chosen.value || (typed ? `"${typed}"` : ""),
+    stationName || "",
     position ? `משרה ${position}` : "",
     el("a-unit").value,
     el("a-area").value,
@@ -4792,14 +4801,15 @@ async function refreshAdmin() {
 }
 
 function wireAdmin() {
-  ["a-area", "a-department", "a-unit", "a-scope"].forEach((id) => {
+  ["a-area", "a-department", "a-unit", "a-scope", "a-station"].forEach((id) => {
     if (el(id)) el(id).onchange = refreshAdmin;
   });
   // input ולא change: הסינון מגיב תוך כדי הקלדה, בלי להמתין ליציאה מהשדה.
   el("a-profession").oninput = refreshAdmin;
   el("a-position").oninput = loadAdminPositions;
   el("a-reset").onclick = () => {
-    ["a-profession", "a-area", "a-department", "a-unit", "a-position", "a-scope"].forEach(
+    ["a-profession", "a-area", "a-department", "a-unit", "a-position", "a-scope",
+     "a-station"].forEach(
       (id) => el(id) && (el(id).value = "")
     );
     refreshAdmin();

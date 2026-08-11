@@ -47,6 +47,7 @@
  "color": "#DC2626",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 25,
  "id": 63,
  "insights": [
   {
@@ -58,7 +59,7 @@
  ],
  "lat": 32.47,
  "lng": 35.1,
- "missing_positions": 25,
+ "missing_positions": 10,
  "missing_to_delete": 0,
  "name": "תחנת עירון",
  "nearby_settlements": [],
@@ -70,28 +71,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 11,
+   "missing": 4,
    "pct_jewish": 67.7,
    "pct_male": 69.4
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 60.2,
    "pct_male": 78.4
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 6,
+   "missing": 2,
    "pct_jewish": 77.1,
    "pct_male": 88.0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 60.1,
    "pct_male": 71.9
   }

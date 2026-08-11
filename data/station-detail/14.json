@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "ש\"י",
+ "gap_positions": 6,
  "id": 14,
  "insights": [],
  "lat": 31.87,
  "lng": 35.24,
- "missing_positions": 6,
+ "missing_positions": 2,
  "missing_to_delete": 0,
  "name": "תחנת בנימין",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 78.9,
    "pct_male": 63.8
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 85.3,
    "pct_male": 61.7
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 71.3,
    "pct_male": 73.3
   },

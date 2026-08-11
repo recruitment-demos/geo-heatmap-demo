@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 19,
  "id": 24,
  "insights": [],
  "lat": 31.80938,
  "lng": 34.94908,
- "missing_positions": 19,
+ "missing_positions": 9,
  "missing_to_delete": 2,
  "name": "תחנת הראל",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 7,
+   "missing": 5,
    "pct_jewish": 83.5,
    "pct_male": 77.4
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 74.4,
    "pct_male": 86.5
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 62.5,
    "pct_male": 91.0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 62.9,
    "pct_male": 72.3
   }

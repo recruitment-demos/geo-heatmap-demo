@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 6,
  "id": 2,
  "insights": [],
  "lat": 31.6,
  "lng": 34.65,
- "missing_positions": 6,
+ "missing_positions": 4,
  "missing_to_delete": 1,
  "name": "מרחב דוד",
  "nearby_settlements": [],
@@ -84,7 +85,7 @@
   {
    "key": "other",
    "label": "אחר",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 77.4,
    "pct_male": 65.1
   }

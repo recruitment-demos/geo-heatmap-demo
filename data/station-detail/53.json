@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "ש\"י",
+ "gap_positions": 35,
  "id": 53,
  "insights": [],
  "lat": 31.80289,
  "lng": 35.25262,
- "missing_positions": 35,
+ "missing_positions": 17,
  "missing_to_delete": 2,
  "name": "תחנת מעלה אדומים",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 14,
+   "missing": 9,
    "pct_jewish": 63.1,
    "pct_male": 71.5
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 6,
+   "missing": 3,
    "pct_jewish": 60.9,
    "pct_male": 72.3
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 8,
+   "missing": 2,
    "pct_jewish": 58.7,
    "pct_male": 70.1
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 5,
+   "missing": 3,
    "pct_jewish": 66.0,
    "pct_male": 69.0
   }

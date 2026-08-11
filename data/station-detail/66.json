@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "ש\"י",
+ "gap_positions": 13,
  "id": 66,
  "insights": [],
  "lat": 31.65,
  "lng": 35.12,
- "missing_positions": 13,
+ "missing_positions": 6,
  "missing_to_delete": 0,
  "name": "תחנת עציון",
  "nearby_settlements": [],
@@ -63,14 +64,14 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 2,
    "pct_jewish": 68.5,
    "pct_male": 67.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 75.2,
    "pct_male": 72.4
   },
@@ -84,7 +85,7 @@
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 71.9,
    "pct_male": 87.2
   }

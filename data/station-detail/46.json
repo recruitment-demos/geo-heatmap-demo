@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 9,
  "id": 46,
  "insights": [],
  "lat": 32.918,
  "lng": 35.238,
- "missing_positions": 9,
+ "missing_positions": 1,
  "missing_to_delete": 0,
  "name": "תחנת מג'דל כרום",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 0,
    "pct_jewish": 79.6,
    "pct_male": 73.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 54.5,
    "pct_male": 69.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 71.9,
    "pct_male": 68.3
   },

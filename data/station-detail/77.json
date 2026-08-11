@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 18,
  "id": 77,
  "insights": [],
  "lat": 31.89525,
  "lng": 34.81056,
- "missing_positions": 18,
+ "missing_positions": 10,
  "missing_to_delete": 2,
  "name": "תחנת רחובות",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 7,
+   "missing": 1,
    "pct_jewish": 86.5,
    "pct_male": 60.6
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 91.0,
    "pct_male": 73.9
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 5,
    "pct_jewish": 86.3,
    "pct_male": 78.1
   },

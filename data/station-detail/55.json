@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 21,
  "id": 55,
  "insights": [],
  "lat": 32.91971,
  "lng": 35.29473,
- "missing_positions": 21,
+ "missing_positions": 9,
  "missing_to_delete": 0,
  "name": "תחנת משגב",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 9,
+   "missing": 4,
    "pct_jewish": 86.8,
    "pct_male": 48.3
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 87.7,
    "pct_male": 63.8
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 2,
    "pct_jewish": 91.0,
    "pct_male": 58.3
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 0,
    "pct_jewish": 76.4,
    "pct_male": 65.9
   }

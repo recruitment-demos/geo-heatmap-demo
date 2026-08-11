@@ -47,11 +47,12 @@
  "color": "#DC2626",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 30,
  "id": 7,
  "insights": [],
  "lat": 31.79773,
  "lng": 34.65299,
- "missing_positions": 30,
+ "missing_positions": 11,
  "missing_to_delete": 2,
  "name": "תחנת אשדוד",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 12,
+   "missing": 3,
    "pct_jewish": 70.4,
    "pct_male": 62.8
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 5,
+   "missing": 2,
    "pct_jewish": 80.3,
    "pct_male": 59.0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 7,
+   "missing": 5,
    "pct_jewish": 84.7,
    "pct_male": 66.8
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 69.4,
    "pct_male": 65.9
   }

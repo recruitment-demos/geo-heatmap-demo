@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 6,
  "id": 18,
  "insights": [],
  "lat": 32.993,
  "lng": 35.691,
- "missing_positions": 6,
+ "missing_positions": 5,
  "missing_to_delete": 1,
  "name": "תחנת גולן",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 78.8,
    "pct_male": 46.9
   },
@@ -84,7 +85,7 @@
   {
    "key": "other",
    "label": "אחר",
-   "missing": 1,
+   "missing": 2,
    "pct_jewish": 73.0,
    "pct_male": 69.4
   }

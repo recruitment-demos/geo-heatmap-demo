@@ -47,11 +47,12 @@
  "color": "#DC2626",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 18,
  "id": 16,
  "insights": [],
  "lat": 32.53775,
  "lng": 34.91137,
- "missing_positions": 18,
+ "missing_positions": 10,
  "missing_to_delete": 1,
  "name": "תחנת ג'סר א זרקא",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 7,
+   "missing": 2,
    "pct_jewish": 78.2,
    "pct_male": 68.5
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 73.6,
    "pct_male": 70.3
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 5,
    "pct_jewish": 77.2,
    "pct_male": 61.5
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 78.3,
    "pct_male": 62.9
   }

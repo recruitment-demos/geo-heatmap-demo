@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 5,
  "id": 47,
  "insights": [],
  "lat": 32.67657,
  "lng": 35.24132,
- "missing_positions": 5,
+ "missing_positions": 4,
  "missing_to_delete": 0,
  "name": "תחנת מגדל העמק",
  "nearby_settlements": [],
@@ -70,7 +71,7 @@
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 84.1,
    "pct_male": 57.4
   },

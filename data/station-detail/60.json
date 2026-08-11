@@ -10,6 +10,7 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 2,
  "id": 60,
  "insights": [],
  "lat": 31.42135,
@@ -40,14 +41,14 @@
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 78.7,
    "pct_male": 71.8
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 0,
+   "missing": 1,
    "pct_jewish": 74.7,
    "pct_male": 74.2
   }

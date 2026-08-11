@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "תל אביב",
+ "gap_positions": 39,
  "id": 44,
  "insights": [],
  "lat": 32.0668,
  "lng": 34.7745,
- "missing_positions": 39,
+ "missing_positions": 22,
  "missing_to_delete": 4,
  "name": "תחנת לב תל אביב",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 15,
+   "missing": 13,
    "pct_jewish": 83.8,
    "pct_male": 77.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 6,
+   "missing": 4,
    "pct_jewish": 91.9,
    "pct_male": 75.0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 8,
+   "missing": 4,
    "pct_jewish": 88.0,
    "pct_male": 79.0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 6,
+   "missing": 1,
    "pct_jewish": 80.3,
    "pct_male": 67.4
   }

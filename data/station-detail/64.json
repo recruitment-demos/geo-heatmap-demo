@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 21,
  "id": 64,
  "insights": [],
  "lat": 32.92817,
  "lng": 35.07564,
- "missing_positions": 21,
+ "missing_positions": 8,
  "missing_to_delete": 0,
  "name": "תחנת עכו",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 9,
+   "missing": 4,
    "pct_jewish": 79.0,
    "pct_male": 79.3
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 74.9,
    "pct_male": 75.9
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 2,
    "pct_jewish": 75.1,
    "pct_male": 60.7
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 77.9,
    "pct_male": 72.2
   }

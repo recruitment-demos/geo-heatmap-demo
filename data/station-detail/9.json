@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 14,
  "id": 9,
  "insights": [],
  "lat": 32.4181,
  "lng": 35.0378,
- "missing_positions": 14,
+ "missing_positions": 7,
  "missing_to_delete": 1,
  "name": "תחנת באקה אלע'רביה",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 4,
    "pct_jewish": 70.7,
    "pct_male": 86.0
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 68.9,
    "pct_male": 76.0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 65.2,
    "pct_male": 77.5
   },

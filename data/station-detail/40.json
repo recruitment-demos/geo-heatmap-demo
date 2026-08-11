@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 44,
  "id": 40,
  "insights": [],
  "lat": 32.17735,
  "lng": 34.90746,
- "missing_positions": 44,
+ "missing_positions": 22,
  "missing_to_delete": 1,
  "name": "תחנת כפר סבא",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 18,
+   "missing": 8,
    "pct_jewish": 85.5,
    "pct_male": 67.6
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 8,
+   "missing": 2,
    "pct_jewish": 93.7,
    "pct_male": 64.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 10,
+   "missing": 8,
    "pct_jewish": 85.3,
    "pct_male": 63.7
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 7,
+   "missing": 4,
    "pct_jewish": 92.8,
    "pct_male": 73.3
   }

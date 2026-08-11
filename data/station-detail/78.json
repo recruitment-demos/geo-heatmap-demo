@@ -47,6 +47,7 @@
  "color": "#DC2626",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 29,
  "id": 78,
  "insights": [
   {
@@ -58,7 +59,7 @@
  ],
  "lat": 31.928,
  "lng": 34.86235,
- "missing_positions": 29,
+ "missing_positions": 14,
  "missing_to_delete": 3,
  "name": "תחנת רמלה",
  "nearby_settlements": [],
@@ -70,28 +71,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 11,
+   "missing": 6,
    "pct_jewish": 59.1,
    "pct_male": 72.0
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 5,
+   "missing": 4,
    "pct_jewish": 57.6,
    "pct_male": 58.4
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 6,
+   "missing": 1,
    "pct_jewish": 72.4,
    "pct_male": 60.8
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 72.0,
    "pct_male": 58.8
   }

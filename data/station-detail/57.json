@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 24,
  "id": 57,
  "insights": [],
  "lat": 32.70231,
  "lng": 35.31832,
- "missing_positions": 24,
+ "missing_positions": 12,
  "missing_to_delete": 0,
  "name": "תחנת נוף הגליל",
  "nearby_settlements": [],
@@ -63,14 +64,14 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 10,
+   "missing": 5,
    "pct_jewish": 85.8,
    "pct_male": 66.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 0,
    "pct_jewish": 82.1,
    "pct_male": 68.9
   },
@@ -84,7 +85,7 @@
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 80.0,
    "pct_male": 67.7
   }

@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "תל אביב",
+ "gap_positions": 5,
  "id": 88,
  "insights": [],
  "lat": 32.095,
  "lng": 34.781,
- "missing_positions": 5,
+ "missing_positions": 2,
  "missing_to_delete": 0,
  "name": "תחנת תל אביב צפון",
  "nearby_settlements": [],
@@ -70,21 +71,21 @@
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 71.8,
    "pct_male": 69.6
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 80.6,
    "pct_male": 71.5
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 78.6,
    "pct_male": 67.3
   }

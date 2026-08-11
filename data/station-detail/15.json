@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "תל אביב",
+ "gap_positions": 10,
  "id": 15,
  "insights": [],
  "lat": 32.0231,
  "lng": 34.7503,
- "missing_positions": 10,
+ "missing_positions": 6,
  "missing_to_delete": 1,
  "name": "תחנת בת ים",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 57.0,
    "pct_male": 63.0
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 50.4,
    "pct_male": 59.5
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 59.4,
    "pct_male": 62.3
   },

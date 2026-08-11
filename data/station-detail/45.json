@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 22,
  "id": 45,
  "insights": [],
  "lat": 31.9489,
  "lng": 34.88849,
- "missing_positions": 22,
+ "missing_positions": 11,
  "missing_to_delete": 1,
  "name": "תחנת לוד",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 9,
+   "missing": 4,
    "pct_jewish": 70.1,
    "pct_male": 61.8
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 70.0,
    "pct_male": 64.6
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 3,
    "pct_jewish": 79.4,
    "pct_male": 77.8
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 75.7,
    "pct_male": 78.3
   }

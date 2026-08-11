@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 10,
  "id": 30,
  "insights": [],
  "lat": 32.81912,
  "lng": 34.99839,
- "missing_positions": 10,
+ "missing_positions": 3,
  "missing_to_delete": 1,
  "name": "תחנת חיפה",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 57.6,
    "pct_male": 59.4
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 65.3,
    "pct_male": 63.0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 59.9,
    "pct_male": 61.5
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 1,
+   "missing": 0,
    "pct_jewish": 56.6,
    "pct_male": 75.3
   }

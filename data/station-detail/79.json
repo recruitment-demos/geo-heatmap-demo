@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 12,
  "id": 79,
  "insights": [],
  "lat": 31.20088,
  "lng": 34.84009,
- "missing_positions": 12,
+ "missing_positions": 7,
  "missing_to_delete": 1,
  "name": "תחנת שגב שלום",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 74.1,
    "pct_male": 82.7
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 78.7,
    "pct_male": 85.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 82.2,
    "pct_male": 92.4
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 72.8,
    "pct_male": 91.1
   }

@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 12,
  "id": 5,
  "insights": [],
  "lat": 31.31258,
  "lng": 34.62085,
- "missing_positions": 12,
+ "missing_positions": 4,
  "missing_to_delete": 0,
  "name": "תחנת אופקים",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 5,
+   "missing": 2,
    "pct_jewish": 63.2,
    "pct_male": 67.7
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 61.2,
    "pct_male": 54.3
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 74.5,
    "pct_male": 65.4
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 61.1,
    "pct_male": 68.2
   }

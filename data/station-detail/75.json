@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 22,
  "id": 75,
  "insights": [],
  "lat": 31.96357,
  "lng": 34.81011,
- "missing_positions": 22,
+ "missing_positions": 9,
  "missing_to_delete": 1,
  "name": "תחנת ראשון לציון",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 9,
+   "missing": 3,
    "pct_jewish": 68.9,
    "pct_male": 63.0
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 75.2,
    "pct_male": 71.8
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 1,
    "pct_jewish": 76.1,
    "pct_male": 72.7
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 74.6,
    "pct_male": 61.0
   }

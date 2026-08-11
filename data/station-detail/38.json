@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 19,
  "id": 38,
  "insights": [],
  "lat": 32.7,
  "lng": 35.57,
- "missing_positions": 19,
+ "missing_positions": 10,
  "missing_to_delete": 0,
  "name": "תחנת ירדן",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 4,
    "pct_jewish": 74.1,
    "pct_male": 67.2
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 88.6,
    "pct_male": 59.4
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 4,
    "pct_jewish": 89.5,
    "pct_male": 57.9
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 81.7,
    "pct_male": 67.4
   }

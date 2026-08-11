@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 24,
  "id": 83,
  "insights": [],
  "lat": 31.81,
  "lng": 35.23,
- "missing_positions": 24,
+ "missing_positions": 10,
  "missing_to_delete": 4,
  "name": "תחנת שפט",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 5,
    "pct_jewish": 73.6,
    "pct_male": 88.9
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 73.2,
    "pct_male": 78.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 2,
    "pct_jewish": 72.8,
    "pct_male": 75.6
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 73.8,
    "pct_male": 64.9
   }

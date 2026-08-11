@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "ש\"י",
+ "gap_positions": 7,
  "id": 22,
  "insights": [],
  "lat": 32.1,
  "lng": 35.45,
- "missing_positions": 7,
+ "missing_positions": 6,
  "missing_to_delete": 1,
  "name": "תחנת הבקעה",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 81.1,
    "pct_male": 73.9
   },
@@ -77,14 +78,14 @@
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 1,
+   "missing": 2,
    "pct_jewish": 80.4,
    "pct_male": 71.1
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 1,
+   "missing": 2,
    "pct_jewish": 77.1,
    "pct_male": 63.1
   }

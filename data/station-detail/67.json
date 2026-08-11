@@ -47,11 +47,12 @@
  "color": "#DC2626",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 11,
  "id": 67,
  "insights": [],
  "lat": 31.26122,
  "lng": 35.21458,
- "missing_positions": 11,
+ "missing_positions": 6,
  "missing_to_delete": 1,
  "name": "תחנת ערד",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 70.7,
    "pct_male": 64.4
   },
@@ -77,7 +78,7 @@
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 58.4,
    "pct_male": 85.7
   },

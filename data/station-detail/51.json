@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "מג\"ב",
+ "gap_positions": 13,
  "id": 51,
  "insights": [],
  "lat": 31.77,
  "lng": 35.02,
- "missing_positions": 13,
+ "missing_positions": 6,
  "missing_to_delete": 0,
  "name": "תחנת מטה יהודה",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 3,
    "pct_jewish": 90.9,
    "pct_male": 61.5
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 90.9,
    "pct_male": 53.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 92.9,
    "pct_male": 58.9
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 99.0,
    "pct_male": 56.4
   }

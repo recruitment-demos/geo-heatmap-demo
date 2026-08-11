@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 20,
  "id": 58,
  "insights": [],
  "lat": 32.70663,
  "lng": 35.30482,
- "missing_positions": 20,
+ "missing_positions": 7,
  "missing_to_delete": 3,
  "name": "תחנת נצרת",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 7,
+   "missing": 2,
    "pct_jewish": 77.9,
    "pct_male": 57.6
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 4,
    "pct_jewish": 76.1,
    "pct_male": 65.6
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 76.0,
    "pct_male": 60.7
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 0,
    "pct_jewish": 93.2,
    "pct_male": 55.3
   }

@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ש\"י",
+ "gap_positions": 11,
  "id": 27,
  "insights": [],
  "lat": 31.73254,
  "lng": 35.2074,
- "missing_positions": 11,
+ "missing_positions": 4,
  "missing_to_delete": 0,
  "name": "תחנת חברון",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 2,
    "pct_jewish": 81.2,
    "pct_male": 68.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 77.5,
    "pct_male": 70.1
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 84.5,
    "pct_male": 71.4
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 80.7,
    "pct_male": 71.2
   }

@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 17,
  "id": 59,
  "insights": [],
  "lat": 32.77088,
  "lng": 35.03812,
- "missing_positions": 17,
+ "missing_positions": 10,
  "missing_to_delete": 1,
  "name": "תחנת נשר",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 7,
+   "missing": 3,
    "pct_jewish": 88.1,
    "pct_male": 58.4
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 86.6,
    "pct_male": 67.0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 85.5,
    "pct_male": 69.0
   },

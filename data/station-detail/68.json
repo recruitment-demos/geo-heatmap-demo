@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 10,
  "id": 68,
  "insights": [],
  "lat": 31.14,
  "lng": 34.98,
- "missing_positions": 10,
+ "missing_positions": 6,
  "missing_to_delete": 0,
  "name": "תחנת ערוער",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 95.0,
    "pct_male": 69.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 90.4,
    "pct_male": 66.3
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 86.7,
    "pct_male": 61.9
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 78.1,
    "pct_male": 60.1
   }

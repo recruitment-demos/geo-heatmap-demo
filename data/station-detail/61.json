@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 9,
  "id": 61,
  "insights": [],
  "lat": 32.32862,
  "lng": 34.85662,
- "missing_positions": 9,
+ "missing_positions": 7,
  "missing_to_delete": 0,
  "name": "תחנת נתניה",
  "nearby_settlements": [],
@@ -63,14 +64,14 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
+   "missing": 3,
    "pct_jewish": 84.0,
    "pct_male": 79.7
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 87.2,
    "pct_male": 83.0
   },

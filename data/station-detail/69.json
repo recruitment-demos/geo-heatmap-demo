@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 33,
  "id": 69,
  "insights": [],
  "lat": 32.08776,
  "lng": 34.886,
- "missing_positions": 33,
+ "missing_positions": 17,
  "missing_to_delete": 2,
  "name": "תחנת פתח תקוה",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 13,
+   "missing": 4,
    "pct_jewish": 56.3,
    "pct_male": 62.7
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 6,
+   "missing": 4,
    "pct_jewish": 59.7,
    "pct_male": 85.1
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 7,
+   "missing": 5,
    "pct_jewish": 58.5,
    "pct_male": 67.3
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 5,
+   "missing": 4,
    "pct_jewish": 69.1,
    "pct_male": 73.6
   }

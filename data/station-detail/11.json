@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 23,
  "id": 11,
  "insights": [],
  "lat": 32.49675,
  "lng": 35.4973,
- "missing_positions": 23,
+ "missing_positions": 5,
  "missing_to_delete": 3,
  "name": "תחנת בית שאן",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 2,
    "pct_jewish": 91.7,
    "pct_male": 60.6
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 83.2,
    "pct_male": 58.1
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 0,
    "pct_jewish": 86.0,
    "pct_male": 63.6
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 90.1,
    "pct_male": 62.5
   }

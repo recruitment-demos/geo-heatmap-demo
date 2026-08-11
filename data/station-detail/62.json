@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 14,
  "id": 62,
  "insights": [],
  "lat": 31.77,
  "lng": 35.2,
- "missing_positions": 14,
+ "missing_positions": 7,
  "missing_to_delete": 0,
  "name": "תחנת עוז",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 4,
    "pct_jewish": 45.9,
    "pct_male": 61.4
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 2,
    "pct_jewish": 54.2,
    "pct_male": 71.7
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 0,
    "pct_jewish": 61.0,
    "pct_male": 65.9
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 51.2,
    "pct_male": 63.6
   }

@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 21,
  "id": 56,
  "insights": [],
  "lat": 33.00631,
  "lng": 35.09456,
- "missing_positions": 21,
+ "missing_positions": 13,
  "missing_to_delete": 2,
  "name": "תחנת נהריה",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 6,
    "pct_jewish": 90.0,
    "pct_male": 62.9
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 75.8,
    "pct_male": 76.8
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 3,
    "pct_jewish": 74.9,
    "pct_male": 77.9
   },

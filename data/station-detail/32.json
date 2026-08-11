@@ -47,11 +47,12 @@
  "color": "#DC2626",
  "coord_verified": false,
  "district": "מרכז",
+ "gap_positions": 19,
  "id": 32,
  "insights": [],
  "lat": 32.26712,
  "lng": 35.0089,
- "missing_positions": 19,
+ "missing_positions": 15,
  "missing_to_delete": 0,
  "name": "תחנת טייבה",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 7,
    "pct_jewish": 71.0,
    "pct_male": 69.9
   },
@@ -77,14 +78,14 @@
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 4,
    "pct_jewish": 77.5,
    "pct_male": 74.9
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 70.7,
    "pct_male": 72.1
   }

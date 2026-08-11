@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 26,
  "id": 42,
  "insights": [],
  "lat": 32.91591,
  "lng": 35.29343,
- "missing_positions": 26,
+ "missing_positions": 12,
  "missing_to_delete": 3,
  "name": "תחנת כרמיאל",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 10,
+   "missing": 7,
    "pct_jewish": 98.1,
    "pct_male": 73.8
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 93.6,
    "pct_male": 71.0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 4,
    "pct_jewish": 82.3,
    "pct_male": 76.5
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 4,
+   "missing": 0,
    "pct_jewish": 89.2,
    "pct_male": 65.7
   }

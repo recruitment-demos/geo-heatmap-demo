@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
+ "gap_positions": 13,
  "id": 54,
  "insights": [],
  "lat": 33.017,
  "lng": 35.287,
- "missing_positions": 13,
+ "missing_positions": 5,
  "missing_to_delete": 0,
  "name": "תחנת מעלות תרשיחא",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 3,
    "pct_jewish": 63.3,
    "pct_male": 71.3
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 68.9,
    "pct_male": 80.9
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 73.4,
    "pct_male": 68.6
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 0,
    "pct_jewish": 63.3,
    "pct_male": 81.5
   }

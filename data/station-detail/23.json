@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
+ "gap_positions": 14,
  "id": 23,
  "insights": [],
  "lat": 31.42,
  "lng": 34.68,
- "missing_positions": 14,
+ "missing_positions": 8,
  "missing_to_delete": 0,
  "name": "תחנת העיירות",
  "nearby_settlements": [],
@@ -63,14 +64,14 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 3,
    "pct_jewish": 72.7,
    "pct_male": 66.6
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 3,
+   "missing": 1,
    "pct_jewish": 73.7,
    "pct_male": 73.5
   },
@@ -84,7 +85,7 @@
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 81.2,
    "pct_male": 74.4
   }

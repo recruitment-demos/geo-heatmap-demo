@@ -47,11 +47,12 @@
  "color": "#EA580C",
  "coord_verified": false,
  "district": "חוף",
+ "gap_positions": 14,
  "id": 26,
  "insights": [],
  "lat": 32.57116,
  "lng": 34.953,
- "missing_positions": 14,
+ "missing_positions": 10,
  "missing_to_delete": 1,
  "name": "תחנת זכרון יעקב",
  "nearby_settlements": [],
@@ -63,28 +64,28 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 6,
+   "missing": 1,
    "pct_jewish": 62.1,
    "pct_male": 69.1
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
+   "missing": 3,
    "pct_jewish": 65.4,
    "pct_male": 63.1
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
+   "missing": 5,
    "pct_jewish": 51.3,
    "pct_male": 50.4
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 57.1,
    "pct_male": 58.6
   }

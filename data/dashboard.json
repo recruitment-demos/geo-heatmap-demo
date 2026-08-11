@@ -14,7 +14,7 @@
    "candidates_pct_male": null,
    "key": "patrol",
    "label": "סייר",
-   "missing": 586,
+   "missing": 301,
    "pct_jewish": 77.29,
    "pct_male": 67.37
   },
@@ -24,7 +24,7 @@
    "candidates_pct_male": null,
    "key": "detectives",
    "label": "בלש",
-   "missing": 256,
+   "missing": 128,
    "pct_jewish": 78.44,
    "pct_male": 69.37
   },
@@ -34,7 +34,7 @@
    "candidates_pct_male": null,
    "key": "investigators",
    "label": "חוקר",
-   "missing": 335,
+   "missing": 187,
    "pct_jewish": 77.78,
    "pct_male": 68.69
   },
@@ -44,7 +44,7 @@
    "candidates_pct_male": null,
    "key": "other",
    "label": "אחר",
-   "missing": 217,
+   "missing": 113,
    "pct_jewish": 77.58,
    "pct_male": 67.82
   }
@@ -64,7 +64,7 @@
  "manpower_gap": {
   "available": true,
   "snapshots": 2,
-  "total_missing": 1485,
+  "total_missing": 729,
   "trend": 1.4
  },
  "pct_jewish": 77.74,
@@ -87,7 +87,7 @@
    "color": "#DC2626",
    "district": "דרום",
    "family_missing": null,
-   "missing_positions": 45,
+   "missing_positions": 18,
    "name": "תחנת אשקלון",
    "staffing_pct": 61.54,
    "status": "קריטי"
@@ -97,7 +97,7 @@
    "color": "#DC2626",
    "district": "חוף",
    "family_missing": null,
-   "missing_positions": 25,
+   "missing_positions": 10,
    "name": "תחנת עירון",
    "staffing_pct": 64.29,
    "status": "קריטי"
@@ -107,7 +107,7 @@
    "color": "#DC2626",
    "district": "מרכז",
    "family_missing": null,
-   "missing_positions": 29,
+   "missing_positions": 14,
    "name": "תחנת רמלה",
    "staffing_pct": 67.78,
    "status": "קריטי"
@@ -117,7 +117,7 @@
    "color": "#DC2626",
    "district": "דרום",
    "family_missing": null,
-   "missing_positions": 30,
+   "missing_positions": 11,
    "name": "תחנת אשדוד",
    "staffing_pct": 68.09,
    "status": "קריטי"
@@ -127,7 +127,7 @@
    "color": "#DC2626",
    "district": "דרום",
    "family_missing": null,
-   "missing_positions": 11,
+   "missing_positions": 6,
    "name": "תחנת ערד",
    "staffing_pct": 68.57,
    "status": "קריטי"

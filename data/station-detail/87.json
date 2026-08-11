@@ -47,11 +47,12 @@
  "color": "#16A34A",
  "coord_verified": false,
  "district": "תל אביב",
+ "gap_positions": 4,
  "id": 87,
  "insights": [],
  "lat": 32.053,
  "lng": 34.778,
- "missing_positions": 4,
+ "missing_positions": 3,
  "missing_to_delete": 0,
  "name": "תחנת תל אביב דרום",
  "nearby_settlements": [],
@@ -63,7 +64,7 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 2,
+   "missing": 1,
    "pct_jewish": 74.8,
    "pct_male": 69.3
   },

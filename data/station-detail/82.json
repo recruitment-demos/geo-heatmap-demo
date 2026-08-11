@@ -47,11 +47,12 @@
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
+ "gap_positions": 22,
  "id": 82,
  "insights": [],
  "lat": 31.78,
  "lng": 35.23,
- "missing_positions": 22,
+ "missing_positions": 9,
  "missing_to_delete": 2,
  "name": "תחנת שלם",
  "nearby_settlements": [],
@@ -63,21 +64,21 @@
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 8,
+   "missing": 4,
    "pct_jewish": 71.0,
    "pct_male": 69.7
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
+   "missing": 1,
    "pct_jewish": 76.8,
    "pct_male": 73.2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 5,
+   "missing": 1,
    "pct_jewish": 74.2,
    "pct_male": 78.0
   },
