@@ -2969,13 +2969,33 @@ const MANAGE_DATASETS = {
     },
     rows: () => state.candidateScopes,
     search: (c, term) => c.scope_name.includes(term),
+    // §44: **הנתון הזה היה היחיד במסך שאפשר היה רק לראות.**
+    //
+    // הכלל במערכת הוא ששני מסלולים מובילים לאותו נתון: טעינת קובץ
+    // שדורסת הכול, ועריכה ידנית של שורה בודדת. כאן היה רק הראשון, ומי
+    // שקיבל מספר שגוי ממערכת המקור נאלץ לחכות לקובץ הבא.
+    //
+    // הסך והפילוח נערכים בנפרד כי הם שורות נפרדות במאגר — הסך אינו
+    // סכום הקטגוריות אלא נתון בפני עצמו, וקובץ המקור מוסר את שניהם.
     render: (c) => `<tr>
         <td><strong>${escapeHtml(c.scope_name)}</strong></td>
         <td>${{ national: "ארצי", district: "מחוז", area: "מרחב" }[c.scope_type]}</td>
-        <td>${c.total ?? '<span class="muted">אין נתון</span>'}</td>
-        <td>${roleSummary(c.roles, "count")}</td>
+        <td class="cell-edit">
+          <input class="cand-field" type="number" min="0" inputmode="numeric"
+                 data-scope-type="${c.scope_type}" data-scope-name="${escapeHtml(c.scope_name === "ארצי" ? "" : c.scope_name)}"
+                 data-category="" placeholder="אין נתון"
+                 value="${c.total ?? ""}" data-original="${c.total ?? ""}">
+        </td>
+        <td class="cand-roles">${CANDIDATE_ROLE_KEYS.map(
+          (r) => `<label class="cand-role"><span>${r.label}</span>
+            <input class="cand-field" type="number" min="0" inputmode="numeric"
+                   data-scope-type="${c.scope_type}" data-scope-name="${escapeHtml(c.scope_name === "ארצי" ? "" : c.scope_name)}"
+                   data-category="${r.key}" placeholder="—"
+                   value="${roleCount(c.roles, r.key) ?? ""}"
+                   data-original="${roleCount(c.roles, r.key) ?? ""}"></label>`
+        ).join("")}</td>
       </tr>`,
-    note: "עמודת 'תחנה' בקובץ ריקה, ולכן אין פילוח ברמת התחנה — ראו טעינת נתונים.",
+    note: "כל מספר כאן נערך ידנית. טעינת קובץ מועמדים דורסת את הכול. עמודת 'תחנה' בקובץ ריקה, ולכן אין פילוח ברמת התחנה.",
     empty: "עדיין לא נטען קובץ מועמדים בהליך.",
   },
 
@@ -3095,6 +3115,21 @@ const MANAGE_DATASETS = {
 };
 
 // צ'יפים קומפקטיים לתא בטבלה. null נשאר "—" ולא 0.
+// §44: ארבע משפחות התפקיד, כרשימה יציבה לעריכה. `roles` שמגיע מהשרת
+// מכיל רק מה שיש עליו נתון, ותא שאין לו שורה חייב בכל זאת להופיע —
+// אחרת אי אפשר להזין ערך ראשון.
+const CANDIDATE_ROLE_KEYS = [
+  { key: "patrol", label: "סייר" },
+  { key: "detectives", label: "בלש" },
+  { key: "investigators", label: "חוקר" },
+  { key: "other", label: "אחר" },
+];
+
+const roleCount = (roles, key) => {
+  const found = (roles || []).find((r) => r.key === key);
+  return found && found.count !== null && found.count !== undefined ? found.count : null;
+};
+
 function roleSummary(roles, key) {
   if (!Array.isArray(roles) || !roles.length) return '<span class="muted">אין נתון</span>';
   return `<div class="chips chips--tight">${roles
@@ -3519,6 +3554,33 @@ function wireInlineEdit(table) {
         { name: input.value.trim() },
         refreshAndRerender
       );
+    });
+  });
+
+  // §44: עריכת מועמדים בהליך. שדה ריק = "אין נתון" ונמחק מהמאגר; 0 הוא
+  // ערך אמיתי שאומר "נבדק, אין מועמדים", והשניים אינם אותו דבר.
+  table.querySelectorAll(".cand-field").forEach((input) => {
+    bindCellKeys(input, async () => {
+      const raw = input.value.trim();
+      const body = {
+        scope_type: input.dataset.scopeType,
+        scope_name: input.dataset.scopeName,
+        category: input.dataset.category,
+        count: raw === "" ? null : Number(raw),
+      };
+      const res = await fetch("/api/candidates-scope", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      if (!data.ok) {
+        alert(data.error);
+        input.value = input.dataset.original;
+        return;
+      }
+      input.dataset.original = raw;
+      await refreshAndRerender();
     });
   });
 
@@ -4598,20 +4660,31 @@ async function loadAdminOptions() {
 
   // §43: רשימת התחנות נטענת פעם אחת. היא אינה תלויה בשאר הסינונים —
   // 88 התחנות הן רשימה סגורה, ולא תוצאה של שאילתה שמצטמצמת.
+  //
+  // §44: **בתוך try, ובנפרד.** בלי זה כישלון של הקריאה הזו — שרת שעדיין
+  // לא הועלה מחדש ולכן אינו מכיר את הנתיב, למשל — זרק שגיאה שעצרה את
+  // `loadAdminOptions` **לפני** שהטבלה נטענה, ולוח המשרות נשאר ריק
+  // לגמרי. בורר אחד שאינו נטען אינו סיבה למסך ריק.
   if (!state.adminStations) {
-    state.adminStations = await api("/api/admin-stations");
-    const select = el("a-station");
-    if (select) {
-      select.innerHTML =
-        `<option value="">כל התחנות</option>` +
-        state.adminStations
-          .map(
-            (s) =>
-              `<option value="${s.id}">${escapeHtml(s.name)} — ${
-                s.vacant ? `${s.vacant} לגיוס` : "אין"
-              }</option>`
-          )
-          .join("");
+    try {
+      state.adminStations = await api("/api/admin-stations");
+      const select = el("a-station");
+      if (select) {
+        select.innerHTML =
+          `<option value="">כל התחנות</option>` +
+          state.adminStations
+            .map(
+              (s) =>
+                `<option value="${s.id}">${escapeHtml(s.name)} — ${
+                  s.vacant ? `${s.vacant} לגיוס` : "אין"
+                }</option>`
+            )
+            .join("");
+      }
+    } catch (err) {
+      state.adminStations = [];
+      const select = el("a-station");
+      if (select) select.innerHTML = `<option value="">כל התחנות</option>`;
     }
   }
 
@@ -4796,7 +4869,15 @@ function employmentText(value) {
 async function refreshAdmin() {
   // סדר קבוע: קודם האפשרויות (שמצמצמות זו את זו), ואז הטבלה לפי מה
   // שנשאר תקף. הפוך — הטבלה הייתה נבנית לפי סינון שהרגע התאפס.
-  await loadAdminOptions();
+  //
+  // §44: **הטבלה נטענת גם כשהאפשרויות נכשלו.** היא העיקר במסך הזה, והן
+  // עזר. כשהן היו באותו שרשור, תקלה בהן השאירה מסך ריק בלי שום הודעה —
+  // וזה בדיוק מה שקרה כשנוסף בורר התחנה מול שרת שטרם הועלה מחדש.
+  try {
+    await loadAdminOptions();
+  } catch (err) {
+    console.error("רשימות הסינון לא נטענו", err);
+  }
   await loadAdminPositions();
 }
 

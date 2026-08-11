@@ -1533,3 +1533,9 @@ body {
   font: inherit;
   text-align: right;
 }
+
+/* §44: פילוח המועמדים לפי תפקיד, כארבעה שדות עריכה בתא אחד. תווית קטנה
+   מעל כל שדה — בלעדיה ארבעה מספרים בשורה אינם אומרים מי מהם סייר. */
+.cand-roles { display: flex; flex-wrap: wrap; gap: 6px; }
+.cand-role { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--ink-soft); }
+.cand-role input { width: 62px; }
