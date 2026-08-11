@@ -41,7 +41,8 @@ const DISTRICT_TINT = {
 // התמצאות אחת בלבד: שתיהן יחד היו שתי רשתות שמות על אותה מפה.
 const DISTRICT_LABEL_MAX_ZOOM = 10;
 const REGION_LABEL_MIN_ZOOM = 11;
-const REGION_LABEL_MAX_ZOOM = 13;
+// §42: אין יותר תקרה עליונה לשם המרחב. היא הסתירה אותו בדיוק כשמסתכלים
+// על מרחב אחד מקרוב, והמסך נשאר בלי שום ציון של איפה אתה נמצא.
 
 // מבט הפתיחה. fitBounds על מאגר ארצי מציג את כל המדינה, ובזום כזה סיכות
 // גוש דן נדחסות לכתם אחד. ההגדלה מקרבת למרכז הכובד, ששם רוב המידע; התקרה
@@ -1113,6 +1114,7 @@ async function initMap() {
     state.districtLayer = L.geoJSON(districts, {
       pane: "tilePane",
       interactive: false,
+      // §42: הסגנון תלוי-זום — ראו applyBoundaryZoom. כאן רק ערכי הפתיחה.
       style: (feature) => ({
         color: "#8794a8",
         weight: 1.4,
@@ -1142,6 +1144,8 @@ async function initMap() {
       interactive: false,
       style: { color: "#9aa6b8", weight: 0.9, dashArray: "3 4", fill: false },
     }).addTo(state.map);
+    // §42: במבט הרחב המרחבים אינם מוצגים כלל — ראו applyBoundaryZoom.
+    state.map.removeLayer(state.regionLayer);
     state.regionLabels = regions.features
       .filter((feature) => feature.properties.label)
       .map((feature) => ({
@@ -1383,6 +1387,43 @@ function renderEntityLabels() {
 // הנקודה אינה מרכז המסה אלא הנקודה הרחוקה ביותר מהגבול (ראו
 // tools/build_district_outline.py) — מרכז המסה של ש"י נופל בירושלים,
 // ותווית מחוץ לשטח נקראת כאילו היא של השכן.
+// §42: **רמה אחת בכל זום — ולא שתי רשתות זו על גבי זו.**
+//
+// קודם המפה ציירה בו-זמנית את גבולות המחוזות (עם מילוי צבעוני) ואת
+// גבולות המרחבים. שתי רשתות באותו מקום נקראות כמו רעש, ולא כמו היררכיה.
+//
+// מה שנקבע:
+//   * **מרחוק — המחוז בלבד.** מילוי בגוון, קו מקווקו, ושם המחוז.
+//   * **מקרוב — המרחב הוא העיקר.** הגבולות שלו נכנסים, השם שלו מוצג,
+//     והמילוי של המחוז יורד כמעט לגמרי כדי שלא יתחרה בו.
+//   * **קו המחוז נשאר חזק תמיד**, גם כשהשם שלו כבר אינו מוצג: מעבר בין
+//     מחוזות הוא הדבר שצריך להיראות במבט אחד, וזה מה שהתבקש.
+function applyBoundaryZoom() {
+  if (!state.map) return;
+  const close = state.map.getZoom() > DISTRICT_LABEL_MAX_ZOOM;
+
+  if (state.districtLayer) {
+    state.districtLayer.setStyle((feature) => ({
+      color: close ? "#5b6880" : "#8794a8",
+      // מקרוב הקו של המחוז מתחזק ונעשה רציף — הוא הגבול החיצוני שבתוכו
+      // יושבים המרחבים, ולכן הוא חייב להיקרא אחרת מהם.
+      weight: close ? 2.6 : 1.4,
+      dashArray: close ? null : "5 4",
+      fillColor: DISTRICT_TINT[feature.properties.name] || "#c9cfd8",
+      fillOpacity: close ? 0.08 : 0.3,
+    }));
+  }
+
+  if (state.regionLayer) {
+    const shown = state.map.hasLayer(state.regionLayer);
+    if (close && !shown) state.regionLayer.addTo(state.map);
+    if (!close && shown) state.map.removeLayer(state.regionLayer);
+    if (close) {
+      state.regionLayer.setStyle({ color: "#7c8ba1", weight: 1.5, dashArray: "4 3", fill: false });
+    }
+  }
+}
+
 function renderDistrictLabels() {
   if (!state.map || !state.districtLabelLayer) return;
   state.districtLabelLayer.clearLayers();
@@ -1393,7 +1434,7 @@ function renderDistrictLabels() {
   const items =
     zoom <= DISTRICT_LABEL_MAX_ZOOM
       ? state.districtLabels
-      : zoom >= REGION_LABEL_MIN_ZOOM && zoom <= REGION_LABEL_MAX_ZOOM
+      : zoom >= REGION_LABEL_MIN_ZOOM
         ? state.regionLabels
         : [];
   const wide = zoom <= DISTRICT_LABEL_MAX_ZOOM;
@@ -1416,6 +1457,7 @@ function renderDistrictLabels() {
 }
 
 function renderBaseMarkers() {
+  applyBoundaryZoom();
   renderDistrictLabels();
   renderOrientationCities();
   state.baseLayer.clearLayers();
