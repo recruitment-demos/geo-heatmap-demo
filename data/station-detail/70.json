@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 8,
+ "candidates_gender_coverage": 9,
  "candidates_in_process": 20,
- "candidates_pct_jewish": 80.0,
- "candidates_pct_male": 62.5,
- "candidates_religion_coverage": 5,
+ "candidates_pct_jewish": 85.7,
+ "candidates_pct_male": 66.7,
+ "candidates_religion_coverage": 7,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת צפת",
  "nearby_settlements": [],
+ "open_positions": 4,
  "pct_jewish": 67.8,
  "pct_male": 69.6,
  "required_positions": 115,
@@ -91,5 +92,6 @@
  "staffing_pct": 96.52,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 2
 }

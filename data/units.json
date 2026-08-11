@@ -1,6 +1,6 @@
 [
  {
-  "actual": 345,
+  "actual": 347,
   "district": null,
   "id": 5,
   "join_keys": [],
@@ -8,14 +8,14 @@
   "level5": "יחידת אכיפה כלכלית",
   "name": "יחידת אכיפה כלכלית",
   "parent_unit": null,
-  "positions": 442,
+  "positions": 432,
   "region": "מרחב גלעד",
-  "required": 419,
+  "required": 417,
   "settlement_name": "בית ברל",
-  "vacant": 78
+  "vacant": 33
  },
  {
-  "actual": 373,
+  "actual": 283,
   "district": null,
   "id": 1,
   "join_keys": [
@@ -25,14 +25,14 @@
   "level5": "יחידת חילוץ ארצית",
   "name": "יחידת חילוץ ארצית",
   "parent_unit": null,
-  "positions": 457,
+  "positions": 344,
   "region": "מרחב איילון",
-  "required": 438,
+  "required": 329,
   "settlement_name": "אבטליון",
-  "vacant": 67
+  "vacant": 23
  },
  {
-  "actual": 378,
+  "actual": 333,
   "district": null,
   "id": 3,
   "join_keys": [],
@@ -40,14 +40,14 @@
   "level5": "יחידת סיור מיוחדת",
   "name": "יחידת סיור מיוחדת",
   "parent_unit": null,
-  "positions": 470,
+  "positions": 403,
   "region": "מרחב אשר",
-  "required": 454,
+  "required": 382,
   "settlement_name": "איתן",
-  "vacant": 77
+  "vacant": 26
  },
  {
-  "actual": 369,
+  "actual": 370,
   "district": null,
   "id": 2,
   "join_keys": [],
@@ -55,14 +55,14 @@
   "level5": "מפקדת מרחב תפעולית",
   "name": "מפקדת מרחב תפעולית",
   "parent_unit": null,
-  "positions": 461,
+  "positions": 444,
   "region": "מרחב אילת",
-  "required": 439,
+  "required": 426,
   "settlement_name": "אור יהודה",
-  "vacant": 71
+  "vacant": 26
  },
  {
-  "actual": 329,
+  "actual": 309,
   "district": null,
   "id": 6,
   "join_keys": [],
@@ -70,14 +70,14 @@
   "level5": "מרכז הדרכה ארצי",
   "name": "מרכז הדרכה ארצי",
   "parent_unit": null,
-  "positions": 410,
+  "positions": 405,
   "region": "מרחב דוד",
-  "required": 393,
+  "required": 383,
   "settlement_name": "בני ברק",
-  "vacant": 66
+  "vacant": 35
  },
  {
-  "actual": 380,
+  "actual": 335,
   "district": null,
   "id": 4,
   "join_keys": [],
@@ -85,10 +85,10 @@
   "level5": "מרכז שליטה ארצי",
   "name": "מרכז שליטה ארצי",
   "parent_unit": null,
-  "positions": 476,
+  "positions": 419,
   "region": "מרחב גליל",
-  "required": 455,
+  "required": 401,
   "settlement_name": "ארבל",
-  "vacant": 80
+  "vacant": 33
  }
 ]

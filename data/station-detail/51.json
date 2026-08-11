@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 9,
+   "count": 12,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 5,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 7,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 4,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 17,
- "candidates_in_process": 42,
- "candidates_pct_jewish": 63.2,
- "candidates_pct_male": 52.9,
- "candidates_religion_coverage": 19,
+ "candidates_gender_coverage": 19,
+ "candidates_in_process": 56,
+ "candidates_pct_jewish": 55.0,
+ "candidates_pct_male": 63.2,
+ "candidates_religion_coverage": 20,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "מג\"ב",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת מטה יהודה",
  "nearby_settlements": [],
+ "open_positions": 14,
  "pct_jewish": 95.1,
  "pct_male": 58.8,
  "required_positions": 172,
@@ -91,5 +92,6 @@
  "staffing_pct": 92.44,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 6
 }

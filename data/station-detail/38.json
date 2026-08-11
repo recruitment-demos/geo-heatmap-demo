@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 12,
+   "count": 9,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 4,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 5,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 4,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 21,
- "candidates_in_process": 58,
- "candidates_pct_jewish": 64.0,
- "candidates_pct_male": 42.9,
- "candidates_religion_coverage": 25,
+ "candidates_gender_coverage": 17,
+ "candidates_in_process": 44,
+ "candidates_pct_jewish": 69.2,
+ "candidates_pct_male": 52.9,
+ "candidates_religion_coverage": 13,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת ירדן",
  "nearby_settlements": [],
+ "open_positions": 21,
  "pct_jewish": 79.7,
  "pct_male": 61.0,
  "required_positions": 124,
@@ -91,5 +92,6 @@
  "staffing_pct": 84.68,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 10
 }

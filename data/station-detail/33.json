@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 13,
+   "count": 16,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 7,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 9,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 6,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 23,
- "candidates_in_process": 60,
- "candidates_pct_jewish": 66.7,
- "candidates_pct_male": 56.5,
- "candidates_religion_coverage": 27,
+ "candidates_gender_coverage": 26,
+ "candidates_in_process": 76,
+ "candidates_pct_jewish": 75.9,
+ "candidates_pct_male": 61.5,
+ "candidates_religion_coverage": 29,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת טירה",
  "nearby_settlements": [],
+ "open_positions": 25,
  "pct_jewish": 70.9,
  "pct_male": 66.5,
  "required_positions": 108,
@@ -91,5 +92,6 @@
  "staffing_pct": 77.78,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 14
 }

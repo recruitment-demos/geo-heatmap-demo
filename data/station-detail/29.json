@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 5,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 2,
    "key": "detectives",
    "label": "בלש"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 12,
- "candidates_in_process": 28,
- "candidates_pct_jewish": 76.9,
- "candidates_pct_male": 75.0,
- "candidates_religion_coverage": 13,
+ "candidates_gender_coverage": 9,
+ "candidates_in_process": 24,
+ "candidates_pct_jewish": 54.5,
+ "candidates_pct_male": 33.3,
+ "candidates_religion_coverage": 11,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "תל אביב",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת חולון",
  "nearby_settlements": [],
+ "open_positions": 7,
  "pct_jewish": 97.0,
  "pct_male": 61.0,
  "required_positions": 157,
@@ -91,5 +92,6 @@
  "staffing_pct": 95.54,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 4
 }

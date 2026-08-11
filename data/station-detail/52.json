@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 18,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 8,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 10,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 7,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 7,
- "candidates_in_process": 15,
- "candidates_pct_jewish": 60.0,
- "candidates_pct_male": 57.1,
- "candidates_religion_coverage": 5,
+ "candidates_gender_coverage": 35,
+ "candidates_in_process": 86,
+ "candidates_pct_jewish": 88.4,
+ "candidates_pct_male": 74.3,
+ "candidates_religion_coverage": 43,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "תל אביב",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת מסובים",
  "nearby_settlements": [],
+ "open_positions": 28,
  "pct_jewish": 79.3,
  "pct_male": 65.5,
  "required_positions": 135,
@@ -91,5 +92,6 @@
  "staffing_pct": 80.0,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 17
 }

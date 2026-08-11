@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 3,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 1,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 2,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 1,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 13,
- "candidates_in_process": 30,
- "candidates_pct_jewish": 58.3,
- "candidates_pct_male": 30.8,
- "candidates_religion_coverage": 12,
+ "candidates_gender_coverage": 6,
+ "candidates_in_process": 14,
+ "candidates_pct_jewish": 50.0,
+ "candidates_pct_male": 66.7,
+ "candidates_religion_coverage": 4,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת שדרות",
  "nearby_settlements": [],
+ "open_positions": 11,
  "pct_jewish": 66.6,
  "pct_male": 68.1,
  "required_positions": 70,
@@ -91,5 +92,6 @@
  "staffing_pct": 84.29,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 7
 }

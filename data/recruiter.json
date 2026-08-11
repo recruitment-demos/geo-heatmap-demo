@@ -29,49 +29,12 @@
       {
        "actual_positions": 107,
        "area": "אילת",
-       "candidates_by_role": [
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "patrol",
-         "label": "סייר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "detectives",
-         "label": "בלש"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "investigators",
-         "label": "חוקר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 0,
-         "key": "other",
-         "label": "אחר"
-        }
-       ],
-       "candidates_gender_coverage": 2,
-       "candidates_in_process": 6,
-       "candidates_pct_jewish": 50.0,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 2,
+       "candidates_by_role": null,
+       "candidates_gender_coverage": 0,
+       "candidates_in_process": 1,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": 0,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "דרום",
@@ -87,6 +50,7 @@
          "travel_min": 5
         }
        ],
+       "open_positions": 0,
        "pct_jewish": 70.9,
        "pct_male": 63.0,
        "required_positions": 107,
@@ -123,7 +87,8 @@
        "staffing_pct": 100.0,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 0
       }
      ]
     },
@@ -139,7 +104,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 28,
+         "count": 16,
          "key": "patrol",
          "label": "סייר"
         },
@@ -148,7 +113,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 12,
+         "count": 7,
          "key": "detectives",
          "label": "בלש"
         },
@@ -157,7 +122,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 9,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -166,16 +131,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 60,
-       "candidates_in_process": 133,
-       "candidates_pct_jewish": 75.0,
-       "candidates_pct_male": 61.7,
-       "candidates_religion_coverage": 44,
+       "candidates_gender_coverage": 28,
+       "candidates_in_process": 76,
+       "candidates_pct_jewish": 57.1,
+       "candidates_pct_male": 42.9,
+       "candidates_religion_coverage": 28,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "דרום",
@@ -207,6 +172,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 31,
        "pct_jewish": 81.5,
        "pct_male": 69.2,
        "required_positions": 94,
@@ -243,7 +209,8 @@
        "staffing_pct": 68.09,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 11
       },
       {
        "actual_positions": 72,
@@ -254,7 +221,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 48,
+         "count": 32,
          "key": "patrol",
          "label": "סייר"
         },
@@ -263,7 +230,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 21,
+         "count": 14,
          "key": "detectives",
          "label": "בלש"
         },
@@ -272,7 +239,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 27,
+         "count": 18,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -281,16 +248,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 12,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 112,
-       "candidates_in_process": 228,
-       "candidates_pct_jewish": 46.7,
-       "candidates_pct_male": 58.9,
-       "candidates_religion_coverage": 105,
+       "candidates_gender_coverage": 77,
+       "candidates_in_process": 153,
+       "candidates_pct_jewish": 97.3,
+       "candidates_pct_male": 58.4,
+       "candidates_religion_coverage": 73,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "דרום",
@@ -322,6 +289,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 45,
        "pct_jewish": 75.8,
        "pct_male": 84.0,
        "required_positions": 117,
@@ -358,7 +326,8 @@
        "staffing_pct": 61.54,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 18
       },
       {
        "actual_positions": 48,
@@ -401,11 +370,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 9,
-       "candidates_in_process": 24,
-       "candidates_pct_jewish": 54.5,
-       "candidates_pct_male": 55.6,
-       "candidates_religion_coverage": 11,
+       "candidates_gender_coverage": 10,
+       "candidates_in_process": 23,
+       "candidates_pct_jewish": 71.4,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 7,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -461,6 +430,7 @@
          "travel_min": 22
         }
        ],
+       "open_positions": 8,
        "pct_jewish": 71.7,
        "pct_male": 63.4,
        "required_positions": 56,
@@ -497,7 +467,8 @@
        "staffing_pct": 85.71,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 56,
@@ -508,7 +479,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 14,
          "key": "patrol",
          "label": "סייר"
         },
@@ -517,7 +488,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 6,
          "key": "detectives",
          "label": "בלש"
         },
@@ -526,7 +497,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 8,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -535,16 +506,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 20,
-       "candidates_in_process": 52,
-       "candidates_pct_jewish": 87.5,
-       "candidates_pct_male": 70.0,
-       "candidates_religion_coverage": 24,
+       "candidates_gender_coverage": 26,
+       "candidates_in_process": 66,
+       "candidates_pct_jewish": 71.4,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 21,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "דרום",
@@ -608,6 +579,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 17,
        "pct_jewish": 81.8,
        "pct_male": 63.7,
        "required_positions": 73,
@@ -644,7 +616,8 @@
        "staffing_pct": 76.71,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 11
       }
      ]
     },
@@ -660,7 +633,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 13,
          "key": "patrol",
          "label": "סייר"
         },
@@ -669,7 +642,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -678,7 +651,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -687,16 +660,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 15,
-       "candidates_in_process": 38,
-       "candidates_pct_jewish": 78.6,
-       "candidates_pct_male": 46.7,
-       "candidates_religion_coverage": 14,
+       "candidates_gender_coverage": 24,
+       "candidates_in_process": 60,
+       "candidates_pct_jewish": 44.4,
+       "candidates_pct_male": 54.2,
+       "candidates_religion_coverage": 18,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -736,6 +709,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 12,
        "pct_jewish": 68.7,
        "pct_male": 60.7,
        "required_positions": 74,
@@ -772,7 +746,8 @@
        "staffing_pct": 83.78,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 55,
@@ -783,7 +758,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 6,
          "key": "patrol",
          "label": "סייר"
         },
@@ -801,7 +776,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -810,16 +785,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 18,
-       "candidates_in_process": 38,
-       "candidates_pct_jewish": 70.6,
-       "candidates_pct_male": 66.7,
-       "candidates_religion_coverage": 17,
+       "candidates_gender_coverage": 11,
+       "candidates_in_process": 28,
+       "candidates_pct_jewish": 62.5,
+       "candidates_pct_male": 63.6,
+       "candidates_religion_coverage": 8,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -839,6 +814,7 @@
          "travel_min": 17
         }
        ],
+       "open_positions": 11,
        "pct_jewish": 76.1,
        "pct_male": 64.5,
        "required_positions": 64,
@@ -875,54 +851,18 @@
        "staffing_pct": 85.94,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 8
       },
       {
        "actual_positions": 104,
        "area": "נגב",
-       "candidates_by_role": [
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 3,
-         "key": "patrol",
-         "label": "סייר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "detectives",
-         "label": "בלש"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 2,
-         "key": "investigators",
-         "label": "חוקר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "other",
-         "label": "אחר"
-        }
-       ],
-       "candidates_gender_coverage": 7,
-       "candidates_in_process": 15,
-       "candidates_pct_jewish": 71.4,
-       "candidates_pct_male": 57.1,
-       "candidates_religion_coverage": 7,
+       "candidates_by_role": null,
+       "candidates_gender_coverage": 0,
+       "candidates_in_process": 1,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": 0,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "דרום",
@@ -974,6 +914,7 @@
          "travel_min": 25
         }
        ],
+       "open_positions": 2,
        "pct_jewish": 71.6,
        "pct_male": 71.5,
        "required_positions": 106,
@@ -1010,7 +951,8 @@
        "staffing_pct": 98.11,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 2
       },
       {
        "actual_positions": 96,
@@ -1021,7 +963,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 16,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1030,7 +972,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 7,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1039,7 +981,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 9,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1048,16 +990,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 6,
-       "candidates_in_process": 12,
-       "candidates_pct_jewish": 75.0,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 4,
+       "candidates_gender_coverage": 33,
+       "candidates_in_process": 75,
+       "candidates_pct_jewish": 82.1,
+       "candidates_pct_male": 48.5,
+       "candidates_religion_coverage": 28,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -1089,6 +1031,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 17,
        "pct_jewish": 83.8,
        "pct_male": 76.0,
        "required_positions": 111,
@@ -1125,7 +1068,8 @@
        "staffing_pct": 86.49,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 11
       },
       {
        "actual_positions": 59,
@@ -1136,7 +1080,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 3,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1145,7 +1089,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 1,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1154,7 +1098,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 2,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1163,16 +1107,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 1,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 13,
-       "candidates_in_process": 30,
-       "candidates_pct_jewish": 58.3,
-       "candidates_pct_male": 30.8,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 6,
+       "candidates_in_process": 14,
+       "candidates_pct_jewish": 50.0,
+       "candidates_pct_male": 66.7,
+       "candidates_religion_coverage": 4,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -1220,6 +1164,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 11,
        "pct_jewish": 66.6,
        "pct_male": 68.1,
        "required_positions": 70,
@@ -1256,7 +1201,8 @@
        "staffing_pct": 84.29,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 7
       }
      ]
     },
@@ -1266,12 +1212,49 @@
       {
        "actual_positions": 121,
        "area": "רותם",
-       "candidates_by_role": null,
-       "candidates_gender_coverage": 0,
-       "candidates_in_process": 1,
-       "candidates_pct_jewish": null,
-       "candidates_pct_male": null,
-       "candidates_religion_coverage": 0,
+       "candidates_by_role": [
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 1,
+         "key": "patrol",
+         "label": "סייר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 1,
+         "key": "detectives",
+         "label": "בלש"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 1,
+         "key": "investigators",
+         "label": "חוקר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 0,
+         "key": "other",
+         "label": "אחר"
+        }
+       ],
+       "candidates_gender_coverage": 2,
+       "candidates_in_process": 6,
+       "candidates_pct_jewish": 50.0,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 2,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "דרום",
@@ -1282,6 +1265,7 @@
        "missing_to_delete": 0,
        "name": "תחנת דימונה",
        "nearby_settlements": [],
+       "open_positions": 0,
        "pct_jewish": 91.8,
        "pct_male": 72.1,
        "required_positions": 121,
@@ -1318,7 +1302,8 @@
        "staffing_pct": 100.0,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 0
       },
       {
        "actual_positions": 110,
@@ -1329,7 +1314,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 12,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1338,7 +1323,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1347,7 +1332,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1356,16 +1341,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 10,
-       "candidates_in_process": 25,
-       "candidates_pct_jewish": 91.7,
-       "candidates_pct_male": 40.0,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 26,
+       "candidates_in_process": 56,
+       "candidates_pct_jewish": 82.1,
+       "candidates_pct_male": 53.8,
+       "candidates_religion_coverage": 28,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -1413,6 +1398,7 @@
          "travel_min": 27
         }
        ],
+       "open_positions": 14,
        "pct_jewish": 74.1,
        "pct_male": 70.5,
        "required_positions": 124,
@@ -1449,7 +1435,8 @@
        "staffing_pct": 88.71,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 8
       },
       {
        "actual_positions": 24,
@@ -1460,7 +1447,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 2,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1469,7 +1456,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 1,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1478,7 +1465,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 1,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1487,16 +1474,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 1,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 14,
-       "candidates_in_process": 42,
-       "candidates_pct_jewish": 68.8,
-       "candidates_pct_male": 64.3,
-       "candidates_religion_coverage": 16,
+       "candidates_gender_coverage": 4,
+       "candidates_in_process": 10,
+       "candidates_pct_jewish": 50.0,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 2,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "דרום",
@@ -1507,6 +1494,7 @@
        "missing_to_delete": 1,
        "name": "תחנת ערד",
        "nearby_settlements": [],
+       "open_positions": 11,
        "pct_jewish": 63.4,
        "pct_male": 72.6,
        "required_positions": 35,
@@ -1543,7 +1531,8 @@
        "staffing_pct": 68.57,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 6
       },
       {
        "actual_positions": 49,
@@ -1554,7 +1543,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 7,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1572,7 +1561,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1586,11 +1575,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 16,
-       "candidates_in_process": 38,
-       "candidates_pct_jewish": 52.9,
-       "candidates_pct_male": 62.5,
-       "candidates_religion_coverage": 17,
+       "candidates_gender_coverage": 15,
+       "candidates_in_process": 34,
+       "candidates_pct_jewish": 85.7,
+       "candidates_pct_male": 46.7,
+       "candidates_religion_coverage": 14,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -1601,6 +1590,7 @@
        "missing_to_delete": 0,
        "name": "תחנת ערוער",
        "nearby_settlements": [],
+       "open_positions": 11,
        "pct_jewish": 87.9,
        "pct_male": 67.3,
        "required_positions": 59,
@@ -1637,7 +1627,8 @@
        "staffing_pct": 83.05,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 6
       },
       {
        "actual_positions": 63,
@@ -1648,7 +1639,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 11,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1657,7 +1648,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1666,7 +1657,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 6,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1675,16 +1666,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 18,
-       "candidates_in_process": 36,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 55.6,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 23,
+       "candidates_in_process": 53,
+       "candidates_pct_jewish": 71.4,
+       "candidates_pct_male": 65.2,
+       "candidates_religion_coverage": 21,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "דרום",
@@ -1704,6 +1695,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 12,
        "pct_jewish": 75.9,
        "pct_male": 84.0,
        "required_positions": 75,
@@ -1740,7 +1732,8 @@
        "staffing_pct": 84.0,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 7
       }
      ]
     }
@@ -1761,7 +1754,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 13,
+         "count": 5,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1770,7 +1763,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 2,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1779,7 +1772,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1788,16 +1781,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 30,
-       "candidates_in_process": 60,
-       "candidates_pct_jewish": 82.1,
-       "candidates_pct_male": 63.3,
-       "candidates_religion_coverage": 28,
+       "candidates_gender_coverage": 12,
+       "candidates_in_process": 25,
+       "candidates_pct_jewish": 80.0,
+       "candidates_pct_male": 58.3,
+       "candidates_religion_coverage": 10,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "חוף",
@@ -1845,6 +1838,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 13,
        "pct_jewish": 89.7,
        "pct_male": 74.3,
        "required_positions": 122,
@@ -1881,7 +1875,8 @@
        "staffing_pct": 89.34,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 7
       },
       {
        "actual_positions": 76,
@@ -1892,7 +1887,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 8,
          "key": "patrol",
          "label": "סייר"
         },
@@ -1901,7 +1896,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -1910,7 +1905,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -1924,11 +1919,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 15,
-       "candidates_in_process": 34,
-       "candidates_pct_jewish": 76.9,
-       "candidates_pct_male": 66.7,
-       "candidates_religion_coverage": 13,
+       "candidates_gender_coverage": 16,
+       "candidates_in_process": 40,
+       "candidates_pct_jewish": 68.4,
+       "candidates_pct_male": 62.5,
+       "candidates_religion_coverage": 19,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "חוף",
@@ -1964,6 +1959,7 @@
          "travel_min": 26
         }
        ],
+       "open_positions": 24,
        "pct_jewish": 85.9,
        "pct_male": 63.7,
        "required_positions": 97,
@@ -2000,7 +1996,8 @@
        "staffing_pct": 78.35,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 8
       },
       {
        "actual_positions": 122,
@@ -2011,7 +2008,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 10,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2020,7 +2017,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2029,7 +2026,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 6,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2038,16 +2035,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 12,
-       "candidates_in_process": 34,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 75.0,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 23,
+       "candidates_in_process": 49,
+       "candidates_pct_jewish": 69.2,
+       "candidates_pct_male": 39.1,
+       "candidates_religion_coverage": 13,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "חוף",
@@ -2099,6 +2096,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 21,
        "pct_jewish": 78.9,
        "pct_male": 71.0,
        "required_positions": 143,
@@ -2135,7 +2133,8 @@
        "staffing_pct": 85.31,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 13
       },
       {
        "actual_positions": 89,
@@ -2146,7 +2145,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 21,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2155,7 +2154,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 9,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2164,7 +2163,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 12,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2173,16 +2172,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 8,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 17,
-       "candidates_in_process": 49,
-       "candidates_pct_jewish": 88.2,
-       "candidates_pct_male": 58.8,
-       "candidates_religion_coverage": 17,
+       "candidates_gender_coverage": 41,
+       "candidates_in_process": 100,
+       "candidates_pct_jewish": 72.1,
+       "candidates_pct_male": 70.7,
+       "candidates_religion_coverage": 43,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "חוף",
@@ -2214,6 +2213,7 @@
          "travel_min": 26
         }
        ],
+       "open_positions": 23,
        "pct_jewish": 81.0,
        "pct_male": 73.6,
        "required_positions": 110,
@@ -2250,7 +2250,8 @@
        "staffing_pct": 80.91,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 8
       }
      ]
     },
@@ -2266,7 +2267,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2284,7 +2285,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2293,16 +2294,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 8,
-       "candidates_in_process": 18,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 6,
+       "candidates_gender_coverage": 9,
+       "candidates_in_process": 25,
+       "candidates_pct_jewish": 71.4,
+       "candidates_pct_male": 44.4,
+       "candidates_religion_coverage": 7,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "חוף",
@@ -2338,6 +2339,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 10,
        "pct_jewish": 60.6,
        "pct_male": 64.6,
        "required_positions": 130,
@@ -2374,7 +2376,8 @@
        "staffing_pct": 92.31,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 3
       },
       {
        "actual_positions": 104,
@@ -2385,7 +2388,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 8,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2394,7 +2397,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2403,7 +2406,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2412,15 +2415,15 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 23,
-       "candidates_in_process": 53,
+       "candidates_gender_coverage": 17,
+       "candidates_in_process": 38,
        "candidates_pct_jewish": 72.2,
-       "candidates_pct_male": 60.9,
+       "candidates_pct_male": 52.9,
        "candidates_religion_coverage": 18,
        "color": "#EAB308",
        "coord_verified": false,
@@ -2469,6 +2472,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 12,
        "pct_jewish": 77.5,
        "pct_male": 62.6,
        "required_positions": 116,
@@ -2505,7 +2509,8 @@
        "staffing_pct": 89.66,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 88,
@@ -2516,7 +2521,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 10,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2525,7 +2530,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2548,11 +2553,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 27,
-       "candidates_in_process": 53,
-       "candidates_pct_jewish": 63.2,
-       "candidates_pct_male": 63.0,
-       "candidates_religion_coverage": 19,
+       "candidates_gender_coverage": 17,
+       "candidates_in_process": 48,
+       "candidates_pct_jewish": 76.5,
+       "candidates_pct_male": 64.7,
+       "candidates_religion_coverage": 17,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "חוף",
@@ -2604,6 +2609,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 17,
        "pct_jewish": 88.3,
        "pct_male": 58.8,
        "required_positions": 105,
@@ -2640,7 +2646,8 @@
        "staffing_pct": 83.81,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 10
       }
      ]
     },
@@ -2656,7 +2663,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 15,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2665,7 +2672,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 6,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2674,7 +2681,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 8,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2683,16 +2690,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 14,
-       "candidates_in_process": 40,
-       "candidates_pct_jewish": 68.8,
-       "candidates_pct_male": 64.3,
-       "candidates_religion_coverage": 16,
+       "candidates_gender_coverage": 30,
+       "candidates_in_process": 70,
+       "candidates_pct_jewish": 87.1,
+       "candidates_pct_male": 53.3,
+       "candidates_religion_coverage": 31,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "חוף",
@@ -2724,6 +2731,7 @@
          "travel_min": 27
         }
        ],
+       "open_positions": 21,
        "pct_jewish": 71.9,
        "pct_male": 67.6,
        "required_positions": 147,
@@ -2760,7 +2768,8 @@
        "staffing_pct": 86.39,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 10
       },
       {
        "actual_positions": 70,
@@ -2771,7 +2780,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 9,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2780,7 +2789,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2789,7 +2798,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2798,16 +2807,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 11,
-       "candidates_in_process": 30,
-       "candidates_pct_jewish": 85.7,
-       "candidates_pct_male": 54.5,
-       "candidates_religion_coverage": 14,
+       "candidates_gender_coverage": 16,
+       "candidates_in_process": 42,
+       "candidates_pct_jewish": 52.9,
+       "candidates_pct_male": 31.2,
+       "candidates_religion_coverage": 17,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "חוף",
@@ -2827,6 +2836,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 15,
        "pct_jewish": 68.8,
        "pct_male": 80.0,
        "required_positions": 84,
@@ -2863,7 +2873,8 @@
        "staffing_pct": 83.33,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 7
       },
       {
        "actual_positions": 41,
@@ -2874,7 +2885,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 15,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2883,7 +2894,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 6,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2892,7 +2903,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 8,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -2906,11 +2917,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 31,
-       "candidates_in_process": 75,
-       "candidates_pct_jewish": 87.9,
-       "candidates_pct_male": 41.9,
-       "candidates_religion_coverage": 33,
+       "candidates_gender_coverage": 30,
+       "candidates_in_process": 70,
+       "candidates_pct_jewish": 94.7,
+       "candidates_pct_male": 53.3,
+       "candidates_religion_coverage": 19,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "חוף",
@@ -2934,6 +2945,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 20,
        "pct_jewish": 74.9,
        "pct_male": 65.6,
        "required_positions": 59,
@@ -2970,7 +2982,8 @@
        "staffing_pct": 69.49,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 10
       },
       {
        "actual_positions": 35,
@@ -2981,7 +2994,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 17,
          "key": "patrol",
          "label": "סייר"
         },
@@ -2990,7 +3003,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 7,
          "key": "detectives",
          "label": "בלש"
         },
@@ -2999,7 +3012,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 10,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3008,16 +3021,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 14,
-       "candidates_in_process": 33,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 57.1,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 34,
+       "candidates_in_process": 80,
+       "candidates_pct_jewish": 68.8,
+       "candidates_pct_male": 58.8,
+       "candidates_religion_coverage": 32,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "חוף",
@@ -3053,6 +3066,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 15,
        "pct_jewish": 60.1,
        "pct_male": 61.0,
        "required_positions": 49,
@@ -3089,7 +3103,8 @@
        "staffing_pct": 71.43,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 10
       },
       {
        "actual_positions": 70,
@@ -3100,7 +3115,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 6,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3109,7 +3124,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3118,7 +3133,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3132,11 +3147,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 8,
-       "candidates_in_process": 20,
-       "candidates_pct_jewish": 75.0,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 8,
+       "candidates_gender_coverage": 12,
+       "candidates_in_process": 30,
+       "candidates_pct_jewish": 45.5,
+       "candidates_pct_male": 58.3,
+       "candidates_religion_coverage": 11,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "חוף",
@@ -3164,6 +3179,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 21,
        "pct_jewish": 72.6,
        "pct_male": 57.3,
        "required_positions": 90,
@@ -3200,7 +3216,8 @@
        "staffing_pct": 77.78,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 12
       },
       {
        "actual_positions": 45,
@@ -3211,7 +3228,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 22,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3220,7 +3237,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 10,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3229,7 +3246,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 13,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3238,16 +3255,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 8,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 31,
-       "candidates_in_process": 88,
-       "candidates_pct_jewish": 97.4,
-       "candidates_pct_male": 58.1,
-       "candidates_religion_coverage": 39,
+       "candidates_gender_coverage": 41,
+       "candidates_in_process": 106,
+       "candidates_pct_jewish": 62.8,
+       "candidates_pct_male": 63.4,
+       "candidates_religion_coverage": 43,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "חוף",
@@ -3271,6 +3288,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 27,
        "pct_jewish": 72.3,
        "pct_male": 76.7,
        "required_positions": 70,
@@ -3307,7 +3325,8 @@
        "staffing_pct": 64.29,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 10
       }
      ]
     }
@@ -3328,7 +3347,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 5,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3337,7 +3356,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 2,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3346,7 +3365,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3355,16 +3374,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 4,
-       "candidates_in_process": 10,
-       "candidates_pct_jewish": 50.0,
+       "candidates_gender_coverage": 10,
+       "candidates_in_process": 24,
+       "candidates_pct_jewish": 75.0,
        "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 4,
+       "candidates_religion_coverage": 8,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "ירושלים",
@@ -3428,6 +3447,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 6,
        "pct_jewish": 73.6,
        "pct_male": 62.8,
        "required_positions": 136,
@@ -3464,7 +3484,8 @@
        "staffing_pct": 95.59,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 4
       }
      ]
     },
@@ -3480,7 +3501,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 3,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3489,7 +3510,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 1,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3512,11 +3533,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 8,
-       "candidates_in_process": 18,
-       "candidates_pct_jewish": 85.7,
-       "candidates_pct_male": 62.5,
-       "candidates_religion_coverage": 7,
+       "candidates_gender_coverage": 6,
+       "candidates_in_process": 14,
+       "candidates_pct_jewish": 50.0,
+       "candidates_pct_male": 66.7,
+       "candidates_religion_coverage": 6,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ירושלים",
@@ -3580,6 +3601,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 4,
        "pct_jewish": 73.2,
        "pct_male": 72.4,
        "required_positions": 35,
@@ -3616,7 +3638,8 @@
        "staffing_pct": 88.57,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 3
       },
       {
        "actual_positions": 139,
@@ -3627,7 +3650,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 7,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3636,7 +3659,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3645,7 +3668,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3654,16 +3677,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 30,
-       "candidates_in_process": 77,
-       "candidates_pct_jewish": 60.0,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 30,
+       "candidates_gender_coverage": 13,
+       "candidates_in_process": 33,
+       "candidates_pct_jewish": 53.8,
+       "candidates_pct_male": 84.6,
+       "candidates_religion_coverage": 13,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ירושלים",
@@ -3743,6 +3766,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 22,
        "pct_jewish": 70.5,
        "pct_male": 74.6,
        "required_positions": 158,
@@ -3779,7 +3803,8 @@
        "staffing_pct": 87.97,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 9
       },
       {
        "actual_positions": 74,
@@ -3790,7 +3815,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 12,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3799,7 +3824,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3808,7 +3833,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3817,16 +3842,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 39,
-       "candidates_in_process": 77,
-       "candidates_pct_jewish": 74.3,
-       "candidates_pct_male": 56.4,
-       "candidates_religion_coverage": 35,
+       "candidates_gender_coverage": 27,
+       "candidates_in_process": 58,
+       "candidates_pct_jewish": 82.6,
+       "candidates_pct_male": 59.3,
+       "candidates_religion_coverage": 23,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "ירושלים",
@@ -3878,6 +3903,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 22,
        "pct_jewish": 90.0,
        "pct_male": 69.6,
        "required_positions": 96,
@@ -3914,7 +3940,8 @@
        "staffing_pct": 77.08,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 11
       },
       {
        "actual_positions": 68,
@@ -3925,7 +3952,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 8,
          "key": "patrol",
          "label": "סייר"
         },
@@ -3934,7 +3961,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -3943,7 +3970,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -3952,16 +3979,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 4,
-       "candidates_in_process": 10,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 3,
+       "candidates_gender_coverage": 15,
+       "candidates_in_process": 36,
+       "candidates_pct_jewish": 73.3,
+       "candidates_pct_male": 86.7,
+       "candidates_religion_coverage": 15,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ירושלים",
@@ -4009,6 +4036,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 11,
        "pct_jewish": 93.1,
        "pct_male": 69.7,
        "required_positions": 78,
@@ -4045,7 +4073,8 @@
        "staffing_pct": 87.18,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 5
       }
      ]
     },
@@ -4061,7 +4090,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "patrol",
          "label": "סייר"
         },
@@ -4070,7 +4099,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 2,
          "key": "detectives",
          "label": "בלש"
         },
@@ -4088,16 +4117,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 5,
-       "candidates_in_process": 14,
-       "candidates_pct_jewish": 25.0,
-       "candidates_pct_male": 60.0,
-       "candidates_religion_coverage": 4,
+       "candidates_gender_coverage": 7,
+       "candidates_in_process": 20,
+       "candidates_pct_jewish": 71.4,
+       "candidates_pct_male": 57.1,
+       "candidates_religion_coverage": 7,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ירושלים",
@@ -4153,6 +4182,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 14,
        "pct_jewish": 55.1,
        "pct_male": 66.2,
        "required_positions": 70,
@@ -4189,7 +4219,8 @@
        "staffing_pct": 80.0,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 7
       },
       {
        "actual_positions": 92,
@@ -4232,11 +4263,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 20,
-       "candidates_in_process": 48,
-       "candidates_pct_jewish": 58.3,
-       "candidates_pct_male": 45.0,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 21,
+       "candidates_in_process": 47,
+       "candidates_pct_jewish": 64.3,
+       "candidates_pct_male": 47.6,
+       "candidates_religion_coverage": 14,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ירושלים",
@@ -4276,6 +4307,7 @@
          "travel_min": 27
         }
        ],
+       "open_positions": 23,
        "pct_jewish": 73.9,
        "pct_male": 74.1,
        "required_positions": 114,
@@ -4312,7 +4344,8 @@
        "staffing_pct": 80.7,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 9
       },
       {
        "actual_positions": 131,
@@ -4323,7 +4356,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 15,
+         "count": 21,
          "key": "patrol",
          "label": "סייר"
         },
@@ -4332,7 +4365,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 9,
          "key": "detectives",
          "label": "בלש"
         },
@@ -4341,7 +4374,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 12,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -4350,15 +4383,15 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 8,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 34,
-       "candidates_in_process": 72,
-       "candidates_pct_jewish": 58.3,
-       "candidates_pct_male": 41.2,
+       "candidates_gender_coverage": 37,
+       "candidates_in_process": 100,
+       "candidates_pct_jewish": 52.8,
+       "candidates_pct_male": 67.6,
        "candidates_religion_coverage": 36,
        "color": "#EAB308",
        "coord_verified": false,
@@ -4391,6 +4424,7 @@
          "travel_min": 26
         }
        ],
+       "open_positions": 26,
        "pct_jewish": 72.0,
        "pct_male": 79.3,
        "required_positions": 155,
@@ -4427,7 +4461,8 @@
        "staffing_pct": 84.52,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 10
       }
      ]
     }
@@ -4448,7 +4483,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 12,
          "key": "patrol",
          "label": "סייר"
         },
@@ -4457,7 +4492,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -4466,7 +4501,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -4475,16 +4510,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 17,
-       "candidates_in_process": 42,
-       "candidates_pct_jewish": 63.2,
-       "candidates_pct_male": 52.9,
-       "candidates_religion_coverage": 19,
+       "candidates_gender_coverage": 19,
+       "candidates_in_process": 56,
+       "candidates_pct_jewish": 55.0,
+       "candidates_pct_male": 63.2,
+       "candidates_religion_coverage": 20,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "מג\"ב",
@@ -4556,6 +4591,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 14,
        "pct_jewish": 95.1,
        "pct_male": 58.8,
        "required_positions": 172,
@@ -4592,7 +4628,8 @@
        "staffing_pct": 92.44,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 6
       }
      ]
     }
@@ -4613,7 +4650,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 3,
          "key": "patrol",
          "label": "סייר"
         },
@@ -4622,7 +4659,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 1,
          "key": "detectives",
          "label": "בלש"
         },
@@ -4631,7 +4668,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 2,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -4640,16 +4677,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 1,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 20,
-       "candidates_in_process": 48,
-       "candidates_pct_jewish": 79.2,
-       "candidates_pct_male": 60.0,
-       "candidates_religion_coverage": 24,
+       "candidates_gender_coverage": 6,
+       "candidates_in_process": 14,
+       "candidates_pct_jewish": 60.0,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 5,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "מרכז",
@@ -4741,6 +4778,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 14,
        "pct_jewish": 86.2,
        "pct_male": 70.7,
        "required_positions": 193,
@@ -4777,7 +4815,8 @@
        "staffing_pct": 92.75,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 8
       }
      ]
     },
@@ -4825,11 +4864,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 10,
+       "candidates_gender_coverage": 11,
        "candidates_in_process": 25,
-       "candidates_pct_jewish": 76.9,
-       "candidates_pct_male": 70.0,
-       "candidates_religion_coverage": 13,
+       "candidates_pct_jewish": 87.5,
+       "candidates_pct_male": 54.5,
+       "candidates_religion_coverage": 8,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "מרכז",
@@ -4885,6 +4924,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 12,
        "pct_jewish": 77.5,
        "pct_male": 70.3,
        "required_positions": 88,
@@ -4921,7 +4961,8 @@
        "staffing_pct": 86.36,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 5
       },
       {
        "actual_positions": 87,
@@ -4932,7 +4973,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 14,
+         "count": 13,
          "key": "patrol",
          "label": "סייר"
         },
@@ -4964,11 +5005,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 31,
-       "candidates_in_process": 66,
-       "candidates_pct_jewish": 48.0,
-       "candidates_pct_male": 64.5,
-       "candidates_religion_coverage": 25,
+       "candidates_gender_coverage": 32,
+       "candidates_in_process": 64,
+       "candidates_pct_jewish": 64.3,
+       "candidates_pct_male": 59.4,
+       "candidates_religion_coverage": 28,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -5060,6 +5101,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 22,
        "pct_jewish": 74.0,
        "pct_male": 69.7,
        "required_positions": 109,
@@ -5096,7 +5138,8 @@
        "staffing_pct": 79.82,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 11
       },
       {
        "actual_positions": 74,
@@ -5107,7 +5150,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 19,
          "key": "patrol",
          "label": "סייר"
         },
@@ -5139,11 +5182,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 38,
-       "candidates_in_process": 88,
-       "candidates_pct_jewish": 74.3,
-       "candidates_pct_male": 63.2,
-       "candidates_religion_coverage": 35,
+       "candidates_gender_coverage": 41,
+       "candidates_in_process": 90,
+       "candidates_pct_jewish": 76.9,
+       "candidates_pct_male": 41.5,
+       "candidates_religion_coverage": 26,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -5207,6 +5250,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 35,
        "pct_jewish": 77.8,
        "pct_male": 75.9,
        "required_positions": 105,
@@ -5243,7 +5287,8 @@
        "staffing_pct": 70.48,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 11
       },
       {
        "actual_positions": 108,
@@ -5254,7 +5299,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 19,
+         "count": 13,
          "key": "patrol",
          "label": "סייר"
         },
@@ -5263,7 +5308,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -5272,7 +5317,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -5281,16 +5326,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 40,
-       "candidates_in_process": 90,
-       "candidates_pct_jewish": 83.3,
-       "candidates_pct_male": 47.5,
-       "candidates_religion_coverage": 36,
+       "candidates_gender_coverage": 19,
+       "candidates_in_process": 60,
+       "candidates_pct_jewish": 54.5,
+       "candidates_pct_male": 68.4,
+       "candidates_religion_coverage": 22,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "מרכז",
@@ -5346,6 +5391,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 25,
        "pct_jewish": 72.6,
        "pct_male": 68.7,
        "required_positions": 130,
@@ -5382,7 +5428,8 @@
        "staffing_pct": 83.08,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 9
       },
       {
        "actual_positions": 68,
@@ -5393,7 +5440,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 7,
          "key": "patrol",
          "label": "סייר"
         },
@@ -5402,7 +5449,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -5411,7 +5458,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -5420,16 +5467,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 8,
-       "candidates_in_process": 18,
-       "candidates_pct_jewish": 75.0,
-       "candidates_pct_male": 75.0,
-       "candidates_religion_coverage": 8,
+       "candidates_gender_coverage": 15,
+       "candidates_in_process": 34,
+       "candidates_pct_jewish": 58.3,
+       "candidates_pct_male": 60.0,
+       "candidates_religion_coverage": 12,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -5509,6 +5556,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 21,
        "pct_jewish": 94.0,
        "pct_male": 70.3,
        "required_positions": 86,
@@ -5545,7 +5593,8 @@
        "staffing_pct": 79.07,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 10
       },
       {
        "actual_positions": 61,
@@ -5556,7 +5605,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 17,
+         "count": 16,
          "key": "patrol",
          "label": "סייר"
         },
@@ -5574,7 +5623,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 9,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -5588,11 +5637,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 40,
-       "candidates_in_process": 80,
-       "candidates_pct_jewish": 77.4,
-       "candidates_pct_male": 60.0,
-       "candidates_religion_coverage": 31,
+       "candidates_gender_coverage": 39,
+       "candidates_in_process": 77,
+       "candidates_pct_jewish": 66.7,
+       "candidates_pct_male": 46.2,
+       "candidates_religion_coverage": 33,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "מרכז",
@@ -5680,6 +5729,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 29,
        "pct_jewish": 65.3,
        "pct_male": 63.7,
        "required_positions": 90,
@@ -5716,7 +5766,8 @@
        "staffing_pct": 67.78,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 14
       }
      ]
     },
@@ -5732,7 +5783,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 10,
          "key": "patrol",
          "label": "סייר"
         },
@@ -5741,7 +5792,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -5750,7 +5801,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 6,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -5759,16 +5810,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 28,
-       "candidates_in_process": 77,
-       "candidates_pct_jewish": 78.1,
-       "candidates_pct_male": 75.0,
-       "candidates_religion_coverage": 32,
+       "candidates_gender_coverage": 20,
+       "candidates_in_process": 49,
+       "candidates_pct_jewish": 77.3,
+       "candidates_pct_male": 85.0,
+       "candidates_religion_coverage": 22,
        "color": "#DC2626",
        "coord_verified": false,
        "district": "מרכז",
@@ -5840,6 +5891,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 20,
        "pct_jewish": 76.2,
        "pct_male": 71.4,
        "required_positions": 62,
@@ -5876,7 +5928,8 @@
        "staffing_pct": 69.35,
        "status": "קריטי",
        "status_key": "critical",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 15
       },
       {
        "actual_positions": 84,
@@ -5887,7 +5940,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 13,
+         "count": 16,
          "key": "patrol",
          "label": "סייר"
         },
@@ -5896,7 +5949,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 7,
          "key": "detectives",
          "label": "בלש"
         },
@@ -5905,7 +5958,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 9,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -5914,16 +5967,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 23,
-       "candidates_in_process": 60,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 56.5,
-       "candidates_religion_coverage": 27,
+       "candidates_gender_coverage": 26,
+       "candidates_in_process": 76,
+       "candidates_pct_jewish": 75.9,
+       "candidates_pct_male": 61.5,
+       "candidates_religion_coverage": 29,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -6031,6 +6084,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 25,
        "pct_jewish": 70.9,
        "pct_male": 66.5,
        "required_positions": 108,
@@ -6067,7 +6121,8 @@
        "staffing_pct": 77.78,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 14
       },
       {
        "actual_positions": 156,
@@ -6078,7 +6133,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 47,
+         "count": 23,
          "key": "patrol",
          "label": "סייר"
         },
@@ -6087,7 +6142,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 20,
+         "count": 10,
          "key": "detectives",
          "label": "בלש"
         },
@@ -6096,7 +6151,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 27,
+         "count": 13,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -6105,16 +6160,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 9,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 94,
-       "candidates_in_process": 224,
-       "candidates_pct_jewish": 81.2,
-       "candidates_pct_male": 83.0,
-       "candidates_religion_coverage": 85,
+       "candidates_gender_coverage": 42,
+       "candidates_in_process": 109,
+       "candidates_pct_jewish": 88.4,
+       "candidates_pct_male": 64.3,
+       "candidates_religion_coverage": 43,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -6238,6 +6293,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 45,
        "pct_jewish": 85.5,
        "pct_male": 67.7,
        "required_positions": 200,
@@ -6274,7 +6330,8 @@
        "staffing_pct": 78.0,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 22
       },
       {
        "actual_positions": 61,
@@ -6285,7 +6342,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 6,
          "key": "patrol",
          "label": "סייר"
         },
@@ -6294,7 +6351,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -6303,7 +6360,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -6312,16 +6369,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 7,
-       "candidates_in_process": 15,
-       "candidates_pct_jewish": 57.1,
-       "candidates_pct_male": 71.4,
-       "candidates_religion_coverage": 7,
+       "candidates_gender_coverage": 12,
+       "candidates_in_process": 28,
+       "candidates_pct_jewish": 90.0,
+       "candidates_pct_male": 58.3,
+       "candidates_religion_coverage": 10,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "מרכז",
@@ -6425,6 +6482,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 6,
        "pct_jewish": 86.1,
        "pct_male": 58.2,
        "required_positions": 67,
@@ -6461,7 +6519,8 @@
        "staffing_pct": 91.04,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 86,
@@ -6472,7 +6531,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 6,
          "key": "patrol",
          "label": "סייר"
         },
@@ -6490,7 +6549,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -6499,16 +6558,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 17,
-       "candidates_in_process": 38,
-       "candidates_pct_jewish": 64.7,
-       "candidates_pct_male": 58.8,
-       "candidates_religion_coverage": 17,
+       "candidates_gender_coverage": 10,
+       "candidates_in_process": 28,
+       "candidates_pct_jewish": 75.0,
+       "candidates_pct_male": 40.0,
+       "candidates_religion_coverage": 8,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "מרכז",
@@ -6576,6 +6635,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 9,
        "pct_jewish": 86.5,
        "pct_male": 80.9,
        "required_positions": 95,
@@ -6612,7 +6672,8 @@
        "staffing_pct": 90.53,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 7
       },
       {
        "actual_positions": 122,
@@ -6623,7 +6684,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 24,
          "key": "patrol",
          "label": "סייר"
         },
@@ -6632,7 +6693,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 10,
          "key": "detectives",
          "label": "בלש"
         },
@@ -6641,7 +6702,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 14,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -6650,16 +6711,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 9,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 31,
-       "candidates_in_process": 85,
-       "candidates_pct_jewish": 76.9,
-       "candidates_pct_male": 61.3,
-       "candidates_religion_coverage": 39,
+       "candidates_gender_coverage": 45,
+       "candidates_in_process": 114,
+       "candidates_pct_jewish": 65.9,
+       "candidates_pct_male": 55.6,
+       "candidates_religion_coverage": 41,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -6763,6 +6824,7 @@
          "travel_min": 25
         }
        ],
+       "open_positions": 36,
        "pct_jewish": 59.2,
        "pct_male": 68.8,
        "required_positions": 155,
@@ -6799,7 +6861,8 @@
        "staffing_pct": 78.71,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 17
       },
       {
        "actual_positions": 139,
@@ -6810,7 +6873,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 29,
+         "count": 7,
          "key": "patrol",
          "label": "סייר"
         },
@@ -6819,7 +6882,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 12,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -6828,7 +6891,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -6837,16 +6900,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 49,
-       "candidates_in_process": 136,
-       "candidates_pct_jewish": 69.8,
-       "candidates_pct_male": 51.0,
-       "candidates_religion_coverage": 43,
+       "candidates_gender_coverage": 17,
+       "candidates_in_process": 34,
+       "candidates_pct_jewish": 82.4,
+       "candidates_pct_male": 58.8,
+       "candidates_religion_coverage": 17,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -6958,6 +7021,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 39,
        "pct_jewish": 95.8,
        "pct_male": 70.3,
        "required_positions": 175,
@@ -6994,7 +7058,8 @@
        "staffing_pct": 79.43,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 21
       },
       {
        "actual_positions": 51,
@@ -7005,7 +7070,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 14,
+         "count": 4,
          "key": "patrol",
          "label": "סייר"
         },
@@ -7014,7 +7079,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 2,
          "key": "detectives",
          "label": "בלש"
         },
@@ -7023,7 +7088,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 2,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -7032,16 +7097,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 1,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 25,
-       "candidates_in_process": 66,
-       "candidates_pct_jewish": 81.8,
-       "candidates_pct_male": 48.0,
-       "candidates_religion_coverage": 22,
+       "candidates_gender_coverage": 8,
+       "candidates_in_process": 18,
+       "candidates_pct_jewish": 57.1,
+       "candidates_pct_male": 62.5,
+       "candidates_religion_coverage": 7,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "מרכז",
@@ -7117,6 +7182,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 17,
        "pct_jewish": 80.1,
        "pct_male": 61.6,
        "required_positions": 67,
@@ -7153,7 +7219,8 @@
        "staffing_pct": 76.12,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 7
       }
      ]
     }
@@ -7206,11 +7273,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 20,
+       "candidates_gender_coverage": 19,
        "candidates_in_process": 44,
-       "candidates_pct_jewish": 56.2,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 16,
+       "candidates_pct_jewish": 87.5,
+       "candidates_pct_male": 68.4,
+       "candidates_religion_coverage": 8,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -7266,6 +7333,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 13,
        "pct_jewish": 73.9,
        "pct_male": 70.9,
        "required_positions": 93,
@@ -7302,7 +7370,8 @@
        "staffing_pct": 87.1,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 6
       },
       {
        "actual_positions": 122,
@@ -7313,7 +7382,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 24,
+         "count": 16,
          "key": "patrol",
          "label": "סייר"
         },
@@ -7322,7 +7391,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 7,
          "key": "detectives",
          "label": "בלש"
         },
@@ -7331,7 +7400,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 13,
+         "count": 9,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -7340,16 +7409,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 45,
-       "candidates_in_process": 112,
-       "candidates_pct_jewish": 83.3,
-       "candidates_pct_male": 51.1,
-       "candidates_religion_coverage": 42,
+       "candidates_gender_coverage": 34,
+       "candidates_in_process": 77,
+       "candidates_pct_jewish": 92.9,
+       "candidates_pct_male": 55.9,
+       "candidates_religion_coverage": 28,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -7417,6 +7486,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 29,
        "pct_jewish": 93.6,
        "pct_male": 70.9,
        "required_positions": 148,
@@ -7453,7 +7523,8 @@
        "staffing_pct": 82.43,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 12
       },
       {
        "actual_positions": 107,
@@ -7464,7 +7535,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 9,
          "key": "patrol",
          "label": "סייר"
         },
@@ -7473,7 +7544,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -7482,7 +7553,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -7491,16 +7562,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 11,
-       "candidates_in_process": 30,
-       "candidates_pct_jewish": 75.0,
-       "candidates_pct_male": 45.5,
-       "candidates_religion_coverage": 12,
+       "candidates_gender_coverage": 17,
+       "candidates_in_process": 42,
+       "candidates_pct_jewish": 57.1,
+       "candidates_pct_male": 47.1,
+       "candidates_religion_coverage": 21,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "צפון",
@@ -7560,6 +7631,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 10,
        "pct_jewish": 71.2,
        "pct_male": 68.8,
        "required_positions": 116,
@@ -7596,7 +7668,8 @@
        "staffing_pct": 92.24,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 1
       },
       {
        "actual_positions": 169,
@@ -7607,7 +7680,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 12,
+         "count": 14,
          "key": "patrol",
          "label": "סייר"
         },
@@ -7616,7 +7689,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 6,
          "key": "detectives",
          "label": "בלש"
         },
@@ -7625,7 +7698,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 8,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -7639,11 +7712,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 24,
-       "candidates_in_process": 58,
-       "candidates_pct_jewish": 57.1,
-       "candidates_pct_male": 62.5,
-       "candidates_religion_coverage": 21,
+       "candidates_gender_coverage": 27,
+       "candidates_in_process": 67,
+       "candidates_pct_jewish": 94.4,
+       "candidates_pct_male": 55.6,
+       "candidates_religion_coverage": 18,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -7711,6 +7784,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 21,
        "pct_jewish": 86.1,
        "pct_male": 66.3,
        "required_positions": 190,
@@ -7747,7 +7821,8 @@
        "staffing_pct": 88.95,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 9
       },
       {
        "actual_positions": 68,
@@ -7758,7 +7833,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 3,
          "key": "patrol",
          "label": "סייר"
         },
@@ -7767,7 +7842,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 1,
          "key": "detectives",
          "label": "בלש"
         },
@@ -7776,7 +7851,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 2,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -7785,16 +7860,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 1,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 24,
-       "candidates_in_process": 52,
-       "candidates_pct_jewish": 90.0,
-       "candidates_pct_male": 70.8,
-       "candidates_religion_coverage": 20,
+       "candidates_gender_coverage": 7,
+       "candidates_in_process": 15,
+       "candidates_pct_jewish": 66.7,
+       "candidates_pct_male": 57.1,
+       "candidates_religion_coverage": 6,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -7842,6 +7917,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 16,
        "pct_jewish": 74.4,
        "pct_male": 68.3,
        "required_positions": 82,
@@ -7878,7 +7954,8 @@
        "staffing_pct": 82.93,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 3
       }
      ]
     },
@@ -7926,11 +8003,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 10,
-       "candidates_in_process": 23,
-       "candidates_pct_jewish": 42.9,
-       "candidates_pct_male": 60.0,
-       "candidates_religion_coverage": 7,
+       "candidates_gender_coverage": 9,
+       "candidates_in_process": 24,
+       "candidates_pct_jewish": 60.0,
+       "candidates_pct_male": 55.6,
+       "candidates_religion_coverage": 10,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -7970,6 +8047,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 6,
        "pct_jewish": 74.6,
        "pct_male": 60.2,
        "required_positions": 46,
@@ -8006,7 +8084,8 @@
        "staffing_pct": 86.96,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 5
       },
       {
        "actual_positions": 70,
@@ -8017,7 +8096,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 19,
+         "count": 15,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8026,7 +8105,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 6,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8035,7 +8114,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 9,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8044,16 +8123,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 6,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 39,
-       "candidates_in_process": 90,
-       "candidates_pct_jewish": 89.7,
-       "candidates_pct_male": 56.4,
-       "candidates_religion_coverage": 29,
+       "candidates_gender_coverage": 26,
+       "candidates_in_process": 72,
+       "candidates_pct_jewish": 95.7,
+       "candidates_pct_male": 53.8,
+       "candidates_religion_coverage": 23,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "צפון",
@@ -8097,6 +8176,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 26,
        "pct_jewish": 64.3,
        "pct_male": 72.4,
        "required_positions": 96,
@@ -8133,7 +8213,8 @@
        "staffing_pct": 72.92,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 12
       },
       {
        "actual_positions": 105,
@@ -8144,7 +8225,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 12,
+         "count": 9,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8153,7 +8234,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8162,7 +8243,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8171,16 +8252,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 21,
-       "candidates_in_process": 58,
-       "candidates_pct_jewish": 64.0,
-       "candidates_pct_male": 42.9,
-       "candidates_religion_coverage": 25,
+       "candidates_gender_coverage": 17,
+       "candidates_in_process": 44,
+       "candidates_pct_jewish": 69.2,
+       "candidates_pct_male": 52.9,
+       "candidates_religion_coverage": 13,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -8212,6 +8293,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 21,
        "pct_jewish": 79.7,
        "pct_male": 61.0,
        "required_positions": 124,
@@ -8248,7 +8330,8 @@
        "staffing_pct": 84.68,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 10
       },
       {
        "actual_positions": 100,
@@ -8259,7 +8342,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 12,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8268,7 +8351,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8277,7 +8360,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8286,16 +8369,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 13,
-       "candidates_in_process": 40,
-       "candidates_pct_jewish": 43.8,
-       "candidates_pct_male": 76.9,
-       "candidates_religion_coverage": 16,
+       "candidates_gender_coverage": 28,
+       "candidates_in_process": 56,
+       "candidates_pct_jewish": 76.2,
+       "candidates_pct_male": 71.4,
+       "candidates_religion_coverage": 21,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -8363,6 +8446,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 13,
        "pct_jewish": 69.1,
        "pct_male": 76.2,
        "required_positions": 113,
@@ -8399,7 +8483,8 @@
        "staffing_pct": 88.5,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 5
       },
       {
        "actual_positions": 111,
@@ -8442,11 +8527,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 8,
+       "candidates_gender_coverage": 9,
        "candidates_in_process": 20,
-       "candidates_pct_jewish": 80.0,
-       "candidates_pct_male": 62.5,
-       "candidates_religion_coverage": 5,
+       "candidates_pct_jewish": 85.7,
+       "candidates_pct_male": 66.7,
+       "candidates_religion_coverage": 7,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "צפון",
@@ -8486,6 +8571,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 4,
        "pct_jewish": 67.8,
        "pct_male": 69.6,
        "required_positions": 115,
@@ -8522,7 +8608,8 @@
        "staffing_pct": 96.52,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 2
       },
       {
        "actual_positions": 128,
@@ -8533,7 +8620,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 14,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8542,7 +8629,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 6,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8551,7 +8638,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 8,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8560,16 +8647,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 6,
-       "candidates_in_process": 15,
-       "candidates_pct_jewish": 57.1,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 7,
+       "candidates_gender_coverage": 24,
+       "candidates_in_process": 67,
+       "candidates_pct_jewish": 47.6,
+       "candidates_pct_male": 66.7,
+       "candidates_religion_coverage": 21,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -8601,6 +8688,7 @@
          "travel_min": 25
         }
        ],
+       "open_positions": 29,
        "pct_jewish": 58.8,
        "pct_male": 74.9,
        "required_positions": 156,
@@ -8637,7 +8725,8 @@
        "staffing_pct": 82.05,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 13
       }
      ]
     },
@@ -8653,7 +8742,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 16,
+         "count": 21,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8662,7 +8751,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 9,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8671,7 +8760,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 12,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8680,16 +8769,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 8,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 29,
-       "candidates_in_process": 75,
-       "candidates_pct_jewish": 79.4,
-       "candidates_pct_male": 55.2,
-       "candidates_religion_coverage": 34,
+       "candidates_gender_coverage": 50,
+       "candidates_in_process": 101,
+       "candidates_pct_jewish": 69.4,
+       "candidates_pct_male": 70.0,
+       "candidates_religion_coverage": 49,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "צפון",
@@ -8721,6 +8810,7 @@
          "travel_min": 20
         }
        ],
+       "open_positions": 26,
        "pct_jewish": 88.9,
        "pct_male": 62.4,
        "required_positions": 105,
@@ -8757,7 +8847,8 @@
        "staffing_pct": 78.1,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 5
       },
       {
        "actual_positions": 66,
@@ -8768,7 +8859,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 12,
+         "count": 10,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8777,7 +8868,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8786,7 +8877,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 6,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8800,11 +8891,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 22,
-       "candidates_in_process": 56,
-       "candidates_pct_jewish": 90.5,
-       "candidates_pct_male": 68.2,
-       "candidates_religion_coverage": 21,
+       "candidates_gender_coverage": 25,
+       "candidates_in_process": 49,
+       "candidates_pct_jewish": 46.7,
+       "candidates_pct_male": 68.0,
+       "candidates_religion_coverage": 15,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "צפון",
@@ -8868,6 +8959,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 23,
        "pct_jewish": 62.7,
        "pct_male": 66.6,
        "required_positions": 89,
@@ -8904,7 +8996,8 @@
        "staffing_pct": 74.16,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 9
       },
       {
        "actual_positions": 57,
@@ -8915,7 +9008,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 2,
          "key": "patrol",
          "label": "סייר"
         },
@@ -8924,7 +9017,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 1,
          "key": "detectives",
          "label": "בלש"
         },
@@ -8933,7 +9026,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 1,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -8942,16 +9035,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 1,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 9,
-       "candidates_in_process": 24,
-       "candidates_pct_jewish": 60.0,
-       "candidates_pct_male": 55.6,
-       "candidates_religion_coverage": 10,
+       "candidates_gender_coverage": 3,
+       "candidates_in_process": 9,
+       "candidates_pct_jewish": 50.0,
+       "candidates_pct_male": 66.7,
+       "candidates_religion_coverage": 2,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "צפון",
@@ -9027,6 +9120,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 6,
        "pct_jewish": 88.4,
        "pct_male": 62.9,
        "required_positions": 62,
@@ -9063,7 +9157,8 @@
        "staffing_pct": 91.94,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 100,
@@ -9074,7 +9169,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 14,
+         "count": 8,
          "key": "patrol",
          "label": "סייר"
         },
@@ -9083,7 +9178,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -9092,7 +9187,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -9101,16 +9196,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 26,
-       "candidates_in_process": 66,
-       "candidates_pct_jewish": 52.4,
-       "candidates_pct_male": 53.8,
-       "candidates_religion_coverage": 21,
+       "candidates_gender_coverage": 14,
+       "candidates_in_process": 36,
+       "candidates_pct_jewish": 72.2,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 18,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -9186,6 +9281,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 25,
        "pct_jewish": 79.6,
        "pct_male": 67.7,
        "required_positions": 124,
@@ -9222,7 +9318,8 @@
        "staffing_pct": 80.65,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 12
       },
       {
        "actual_positions": 68,
@@ -9233,7 +9330,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 12,
          "key": "patrol",
          "label": "סייר"
         },
@@ -9242,7 +9339,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -9251,7 +9348,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -9260,16 +9357,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 36,
-       "candidates_in_process": 86,
-       "candidates_pct_jewish": 61.5,
-       "candidates_pct_male": 66.7,
-       "candidates_religion_coverage": 26,
+       "candidates_gender_coverage": 22,
+       "candidates_in_process": 58,
+       "candidates_pct_jewish": 65.2,
+       "candidates_pct_male": 63.6,
+       "candidates_religion_coverage": 23,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "צפון",
@@ -9337,6 +9434,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 20,
        "pct_jewish": 80.8,
        "pct_male": 59.8,
        "required_positions": 88,
@@ -9373,7 +9471,8 @@
        "staffing_pct": 77.27,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 7
       },
       {
        "actual_positions": 118,
@@ -9384,7 +9483,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 32,
          "key": "patrol",
          "label": "סייר"
         },
@@ -9393,7 +9492,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 14,
          "key": "detectives",
          "label": "בלש"
         },
@@ -9402,7 +9501,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 18,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -9411,16 +9510,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 12,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 11,
-       "candidates_in_process": 28,
-       "candidates_pct_jewish": 75.0,
-       "candidates_pct_male": 63.6,
-       "candidates_religion_coverage": 8,
+       "candidates_gender_coverage": 55,
+       "candidates_in_process": 152,
+       "candidates_pct_jewish": 81.4,
+       "candidates_pct_male": 72.7,
+       "candidates_religion_coverage": 43,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "צפון",
@@ -9488,6 +9587,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 32,
        "pct_jewish": 92.4,
        "pct_male": 64.9,
        "required_positions": 150,
@@ -9524,7 +9624,8 @@
        "staffing_pct": 78.67,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 16
       },
       {
        "actual_positions": 129,
@@ -9567,11 +9668,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 19,
+       "candidates_gender_coverage": 27,
        "candidates_in_process": 56,
-       "candidates_pct_jewish": 52.2,
-       "candidates_pct_male": 57.9,
-       "candidates_religion_coverage": 23,
+       "candidates_pct_jewish": 77.3,
+       "candidates_pct_male": 55.6,
+       "candidates_religion_coverage": 22,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "צפון",
@@ -9623,6 +9724,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 15,
        "pct_jewish": 82.7,
        "pct_male": 67.1,
        "required_positions": 144,
@@ -9659,7 +9761,8 @@
        "staffing_pct": 89.58,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 9
       }
      ]
     }
@@ -9673,117 +9776,6 @@
      "stations": [
       {
        "actual_positions": 113,
-       "area": "גלעד",
-       "candidates_by_role": [
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 4,
-         "key": "patrol",
-         "label": "סייר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 2,
-         "key": "detectives",
-         "label": "בלש"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 2,
-         "key": "investigators",
-         "label": "חוקר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 2,
-         "key": "other",
-         "label": "אחר"
-        }
-       ],
-       "candidates_gender_coverage": 8,
-       "candidates_in_process": 20,
-       "candidates_pct_jewish": 57.1,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 7,
-       "color": "#16A34A",
-       "coord_verified": false,
-       "district": "ש\"י",
-       "id": 22,
-       "lat": 32.1,
-       "lng": 35.45,
-       "missing_positions": 7,
-       "missing_to_delete": 1,
-       "name": "תחנת הבקעה",
-       "nearby_settlements": [
-        {
-         "name": "יפית",
-         "travel_min": 10
-        },
-        {
-         "name": "גיתית",
-         "travel_min": 15
-        },
-        {
-         "name": "מגדלים",
-         "travel_min": 20
-        },
-        {
-         "name": "גלגל",
-         "travel_min": 26
-        }
-       ],
-       "pct_jewish": 78.3,
-       "pct_male": 67.2,
-       "required_positions": 120,
-       "roles": [
-        {
-         "key": "patrol",
-         "label": "סייר",
-         "missing": 3,
-         "pct_jewish": 81.1,
-         "pct_male": 73.9
-        },
-        {
-         "key": "detectives",
-         "label": "בלש",
-         "missing": 1,
-         "pct_jewish": 73.7,
-         "pct_male": 69.3
-        },
-        {
-         "key": "investigators",
-         "label": "חוקר",
-         "missing": 1,
-         "pct_jewish": 80.4,
-         "pct_male": 71.1
-        },
-        {
-         "key": "other",
-         "label": "אחר",
-         "missing": 1,
-         "pct_jewish": 77.1,
-         "pct_male": 63.1
-        }
-       ],
-       "staffing_pct": 94.17,
-       "status": "תקין",
-       "status_key": "ok",
-       "surplus_positions": 1
-      },
-      {
-       "actual_positions": 104,
        "area": "גלעד",
        "candidates_by_role": [
         {
@@ -9823,11 +9815,124 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 13,
+       "candidates_gender_coverage": 12,
        "candidates_in_process": 30,
-       "candidates_pct_jewish": 73.3,
-       "candidates_pct_male": 61.5,
-       "candidates_religion_coverage": 15,
+       "candidates_pct_jewish": 88.9,
+       "candidates_pct_male": 58.3,
+       "candidates_religion_coverage": 9,
+       "color": "#16A34A",
+       "coord_verified": false,
+       "district": "ש\"י",
+       "id": 22,
+       "lat": 32.1,
+       "lng": 35.45,
+       "missing_positions": 7,
+       "missing_to_delete": 1,
+       "name": "תחנת הבקעה",
+       "nearby_settlements": [
+        {
+         "name": "יפית",
+         "travel_min": 10
+        },
+        {
+         "name": "גיתית",
+         "travel_min": 15
+        },
+        {
+         "name": "מגדלים",
+         "travel_min": 20
+        },
+        {
+         "name": "גלגל",
+         "travel_min": 26
+        }
+       ],
+       "open_positions": 9,
+       "pct_jewish": 78.3,
+       "pct_male": 67.2,
+       "required_positions": 120,
+       "roles": [
+        {
+         "key": "patrol",
+         "label": "סייר",
+         "missing": 3,
+         "pct_jewish": 81.1,
+         "pct_male": 73.9
+        },
+        {
+         "key": "detectives",
+         "label": "בלש",
+         "missing": 1,
+         "pct_jewish": 73.7,
+         "pct_male": 69.3
+        },
+        {
+         "key": "investigators",
+         "label": "חוקר",
+         "missing": 1,
+         "pct_jewish": 80.4,
+         "pct_male": 71.1
+        },
+        {
+         "key": "other",
+         "label": "אחר",
+         "missing": 1,
+         "pct_jewish": 77.1,
+         "pct_male": 63.1
+        }
+       ],
+       "staffing_pct": 94.17,
+       "status": "תקין",
+       "status_key": "ok",
+       "surplus_positions": 1,
+       "vacant_positions": 6
+      },
+      {
+       "actual_positions": 104,
+       "area": "גלעד",
+       "candidates_by_role": [
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 34,
+         "key": "patrol",
+         "label": "סייר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 14,
+         "key": "detectives",
+         "label": "בלש"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 19,
+         "key": "investigators",
+         "label": "חוקר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 13,
+         "key": "other",
+         "label": "אחר"
+        }
+       ],
+       "candidates_gender_coverage": 80,
+       "candidates_in_process": 160,
+       "candidates_pct_jewish": 82.8,
+       "candidates_pct_male": 52.5,
+       "candidates_religion_coverage": 64,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "ש\"י",
@@ -9855,6 +9960,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 36,
        "pct_jewish": 62.1,
        "pct_male": 66.5,
        "required_positions": 139,
@@ -9891,7 +9997,8 @@
        "staffing_pct": 74.82,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 17
       }
      ]
     },
@@ -9907,7 +10014,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 9,
          "key": "patrol",
          "label": "סייר"
         },
@@ -9916,7 +10023,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -9925,7 +10032,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -9934,16 +10041,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 13,
-       "candidates_in_process": 36,
-       "candidates_pct_jewish": 69.2,
-       "candidates_pct_male": 69.2,
-       "candidates_religion_coverage": 13,
+       "candidates_gender_coverage": 20,
+       "candidates_in_process": 44,
+       "candidates_pct_jewish": 66.7,
+       "candidates_pct_male": 65.0,
+       "candidates_religion_coverage": 18,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ש\"י",
@@ -9987,6 +10094,7 @@
          "travel_min": 26
         }
        ],
+       "open_positions": 11,
        "pct_jewish": 82.5,
        "pct_male": 64.8,
        "required_positions": 60,
@@ -10023,7 +10131,8 @@
        "staffing_pct": 81.67,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 117,
@@ -10034,7 +10143,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 11,
+         "count": 5,
          "key": "patrol",
          "label": "סייר"
         },
@@ -10043,7 +10152,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 2,
          "key": "detectives",
          "label": "בלש"
         },
@@ -10052,7 +10161,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -10061,16 +10170,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 2,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 24,
-       "candidates_in_process": 52,
-       "candidates_pct_jewish": 65.2,
-       "candidates_pct_male": 54.2,
-       "candidates_religion_coverage": 23,
+       "candidates_gender_coverage": 10,
+       "candidates_in_process": 25,
+       "candidates_pct_jewish": 69.2,
+       "candidates_pct_male": 60.0,
+       "candidates_religion_coverage": 13,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "ש\"י",
@@ -10106,6 +10215,7 @@
          "travel_min": 26
         }
        ],
+       "open_positions": 14,
        "pct_jewish": 69.4,
        "pct_male": 74.5,
        "required_positions": 130,
@@ -10142,7 +10252,8 @@
        "staffing_pct": 90.0,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 6
       }
      ]
     },
@@ -10205,6 +10316,7 @@
          "travel_min": 29
         }
        ],
+       "open_positions": 0,
        "pct_jewish": 90.0,
        "pct_male": 78.7,
        "required_positions": 57,
@@ -10241,125 +10353,11 @@
        "staffing_pct": 100.0,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 0
       },
       {
        "actual_positions": 116,
-       "area": "שומרון",
-       "candidates_by_role": [
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 3,
-         "key": "patrol",
-         "label": "סייר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "detectives",
-         "label": "בלש"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 2,
-         "key": "investigators",
-         "label": "חוקר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 1,
-         "key": "other",
-         "label": "אחר"
-        }
-       ],
-       "candidates_gender_coverage": 6,
-       "candidates_in_process": 14,
-       "candidates_pct_jewish": 83.3,
-       "candidates_pct_male": 50.0,
-       "candidates_religion_coverage": 6,
-       "color": "#16A34A",
-       "coord_verified": false,
-       "district": "ש\"י",
-       "id": 14,
-       "lat": 31.87,
-       "lng": 35.24,
-       "missing_positions": 6,
-       "missing_to_delete": 0,
-       "name": "תחנת בנימין",
-       "nearby_settlements": [
-        {
-         "name": "גבע בנימין",
-         "travel_min": 9
-        },
-        {
-         "name": "פסגות",
-         "travel_min": 11
-        },
-        {
-         "name": "גבעת זאב",
-         "travel_min": 15
-        },
-        {
-         "name": "גבעון החדשה",
-         "travel_min": 21
-        },
-        {
-         "name": "עפרה",
-         "travel_min": 21
-        }
-       ],
-       "pct_jewish": 78.6,
-       "pct_male": 69.7,
-       "required_positions": 122,
-       "roles": [
-        {
-         "key": "patrol",
-         "label": "סייר",
-         "missing": 3,
-         "pct_jewish": 78.9,
-         "pct_male": 63.8
-        },
-        {
-         "key": "detectives",
-         "label": "בלש",
-         "missing": 1,
-         "pct_jewish": 85.3,
-         "pct_male": 61.7
-        },
-        {
-         "key": "investigators",
-         "label": "חוקר",
-         "missing": 1,
-         "pct_jewish": 71.3,
-         "pct_male": 73.3
-        },
-        {
-         "key": "other",
-         "label": "אחר",
-         "missing": 1,
-         "pct_jewish": 64.9,
-         "pct_male": 56.6
-        }
-       ],
-       "staffing_pct": 95.08,
-       "status": "תקין",
-       "status_key": "ok",
-       "surplus_positions": 3
-      },
-      {
-       "actual_positions": 58,
        "area": "שומרון",
        "candidates_by_role": [
         {
@@ -10399,11 +10397,128 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 9,
+       "candidates_gender_coverage": 10,
        "candidates_in_process": 23,
-       "candidates_pct_jewish": 90.0,
-       "candidates_pct_male": 44.4,
-       "candidates_religion_coverage": 10,
+       "candidates_pct_jewish": 87.5,
+       "candidates_pct_male": 50.0,
+       "candidates_religion_coverage": 8,
+       "color": "#16A34A",
+       "coord_verified": false,
+       "district": "ש\"י",
+       "id": 14,
+       "lat": 31.87,
+       "lng": 35.24,
+       "missing_positions": 6,
+       "missing_to_delete": 0,
+       "name": "תחנת בנימין",
+       "nearby_settlements": [
+        {
+         "name": "גבע בנימין",
+         "travel_min": 9
+        },
+        {
+         "name": "פסגות",
+         "travel_min": 11
+        },
+        {
+         "name": "גבעת זאב",
+         "travel_min": 15
+        },
+        {
+         "name": "גבעון החדשה",
+         "travel_min": 21
+        },
+        {
+         "name": "עפרה",
+         "travel_min": 21
+        }
+       ],
+       "open_positions": 6,
+       "pct_jewish": 78.6,
+       "pct_male": 69.7,
+       "required_positions": 122,
+       "roles": [
+        {
+         "key": "patrol",
+         "label": "סייר",
+         "missing": 3,
+         "pct_jewish": 78.9,
+         "pct_male": 63.8
+        },
+        {
+         "key": "detectives",
+         "label": "בלש",
+         "missing": 1,
+         "pct_jewish": 85.3,
+         "pct_male": 61.7
+        },
+        {
+         "key": "investigators",
+         "label": "חוקר",
+         "missing": 1,
+         "pct_jewish": 71.3,
+         "pct_male": 73.3
+        },
+        {
+         "key": "other",
+         "label": "אחר",
+         "missing": 1,
+         "pct_jewish": 64.9,
+         "pct_male": 56.6
+        }
+       ],
+       "staffing_pct": 95.08,
+       "status": "תקין",
+       "status_key": "ok",
+       "surplus_positions": 3,
+       "vacant_positions": 2
+      },
+      {
+       "actual_positions": 58,
+       "area": "שומרון",
+       "candidates_by_role": [
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 3,
+         "key": "patrol",
+         "label": "סייר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 1,
+         "key": "detectives",
+         "label": "בלש"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 2,
+         "key": "investigators",
+         "label": "חוקר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 1,
+         "key": "other",
+         "label": "אחר"
+        }
+       ],
+       "candidates_gender_coverage": 5,
+       "candidates_in_process": 14,
+       "candidates_pct_jewish": 33.3,
+       "candidates_pct_male": 60.0,
+       "candidates_religion_coverage": 6,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "ש\"י",
@@ -10451,6 +10566,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 8,
        "pct_jewish": 71.5,
        "pct_male": 77.7,
        "required_positions": 66,
@@ -10487,7 +10603,8 @@
        "staffing_pct": 87.88,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 4
       }
      ]
     }
@@ -10501,117 +10618,6 @@
      "stations": [
       {
        "actual_positions": 37,
-       "area": "איילון",
-       "candidates_by_role": [
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 9,
-         "key": "patrol",
-         "label": "סייר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 4,
-         "key": "detectives",
-         "label": "בלש"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 5,
-         "key": "investigators",
-         "label": "חוקר"
-        },
-        {
-         "candidates_gender_coverage": null,
-         "candidates_pct_jewish": null,
-         "candidates_pct_male": null,
-         "candidates_religion_coverage": null,
-         "count": 4,
-         "key": "other",
-         "label": "אחר"
-        }
-       ],
-       "candidates_gender_coverage": 20,
-       "candidates_in_process": 44,
-       "candidates_pct_jewish": 86.7,
-       "candidates_pct_male": 70.0,
-       "candidates_religion_coverage": 15,
-       "color": "#EA580C",
-       "coord_verified": false,
-       "district": "תל אביב",
-       "id": 15,
-       "lat": 32.0231,
-       "lng": 34.7503,
-       "missing_positions": 10,
-       "missing_to_delete": 1,
-       "name": "תחנת בת ים",
-       "nearby_settlements": [
-        {
-         "name": "בת ים",
-         "travel_min": 3
-        },
-        {
-         "name": "חולון",
-         "travel_min": 11
-        },
-        {
-         "name": "אזור",
-         "travel_min": 15
-        },
-        {
-         "name": "פלמחים",
-         "travel_min": 27
-        }
-       ],
-       "pct_jewish": 53.5,
-       "pct_male": 68.3,
-       "required_positions": 47,
-       "roles": [
-        {
-         "key": "patrol",
-         "label": "סייר",
-         "missing": 4,
-         "pct_jewish": 57.0,
-         "pct_male": 63.0
-        },
-        {
-         "key": "detectives",
-         "label": "בלש",
-         "missing": 2,
-         "pct_jewish": 50.4,
-         "pct_male": 59.5
-        },
-        {
-         "key": "investigators",
-         "label": "חוקר",
-         "missing": 2,
-         "pct_jewish": 59.4,
-         "pct_male": 62.3
-        },
-        {
-         "key": "other",
-         "label": "אחר",
-         "missing": 1,
-         "pct_jewish": 55.8,
-         "pct_male": 67.6
-        }
-       ],
-       "staffing_pct": 78.72,
-       "status": "דחוף",
-       "status_key": "urgent",
-       "surplus_positions": 1
-      },
-      {
-       "actual_positions": 150,
        "area": "איילון",
        "candidates_by_role": [
         {
@@ -10651,11 +10657,124 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 12,
+       "candidates_gender_coverage": 11,
        "candidates_in_process": 28,
-       "candidates_pct_jewish": 76.9,
-       "candidates_pct_male": 75.0,
-       "candidates_religion_coverage": 13,
+       "candidates_pct_jewish": 85.7,
+       "candidates_pct_male": 63.6,
+       "candidates_religion_coverage": 14,
+       "color": "#EA580C",
+       "coord_verified": false,
+       "district": "תל אביב",
+       "id": 15,
+       "lat": 32.0231,
+       "lng": 34.7503,
+       "missing_positions": 10,
+       "missing_to_delete": 1,
+       "name": "תחנת בת ים",
+       "nearby_settlements": [
+        {
+         "name": "בת ים",
+         "travel_min": 3
+        },
+        {
+         "name": "חולון",
+         "travel_min": 11
+        },
+        {
+         "name": "אזור",
+         "travel_min": 15
+        },
+        {
+         "name": "פלמחים",
+         "travel_min": 27
+        }
+       ],
+       "open_positions": 10,
+       "pct_jewish": 53.5,
+       "pct_male": 68.3,
+       "required_positions": 47,
+       "roles": [
+        {
+         "key": "patrol",
+         "label": "סייר",
+         "missing": 4,
+         "pct_jewish": 57.0,
+         "pct_male": 63.0
+        },
+        {
+         "key": "detectives",
+         "label": "בלש",
+         "missing": 2,
+         "pct_jewish": 50.4,
+         "pct_male": 59.5
+        },
+        {
+         "key": "investigators",
+         "label": "חוקר",
+         "missing": 2,
+         "pct_jewish": 59.4,
+         "pct_male": 62.3
+        },
+        {
+         "key": "other",
+         "label": "אחר",
+         "missing": 1,
+         "pct_jewish": 55.8,
+         "pct_male": 67.6
+        }
+       ],
+       "staffing_pct": 78.72,
+       "status": "דחוף",
+       "status_key": "urgent",
+       "surplus_positions": 1,
+       "vacant_positions": 6
+      },
+      {
+       "actual_positions": 150,
+       "area": "איילון",
+       "candidates_by_role": [
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 5,
+         "key": "patrol",
+         "label": "סייר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 2,
+         "key": "detectives",
+         "label": "בלש"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 3,
+         "key": "investigators",
+         "label": "חוקר"
+        },
+        {
+         "candidates_gender_coverage": null,
+         "candidates_pct_jewish": null,
+         "candidates_pct_male": null,
+         "candidates_religion_coverage": null,
+         "count": 2,
+         "key": "other",
+         "label": "אחר"
+        }
+       ],
+       "candidates_gender_coverage": 9,
+       "candidates_in_process": 24,
+       "candidates_pct_jewish": 54.5,
+       "candidates_pct_male": 33.3,
+       "candidates_religion_coverage": 11,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "תל אביב",
@@ -10687,6 +10806,7 @@
          "travel_min": 26
         }
        ],
+       "open_positions": 7,
        "pct_jewish": 97.0,
        "pct_male": 61.0,
        "required_positions": 157,
@@ -10723,7 +10843,8 @@
        "staffing_pct": 95.54,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 97,
@@ -10734,7 +10855,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 9,
          "key": "patrol",
          "label": "סייר"
         },
@@ -10743,7 +10864,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 4,
          "key": "detectives",
          "label": "בלש"
         },
@@ -10752,7 +10873,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -10766,11 +10887,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 17,
-       "candidates_in_process": 34,
-       "candidates_pct_jewish": 63.6,
-       "candidates_pct_male": 58.8,
-       "candidates_religion_coverage": 11,
+       "candidates_gender_coverage": 16,
+       "candidates_in_process": 42,
+       "candidates_pct_jewish": 47.1,
+       "candidates_pct_male": 75.0,
+       "candidates_religion_coverage": 17,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "תל אביב",
@@ -10790,6 +10911,7 @@
          "travel_min": 13
         }
        ],
+       "open_positions": 9,
        "pct_jewish": 82.5,
        "pct_male": 59.4,
        "required_positions": 106,
@@ -10826,7 +10948,8 @@
        "staffing_pct": 91.51,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 4
       },
       {
        "actual_positions": 138,
@@ -10837,7 +10960,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 18,
+         "count": 33,
          "key": "patrol",
          "label": "סייר"
         },
@@ -10846,7 +10969,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 8,
+         "count": 14,
          "key": "detectives",
          "label": "בלש"
         },
@@ -10855,7 +10978,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 19,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -10864,16 +10987,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 13,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 35,
-       "candidates_in_process": 86,
-       "candidates_pct_jewish": 62.1,
-       "candidates_pct_male": 62.9,
-       "candidates_religion_coverage": 29,
+       "candidates_gender_coverage": 77,
+       "candidates_in_process": 158,
+       "candidates_pct_jewish": 90.8,
+       "candidates_pct_male": 76.6,
+       "candidates_religion_coverage": 65,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "תל אביב",
@@ -10921,6 +11044,7 @@
          "travel_min": 20
         }
        ],
+       "open_positions": 33,
        "pct_jewish": 83.8,
        "pct_male": 60.0,
        "required_positions": 169,
@@ -10957,7 +11081,8 @@
        "staffing_pct": 81.66,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 12
       },
       {
        "actual_positions": 104,
@@ -11000,11 +11125,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 5,
+       "candidates_gender_coverage": 6,
        "candidates_in_process": 14,
-       "candidates_pct_jewish": 60.0,
-       "candidates_pct_male": 60.0,
-       "candidates_religion_coverage": 5,
+       "candidates_pct_jewish": 50.0,
+       "candidates_pct_male": 66.7,
+       "candidates_religion_coverage": 4,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11032,6 +11157,7 @@
          "travel_min": 13
         }
        ],
+       "open_positions": 4,
        "pct_jewish": 67.1,
        "pct_male": 68.5,
        "required_positions": 108,
@@ -11068,7 +11194,8 @@
        "staffing_pct": 96.3,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 3
       }
      ]
     },
@@ -11084,7 +11211,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 10,
+         "count": 13,
          "key": "patrol",
          "label": "סייר"
         },
@@ -11093,7 +11220,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "detectives",
          "label": "בלש"
         },
@@ -11102,7 +11229,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 7,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -11111,16 +11238,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 5,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 19,
-       "candidates_in_process": 47,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 63.2,
-       "candidates_religion_coverage": 18,
+       "candidates_gender_coverage": 27,
+       "candidates_in_process": 60,
+       "candidates_pct_jewish": 65.0,
+       "candidates_pct_male": 59.3,
+       "candidates_religion_coverage": 20,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11212,6 +11339,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 14,
        "pct_jewish": 64.1,
        "pct_male": 74.6,
        "required_positions": 131,
@@ -11248,7 +11376,8 @@
        "staffing_pct": 89.31,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 0
+       "surplus_positions": 0,
+       "vacant_positions": 7
       },
       {
        "actual_positions": 88,
@@ -11259,7 +11388,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 13,
+         "count": 8,
          "key": "patrol",
          "label": "סייר"
         },
@@ -11268,7 +11397,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 3,
          "key": "detectives",
          "label": "בלש"
         },
@@ -11277,7 +11406,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 7,
+         "count": 4,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -11286,16 +11415,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 3,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 26,
-       "candidates_in_process": 60,
-       "candidates_pct_jewish": 83.3,
-       "candidates_pct_male": 69.2,
-       "candidates_religion_coverage": 24,
+       "candidates_gender_coverage": 15,
+       "candidates_in_process": 36,
+       "candidates_pct_jewish": 40.0,
+       "candidates_pct_male": 53.3,
+       "candidates_religion_coverage": 15,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11355,6 +11484,7 @@
          "travel_min": 27
         }
        ],
+       "open_positions": 22,
        "pct_jewish": 79.1,
        "pct_male": 73.0,
        "required_positions": 109,
@@ -11391,7 +11521,8 @@
        "staffing_pct": 80.73,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 8
       },
       {
        "actual_positions": 108,
@@ -11402,7 +11533,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 18,
          "key": "patrol",
          "label": "סייר"
         },
@@ -11411,7 +11542,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 8,
          "key": "detectives",
          "label": "בלש"
         },
@@ -11420,7 +11551,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 2,
+         "count": 10,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -11429,16 +11560,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 1,
+         "count": 7,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 7,
-       "candidates_in_process": 15,
-       "candidates_pct_jewish": 60.0,
-       "candidates_pct_male": 57.1,
-       "candidates_religion_coverage": 5,
+       "candidates_gender_coverage": 35,
+       "candidates_in_process": 86,
+       "candidates_pct_jewish": 88.4,
+       "candidates_pct_male": 74.3,
+       "candidates_religion_coverage": 43,
        "color": "#EAB308",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11514,6 +11645,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 28,
        "pct_jewish": 79.3,
        "pct_male": 65.5,
        "required_positions": 135,
@@ -11550,7 +11682,8 @@
        "staffing_pct": 80.0,
        "status": "בינוני",
        "status_key": "medium",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 17
       }
      ]
     },
@@ -11566,7 +11699,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 21,
          "key": "patrol",
          "label": "סייר"
         },
@@ -11575,7 +11708,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 9,
          "key": "detectives",
          "label": "בלש"
         },
@@ -11584,7 +11717,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 12,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -11593,16 +11726,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 8,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 15,
-       "candidates_in_process": 42,
-       "candidates_pct_jewish": 54.5,
-       "candidates_pct_male": 60.0,
-       "candidates_religion_coverage": 11,
+       "candidates_gender_coverage": 42,
+       "candidates_in_process": 99,
+       "candidates_pct_jewish": 86.5,
+       "candidates_pct_male": 59.5,
+       "candidates_religion_coverage": 37,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11658,6 +11791,7 @@
          "travel_min": 28
         }
        ],
+       "open_positions": 27,
        "pct_jewish": 66.6,
        "pct_male": 73.0,
        "required_positions": 119,
@@ -11694,7 +11828,8 @@
        "staffing_pct": 77.31,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 2
+       "surplus_positions": 2,
+       "vacant_positions": 11
       },
       {
        "actual_positions": 149,
@@ -11705,7 +11840,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 9,
+         "count": 24,
          "key": "patrol",
          "label": "סייר"
         },
@@ -11714,7 +11849,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 10,
          "key": "detectives",
          "label": "בלש"
         },
@@ -11723,7 +11858,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 5,
+         "count": 13,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -11732,16 +11867,16 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 9,
          "key": "other",
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 15,
-       "candidates_in_process": 42,
-       "candidates_pct_jewish": 56.2,
-       "candidates_pct_male": 46.7,
-       "candidates_religion_coverage": 16,
+       "candidates_gender_coverage": 50,
+       "candidates_in_process": 112,
+       "candidates_pct_jewish": 62.5,
+       "candidates_pct_male": 44.0,
+       "candidates_religion_coverage": 32,
        "color": "#EA580C",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11769,6 +11904,7 @@
          "travel_min": 13
         }
        ],
+       "open_positions": 40,
        "pct_jewish": 80.0,
        "pct_male": 74.5,
        "required_positions": 188,
@@ -11805,7 +11941,8 @@
        "staffing_pct": 79.26,
        "status": "דחוף",
        "status_key": "urgent",
-       "surplus_positions": 3
+       "surplus_positions": 3,
+       "vacant_positions": 22
       },
       {
        "actual_positions": 51,
@@ -11816,7 +11953,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 6,
+         "count": 5,
          "key": "patrol",
          "label": "סייר"
         },
@@ -11825,7 +11962,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 3,
+         "count": 2,
          "key": "detectives",
          "label": "בלש"
         },
@@ -11834,7 +11971,7 @@
          "candidates_pct_jewish": null,
          "candidates_pct_male": null,
          "candidates_religion_coverage": null,
-         "count": 4,
+         "count": 3,
          "key": "investigators",
          "label": "חוקר"
         },
@@ -11848,11 +11985,11 @@
          "label": "אחר"
         }
        ],
-       "candidates_gender_coverage": 12,
-       "candidates_in_process": 30,
-       "candidates_pct_jewish": 66.7,
-       "candidates_pct_male": 58.3,
-       "candidates_religion_coverage": 9,
+       "candidates_gender_coverage": 10,
+       "candidates_in_process": 24,
+       "candidates_pct_jewish": 62.5,
+       "candidates_pct_male": 70.0,
+       "candidates_religion_coverage": 8,
        "color": "#16A34A",
        "coord_verified": false,
        "district": "תל אביב",
@@ -11892,6 +12029,7 @@
          "travel_min": 30
         }
        ],
+       "open_positions": 5,
        "pct_jewish": 76.8,
        "pct_male": 65.9,
        "required_positions": 56,
@@ -11928,7 +12066,8 @@
        "staffing_pct": 91.07,
        "status": "תקין",
        "status_key": "ok",
-       "surplus_positions": 1
+       "surplus_positions": 1,
+       "vacant_positions": 2
       }
      ]
     }

@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 19,
+ "candidates_gender_coverage": 27,
  "candidates_in_process": 56,
- "candidates_pct_jewish": 52.2,
- "candidates_pct_male": 57.9,
- "candidates_religion_coverage": 23,
+ "candidates_pct_jewish": 77.3,
+ "candidates_pct_male": 55.6,
+ "candidates_religion_coverage": 22,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת תבור",
  "nearby_settlements": [],
+ "open_positions": 15,
  "pct_jewish": 82.7,
  "pct_male": 67.1,
  "required_positions": 144,
@@ -91,5 +92,6 @@
  "staffing_pct": 89.58,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 9
 }

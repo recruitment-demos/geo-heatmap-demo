@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 16,
+   "count": 15,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 6,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 9,
+   "count": 8,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 31,
- "candidates_in_process": 75,
- "candidates_pct_jewish": 87.9,
- "candidates_pct_male": 41.9,
- "candidates_religion_coverage": 33,
+ "candidates_gender_coverage": 30,
+ "candidates_in_process": 70,
+ "candidates_pct_jewish": 94.7,
+ "candidates_pct_male": 53.3,
+ "candidates_religion_coverage": 19,
  "color": "#DC2626",
  "coord_verified": false,
  "district": "חוף",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת ג'סר א זרקא",
  "nearby_settlements": [],
+ "open_positions": 20,
  "pct_jewish": 74.9,
  "pct_male": 65.6,
  "required_positions": 59,
@@ -91,5 +92,6 @@
  "staffing_pct": 69.49,
  "status": "קריטי",
  "status_key": "critical",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 10
 }

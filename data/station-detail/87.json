@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 5,
+ "candidates_gender_coverage": 6,
  "candidates_in_process": 14,
- "candidates_pct_jewish": 60.0,
- "candidates_pct_male": 60.0,
- "candidates_religion_coverage": 5,
+ "candidates_pct_jewish": 50.0,
+ "candidates_pct_male": 66.7,
+ "candidates_religion_coverage": 4,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "תל אביב",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת תל אביב דרום",
  "nearby_settlements": [],
+ "open_positions": 4,
  "pct_jewish": 67.1,
  "pct_male": 68.5,
  "required_positions": 108,
@@ -91,5 +92,6 @@
  "staffing_pct": 96.3,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 3
 }

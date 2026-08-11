@@ -18,6 +18,7 @@
  "missing_to_delete": 0,
  "name": "תחנת אריאל",
  "nearby_settlements": [],
+ "open_positions": 0,
  "pct_jewish": 90.0,
  "pct_male": 78.7,
  "required_positions": 57,
@@ -54,5 +55,6 @@
  "staffing_pct": 100.0,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 3
+ "surplus_positions": 3,
+ "vacant_positions": 0
 }

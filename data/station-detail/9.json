@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 9,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 4,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 5,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 3,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 11,
- "candidates_in_process": 30,
- "candidates_pct_jewish": 85.7,
- "candidates_pct_male": 54.5,
- "candidates_religion_coverage": 14,
+ "candidates_gender_coverage": 16,
+ "candidates_in_process": 42,
+ "candidates_pct_jewish": 52.9,
+ "candidates_pct_male": 31.2,
+ "candidates_religion_coverage": 17,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת באקה אלע'רביה",
  "nearby_settlements": [],
+ "open_positions": 15,
  "pct_jewish": 68.8,
  "pct_male": 80.0,
  "required_positions": 84,
@@ -91,5 +92,6 @@
  "staffing_pct": 83.33,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 3
+ "surplus_positions": 3,
+ "vacant_positions": 7
 }

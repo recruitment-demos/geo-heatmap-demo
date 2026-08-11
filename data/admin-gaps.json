@@ -33,334 +33,334 @@
    "units_with_gap": 22
   },
   {
-   "actual": 350,
-   "missing": 82,
-   "name": "ייעוץ משפטי",
-   "required": 432,
-   "staffing_pct": 81.0,
+   "actual": 327,
+   "missing": 78,
+   "name": "הדרכה והכשרות",
+   "required": 405,
+   "staffing_pct": 80.7,
    "units_with_gap": 25
   },
   {
-   "actual": 414,
-   "missing": 73,
-   "name": "מערכות מידע",
-   "required": 487,
+   "actual": 385,
+   "missing": 68,
+   "name": "כספים ותקציב",
+   "required": 453,
    "staffing_pct": 85.0,
    "units_with_gap": 23
   },
   {
-   "actual": 362,
-   "missing": 71,
-   "name": "כספים ותקציב",
-   "required": 433,
-   "staffing_pct": 83.6,
+   "actual": 318,
+   "missing": 61,
+   "name": "מערכות מידע",
+   "required": 379,
+   "staffing_pct": 83.9,
    "units_with_gap": 26
   },
   {
-   "actual": 357,
-   "missing": 70,
-   "name": "מנהלה וכוח אדם",
-   "required": 427,
-   "staffing_pct": 83.6,
+   "actual": 331,
+   "missing": 58,
+   "name": "ייעוץ משפטי",
+   "required": 389,
+   "staffing_pct": 85.1,
    "units_with_gap": 25
   },
   {
-   "actual": 343,
-   "missing": 67,
-   "name": "הדרכה והכשרות",
-   "required": 410,
-   "staffing_pct": 83.7,
-   "units_with_gap": 23
+   "actual": 348,
+   "missing": 52,
+   "name": "לוגיסטיקה",
+   "required": 400,
+   "staffing_pct": 87.0,
+   "units_with_gap": 22
   },
   {
-   "actual": 348,
-   "missing": 61,
-   "name": "לוגיסטיקה",
-   "required": 409,
-   "staffing_pct": 85.1,
-   "units_with_gap": 24
+   "actual": 268,
+   "missing": 44,
+   "name": "מנהלה וכוח אדם",
+   "required": 312,
+   "staffing_pct": 85.9,
+   "units_with_gap": 20
   }
  ],
  "by_unit": [
   {
-   "actual": 809,
+   "actual": 821,
    "area": "מרכז",
    "department": "מחוז מרכז",
-   "missing": 204,
+   "missing": 198,
    "name": "מרחב שרון",
    "professions": 10,
-   "required": 1013,
-   "staffing_pct": 79.9
+   "required": 1019,
+   "staffing_pct": 80.6
   },
   {
-   "actual": 681,
+   "actual": 677,
    "area": "צפון",
    "department": "מחוז צפון",
-   "missing": 156,
+   "missing": 162,
    "name": "מרחב עמקים",
    "professions": 10,
-   "required": 837,
-   "staffing_pct": 81.4
+   "required": 839,
+   "staffing_pct": 80.7
   },
   {
-   "actual": 548,
+   "actual": 536,
    "area": "מרכז",
    "department": "מחוז מרכז",
-   "missing": 149,
+   "missing": 141,
    "name": "מרחב שפלה",
    "professions": 10,
-   "required": 697,
-   "staffing_pct": 78.6
+   "required": 677,
+   "staffing_pct": 79.2
   },
   {
-   "actual": 458,
+   "actual": 461,
    "area": "חוף",
    "department": "מחוז חוף",
-   "missing": 132,
+   "missing": 124,
    "name": "מרחב מנשה",
    "professions": 10,
-   "required": 590,
-   "staffing_pct": 77.6
+   "required": 585,
+   "staffing_pct": 78.8
   },
   {
-   "actual": 321,
+   "actual": 307,
    "area": "דרום",
    "department": "מחוז דרום",
-   "missing": 113,
+   "missing": 115,
    "name": "מרחב לכיש",
    "professions": 10,
-   "required": 434,
-   "staffing_pct": 74.0
+   "required": 422,
+   "staffing_pct": 72.7
   },
   {
-   "actual": 626,
+   "actual": 617,
    "area": "צפון",
    "department": "מחוז צפון",
-   "missing": 113,
+   "missing": 107,
    "name": "מרחב כנרת",
    "professions": 10,
-   "required": 739,
-   "staffing_pct": 84.7
+   "required": 724,
+   "staffing_pct": 85.2
   },
   {
-   "actual": 624,
+   "actual": 621,
    "area": "צפון",
    "department": "מחוז צפון",
-   "missing": 102,
+   "missing": 92,
    "name": "מרחב גליל",
    "professions": 10,
-   "required": 726,
-   "staffing_pct": 86.0
+   "required": 713,
+   "staffing_pct": 87.1
   },
   {
-   "actual": 464,
+   "actual": 456,
    "area": "חוף",
    "department": "מחוז חוף",
-   "missing": 93,
+   "missing": 89,
    "name": "מרחב אשר",
    "professions": 10,
-   "required": 557,
-   "staffing_pct": 83.3
+   "required": 545,
+   "staffing_pct": 83.7
   },
   {
-   "actual": 367,
+   "actual": 347,
    "area": "תל אביב",
    "department": "מחוז תל אביב",
-   "missing": 85,
+   "missing": 80,
    "name": "מרחב ירקון",
    "professions": 10,
-   "required": 452,
-   "staffing_pct": 81.2
+   "required": 427,
+   "staffing_pct": 81.3
   },
   {
-   "actual": 604,
+   "actual": 599,
    "area": "תל אביב",
    "department": "מחוז תל אביב",
-   "missing": 78,
+   "missing": 80,
    "name": "מרחב איילון",
    "professions": 10,
-   "required": 682,
-   "staffing_pct": 88.6
+   "required": 679,
+   "staffing_pct": 88.2
   },
   {
-   "actual": 362,
-   "area": "ירושלים",
-   "department": "מחוז ירושלים",
-   "missing": 75,
-   "name": "מרחב קדם",
-   "professions": 10,
-   "required": 437,
-   "staffing_pct": 82.8
-  },
-  {
-   "actual": 369,
+   "actual": 365,
    "area": "תל אביב",
    "department": "מחוז תל אביב",
    "missing": 74,
    "name": "מרחב דן",
    "professions": 10,
-   "required": 443,
-   "staffing_pct": 83.3
+   "required": 439,
+   "staffing_pct": 83.1
   },
   {
-   "actual": 400,
+   "actual": 347,
    "area": "ירושלים",
    "department": "מחוז ירושלים",
-   "missing": 68,
-   "name": "מרחב ציון",
+   "missing": 73,
+   "name": "מרחב קדם",
    "professions": 10,
-   "required": 468,
-   "staffing_pct": 85.5
+   "required": 420,
+   "staffing_pct": 82.6
   },
   {
-   "actual": 421,
+   "actual": 384,
+   "area": "ירושלים",
+   "department": "מחוז ירושלים",
+   "missing": 71,
+   "name": "מרחב ציון",
+   "professions": 10,
+   "required": 455,
+   "staffing_pct": 84.4
+  },
+  {
+   "actual": 434,
    "area": "דרום",
    "department": "מחוז דרום",
-   "missing": 63,
+   "missing": 62,
    "name": "מרחב רותם",
    "professions": 10,
-   "required": 484,
-   "staffing_pct": 87.0
+   "required": 496,
+   "staffing_pct": 87.5
+  },
+  {
+   "actual": 453,
+   "area": "דרום",
+   "department": "מחוז דרום",
+   "missing": 58,
+   "name": "מרחב נגב",
+   "professions": 10,
+   "required": 511,
+   "staffing_pct": 88.6
+  },
+  {
+   "actual": 299,
+   "area": "ש\"י",
+   "department": "מחוז ש\"י",
+   "missing": 55,
+   "name": "מרחב גלעד",
+   "professions": 10,
+   "required": 354,
+   "staffing_pct": 84.5
+  },
+  {
+   "actual": 389,
+   "area": "חוף",
+   "department": "מחוז חוף",
+   "missing": 52,
+   "name": "מרחב כרמל",
+   "professions": 10,
+   "required": 441,
+   "staffing_pct": 88.2
+  },
+  {
+   "actual": 254,
+   "area": "ש\"י",
+   "department": "מחוז ש\"י",
+   "missing": 40,
+   "name": "מרחב יהודה",
+   "professions": 10,
+   "required": 294,
+   "staffing_pct": 86.4
+  },
+  {
+   "actual": 249,
+   "area": "מרכז",
+   "department": "מחוז מרכז",
+   "missing": 29,
+   "name": "מרחב נתב\"ג",
+   "professions": 10,
+   "required": 278,
+   "staffing_pct": 89.6
+  },
+  {
+   "actual": 93,
+   "area": "מטה ארצי",
+   "department": "את\"ן ארצי",
+   "missing": 22,
+   "name": "את\"ן ארצי",
+   "professions": 6,
+   "required": 115,
+   "staffing_pct": 80.9
+  },
+  {
+   "actual": 213,
+   "area": "מג\"ב",
+   "department": "מחוז מג\"ב",
+   "missing": 22,
+   "name": "מרחב מג\"ב י-ם",
+   "professions": 10,
+   "required": 235,
+   "staffing_pct": 90.6
   },
   {
    "actual": 300,
    "area": "ש\"י",
    "department": "מחוז ש\"י",
-   "missing": 59,
-   "name": "מרחב גלעד",
-   "professions": 10,
-   "required": 359,
-   "staffing_pct": 83.6
-  },
-  {
-   "actual": 458,
-   "area": "דרום",
-   "department": "מחוז דרום",
-   "missing": 55,
-   "name": "מרחב נגב",
-   "professions": 10,
-   "required": 513,
-   "staffing_pct": 89.3
-  },
-  {
-   "actual": 358,
-   "area": "חוף",
-   "department": "מחוז חוף",
-   "missing": 49,
-   "name": "מרחב כרמל",
-   "professions": 10,
-   "required": 407,
-   "staffing_pct": 88.0
-  },
-  {
-   "actual": 244,
-   "area": "ש\"י",
-   "department": "מחוז ש\"י",
-   "missing": 37,
-   "name": "מרחב יהודה",
-   "professions": 10,
-   "required": 281,
-   "staffing_pct": 86.8
-  },
-  {
-   "actual": 119,
-   "area": "מטה ארצי",
-   "department": "את\"ן ארצי",
-   "missing": 28,
-   "name": "את\"ן ארצי",
-   "professions": 6,
-   "required": 147,
-   "staffing_pct": 81.0
-  },
-  {
-   "actual": 275,
-   "area": "מרכז",
-   "department": "מחוז מרכז",
-   "missing": 27,
-   "name": "מרחב נתב\"ג",
-   "professions": 10,
-   "required": 302,
-   "staffing_pct": 91.1
-  },
-  {
-   "actual": 305,
-   "area": "ש\"י",
-   "department": "מחוז ש\"י",
-   "missing": 27,
+   "missing": 20,
    "name": "מרחב שומרון",
    "professions": 10,
-   "required": 332,
-   "staffing_pct": 91.9
+   "required": 320,
+   "staffing_pct": 93.8
   },
   {
-   "actual": 214,
-   "area": "מג\"ב",
-   "department": "מחוז מג\"ב",
-   "missing": 26,
-   "name": "מרחב מג\"ב י-ם",
-   "professions": 10,
-   "required": 240,
-   "staffing_pct": 89.2
-  },
-  {
-   "actual": 183,
-   "area": "ירושלים",
-   "department": "מחוז ירושלים",
-   "missing": 24,
-   "name": "מרחב דוד",
-   "professions": 10,
-   "required": 207,
-   "staffing_pct": 88.4
-  },
-  {
-   "actual": 200,
-   "area": "דרום",
-   "department": "מחוז דרום",
-   "missing": 23,
-   "name": "מרחב אילת",
-   "professions": 10,
-   "required": 223,
-   "staffing_pct": 89.7
-  },
-  {
-   "actual": 146,
-   "area": "מטה ארצי",
-   "department": "אג\"מ ארצי",
-   "missing": 19,
-   "name": "אג\"מ ארצי",
-   "professions": 6,
-   "required": 165,
-   "staffing_pct": 88.5
-  },
-  {
-   "actual": 148,
-   "area": "מטה ארצי",
-   "department": "אגף משאבי אנוש",
-   "missing": 18,
-   "name": "אגף משאבי אנוש",
-   "professions": 6,
-   "required": 166,
-   "staffing_pct": 89.2
-  },
-  {
-   "actual": 97,
+   "actual": 105,
    "area": "מטה ארצי",
    "department": "אח\"מ ארצי",
-   "missing": 12,
+   "missing": 19,
    "name": "אח\"מ ארצי",
    "professions": 6,
-   "required": 109,
-   "staffing_pct": 89.0
+   "required": 124,
+   "staffing_pct": 84.7
+  },
+  {
+   "actual": 203,
+   "area": "ירושלים",
+   "department": "מחוז ירושלים",
+   "missing": 19,
+   "name": "מרחב דוד",
+   "professions": 10,
+   "required": 222,
+   "staffing_pct": 91.4
+  },
+  {
+   "actual": 114,
+   "area": "מטה ארצי",
+   "department": "אג\"מ ארצי",
+   "missing": 17,
+   "name": "אג\"מ ארצי",
+   "professions": 6,
+   "required": 131,
+   "staffing_pct": 87.0
+  },
+  {
+   "actual": 88,
+   "area": "מטה ארצי",
+   "department": "אגף משאבי אנוש",
+   "missing": 14,
+   "name": "אגף משאבי אנוש",
+   "professions": 6,
+   "required": 102,
+   "staffing_pct": 86.3
+  },
+  {
+   "actual": 172,
+   "area": "דרום",
+   "department": "מחוז דרום",
+   "missing": 11,
+   "name": "מרחב אילת",
+   "professions": 10,
+   "required": 183,
+   "staffing_pct": 94.0
   }
  ],
  "scope": "",
  "scope_label": "הכול",
  "totals": {
-  "actual": 10101,
-  "missing": 1909,
+  "actual": 9904,
+  "missing": 1846,
   "professions": 10,
-  "required": 12010,
-  "staffing_pct": 84.1,
+  "required": 11750,
+  "staffing_pct": 84.3,
   "units": 27
  }
 }

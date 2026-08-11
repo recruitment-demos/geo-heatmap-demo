@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 16,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 7,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 9,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 6,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 6,
- "candidates_in_process": 12,
- "candidates_pct_jewish": 75.0,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 4,
+ "candidates_gender_coverage": 33,
+ "candidates_in_process": 75,
+ "candidates_pct_jewish": 82.1,
+ "candidates_pct_male": 48.5,
+ "candidates_religion_coverage": 28,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת רהט",
  "nearby_settlements": [],
+ "open_positions": 17,
  "pct_jewish": 83.8,
  "pct_male": 76.0,
  "required_positions": 111,
@@ -91,5 +92,6 @@
  "staffing_pct": 86.49,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 11
 }

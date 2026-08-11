@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 28,
+   "count": 16,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 12,
+   "count": 7,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 16,
+   "count": 9,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 11,
+   "count": 6,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 60,
- "candidates_in_process": 133,
- "candidates_pct_jewish": 75.0,
- "candidates_pct_male": 61.7,
- "candidates_religion_coverage": 44,
+ "candidates_gender_coverage": 28,
+ "candidates_in_process": 76,
+ "candidates_pct_jewish": 57.1,
+ "candidates_pct_male": 42.9,
+ "candidates_religion_coverage": 28,
  "color": "#DC2626",
  "coord_verified": false,
  "district": "דרום",
@@ -55,6 +55,7 @@
  "missing_to_delete": 2,
  "name": "תחנת אשדוד",
  "nearby_settlements": [],
+ "open_positions": 31,
  "pct_jewish": 81.5,
  "pct_male": 69.2,
  "required_positions": 94,
@@ -91,5 +92,6 @@
  "staffing_pct": 68.09,
  "status": "קריטי",
  "status_key": "critical",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 11
 }

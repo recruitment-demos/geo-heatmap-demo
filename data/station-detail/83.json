@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 15,
+   "count": 21,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 9,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 9,
+   "count": 12,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,15 +34,15 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 8,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 34,
- "candidates_in_process": 72,
- "candidates_pct_jewish": 58.3,
- "candidates_pct_male": 41.2,
+ "candidates_gender_coverage": 37,
+ "candidates_in_process": 100,
+ "candidates_pct_jewish": 52.8,
+ "candidates_pct_male": 67.6,
  "candidates_religion_coverage": 36,
  "color": "#EAB308",
  "coord_verified": false,
@@ -55,6 +55,7 @@
  "missing_to_delete": 4,
  "name": "תחנת שפט",
  "nearby_settlements": [],
+ "open_positions": 26,
  "pct_jewish": 72.0,
  "pct_male": 79.3,
  "required_positions": 155,
@@ -91,5 +92,6 @@
  "staffing_pct": 84.52,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 10
 }

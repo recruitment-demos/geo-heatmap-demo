@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 10,
- "candidates_in_process": 23,
- "candidates_pct_jewish": 42.9,
- "candidates_pct_male": 60.0,
- "candidates_religion_coverage": 7,
+ "candidates_gender_coverage": 9,
+ "candidates_in_process": 24,
+ "candidates_pct_jewish": 60.0,
+ "candidates_pct_male": 55.6,
+ "candidates_religion_coverage": 10,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת גולן",
  "nearby_settlements": [],
+ "open_positions": 6,
  "pct_jewish": 74.6,
  "pct_male": 60.2,
  "required_positions": 46,
@@ -91,5 +92,6 @@
  "staffing_pct": 86.96,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 5
 }

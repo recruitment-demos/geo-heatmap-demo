@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 20,
- "candidates_in_process": 48,
- "candidates_pct_jewish": 58.3,
- "candidates_pct_male": 45.0,
- "candidates_religion_coverage": 12,
+ "candidates_gender_coverage": 21,
+ "candidates_in_process": 47,
+ "candidates_pct_jewish": 64.3,
+ "candidates_pct_male": 47.6,
+ "candidates_religion_coverage": 14,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
@@ -55,6 +55,7 @@
  "missing_to_delete": 2,
  "name": "תחנת שלם",
  "nearby_settlements": [],
+ "open_positions": 23,
  "pct_jewish": 73.9,
  "pct_male": 74.1,
  "required_positions": 114,
@@ -91,5 +92,6 @@
  "staffing_pct": 80.7,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 9
 }

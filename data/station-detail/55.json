@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 12,
+   "count": 14,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 6,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 8,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 24,
- "candidates_in_process": 58,
- "candidates_pct_jewish": 57.1,
- "candidates_pct_male": 62.5,
- "candidates_religion_coverage": 21,
+ "candidates_gender_coverage": 27,
+ "candidates_in_process": 67,
+ "candidates_pct_jewish": 94.4,
+ "candidates_pct_male": 55.6,
+ "candidates_religion_coverage": 18,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת משגב",
  "nearby_settlements": [],
+ "open_positions": 21,
  "pct_jewish": 86.1,
  "pct_male": 66.3,
  "required_positions": 190,
@@ -91,5 +92,6 @@
  "staffing_pct": 88.95,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 9
 }

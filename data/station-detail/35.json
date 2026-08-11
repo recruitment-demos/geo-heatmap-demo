@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 20,
+ "candidates_gender_coverage": 19,
  "candidates_in_process": 44,
- "candidates_pct_jewish": 56.2,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 16,
+ "candidates_pct_jewish": 87.5,
+ "candidates_pct_male": 68.4,
+ "candidates_religion_coverage": 8,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת טמרה",
  "nearby_settlements": [],
+ "open_positions": 13,
  "pct_jewish": 73.9,
  "pct_male": 70.9,
  "required_positions": 93,
@@ -91,5 +92,6 @@
  "staffing_pct": 87.1,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 6
 }

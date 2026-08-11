@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 8,
+   "count": 7,
    "key": "patrol",
    "label": "סייר"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 4,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 16,
- "candidates_in_process": 38,
- "candidates_pct_jewish": 52.9,
- "candidates_pct_male": 62.5,
- "candidates_religion_coverage": 17,
+ "candidates_gender_coverage": 15,
+ "candidates_in_process": 34,
+ "candidates_pct_jewish": 85.7,
+ "candidates_pct_male": 46.7,
+ "candidates_religion_coverage": 14,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת ערוער",
  "nearby_settlements": [],
+ "open_positions": 11,
  "pct_jewish": 87.9,
  "pct_male": 67.3,
  "required_positions": 59,
@@ -91,5 +92,6 @@
  "staffing_pct": 83.05,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 3
+ "surplus_positions": 3,
+ "vacant_positions": 6
 }

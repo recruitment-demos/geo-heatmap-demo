@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 3,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 1,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 2,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 1,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 9,
- "candidates_in_process": 23,
- "candidates_pct_jewish": 90.0,
- "candidates_pct_male": 44.4,
- "candidates_religion_coverage": 10,
+ "candidates_gender_coverage": 5,
+ "candidates_in_process": 14,
+ "candidates_pct_jewish": 33.3,
+ "candidates_pct_male": 60.0,
+ "candidates_religion_coverage": 6,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ש\"י",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת מודיעין עילית",
  "nearby_settlements": [],
+ "open_positions": 8,
  "pct_jewish": 71.5,
  "pct_male": 77.7,
  "required_positions": 66,
@@ -91,5 +92,6 @@
  "staffing_pct": 87.88,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 4
 }

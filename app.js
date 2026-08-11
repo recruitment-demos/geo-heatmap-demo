@@ -229,14 +229,18 @@ const MODES = {
        <div><span>תקן</span><b>${entity.required_positions ?? "—"}</b></div>
        <div><span>בפועל</span><b>${entity.actual_positions ?? "—"}</b></div>
        <div><span>אחוז איוש</span><b>${pctFull(entity)}</b></div>
+       <div><span>משרות לגיוס</span><b>${vacantText(entity)}</b></div>
        <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>` +
+      // §40: "משרות פנויות" הוצג ליחידה בלבד, ולמרחב לא הוצג כלל. עכשיו
+      // "משרות לגיוס" מופיע לשניהם למעלה, וכאן נשאר רק מה שמבדיל ביניהם.
       (entity.kind === "unit"
-        ? `<div><span>משרות פנויות</span><b>${entity.vacant_positions ?? "—"}</b></div>`
+        ? ""
         : `<div class="metric-open" data-open-stations="${entity.id}" role="button" tabindex="0"
                 title="פתח את רשימת התחנות במרחב">
              <span>תחנות במרחב</span><b>${entity.stations_count} ›</b>
            </div>`),
     breakdown: (entity) =>
+      vacancyNote(entity) +
       demographics(entity) +
       (entity.kind === "unit"
         ? `<div class="card-empty">יחידה שאינה מרחב — התקן והאיוש מגיעים מרמה 03 בקובץ התקן והמצבה, ואין לה פילוח לפי תחנה.</div>`
@@ -291,6 +295,7 @@ const MODES = {
          <span>תחנות במרחב</span><b>${entity.stations_count} ›</b>
        </div>
        <div><span>אחוז איוש משוקלל</span><b>${pctFull(entity)}</b></div>
+       <div><span>משרות לגיוס</span><b>${vacantText(entity)}</b></div>
        <div><span>תקנים חסרים</span><b>${missingText(entity)}</b></div>
        <div><span>מועמדים בהליך</span><b>${candidatesText(entity)}</b></div>`,
     // מקור המספר מוצג במפורש: ברמת מרחב הוא נגזר משדה "דרישה" בקובץ
@@ -299,6 +304,7 @@ const MODES = {
     // הריחוף על שבב תפקיד פותח את הפילוח לפי תחנה — "חסרים 40 סיירים
     // במרחב" אינו משימה, וארבע התחנות שהם יושבים בהן הן.
     breakdown: (entity) =>
+      vacancyNote(entity) +
       demographics(entity) +
       familyChips(
         "חוסר לפי תפקיד במרחב",
@@ -510,6 +516,35 @@ const candidatesText = (s) =>
   s.candidates_in_process === null || s.candidates_in_process === undefined
     ? '<span class="muted">אין נתון</span>'
     : s.candidates_in_process;
+
+// --- משרות: מספר אחד על הכרטיס, ושורה אחת שמסבירה אותו -------------------
+//
+// §40: **המסך הציג שלושה מספרים שונים תחת המילה "משרות", ואף אחד מהם לא
+// היה מה שהמגייס מקבל לטפל בו.** בשדרות: 38 בחלונית הריחוף (משרות
+// בתפקיד סייר), 7 "תקנים חסרים", 4 בסכום שבבי החוסר — בזמן שלוח המשרות
+// מציג 2. ארבעה מספרים, שאלה אחת.
+//
+// מעכשיו יש **מספר אחד** שנקרא "משרות לגיוס", והוא בדיוק מה שלוח המשרות
+// מציג — אותו כלל, אותו מקור (ראה _station_vacancies ב-app.py).
+//
+// חוסר תקן לא נעלם: הוא נשאר "תקנים חסרים" ובשבבי הפילוח, בשמו. הוא
+// שאלה אחרת — כמה תקן ריק — ולא כמה משרות אפשר לאייש.
+const vacantText = (s) =>
+  s.vacant_positions === null || s.vacant_positions === undefined
+    ? '<span class="muted">אין נתון</span>'
+    : s.vacant_positions;
+
+// שורת ההסבר. מוצגת **רק כשיש מה להסביר** — כלומר כשיש פער בין המשרות
+// שמצבן "פנויה" לבין אלה שמסומנות לתכנון גיוס. בלי פער היא רעש.
+function vacancyNote(entity) {
+  const open = entity && entity.open_positions;
+  const vacant = entity && entity.vacant_positions;
+  if (open === null || open === undefined || vacant === null || vacant === undefined) return "";
+  if (!open || open === vacant) return "";
+  return `<div class="card-note">חוסר של <b>${open}</b> משרות פנויות, אבל רק
+    <b>${vacant}</b> מהן מסומנות "משרה פנויה לתכנון גיוס" — ורק הן מופיעות
+    בלוח המשרות.</div>`;
+}
 
 // --- פילוח לפי משפחת תפקיד (סייר · בלש · חוקר · אחר) ----------------------
 //
@@ -725,13 +760,17 @@ function popDemographics(role) {
 // המספר שעל השבב הוא החוסר, ולכן הרשימה שנפתחת ממנו מציגה חוסר ותו לא.
 // ההקשר (כמה משרות, כמה מהן פנויות) נשאר בשורת הסיכום שמתחת לרשימה,
 // שם הוא מוסבר במילים ואינו מתחזה לסכום של הרשימה.
+//
+// §40: **"משרות" בשורה הזו לא היה מספר שאפשר לפעול לפיו.** `item.positions`
+// הוא כמה משרות קיימות בעיסוק — 38 סיירים בשדרות — וזה נקרא כאילו יש שם
+// 38 משרות לאייש. אין. יש 2 בכל התחנה.
+//
+// המספר שמוצג עכשיו הוא **משרות לגיוס בלבד**, ובלי יעד חוסר הוא גם
+// המספר היחיד שיש. עיסוק שאין בו משרה לגיוס אינו מציג מספר כלל — אפס
+// הוא התשובה, ואין צורך לצייר אותה.
 function occupationValue(item, hasTarget) {
-  // בלי יעד אין חוסר לחשב, והמשרות הן המידע היחיד שיש — כאן אין סתירה
-  // ואין סוגריים, ולכן השורה נשארת כפי שהייתה.
   if (!hasTarget) {
-    return item.vacant
-      ? `${item.positions} משרות · ${item.vacant} פנויות`
-      : `${item.positions} משרות`;
+    return item.vacant ? `${item.vacant} לגיוס` : '<span class="muted">—</span>';
   }
   return `חסר ${item.missing}`;
 }
@@ -739,19 +778,26 @@ function occupationValue(item, hasTarget) {
 // שורת הסיכום. **היא חייבת להיות המספר שעל השבב** — זו כל הסיבה שהרשימה
 // נפתחת. מספר המשרות ומספר המשרות הפנויות נשארים בשורה נפרדת מתחתיה,
 // כי הם שאלה אחרת ולא צריכים להתחרות על אותו מקום.
+//
+// §40: **המספר שנקרא כאן "משרות" הוסר.** הוא היה `totals.positions` —
+// כמה משרות קיימות בתפקיד — ובשדרות הוא הציג "38 משרות · 0 פנויות
+// לגיוס" על שבב שכתוב עליו 1. שלושה מספרים, ואף אחד מהם אינו מה שהמגייס
+// מקבל לטפל בו.
+//
+// נשארו שניים, וכל אחד עונה על שאלה אחרת בשמה:
+//   * **חוסר** — תקן פחות איוש. זה מה שעל השבב, ולזה הרשימה מסתכמת.
+//   * **משרות לגיוס** — מה שמופיע בלוח המשרות, באותו כלל בדיוק.
 function popTotals(family, role, hasTarget) {
   const totals = family.totals;
   if (!totals || !totals.positions) return "";
   if (!hasTarget) {
-    return `<div class="chip-pop-total"><span>סה"כ</span><b>${totals.positions} משרות · ${
-      totals.vacant
-    } פנויות לגיוס</b></div>`;
+    return `<div class="chip-pop-total"><span>משרות לגיוס</span><b>${totals.vacant}</b></div>`;
   }
   return `<div class="chip-pop-total"><span>סה"כ חוסר</span><b>${family.target}</b></div>
-    <div class="chip-pop-more">בתפקיד הזה ${totals.positions} משרות, מהן ${
-      totals.vacant
-    } מסומנות "פנויה לתכנון גיוס". <b>החוסר</b> הוא תקן פחות איוש — הוא זה
-    שמופיע על השבב, והרשימה שלמעלה מסתכמת אליו.</div>`;
+    <div class="chip-pop-total"><span>משרות לגיוס</span><b>${totals.vacant}</b></div>
+    <div class="chip-pop-more"><b>חוסר</b> הוא תקן פחות איוש — הוא זה שמופיע
+    על השבב, והרשימה שלמעלה מסתכמת אליו. <b>משרות לגיוס</b> הן אלה שמסומנות
+    "משרה פנויה לתכנון גיוס", והן מה שמופיע בלוח המשרות.</div>`;
 }
 
 // §17.1: התחנות שהמספר על השבב מורכב מהן.

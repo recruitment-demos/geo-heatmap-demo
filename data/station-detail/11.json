@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 16,
+   "count": 21,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 9,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 9,
+   "count": 12,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 8,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 29,
- "candidates_in_process": 75,
- "candidates_pct_jewish": 79.4,
- "candidates_pct_male": 55.2,
- "candidates_religion_coverage": 34,
+ "candidates_gender_coverage": 50,
+ "candidates_in_process": 101,
+ "candidates_pct_jewish": 69.4,
+ "candidates_pct_male": 70.0,
+ "candidates_religion_coverage": 49,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 3,
  "name": "תחנת בית שאן",
  "nearby_settlements": [],
+ "open_positions": 26,
  "pct_jewish": 88.9,
  "pct_male": 62.4,
  "required_positions": 105,
@@ -91,5 +92,6 @@
  "staffing_pct": 78.1,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 5
 }

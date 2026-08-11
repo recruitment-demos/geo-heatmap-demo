@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 10,
+ "candidates_gender_coverage": 11,
  "candidates_in_process": 25,
- "candidates_pct_jewish": 76.9,
- "candidates_pct_male": 70.0,
- "candidates_religion_coverage": 13,
+ "candidates_pct_jewish": 87.5,
+ "candidates_pct_male": 54.5,
+ "candidates_religion_coverage": 8,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "מרכז",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת יבנה",
  "nearby_settlements": [],
+ "open_positions": 12,
  "pct_jewish": 77.5,
  "pct_male": 70.3,
  "required_positions": 88,
@@ -91,5 +92,6 @@
  "staffing_pct": 86.36,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 5
 }

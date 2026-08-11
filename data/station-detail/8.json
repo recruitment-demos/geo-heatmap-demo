@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 48,
+   "count": 32,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 21,
+   "count": 14,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 27,
+   "count": 18,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,23 +34,23 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 18,
+   "count": 12,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 112,
- "candidates_in_process": 228,
- "candidates_pct_jewish": 46.7,
- "candidates_pct_male": 58.9,
- "candidates_religion_coverage": 105,
+ "candidates_gender_coverage": 77,
+ "candidates_in_process": 153,
+ "candidates_pct_jewish": 97.3,
+ "candidates_pct_male": 58.4,
+ "candidates_religion_coverage": 73,
  "color": "#DC2626",
  "coord_verified": false,
  "district": "דרום",
  "id": 8,
  "insights": [
   {
-   "created_at": "2026-08-07T20:15:06",
+   "created_at": "2026-08-08T12:43:00",
    "done": 0,
    "id": 1,
    "text": "ריכוז חוסר בסיור — לשקול יום גיוס ממוקד באזור."
@@ -62,6 +62,7 @@
  "missing_to_delete": 4,
  "name": "תחנת אשקלון",
  "nearby_settlements": [],
+ "open_positions": 45,
  "pct_jewish": 75.8,
  "pct_male": 84.0,
  "required_positions": 117,
@@ -98,5 +99,6 @@
  "staffing_pct": 61.54,
  "status": "קריטי",
  "status_key": "critical",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 18
 }

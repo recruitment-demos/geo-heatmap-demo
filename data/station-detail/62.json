@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 4,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 2,
    "key": "detectives",
    "label": "בלש"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 2,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 5,
- "candidates_in_process": 14,
- "candidates_pct_jewish": 25.0,
- "candidates_pct_male": 60.0,
- "candidates_religion_coverage": 4,
+ "candidates_gender_coverage": 7,
+ "candidates_in_process": 20,
+ "candidates_pct_jewish": 71.4,
+ "candidates_pct_male": 57.1,
+ "candidates_religion_coverage": 7,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת עוז",
  "nearby_settlements": [],
+ "open_positions": 14,
  "pct_jewish": 55.1,
  "pct_male": 66.2,
  "required_positions": 70,
@@ -91,5 +92,6 @@
  "staffing_pct": 80.0,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 7
 }

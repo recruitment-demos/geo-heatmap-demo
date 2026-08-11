@@ -2,8 +2,8 @@
  "base": {
   "admin_rows": 254,
   "ok": true,
-  "positions": 12583,
-  "vacant": 2000
+  "positions": 12292,
+  "vacant": 905
  },
  "db": "(demo)",
  "focus_settlements": 99,

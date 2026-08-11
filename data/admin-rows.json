@@ -9,13 +9,13 @@
   "required": 19
  },
  {
-  "actual": 14,
+  "actual": 18,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "הדרכה והכשרות",
   "region": "מרחב אילת",
-  "required": 18
+  "required": 23
  },
  {
   "actual": 26,
@@ -27,49 +27,49 @@
   "required": 26
  },
  {
-  "actual": 17,
+  "actual": 16,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "ייעוץ משפטי",
   "region": "מרחב אילת",
-  "required": 21
+  "required": 18
  },
  {
-  "actual": 16,
+  "actual": 2,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "כספים ותקציב",
   "region": "מרחב אילת",
-  "required": 21
+  "required": 3
  },
  {
-  "actual": 18,
+  "actual": 20,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "לוגיסטיקה",
   "region": "מרחב אילת",
-  "required": 20
+  "required": 21
  },
  {
-  "actual": 13,
+  "actual": 3,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב אילת",
-  "required": 16
+  "required": 3
  },
  {
-  "actual": 15,
+  "actual": 6,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "מערכות מידע",
   "region": "מרחב אילת",
-  "required": 20
+  "required": 8
  },
  {
   "actual": 45,
@@ -99,13 +99,13 @@
   "required": 61
  },
  {
-  "actual": 19,
+  "actual": 8,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "הדרכה והכשרות",
   "region": "מרחב לכיש",
-  "required": 20
+  "required": 10
  },
  {
   "actual": 56,
@@ -117,49 +117,49 @@
   "required": 81
  },
  {
-  "actual": 14,
+  "actual": 19,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "ייעוץ משפטי",
   "region": "מרחב לכיש",
-  "required": 19
+  "required": 22
  },
  {
-  "actual": 13,
+  "actual": 15,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "כספים ותקציב",
   "region": "מרחב לכיש",
-  "required": 15
- },
- {
-  "actual": 5,
-  "department": "מחוז דרום",
-  "district": "דרום",
-  "geo_area": "דרום",
-  "profession": "לוגיסטיקה",
-  "region": "מרחב לכיש",
-  "required": 7
- },
- {
-  "actual": 17,
-  "department": "מחוז דרום",
-  "district": "דרום",
-  "geo_area": "דרום",
-  "profession": "מנהלה וכוח אדם",
-  "region": "מרחב לכיש",
-  "required": 20
+  "required": 16
  },
  {
   "actual": 13,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
+  "profession": "לוגיסטיקה",
+  "region": "מרחב לכיש",
+  "required": 17
+ },
+ {
+  "actual": 2,
+  "department": "מחוז דרום",
+  "district": "דרום",
+  "geo_area": "דרום",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב לכיש",
+  "required": 3
+ },
+ {
+  "actual": 10,
+  "department": "מחוז דרום",
+  "district": "דרום",
+  "geo_area": "דרום",
   "profession": "מערכות מידע",
   "region": "מרחב לכיש",
-  "required": 13
+  "required": 14
  },
  {
   "actual": 101,
@@ -195,7 +195,7 @@
   "geo_area": "דרום",
   "profession": "הדרכה והכשרות",
   "region": "מרחב נגב",
-  "required": 12
+  "required": 14
  },
  {
   "actual": 90,
@@ -207,49 +207,49 @@
   "required": 102
  },
  {
-  "actual": 21,
+  "actual": 14,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "ייעוץ משפטי",
   "region": "מרחב נגב",
-  "required": 22
- },
- {
-  "actual": 19,
-  "department": "מחוז דרום",
-  "district": "דרום",
-  "geo_area": "דרום",
-  "profession": "כספים ותקציב",
-  "region": "מרחב נגב",
-  "required": 21
+  "required": 17
  },
  {
   "actual": 9,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
-  "profession": "לוגיסטיקה",
+  "profession": "כספים ותקציב",
   "region": "מרחב נגב",
-  "required": 11
+  "required": 10
  },
  {
-  "actual": 3,
+  "actual": 25,
+  "department": "מחוז דרום",
+  "district": "דרום",
+  "geo_area": "דרום",
+  "profession": "לוגיסטיקה",
+  "region": "מרחב נגב",
+  "required": 27
+ },
+ {
+  "actual": 12,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב נגב",
-  "required": 3
+  "required": 12
  },
  {
-  "actual": 18,
+  "actual": 5,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "מערכות מידע",
   "region": "מרחב נגב",
-  "required": 19
+  "required": 6
  },
  {
   "actual": 158,
@@ -279,13 +279,13 @@
   "required": 74
  },
  {
-  "actual": 11,
+  "actual": 5,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "הדרכה והכשרות",
   "region": "מרחב רותם",
-  "required": 17
+  "required": 6
  },
  {
   "actual": 88,
@@ -297,43 +297,43 @@
   "required": 99
  },
  {
-  "actual": 10,
+  "actual": 9,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "ייעוץ משפטי",
   "region": "מרחב רותם",
-  "required": 14
+  "required": 12
  },
  {
-  "actual": 9,
+  "actual": 15,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "כספים ותקציב",
   "region": "מרחב רותם",
-  "required": 12
+  "required": 21
  },
  {
-  "actual": 8,
+  "actual": 19,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "לוגיסטיקה",
   "region": "מרחב רותם",
-  "required": 9
+  "required": 19
  },
  {
-  "actual": 7,
+  "actual": 12,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב רותם",
-  "required": 9
+  "required": 15
  },
  {
-  "actual": 9,
+  "actual": 7,
   "department": "מחוז דרום",
   "district": "דרום",
   "geo_area": "דרום",
@@ -369,13 +369,13 @@
   "required": 85
  },
  {
-  "actual": 12,
+  "actual": 14,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "הדרכה והכשרות",
   "region": "מרחב אשר",
-  "required": 15
+  "required": 16
  },
  {
   "actual": 94,
@@ -387,43 +387,43 @@
   "required": 112
  },
  {
-  "actual": 12,
+  "actual": 6,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "ייעוץ משפטי",
   "region": "מרחב אשר",
-  "required": 17
- },
- {
-  "actual": 7,
-  "department": "מחוז חוף",
-  "district": "חוף",
-  "geo_area": "חוף",
-  "profession": "כספים ותקציב",
-  "region": "מרחב אשר",
-  "required": 9
- },
- {
-  "actual": 16,
-  "department": "מחוז חוף",
-  "district": "חוף",
-  "geo_area": "חוף",
-  "profession": "לוגיסטיקה",
-  "region": "מרחב אשר",
-  "required": 19
+  "required": 7
  },
  {
   "actual": 13,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
-  "profession": "מנהלה וכוח אדם",
+  "profession": "כספים ותקציב",
   "region": "מרחב אשר",
-  "required": 14
+  "required": 17
  },
  {
-  "actual": 8,
+  "actual": 6,
+  "department": "מחוז חוף",
+  "district": "חוף",
+  "geo_area": "חוף",
+  "profession": "לוגיסטיקה",
+  "region": "מרחב אשר",
+  "required": 7
+ },
+ {
+  "actual": 11,
+  "department": "מחוז חוף",
+  "district": "חוף",
+  "geo_area": "חוף",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב אשר",
+  "required": 15
+ },
+ {
+  "actual": 10,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
@@ -459,13 +459,13 @@
   "required": 63
  },
  {
-  "actual": 3,
+  "actual": 12,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "הדרכה והכשרות",
   "region": "מרחב כרמל",
-  "required": 3
+  "required": 17
  },
  {
   "actual": 75,
@@ -477,49 +477,49 @@
   "required": 84
  },
  {
-  "actual": 11,
+  "actual": 14,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "ייעוץ משפטי",
   "region": "מרחב כרמל",
-  "required": 13
+  "required": 17
  },
  {
-  "actual": 2,
+  "actual": 19,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "כספים ותקציב",
   "region": "מרחב כרמל",
-  "required": 3
+  "required": 22
  },
  {
-  "actual": 4,
+  "actual": 17,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "לוגיסטיקה",
   "region": "מרחב כרמל",
-  "required": 4
+  "required": 17
  },
  {
-  "actual": 11,
+  "actual": 5,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב כרמל",
-  "required": 14
+  "required": 5
  },
  {
-  "actual": 15,
+  "actual": 10,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "מערכות מידע",
   "region": "מרחב כרמל",
-  "required": 19
+  "required": 12
  },
  {
   "actual": 131,
@@ -549,13 +549,13 @@
   "required": 90
  },
  {
-  "actual": 10,
+  "actual": 15,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "הדרכה והכשרות",
   "region": "מרחב מנשה",
-  "required": 12
+  "required": 20
  },
  {
   "actual": 94,
@@ -567,49 +567,49 @@
   "required": 120
  },
  {
-  "actual": 11,
+  "actual": 21,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "ייעוץ משפטי",
   "region": "מרחב מנשה",
-  "required": 13
+  "required": 23
  },
  {
-  "actual": 9,
+  "actual": 7,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "כספים ותקציב",
   "region": "מרחב מנשה",
-  "required": 12
+  "required": 8
  },
  {
-  "actual": 14,
+  "actual": 6,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "לוגיסטיקה",
   "region": "מרחב מנשה",
-  "required": 21
+  "required": 7
  },
  {
-  "actual": 17,
+  "actual": 13,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב מנשה",
-  "required": 22
+  "required": 14
  },
  {
-  "actual": 9,
+  "actual": 11,
   "department": "מחוז חוף",
   "district": "חוף",
   "geo_area": "חוף",
   "profession": "מערכות מידע",
   "region": "מרחב מנשה",
-  "required": 11
+  "required": 14
  },
  {
   "actual": 162,
@@ -639,13 +639,13 @@
   "required": 24
  },
  {
-  "actual": 7,
+  "actual": 2,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "הדרכה והכשרות",
   "region": "מרחב דוד",
-  "required": 10
+  "required": 3
  },
  {
   "actual": 31,
@@ -657,49 +657,49 @@
   "required": 33
  },
  {
-  "actual": 7,
+  "actual": 13,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "ייעוץ משפטי",
   "region": "מרחב דוד",
-  "required": 9
+  "required": 14
  },
  {
-  "actual": 12,
+  "actual": 19,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "כספים ותקציב",
   "region": "מרחב דוד",
-  "required": 19
+  "required": 21
  },
  {
-  "actual": 3,
+  "actual": 9,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "לוגיסטיקה",
   "region": "מרחב דוד",
-  "required": 4
- },
- {
-  "actual": 7,
-  "department": "מחוז ירושלים",
-  "district": "ירושלים",
-  "geo_area": "ירושלים",
-  "profession": "מנהלה וכוח אדם",
-  "region": "מרחב דוד",
-  "required": 9
+  "required": 11
  },
  {
   "actual": 17,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
-  "profession": "מערכות מידע",
+  "profession": "מנהלה וכוח אדם",
   "region": "מרחב דוד",
   "required": 20
+ },
+ {
+  "actual": 13,
+  "department": "מחוז ירושלים",
+  "district": "ירושלים",
+  "geo_area": "ירושלים",
+  "profession": "מערכות מידע",
+  "region": "מרחב דוד",
+  "required": 17
  },
  {
   "actual": 55,
@@ -735,7 +735,7 @@
   "geo_area": "ירושלים",
   "profession": "הדרכה והכשרות",
   "region": "מרחב ציון",
-  "required": 14
+  "required": 16
  },
  {
   "actual": 74,
@@ -747,49 +747,49 @@
   "required": 88
  },
  {
-  "actual": 13,
+  "actual": 10,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "ייעוץ משפטי",
   "region": "מרחב ציון",
-  "required": 15
+  "required": 12
  },
  {
-  "actual": 14,
+  "actual": 17,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "כספים ותקציב",
   "region": "מרחב ציון",
-  "required": 16
+  "required": 21
  },
  {
-  "actual": 25,
+  "actual": 22,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "לוגיסטיקה",
   "region": "מרחב ציון",
-  "required": 26
+  "required": 25
  },
  {
-  "actual": 15,
+  "actual": 8,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב ציון",
-  "required": 18
+  "required": 10
  },
  {
-  "actual": 9,
+  "actual": 3,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "מערכות מידע",
   "region": "מרחב ציון",
-  "required": 12
+  "required": 4
  },
  {
   "actual": 132,
@@ -819,13 +819,13 @@
   "required": 62
  },
  {
-  "actual": 10,
+  "actual": 17,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "הדרכה והכשרות",
   "region": "מרחב קדם",
-  "required": 11
+  "required": 20
  },
  {
   "actual": 66,
@@ -837,49 +837,49 @@
   "required": 81
  },
  {
-  "actual": 9,
+  "actual": 7,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "ייעוץ משפטי",
   "region": "מרחב קדם",
-  "required": 13
+  "required": 8
  },
  {
-  "actual": 16,
+  "actual": 8,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "כספים ותקציב",
   "region": "מרחב קדם",
-  "required": 18
+  "required": 10
  },
  {
-  "actual": 16,
+  "actual": 13,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "לוגיסטיקה",
   "region": "מרחב קדם",
-  "required": 21
+  "required": 16
  },
  {
-  "actual": 22,
+  "actual": 9,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב קדם",
-  "required": 23
+  "required": 10
  },
  {
-  "actual": 10,
+  "actual": 14,
   "department": "מחוז ירושלים",
   "district": "ירושלים",
   "geo_area": "ירושלים",
   "profession": "מערכות מידע",
   "region": "מרחב קדם",
-  "required": 12
+  "required": 17
  },
  {
   "actual": 118,
@@ -909,13 +909,13 @@
   "required": 31
  },
  {
-  "actual": 14,
+  "actual": 7,
   "department": "מחוז מג\"ב",
   "district": "מג\"ב",
   "geo_area": "מג\"ב",
   "profession": "הדרכה והכשרות",
   "region": "מרחב מג\"ב י-ם",
-  "required": 17
+  "required": 8
  },
  {
   "actual": 38,
@@ -927,49 +927,49 @@
   "required": 41
  },
  {
-  "actual": 5,
+  "actual": 10,
   "department": "מחוז מג\"ב",
   "district": "מג\"ב",
   "geo_area": "מג\"ב",
   "profession": "ייעוץ משפטי",
   "region": "מרחב מג\"ב י-ם",
-  "required": 5
- },
- {
-  "actual": 14,
-  "department": "מחוז מג\"ב",
-  "district": "מג\"ב",
-  "geo_area": "מג\"ב",
-  "profession": "כספים ותקציב",
-  "region": "מרחב מג\"ב י-ם",
-  "required": 18
- },
- {
-  "actual": 6,
-  "department": "מחוז מג\"ב",
-  "district": "מג\"ב",
-  "geo_area": "מג\"ב",
-  "profession": "לוגיסטיקה",
-  "region": "מרחב מג\"ב י-ם",
-  "required": 8
+  "required": 12
  },
  {
   "actual": 3,
   "department": "מחוז מג\"ב",
   "district": "מג\"ב",
   "geo_area": "מג\"ב",
-  "profession": "מנהלה וכוח אדם",
+  "profession": "כספים ותקציב",
   "region": "מרחב מג\"ב י-ם",
-  "required": 4
+  "required": 3
  },
  {
-  "actual": 13,
+  "actual": 10,
+  "department": "מחוז מג\"ב",
+  "district": "מג\"ב",
+  "geo_area": "מג\"ב",
+  "profession": "לוגיסטיקה",
+  "region": "מרחב מג\"ב י-ם",
+  "required": 11
+ },
+ {
+  "actual": 15,
+  "department": "מחוז מג\"ב",
+  "district": "מג\"ב",
+  "geo_area": "מג\"ב",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב מג\"ב י-ם",
+  "required": 18
+ },
+ {
+  "actual": 9,
   "department": "מחוז מג\"ב",
   "district": "מג\"ב",
   "geo_area": "מג\"ב",
   "profession": "מערכות מידע",
   "region": "מרחב מג\"ב י-ם",
-  "required": 16
+  "required": 11
  },
  {
   "actual": 67,
@@ -990,85 +990,85 @@
   "required": 28
  },
  {
-  "actual": 19,
+  "actual": 16,
   "department": "אג\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "הדרכה והכשרות",
   "region": "אג\"מ ארצי",
-  "required": 19
+  "required": 22
+ },
+ {
+  "actual": 12,
+  "department": "אג\"מ ארצי",
+  "district": "מטה ארצי",
+  "geo_area": "מטה ארצי",
+  "profession": "ייעוץ משפטי",
+  "region": "אג\"מ ארצי",
+  "required": 13
  },
  {
   "actual": 17,
   "department": "אג\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
-  "profession": "ייעוץ משפטי",
-  "region": "אג\"מ ארצי",
-  "required": 24
- },
- {
-  "actual": 30,
-  "department": "אג\"מ ארצי",
-  "district": "מטה ארצי",
-  "geo_area": "מטה ארצי",
   "profession": "כספים ותקציב",
   "region": "אג\"מ ארצי",
-  "required": 33
+  "required": 19
  },
  {
-  "actual": 14,
+  "actual": 25,
   "department": "אג\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "לוגיסטיקה",
   "region": "אג\"מ ארצי",
-  "required": 16
+  "required": 27
  },
  {
-  "actual": 29,
+  "actual": 13,
   "department": "אג\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "מנהלה וכוח אדם",
   "region": "אג\"מ ארצי",
-  "required": 32
+  "required": 15
  },
  {
-  "actual": 37,
+  "actual": 31,
   "department": "אג\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "מערכות מידע",
   "region": "אג\"מ ארצי",
-  "required": 41
+  "required": 35
  },
  {
-  "actual": 26,
+  "actual": 18,
   "department": "אגף משאבי אנוש",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "הדרכה והכשרות",
   "region": "אגף משאבי אנוש",
-  "required": 31
+  "required": 20
  },
  {
-  "actual": 25,
+  "actual": 13,
   "department": "אגף משאבי אנוש",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "ייעוץ משפטי",
   "region": "אגף משאבי אנוש",
-  "required": 32
+  "required": 13
  },
  {
-  "actual": 24,
+  "actual": 22,
   "department": "אגף משאבי אנוש",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "כספים ותקציב",
   "region": "אגף משאבי אנוש",
-  "required": 24
+  "required": 25
  },
  {
   "actual": 5,
@@ -1077,133 +1077,133 @@
   "geo_area": "מטה ארצי",
   "profession": "לוגיסטיקה",
   "region": "אגף משאבי אנוש",
-  "required": 6
+  "required": 7
  },
  {
-  "actual": 26,
+  "actual": 11,
   "department": "אגף משאבי אנוש",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "מנהלה וכוח אדם",
   "region": "אגף משאבי אנוש",
-  "required": 29
+  "required": 15
  },
  {
-  "actual": 42,
+  "actual": 19,
   "department": "אגף משאבי אנוש",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "מערכות מידע",
   "region": "אגף משאבי אנוש",
-  "required": 44
+  "required": 22
  },
  {
-  "actual": 13,
+  "actual": 24,
   "department": "אח\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "הדרכה והכשרות",
   "region": "אח\"מ ארצי",
-  "required": 13
+  "required": 30
  },
  {
-  "actual": 11,
+  "actual": 5,
   "department": "אח\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "ייעוץ משפטי",
   "region": "אח\"מ ארצי",
-  "required": 12
+  "required": 6
  },
  {
-  "actual": 8,
+  "actual": 29,
   "department": "אח\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "כספים ותקציב",
   "region": "אח\"מ ארצי",
-  "required": 10
+  "required": 36
+ },
+ {
+  "actual": 5,
+  "department": "אח\"מ ארצי",
+  "district": "מטה ארצי",
+  "geo_area": "מטה ארצי",
+  "profession": "לוגיסטיקה",
+  "region": "אח\"מ ארצי",
+  "required": 6
  },
  {
   "actual": 27,
   "department": "אח\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
-  "profession": "לוגיסטיקה",
+  "profession": "מנהלה וכוח אדם",
   "region": "אח\"מ ארצי",
-  "required": 30
+  "required": 31
  },
  {
   "actual": 15,
   "department": "אח\"מ ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
-  "profession": "מנהלה וכוח אדם",
-  "region": "אח\"מ ארצי",
-  "required": 21
- },
- {
-  "actual": 23,
-  "department": "אח\"מ ארצי",
-  "district": "מטה ארצי",
-  "geo_area": "מטה ארצי",
   "profession": "מערכות מידע",
   "region": "אח\"מ ארצי",
-  "required": 23
+  "required": 15
  },
  {
-  "actual": 30,
+  "actual": 13,
   "department": "את\"ן ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "הדרכה והכשרות",
   "region": "את\"ן ארצי",
-  "required": 35
- },
- {
-  "actual": 17,
-  "department": "את\"ן ארצי",
-  "district": "מטה ארצי",
-  "geo_area": "מטה ארצי",
-  "profession": "ייעוץ משפטי",
-  "region": "את\"ן ארצי",
-  "required": 22
- },
- {
-  "actual": 20,
-  "department": "את\"ן ארצי",
-  "district": "מטה ארצי",
-  "geo_area": "מטה ארצי",
-  "profession": "כספים ותקציב",
-  "region": "את\"ן ארצי",
-  "required": 24
- },
- {
-  "actual": 17,
-  "department": "את\"ן ארצי",
-  "district": "מטה ארצי",
-  "geo_area": "מטה ארצי",
-  "profession": "לוגיסטיקה",
-  "region": "את\"ן ארצי",
-  "required": 22
+  "required": 16
  },
  {
   "actual": 15,
   "department": "את\"ן ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
-  "profession": "מנהלה וכוח אדם",
+  "profession": "ייעוץ משפטי",
   "region": "את\"ן ארצי",
-  "required": 18
+  "required": 17
  },
  {
-  "actual": 20,
+  "actual": 29,
+  "department": "את\"ן ארצי",
+  "district": "מטה ארצי",
+  "geo_area": "מטה ארצי",
+  "profession": "כספים ותקציב",
+  "region": "את\"ן ארצי",
+  "required": 42
+ },
+ {
+  "actual": 21,
+  "department": "את\"ן ארצי",
+  "district": "מטה ארצי",
+  "geo_area": "מטה ארצי",
+  "profession": "לוגיסטיקה",
+  "region": "את\"ן ארצי",
+  "required": 21
+ },
+ {
+  "actual": 5,
+  "department": "את\"ן ארצי",
+  "district": "מטה ארצי",
+  "geo_area": "מטה ארצי",
+  "profession": "מנהלה וכוח אדם",
+  "region": "את\"ן ארצי",
+  "required": 6
+ },
+ {
+  "actual": 10,
   "department": "את\"ן ארצי",
   "district": "מטה ארצי",
   "geo_area": "מטה ארצי",
   "profession": "מערכות מידע",
   "region": "את\"ן ארצי",
-  "required": 26
+  "required": 13
  },
  {
   "actual": 32,
@@ -1215,13 +1215,13 @@
   "required": 35
  },
  {
-  "actual": 14,
+  "actual": 6,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "הדרכה והכשרות",
   "region": "מרחב נתב\"ג",
-  "required": 17
+  "required": 8
  },
  {
   "actual": 43,
@@ -1233,49 +1233,49 @@
   "required": 46
  },
  {
-  "actual": 18,
+  "actual": 5,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "ייעוץ משפטי",
   "region": "מרחב נתב\"ג",
-  "required": 21
- },
- {
-  "actual": 16,
-  "department": "מחוז מרכז",
-  "district": "מרכז",
-  "geo_area": "מרכז",
-  "profession": "כספים ותקציב",
-  "region": "מרחב נתב\"ג",
-  "required": 17
- },
- {
-  "actual": 14,
-  "department": "מחוז מרכז",
-  "district": "מרכז",
-  "geo_area": "מרכז",
-  "profession": "לוגיסטיקה",
-  "region": "מרחב נתב\"ג",
-  "required": 15
- },
- {
-  "actual": 19,
-  "department": "מחוז מרכז",
-  "district": "מרכז",
-  "geo_area": "מרכז",
-  "profession": "מנהלה וכוח אדם",
-  "region": "מרחב נתב\"ג",
-  "required": 22
+  "required": 6
  },
  {
   "actual": 15,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
+  "profession": "כספים ותקציב",
+  "region": "מרחב נתב\"ג",
+  "required": 20
+ },
+ {
+  "actual": 17,
+  "department": "מחוז מרכז",
+  "district": "מרכז",
+  "geo_area": "מרכז",
+  "profession": "לוגיסטיקה",
+  "region": "מרחב נתב\"ג",
+  "required": 20
+ },
+ {
+  "actual": 13,
+  "department": "מחוז מרכז",
+  "district": "מרכז",
+  "geo_area": "מרכז",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב נתב\"ג",
+  "required": 15
+ },
+ {
+  "actual": 14,
+  "department": "מחוז מרכז",
+  "district": "מרכז",
+  "geo_area": "מרכז",
   "profession": "מערכות מידע",
   "region": "מרחב נתב\"ג",
-  "required": 17
+  "required": 16
  },
  {
   "actual": 75,
@@ -1305,13 +1305,13 @@
   "required": 109
  },
  {
-  "actual": 5,
+  "actual": 16,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "הדרכה והכשרות",
   "region": "מרחב שפלה",
-  "required": 6
+  "required": 20
  },
  {
   "actual": 114,
@@ -1323,13 +1323,13 @@
   "required": 146
  },
  {
-  "actual": 13,
+  "actual": 6,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "ייעוץ משפטי",
   "region": "מרחב שפלה",
-  "required": 18
+  "required": 6
  },
  {
   "actual": 10,
@@ -1338,34 +1338,34 @@
   "geo_area": "מרכז",
   "profession": "כספים ותקציב",
   "region": "מרחב שפלה",
-  "required": 13
- },
- {
-  "actual": 13,
-  "department": "מחוז מרכז",
-  "district": "מרכז",
-  "geo_area": "מרכז",
-  "profession": "לוגיסטיקה",
-  "region": "מרחב שפלה",
-  "required": 16
+  "required": 11
  },
  {
   "actual": 12,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
-  "profession": "מנהלה וכוח אדם",
+  "profession": "לוגיסטיקה",
   "region": "מרחב שפלה",
-  "required": 14
+  "required": 13
  },
  {
-  "actual": 21,
+  "actual": 3,
+  "department": "מחוז מרכז",
+  "district": "מרכז",
+  "geo_area": "מרכז",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב שפלה",
+  "required": 3
+ },
+ {
+  "actual": 15,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "מערכות מידע",
   "region": "מרחב שפלה",
-  "required": 22
+  "required": 16
  },
  {
   "actual": 198,
@@ -1395,13 +1395,13 @@
   "required": 167
  },
  {
-  "actual": 8,
+  "actual": 14,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "הדרכה והכשרות",
   "region": "מרחב שרון",
-  "required": 10
+  "required": 14
  },
  {
   "actual": 177,
@@ -1419,10 +1419,10 @@
   "geo_area": "מרכז",
   "profession": "ייעוץ משפטי",
   "region": "מרחב שרון",
-  "required": 19
+  "required": 20
  },
  {
-  "actual": 14,
+  "actual": 15,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
@@ -1431,16 +1431,16 @@
   "required": 17
  },
  {
-  "actual": 7,
+  "actual": 9,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "לוגיסטיקה",
   "region": "מרחב שרון",
-  "required": 10
+  "required": 9
  },
  {
-  "actual": 8,
+  "actual": 6,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
@@ -1449,13 +1449,13 @@
   "required": 8
  },
  {
-  "actual": 15,
+  "actual": 20,
   "department": "מחוז מרכז",
   "district": "מרכז",
   "geo_area": "מרכז",
   "profession": "מערכות מידע",
   "region": "מרחב שרון",
-  "required": 20
+  "required": 22
  },
  {
   "actual": 312,
@@ -1485,13 +1485,13 @@
   "required": 114
  },
  {
-  "actual": 11,
+  "actual": 7,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "הדרכה והכשרות",
   "region": "מרחב גליל",
-  "required": 13
+  "required": 9
  },
  {
   "actual": 131,
@@ -1503,16 +1503,16 @@
   "required": 151
  },
  {
-  "actual": 14,
+  "actual": 13,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "ייעוץ משפטי",
   "region": "מרחב גליל",
-  "required": 18
+  "required": 15
  },
  {
-  "actual": 12,
+  "actual": 14,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
@@ -1521,22 +1521,22 @@
   "required": 15
  },
  {
-  "actual": 10,
+  "actual": 14,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "לוגיסטיקה",
   "region": "מרחב גליל",
-  "required": 11
+  "required": 16
  },
  {
-  "actual": 16,
+  "actual": 12,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב גליל",
-  "required": 23
+  "required": 12
  },
  {
   "actual": 14,
@@ -1575,13 +1575,13 @@
   "required": 116
  },
  {
-  "actual": 11,
+  "actual": 20,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "הדרכה והכשרות",
   "region": "מרחב כנרת",
-  "required": 13
+  "required": 24
  },
  {
   "actual": 134,
@@ -1593,34 +1593,34 @@
   "required": 156
  },
  {
-  "actual": 8,
+  "actual": 10,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "ייעוץ משפטי",
   "region": "מרחב כנרת",
-  "required": 10
+  "required": 11
  },
  {
-  "actual": 8,
+  "actual": 5,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "כספים ותקציב",
   "region": "מרחב כנרת",
-  "required": 9
+  "required": 6
  },
  {
-  "actual": 18,
+  "actual": 7,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "לוגיסטיקה",
   "region": "מרחב כנרת",
-  "required": 24
+  "required": 9
  },
  {
-  "actual": 9,
+  "actual": 10,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
@@ -1629,13 +1629,13 @@
   "required": 10
  },
  {
-  "actual": 18,
+  "actual": 11,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "מערכות מידע",
   "region": "מרחב כנרת",
-  "required": 23
+  "required": 14
  },
  {
   "actual": 232,
@@ -1665,13 +1665,13 @@
   "required": 137
  },
  {
-  "actual": 8,
+  "actual": 9,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "הדרכה והכשרות",
   "region": "מרחב עמקים",
-  "required": 11
+  "required": 12
  },
  {
   "actual": 149,
@@ -1683,49 +1683,49 @@
   "required": 183
  },
  {
-  "actual": 12,
+  "actual": 8,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "ייעוץ משפטי",
   "region": "מרחב עמקים",
-  "required": 15
+  "required": 10
  },
  {
-  "actual": 16,
+  "actual": 13,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "כספים ותקציב",
   "region": "מרחב עמקים",
-  "required": 18
+  "required": 16
  },
  {
-  "actual": 11,
+  "actual": 14,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "לוגיסטיקה",
   "region": "מרחב עמקים",
-  "required": 12
+  "required": 22
  },
  {
-  "actual": 11,
+  "actual": 6,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב עמקים",
-  "required": 15
+  "required": 8
  },
  {
-  "actual": 3,
+  "actual": 7,
   "department": "מחוז צפון",
   "district": "צפון",
   "geo_area": "צפון",
   "profession": "מערכות מידע",
   "region": "מרחב עמקים",
-  "required": 4
+  "required": 9
  },
  {
   "actual": 261,
@@ -1755,13 +1755,13 @@
   "required": 47
  },
  {
-  "actual": 18,
+  "actual": 13,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "הדרכה והכשרות",
   "region": "מרחב גלעד",
-  "required": 19
+  "required": 14
  },
  {
   "actual": 52,
@@ -1773,25 +1773,25 @@
   "required": 62
  },
  {
-  "actual": 9,
+  "actual": 11,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "ייעוץ משפטי",
   "region": "מרחב גלעד",
-  "required": 12
+  "required": 14
  },
  {
-  "actual": 9,
+  "actual": 21,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "כספים ותקציב",
   "region": "מרחב גלעד",
-  "required": 10
+  "required": 21
  },
  {
-  "actual": 14,
+  "actual": 16,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
@@ -1800,22 +1800,22 @@
   "required": 18
  },
  {
-  "actual": 19,
+  "actual": 8,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב גלעד",
-  "required": 22
+  "required": 11
  },
  {
-  "actual": 14,
+  "actual": 13,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "מערכות מידע",
   "region": "מרחב גלעד",
-  "required": 19
+  "required": 17
  },
  {
   "actual": 92,
@@ -1845,13 +1845,13 @@
   "required": 34
  },
  {
-  "actual": 11,
+  "actual": 12,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "הדרכה והכשרות",
   "region": "מרחב יהודה",
-  "required": 15
+  "required": 14
  },
  {
   "actual": 40,
@@ -1863,22 +1863,22 @@
   "required": 45
  },
  {
-  "actual": 8,
+  "actual": 18,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "ייעוץ משפטי",
   "region": "מרחב יהודה",
-  "required": 8
+  "required": 21
  },
  {
-  "actual": 21,
+  "actual": 13,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "כספים ותקציב",
   "region": "מרחב יהודה",
-  "required": 26
+  "required": 15
  },
  {
   "actual": 17,
@@ -1887,25 +1887,25 @@
   "geo_area": "ש\"י",
   "profession": "לוגיסטיקה",
   "region": "מרחב יהודה",
-  "required": 17
+  "required": 20
  },
  {
-  "actual": 10,
+  "actual": 12,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב יהודה",
-  "required": 11
+  "required": 14
  },
  {
-  "actual": 11,
+  "actual": 16,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "מערכות מידע",
   "region": "מרחב יהודה",
-  "required": 14
+  "required": 20
  },
  {
   "actual": 69,
@@ -1935,13 +1935,13 @@
   "required": 44
  },
  {
-  "actual": 7,
+  "actual": 3,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "הדרכה והכשרות",
   "region": "מרחב שומרון",
-  "required": 10
+  "required": 3
  },
  {
   "actual": 56,
@@ -1953,49 +1953,49 @@
   "required": 59
  },
  {
-  "actual": 16,
+  "actual": 13,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "ייעוץ משפטי",
   "region": "מרחב שומרון",
-  "required": 18
+  "required": 16
  },
  {
-  "actual": 10,
+  "actual": 26,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "כספים ותקציב",
   "region": "מרחב שומרון",
-  "required": 12
+  "required": 26
  },
  {
-  "actual": 17,
+  "actual": 3,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "לוגיסטיקה",
   "region": "מרחב שומרון",
-  "required": 19
+  "required": 3
  },
  {
-  "actual": 10,
+  "actual": 13,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "מנהלה וכוח אדם",
   "region": "מרחב שומרון",
-  "required": 13
+  "required": 15
  },
  {
-  "actual": 14,
+  "actual": 11,
   "department": "מחוז ש\"י",
   "district": "ש\"י",
   "geo_area": "ש\"י",
   "profession": "מערכות מידע",
   "region": "מרחב שומרון",
-  "required": 15
+  "required": 12
  },
  {
   "actual": 97,
@@ -2025,13 +2025,13 @@
   "required": 105
  },
  {
-  "actual": 14,
+  "actual": 10,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "הדרכה והכשרות",
   "region": "מרחב איילון",
-  "required": 16
+  "required": 17
  },
  {
   "actual": 126,
@@ -2043,13 +2043,13 @@
   "required": 141
  },
  {
-  "actual": 13,
+  "actual": 18,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "ייעוץ משפטי",
   "region": "מרחב איילון",
-  "required": 16
+  "required": 22
  },
  {
   "actual": 13,
@@ -2058,19 +2058,19 @@
   "geo_area": "תל אביב",
   "profession": "כספים ותקציב",
   "region": "מרחב איילון",
-  "required": 16
+  "required": 15
  },
  {
-  "actual": 18,
+  "actual": 8,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "לוגיסטיקה",
   "region": "מרחב איילון",
-  "required": 19
+  "required": 12
  },
  {
-  "actual": 12,
+  "actual": 16,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
@@ -2085,7 +2085,7 @@
   "geo_area": "תל אביב",
   "profession": "מערכות מידע",
   "region": "מרחב איילון",
-  "required": 12
+  "required": 10
  },
  {
   "actual": 221,
@@ -2115,7 +2115,7 @@
   "required": 68
  },
  {
-  "actual": 8,
+  "actual": 10,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
@@ -2133,49 +2133,49 @@
   "required": 89
  },
  {
-  "actual": 7,
+  "actual": 16,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "ייעוץ משפטי",
   "region": "מרחב דן",
-  "required": 8
+  "required": 20
+ },
+ {
+  "actual": 5,
+  "department": "מחוז תל אביב",
+  "district": "תל אביב",
+  "geo_area": "תל אביב",
+  "profession": "כספים ותקציב",
+  "region": "מרחב דן",
+  "required": 6
+ },
+ {
+  "actual": 9,
+  "department": "מחוז תל אביב",
+  "district": "תל אביב",
+  "geo_area": "תל אביב",
+  "profession": "לוגיסטיקה",
+  "region": "מרחב דן",
+  "required": 12
+ },
+ {
+  "actual": 2,
+  "department": "מחוז תל אביב",
+  "district": "תל אביב",
+  "geo_area": "תל אביב",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב דן",
+  "required": 3
  },
  {
   "actual": 10,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
-  "profession": "כספים ותקציב",
-  "region": "מרחב דן",
-  "required": 13
- },
- {
-  "actual": 11,
-  "department": "מחוז תל אביב",
-  "district": "תל אביב",
-  "geo_area": "תל אביב",
-  "profession": "לוגיסטיקה",
-  "region": "מרחב דן",
-  "required": 13
- },
- {
-  "actual": 12,
-  "department": "מחוז תל אביב",
-  "district": "תל אביב",
-  "geo_area": "תל אביב",
-  "profession": "מנהלה וכוח אדם",
-  "region": "מרחב דן",
-  "required": 14
- },
- {
-  "actual": 8,
-  "department": "מחוז תל אביב",
-  "district": "תל אביב",
-  "geo_area": "תל אביב",
   "profession": "מערכות מידע",
   "region": "מרחב דן",
-  "required": 8
+  "required": 11
  },
  {
   "actual": 131,
@@ -2205,13 +2205,13 @@
   "required": 65
  },
  {
-  "actual": 16,
+  "actual": 14,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "הדרכה והכשרות",
   "region": "מרחב ירקון",
-  "required": 21
+  "required": 17
  },
  {
   "actual": 70,
@@ -2223,29 +2223,20 @@
   "required": 87
  },
  {
-  "actual": 17,
+  "actual": 14,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "ייעוץ משפטי",
   "region": "מרחב ירקון",
-  "required": 18
- },
- {
-  "actual": 10,
-  "department": "מחוז תל אביב",
-  "district": "תל אביב",
-  "geo_area": "תל אביב",
-  "profession": "כספים ותקציב",
-  "region": "מרחב ירקון",
-  "required": 12
+  "required": 17
  },
  {
   "actual": 11,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
-  "profession": "לוגיסטיקה",
+  "profession": "כספים ותקציב",
   "region": "מרחב ירקון",
   "required": 11
  },
@@ -2254,18 +2245,27 @@
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
-  "profession": "מנהלה וכוח אדם",
+  "profession": "לוגיסטיקה",
   "region": "מרחב ירקון",
   "required": 7
  },
  {
-  "actual": 15,
+  "actual": 4,
+  "department": "מחוז תל אביב",
+  "district": "תל אביב",
+  "geo_area": "תל אביב",
+  "profession": "מנהלה וכוח אדם",
+  "region": "מרחב ירקון",
+  "required": 5
+ },
+ {
+  "actual": 6,
   "department": "מחוז תל אביב",
   "district": "תל אביב",
   "geo_area": "תל אביב",
   "profession": "מערכות מידע",
   "region": "מרחב ירקון",
-  "required": 20
+  "required": 7
  },
  {
   "actual": 123,

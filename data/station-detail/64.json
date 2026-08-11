@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 10,
+   "count": 21,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 9,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 12,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 8,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 17,
- "candidates_in_process": 49,
- "candidates_pct_jewish": 88.2,
- "candidates_pct_male": 58.8,
- "candidates_religion_coverage": 17,
+ "candidates_gender_coverage": 41,
+ "candidates_in_process": 100,
+ "candidates_pct_jewish": 72.1,
+ "candidates_pct_male": 70.7,
+ "candidates_religion_coverage": 43,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת עכו",
  "nearby_settlements": [],
+ "open_positions": 23,
  "pct_jewish": 81.0,
  "pct_male": 73.6,
  "required_positions": 110,
@@ -91,5 +92,6 @@
  "staffing_pct": 80.91,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 8
 }

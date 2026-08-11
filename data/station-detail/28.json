@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 6,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 3,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 4,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 8,
- "candidates_in_process": 20,
- "candidates_pct_jewish": 75.0,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 8,
+ "candidates_gender_coverage": 12,
+ "candidates_in_process": 30,
+ "candidates_pct_jewish": 45.5,
+ "candidates_pct_male": 58.3,
+ "candidates_religion_coverage": 11,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "חוף",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת חדרה",
  "nearby_settlements": [],
+ "open_positions": 21,
  "pct_jewish": 72.6,
  "pct_male": 57.3,
  "required_positions": 90,
@@ -91,5 +92,6 @@
  "staffing_pct": 77.78,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 12
 }

@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 8,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 3,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 4,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 3,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 4,
- "candidates_in_process": 10,
- "candidates_pct_jewish": 66.7,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 3,
+ "candidates_gender_coverage": 15,
+ "candidates_in_process": 36,
+ "candidates_pct_jewish": 73.3,
+ "candidates_pct_male": 86.7,
+ "candidates_religion_coverage": 15,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת מוריה",
  "nearby_settlements": [],
+ "open_positions": 11,
  "pct_jewish": 93.1,
  "pct_male": 69.7,
  "required_positions": 78,
@@ -91,5 +92,6 @@
  "staffing_pct": 87.18,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 5
 }

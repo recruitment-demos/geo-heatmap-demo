@@ -1,12 +1,49 @@
 {
  "actual_positions": 121,
  "area": "רותם",
- "candidates_by_role": null,
- "candidates_gender_coverage": 0,
- "candidates_in_process": 1,
- "candidates_pct_jewish": null,
- "candidates_pct_male": null,
- "candidates_religion_coverage": 0,
+ "candidates_by_role": [
+  {
+   "candidates_gender_coverage": null,
+   "candidates_pct_jewish": null,
+   "candidates_pct_male": null,
+   "candidates_religion_coverage": null,
+   "count": 1,
+   "key": "patrol",
+   "label": "סייר"
+  },
+  {
+   "candidates_gender_coverage": null,
+   "candidates_pct_jewish": null,
+   "candidates_pct_male": null,
+   "candidates_religion_coverage": null,
+   "count": 1,
+   "key": "detectives",
+   "label": "בלש"
+  },
+  {
+   "candidates_gender_coverage": null,
+   "candidates_pct_jewish": null,
+   "candidates_pct_male": null,
+   "candidates_religion_coverage": null,
+   "count": 1,
+   "key": "investigators",
+   "label": "חוקר"
+  },
+  {
+   "candidates_gender_coverage": null,
+   "candidates_pct_jewish": null,
+   "candidates_pct_male": null,
+   "candidates_religion_coverage": null,
+   "count": 0,
+   "key": "other",
+   "label": "אחר"
+  }
+ ],
+ "candidates_gender_coverage": 2,
+ "candidates_in_process": 6,
+ "candidates_pct_jewish": 50.0,
+ "candidates_pct_male": 50.0,
+ "candidates_religion_coverage": 2,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "דרום",
@@ -18,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת דימונה",
  "nearby_settlements": [],
+ "open_positions": 0,
  "pct_jewish": 91.8,
  "pct_male": 72.1,
  "required_positions": 121,
@@ -54,5 +92,6 @@
  "staffing_pct": 100.0,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 0
 }

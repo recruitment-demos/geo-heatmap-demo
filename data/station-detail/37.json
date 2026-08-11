@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 9,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 4,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 5,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 17,
- "candidates_in_process": 34,
- "candidates_pct_jewish": 63.6,
- "candidates_pct_male": 58.8,
- "candidates_religion_coverage": 11,
+ "candidates_gender_coverage": 16,
+ "candidates_in_process": 42,
+ "candidates_pct_jewish": 47.1,
+ "candidates_pct_male": 75.0,
+ "candidates_religion_coverage": 17,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "תל אביב",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת יפו",
  "nearby_settlements": [],
+ "open_positions": 9,
  "pct_jewish": 82.5,
  "pct_male": 59.4,
  "required_positions": 106,
@@ -91,5 +92,6 @@
  "staffing_pct": 91.51,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 4
 }

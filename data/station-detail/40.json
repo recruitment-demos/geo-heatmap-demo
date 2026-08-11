@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 47,
+   "count": 23,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 20,
+   "count": 10,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 27,
+   "count": 13,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 18,
+   "count": 9,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 94,
- "candidates_in_process": 224,
- "candidates_pct_jewish": 81.2,
- "candidates_pct_male": 83.0,
- "candidates_religion_coverage": 85,
+ "candidates_gender_coverage": 42,
+ "candidates_in_process": 109,
+ "candidates_pct_jewish": 88.4,
+ "candidates_pct_male": 64.3,
+ "candidates_religion_coverage": 43,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת כפר סבא",
  "nearby_settlements": [],
+ "open_positions": 45,
  "pct_jewish": 85.5,
  "pct_male": 67.7,
  "required_positions": 200,
@@ -91,5 +92,6 @@
  "staffing_pct": 78.0,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 22
 }

@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 14,
+   "count": 8,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 6,
+   "count": 3,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 8,
+   "count": 4,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 3,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 26,
- "candidates_in_process": 66,
- "candidates_pct_jewish": 52.4,
- "candidates_pct_male": 53.8,
- "candidates_religion_coverage": 21,
+ "candidates_gender_coverage": 14,
+ "candidates_in_process": 36,
+ "candidates_pct_jewish": 72.2,
+ "candidates_pct_male": 50.0,
+ "candidates_religion_coverage": 18,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת נוף הגליל",
  "nearby_settlements": [],
+ "open_positions": 25,
  "pct_jewish": 79.6,
  "pct_male": 67.7,
  "required_positions": 124,
@@ -91,5 +92,6 @@
  "staffing_pct": 80.65,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 12
 }

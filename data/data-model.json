@@ -2,8 +2,8 @@
  "base": {
   "admin_rows": 254,
   "ok": true,
-  "positions": 12583,
-  "vacant": 2000
+  "positions": 12292,
+  "vacant": 905
  },
  "checks": [
   {
@@ -24,15 +24,15 @@
    "label": "סכום התקן — שורות התקן מול היחידות והמרחבים",
    "note": "כל שורת תקן נספרת לישות אחת בדיוק — לא פחות ולא פעמיים",
    "ok": true,
-   "screen": 12010,
-   "table": 12010
+   "screen": 11750,
+   "table": 11750
   },
   {
    "label": "סכום האיוש — שורות התקן מול היחידות והמרחבים",
    "note": "",
    "ok": true,
-   "screen": 10101,
-   "table": 10101
+   "screen": 9904,
+   "table": 9904
   },
   {
    "label": "יחידות עניין",
@@ -52,15 +52,15 @@
    "label": "תקן המנהלה — מול שורות התקן שממנו נגזר",
    "note": "מסוכם משורות התקן בלי סיווג 'למחיקה', ומעוגל לשלם בכל שורה",
    "ok": true,
-   "screen": 12010,
-   "table": 12010
+   "screen": 11750,
+   "table": 11750
   },
   {
    "label": "מועמדים בהליך",
    "note": "הסך הארצי שווה לסכום ארבע משפחות התפקיד",
    "ok": false,
    "screen": 0,
-   "table": 2173
+   "table": 2283
   },
   {
    "label": "יישובים עם קואורדינטה",
@@ -87,8 +87,8 @@
    "label": "משרות פנויות לגיוס",
    "note": "משרה פנויה נספרת גם כשאינה משויכת לתחנה",
    "ok": true,
-   "screen": 2000,
-   "table": 2000
+   "screen": 905,
+   "table": 905
   }
  ],
  "findings": [
@@ -113,7 +113,7 @@
   "errors": 0,
   "gaps": 1,
   "optional_failed": 0,
-  "rows": 18293,
+  "rows": 17998,
   "tables": 25,
   "warnings": 1
  },
@@ -122,10 +122,10 @@
    "edited_at": null,
    "kind": "בסיס",
    "label": "שורות התקן והמצבה — משרה אחת בכל שורה",
-   "rows": 12583,
+   "rows": 12292,
    "source": "קובץ תקן ומצבה",
    "table": "police_positions",
-   "updated": "2026-08-09T18:15:06"
+   "updated": "2026-08-10T10:43:00"
   },
   {
    "edited_at": null,
@@ -134,7 +134,7 @@
    "rows": 254,
    "source": "מסוכם מ-police_positions",
    "table": "admin_staffing",
-   "updated": "2026-08-10T20:15:06"
+   "updated": "2026-08-11T12:43:00"
   },
   {
    "edited_at": "ניהול נתונים › איוש תחנות",
@@ -179,7 +179,7 @@
    "rows": 6,
    "source": "קובץ סיווג יחידות",
    "table": "recruit_unit",
-   "updated": "2026-08-10T20:15:06"
+   "updated": "2026-08-11T12:43:00"
   },
   {
    "edited_at": "ניהול נתונים › קשרי תחנה‑יישוב",
@@ -224,7 +224,7 @@
    "rows": 1,
    "source": "קובץ הסיווג + עריכה",
    "table": "unit_alias",
-   "updated": "2026-08-10T20:15:06"
+   "updated": "2026-08-11T12:43:00"
   },
   {
    "edited_at": "הגדרות",
@@ -269,7 +269,7 @@
    "rows": 4,
    "source": "נרשם בכל טעינה",
    "table": "load_log",
-   "updated": "2026-08-09T18:15:06"
+   "updated": "2026-08-10T10:43:00"
   },
   {
    "edited_at": "ניהול נתונים › יומן שינויים",
@@ -287,7 +287,7 @@
    "rows": 7,
    "source": "נרשם בכל רענון",
    "table": "status_alerts",
-   "updated": "2026-08-09T20:15:06"
+   "updated": "2026-08-10T12:43:00"
   },
   {
    "edited_at": null,
@@ -302,7 +302,7 @@
    "edited_at": null,
    "kind": "טרם נטען",
    "label": "מועמדים ברמת תחנה",
-   "rows": 431,
+   "rows": 427,
    "source": "עמודת 'תחנה' בקובץ המועמדים ריקה",
    "table": "candidates_in_process",
    "updated": null

@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 18,
+   "count": 24,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 8,
+   "count": 10,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 10,
+   "count": 14,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 7,
+   "count": 9,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 31,
- "candidates_in_process": 85,
- "candidates_pct_jewish": 76.9,
- "candidates_pct_male": 61.3,
- "candidates_religion_coverage": 39,
+ "candidates_gender_coverage": 45,
+ "candidates_in_process": 114,
+ "candidates_pct_jewish": 65.9,
+ "candidates_pct_male": 55.6,
+ "candidates_religion_coverage": 41,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
@@ -55,6 +55,7 @@
  "missing_to_delete": 2,
  "name": "תחנת פתח תקוה",
  "nearby_settlements": [],
+ "open_positions": 36,
  "pct_jewish": 59.2,
  "pct_male": 68.8,
  "required_positions": 155,
@@ -91,5 +92,6 @@
  "staffing_pct": 78.71,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 17
 }

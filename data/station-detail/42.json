@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 24,
+   "count": 16,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 10,
+   "count": 7,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 13,
+   "count": 9,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 9,
+   "count": 6,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 45,
- "candidates_in_process": 112,
- "candidates_pct_jewish": 83.3,
- "candidates_pct_male": 51.1,
- "candidates_religion_coverage": 42,
+ "candidates_gender_coverage": 34,
+ "candidates_in_process": 77,
+ "candidates_pct_jewish": 92.9,
+ "candidates_pct_male": 55.9,
+ "candidates_religion_coverage": 28,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 3,
  "name": "תחנת כרמיאל",
  "nearby_settlements": [],
+ "open_positions": 29,
  "pct_jewish": 93.6,
  "pct_male": 70.9,
  "required_positions": 148,
@@ -91,5 +92,6 @@
  "staffing_pct": 82.43,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 2
+ "surplus_positions": 2,
+ "vacant_positions": 12
 }

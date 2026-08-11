@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 18,
+   "count": 19,
    "key": "patrol",
    "label": "סייר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 38,
- "candidates_in_process": 88,
- "candidates_pct_jewish": 74.3,
- "candidates_pct_male": 63.2,
- "candidates_religion_coverage": 35,
+ "candidates_gender_coverage": 41,
+ "candidates_in_process": 90,
+ "candidates_pct_jewish": 76.9,
+ "candidates_pct_male": 41.5,
+ "candidates_religion_coverage": 26,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
@@ -55,6 +55,7 @@
  "missing_to_delete": 3,
  "name": "תחנת מודיעין",
  "nearby_settlements": [],
+ "open_positions": 35,
  "pct_jewish": 77.8,
  "pct_male": 75.9,
  "required_positions": 105,
@@ -91,5 +92,6 @@
  "staffing_pct": 70.48,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 11
 }

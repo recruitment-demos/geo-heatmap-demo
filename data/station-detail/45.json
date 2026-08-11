@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 14,
+   "count": 13,
    "key": "patrol",
    "label": "סייר"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 31,
- "candidates_in_process": 66,
- "candidates_pct_jewish": 48.0,
- "candidates_pct_male": 64.5,
- "candidates_religion_coverage": 25,
+ "candidates_gender_coverage": 32,
+ "candidates_in_process": 64,
+ "candidates_pct_jewish": 64.3,
+ "candidates_pct_male": 59.4,
+ "candidates_religion_coverage": 28,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת לוד",
  "nearby_settlements": [],
+ "open_positions": 22,
  "pct_jewish": 74.0,
  "pct_male": 69.7,
  "required_positions": 109,
@@ -91,5 +92,6 @@
  "staffing_pct": 79.82,
  "status": "דחוף",
  "status_key": "urgent",
- "surplus_positions": 3
+ "surplus_positions": 3,
+ "vacant_positions": 11
 }

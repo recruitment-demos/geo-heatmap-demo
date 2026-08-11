@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 3,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 1,
    "key": "detectives",
    "label": "בלש"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 8,
- "candidates_in_process": 18,
- "candidates_pct_jewish": 85.7,
- "candidates_pct_male": 62.5,
- "candidates_religion_coverage": 7,
+ "candidates_gender_coverage": 6,
+ "candidates_in_process": 14,
+ "candidates_pct_jewish": 50.0,
+ "candidates_pct_male": 66.7,
+ "candidates_religion_coverage": 6,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "ירושלים",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת בית שמש",
  "nearby_settlements": [],
+ "open_positions": 4,
  "pct_jewish": 73.2,
  "pct_male": 72.4,
  "required_positions": 35,
@@ -91,5 +92,6 @@
  "staffing_pct": 88.57,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 3
 }

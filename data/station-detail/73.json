@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 3,
+   "count": 14,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 6,
    "key": "detectives",
    "label": "בלש"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 8,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 5,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 6,
- "candidates_in_process": 15,
- "candidates_pct_jewish": 57.1,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 7,
+ "candidates_gender_coverage": 24,
+ "candidates_in_process": 67,
+ "candidates_pct_jewish": 47.6,
+ "candidates_pct_male": 66.7,
+ "candidates_religion_coverage": 21,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -55,6 +55,7 @@
  "missing_to_delete": 2,
  "name": "תחנת קרית שמונה",
  "nearby_settlements": [],
+ "open_positions": 29,
  "pct_jewish": 58.8,
  "pct_male": 74.9,
  "required_positions": 156,
@@ -91,5 +92,6 @@
  "staffing_pct": 82.05,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 13
 }

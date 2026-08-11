@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 9,
- "candidates_in_process": 24,
- "candidates_pct_jewish": 54.5,
- "candidates_pct_male": 55.6,
- "candidates_religion_coverage": 11,
+ "candidates_gender_coverage": 10,
+ "candidates_in_process": 23,
+ "candidates_pct_jewish": 71.4,
+ "candidates_pct_male": 50.0,
+ "candidates_religion_coverage": 7,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "דרום",
@@ -55,6 +55,7 @@
  "missing_to_delete": 0,
  "name": "תחנת קרית גת",
  "nearby_settlements": [],
+ "open_positions": 8,
  "pct_jewish": 71.7,
  "pct_male": 63.4,
  "required_positions": 56,
@@ -91,5 +92,6 @@
  "staffing_pct": 85.71,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 0
+ "surplus_positions": 0,
+ "vacant_positions": 4
 }

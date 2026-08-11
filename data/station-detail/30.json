@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 4,
+   "count": 5,
    "key": "patrol",
    "label": "סייר"
   },
@@ -25,7 +25,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 2,
+   "count": 3,
    "key": "investigators",
    "label": "חוקר"
   },
@@ -34,16 +34,16 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 1,
+   "count": 2,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 8,
- "candidates_in_process": 18,
- "candidates_pct_jewish": 66.7,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 6,
+ "candidates_gender_coverage": 9,
+ "candidates_in_process": 25,
+ "candidates_pct_jewish": 71.4,
+ "candidates_pct_male": 44.4,
+ "candidates_religion_coverage": 7,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "חוף",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת חיפה",
  "nearby_settlements": [],
+ "open_positions": 10,
  "pct_jewish": 60.6,
  "pct_male": 64.6,
  "required_positions": 130,
@@ -91,5 +92,6 @@
  "staffing_pct": 92.31,
  "status": "תקין",
  "status_key": "ok",
- "surplus_positions": 1
+ "surplus_positions": 1,
+ "vacant_positions": 3
 }

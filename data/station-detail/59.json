@@ -7,7 +7,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 11,
+   "count": 10,
    "key": "patrol",
    "label": "סייר"
   },
@@ -16,7 +16,7 @@
    "candidates_pct_jewish": null,
    "candidates_pct_male": null,
    "candidates_religion_coverage": null,
-   "count": 5,
+   "count": 4,
    "key": "detectives",
    "label": "בלש"
   },
@@ -39,11 +39,11 @@
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 27,
- "candidates_in_process": 53,
- "candidates_pct_jewish": 63.2,
- "candidates_pct_male": 63.0,
- "candidates_religion_coverage": 19,
+ "candidates_gender_coverage": 17,
+ "candidates_in_process": 48,
+ "candidates_pct_jewish": 76.5,
+ "candidates_pct_male": 64.7,
+ "candidates_religion_coverage": 17,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "חוף",
@@ -55,6 +55,7 @@
  "missing_to_delete": 1,
  "name": "תחנת נשר",
  "nearby_settlements": [],
+ "open_positions": 17,
  "pct_jewish": 88.3,
  "pct_male": 58.8,
  "required_positions": 105,
@@ -91,5 +92,6 @@
  "staffing_pct": 83.81,
  "status": "בינוני",
  "status_key": "medium",
- "surplus_positions": 3
+ "surplus_positions": 3,
+ "vacant_positions": 10
 }
