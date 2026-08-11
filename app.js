@@ -39,8 +39,8 @@ const DISTRICT_TINT = {
 //
 // §38: ומעליו נכנסים שמות המרחבים, ברמה אחת פנימה. בכל זום יש שכבת
 // התמצאות אחת בלבד: שתיהן יחד היו שתי רשתות שמות על אותה מפה.
-const DISTRICT_LABEL_MAX_ZOOM = 10;
-const REGION_LABEL_MIN_ZOOM = 11;
+// §42.1: שני ספי הזום של התוויות הוסרו. שם המרחב מוצג בכל זום, ושם
+// המחוז אינו מוצג כלל — אין יותר תלות בזום, ולכן אין מה לכייל.
 // §42: אין יותר תקרה עליונה לשם המרחב. היא הסתירה אותו בדיוק כשמסתכלים
 // על מרחב אחד מקרוב, והמסך נשאר בלי שום ציון של איפה אתה נמצא.
 
@@ -1387,40 +1387,38 @@ function renderEntityLabels() {
 // הנקודה אינה מרכז המסה אלא הנקודה הרחוקה ביותר מהגבול (ראו
 // tools/build_district_outline.py) — מרכז המסה של ש"י נופל בירושלים,
 // ותווית מחוץ לשטח נקראת כאילו היא של השכן.
-// §42: **רמה אחת בכל זום — ולא שתי רשתות זו על גבי זו.**
+// §42.1: **מפה אחת — מפת המרחבים. המחוז הוא קו בלבד.**
 //
-// קודם המפה ציירה בו-זמנית את גבולות המחוזות (עם מילוי צבעוני) ואת
-// גבולות המרחבים. שתי רשתות באותו מקום נקראות כמו רעש, ולא כמו היררכיה.
+// §42 הבין את זה הפוך והסתיר את המרחבים במבט הרחב. זו הייתה טעות: המרחב
+// הוא הרמה שמגייסים עובדים בה, והבקשה הייתה לבטל את **הכפילות**, לא
+// אותו.
 //
-// מה שנקבע:
-//   * **מרחוק — המחוז בלבד.** מילוי בגוון, קו מקווקו, ושם המחוז.
-//   * **מקרוב — המרחב הוא העיקר.** הגבולות שלו נכנסים, השם שלו מוצג,
-//     והמילוי של המחוז יורד כמעט לגמרי כדי שלא יתחרה בו.
-//   * **קו המחוז נשאר חזק תמיד**, גם כשהשם שלו כבר אינו מוצג: מעבר בין
-//     מחוזות הוא הדבר שצריך להיראות במבט אחד, וזה מה שהתבקש.
+// מה שיורד: **המילוי הצבעוני של המחוזות** — "המפה הישנה". הוא זה שיצר
+// מפה על גבי מפה, והוא היחיד שהיה מיותר.
+//
+// מה שנשאר, בכל זום:
+//   * **גבולות המרחבים ושמותיהם** — תמיד. זו המפה.
+//   * **קו המחוז, חזק ורציף** — בלי מילוי ובלי שם. מעבר בין מחוזות
+//     נראה במבט אחד, וזה בדיוק מה שהתבקש.
 function applyBoundaryZoom() {
   if (!state.map) return;
-  const close = state.map.getZoom() > DISTRICT_LABEL_MAX_ZOOM;
 
   if (state.districtLayer) {
-    state.districtLayer.setStyle((feature) => ({
-      color: close ? "#5b6880" : "#8794a8",
-      // מקרוב הקו של המחוז מתחזק ונעשה רציף — הוא הגבול החיצוני שבתוכו
-      // יושבים המרחבים, ולכן הוא חייב להיקרא אחרת מהם.
-      weight: close ? 2.6 : 1.4,
-      dashArray: close ? null : "5 4",
-      fillColor: DISTRICT_TINT[feature.properties.name] || "#c9cfd8",
-      fillOpacity: close ? 0.08 : 0.3,
-    }));
+    // קו בלבד. `fill: false` ולא אטימות נמוכה — מילוי שקוף למחצה על פני
+    // שבעה מחוזות עדיין צובע את כל המסך, וזה מה שהפריע.
+    state.districtLayer.setStyle({
+      color: "#5b6880",
+      weight: 2.6,
+      dashArray: null,
+      fill: false,
+    });
   }
 
+  if (state.regionLayer && !state.map.hasLayer(state.regionLayer)) {
+    state.regionLayer.addTo(state.map);
+  }
   if (state.regionLayer) {
-    const shown = state.map.hasLayer(state.regionLayer);
-    if (close && !shown) state.regionLayer.addTo(state.map);
-    if (!close && shown) state.map.removeLayer(state.regionLayer);
-    if (close) {
-      state.regionLayer.setStyle({ color: "#7c8ba1", weight: 1.5, dashArray: "4 3", fill: false });
-    }
+    state.regionLayer.setStyle({ color: "#7c8ba1", weight: 1.5, dashArray: "4 3", fill: false });
   }
 }
 
@@ -1428,16 +1426,14 @@ function renderDistrictLabels() {
   if (!state.map || !state.districtLabelLayer) return;
   state.districtLabelLayer.clearLayers();
 
-  const zoom = state.map.getZoom();
-  // רמה אחת בכל זום: מחוזות במבט הארצי, מרחבים ברמה אחת פנימה, וכלום
-  // כשמתקרבים עד שהמפה כבר מלאה בשמות התחנות עצמן.
-  const items =
-    zoom <= DISTRICT_LABEL_MAX_ZOOM
-      ? state.districtLabels
-      : zoom >= REGION_LABEL_MIN_ZOOM
-        ? state.regionLabels
-        : [];
-  const wide = zoom <= DISTRICT_LABEL_MAX_ZOOM;
+  // §42.1: **שמות המרחבים, בכל זום.** קודם הם הופיעו רק ברמה אחת פנימה,
+  // ולכן במבט הפתיחה — המבט שרואים ראשון — לא היה על המפה שם מרחב אחד.
+  // בדרום, שהוא ארבעה מרחבים על פני חצי מהמדינה, זה היה בולט במיוחד.
+  //
+  // שם המחוז ירד לגמרי: הוא היה השכבה השנייה שיצרה מפה על מפה, וקו
+  // המחוז לבדו כבר אומר איפה עוברים ממחוז למחוז.
+  const items = state.regionLabels || [];
+  const wide = false;
 
   items.forEach((item) => {
     L.marker([item.lat, item.lng], {
