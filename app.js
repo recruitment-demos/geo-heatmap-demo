@@ -306,18 +306,12 @@ const MODES = {
     breakdown: (entity) =>
       vacancyNote(entity) +
       demographics(entity) +
-      familyChips(
-        "חוסר לפי תפקיד במרחב",
-        missingItems(entity),
-        reconcileItems(entity),
-        "missing-by-station"
-      ) +
+      familyChips("חוסר לפי תפקיד במרחב", missingItems(entity), "missing-by-station") +
       familyChips(
         entity.candidates_source === "area"
           ? 'מועמדים בהליך לפי תפקיד (משדה "דרישה")'
           : "מועמדים בהליך לפי תפקיד (מהתחנות שבמרחב)",
         candidateItems(entity),
-        null,
         entity.candidates_source === "area" ? "candidates-no-stations" : "candidates-by-station"
       ),
     suggestionMeta: (e) => `<span class="sugg-dot" style="background:${e.color}"></span>`,
@@ -386,18 +380,8 @@ const MODES = {
       if (picked) {
         return (
           demographics(picked) +
-          familyChips(
-            `חוסר לפי תפקיד — ${picked.name}`,
-            missingItems(picked),
-            reconcileItems(picked),
-            "occupations"
-          ) +
-          familyChips(
-            `מועמדים בהליך — ${picked.name}`,
-            candidateItems(picked),
-            null,
-            ""
-          ) +
+          familyChips(`חוסר לפי תפקיד — ${picked.name}`, missingItems(picked), "occupations") +
+          familyChips(`מועמדים בהליך — ${picked.name}`, candidateItems(picked), "") +
           `<button class="picker-back" id="back-to-all">‹ כל התחנות בטווח</button>`
         );
       }
@@ -406,13 +390,11 @@ const MODES = {
         familyChips(
           "חוסר לפי תפקיד בתחנות שבטווח",
           sumFamilies(stations, missingItems),
-          null,
           "missing-by-station"
         ) +
         familyChips(
           "מועמדים בהליך בתחנות שבטווח",
           sumFamilies(stations, candidateItems),
-          null,
           "candidates-by-station"
         )
       );
@@ -557,8 +539,13 @@ function vacancyNote(entity) {
 //
 // `kind` נכתב על כל שבב כדי שהריחוף ידע מה להציג: בחוסר — הפילוח לפי תחנה
 // או אילו עיסוקים נכללים בקטגוריה; במועמדים — הפילוח לפי תחנה.
-// `extras` הם השבבים הדהויים שסוגרים את החשבון (למחיקה / עודף).
-function familyChips(title, items, extras, kind) {
+//
+// §41: הפרמטר `extras` — שבבי "למחיקה" ו"עודף" — **הוסר.** הם
+// נולדו כדי שסכום השבבים ישתווה ל"תקנים חסרים", אבל המחיר
+// היה שני שבבים שאינם תפקיד ואין מה לעשות איתם — ו"למחיקה" בפרט
+// נקרא כמו קטגוריית גיוס. הפילוח מראה עכשיו **תפקידים בלבד**,
+// והוא אינו מתיימר להסתכם למספר אחר שעל הכרטיס.
+function familyChips(title, items, kind) {
   if (!Array.isArray(items) || !items.length) return "";
   if (items.every((i) => i.value === null || i.value === undefined)) return "";
   // `chip--hover` נוסף **רק כשיש מה לפתוח**. סימן ריחוף על שבב שאינו
@@ -574,44 +561,8 @@ function familyChips(title, items, extras, kind) {
   );
   return `<div class="unit-section">
       <span class="unit-section-title">${escapeHtml(title)}</span>
-      <div class="chips">${chips.join("")}${reconcileChips(extras)}</div>
+      <div class="chips">${chips.join("")}</div>
     </div>`;
-}
-
-// שני השבבים הדהויים שהופכים את הפילוח לסכום מדויק של החוסר:
-//
-//   • **למחיקה** — משרות שיוצאות מהמבנה. הן תופסות תקן ולכן נספרות בחוסר
-//     הכולל ובאחוז האיוש, אבל אין מגייסים אליהן ולכן אינן סייר/בלש/חוקר.
-//   • **עודף** — תפקיד שהאיוש בו גדול מהתקן. חוסר שלילי אינו חוסר ולכן
-//     נחתך באפס, וזה מה שמסביר למה סכום החוסרים גדול מהחוסר הנקי.
-//
-// בלעדיהם ההפרש נראה כמו באג: אשדוד הציגה חוסר 15 ופילוח שמסתכם ל-10.
-const RECONCILE_TITLES = {
-  למחיקה:
-    "משרות שסיווגן 'למחיקה' — יוצאות מהמבנה. הן תופסות תקן ולכן נספרות בחוסר הכולל ובאחוז האיוש, אבל אין מגייסים אליהן ולכן אינן משויכות לסייר/בלש/חוקר/אחר.",
-  עודף:
-    "תפקידים שהאיוש בהם גדול מהתקן. עודף אינו חוסר ולכן אינו מקטין את החוסר של תפקיד אחר, אבל הוא מה שמסביר למה סכום החוסרים גדול מהחוסר הנקי.",
-};
-
-function reconcileItems(entity) {
-  const extras = [];
-  if (entity && entity.missing_to_delete)
-    extras.push({ label: "למחיקה", value: entity.missing_to_delete });
-  if (entity && entity.surplus_positions)
-    extras.push({ label: "עודף", value: `−${entity.surplus_positions}` });
-  return extras;
-}
-
-function reconcileChips(extras) {
-  if (!Array.isArray(extras) || !extras.length) return "";
-  return extras
-    .map(
-      (e) =>
-        `<span class="chip chip--muted" title="${escapeHtml(
-          RECONCILE_TITLES[e.label] || ""
-        )}">${escapeHtml(e.label)}<b>${e.value}</b></span>`
-    )
-    .join("");
 }
 
 const missingItems = (station) =>
@@ -723,83 +674,6 @@ async function loadRoleOccupations(scope) {
 const popRow = (label, value) =>
   `<li><span>${escapeHtml(label)}</span><b>${value}</b></li>`;
 
-// פילוח האיוש של תפקיד אחד. מוצג בכל סוגי החלונית — זו אותה שאלה על אותו
-// שבב. נעלם לגמרי כשאין נתון, ולא מציג "—".
-function popDemographics(role) {
-  if (!role || (role.pct_male === null && role.pct_jewish === null)) return "";
-  if (role.pct_male === undefined && role.pct_jewish === undefined) return "";
-  const parts = [];
-  if (role.pct_male !== null && role.pct_male !== undefined)
-    parts.push(`גברים ${role.pct_male.toFixed(1)}%`);
-  if (role.pct_jewish !== null && role.pct_jewish !== undefined)
-    parts.push(`יהודים ${role.pct_jewish.toFixed(1)}%`);
-  if (!parts.length) return "";
-  return `<div class="chip-pop-demo">פילוח האיוש בתפקיד: ${parts.join(" · ")}</div>`;
-}
-
-// §16.5: שורת הסיכום של החלונית — **הרשימה חייבת להסתכם**.
-//
-// מי שריחף על "סייר" וראה שורות של 30 משרות · 4 פנויות, ואז עוד "סייר
-// עירוני" ועוד "סייר חרדי", אינו יכול לדעת אם הן מסבירות את המספר שעל
-// השבב. הן כן — אבל רק כשרואים את הסכום.
-//
-// **שני מספרים שונים מוצגים כאן במפורש, כי הם באמת שונים:**
-//   * *חוסר תקן* = תקן פחות איוש. זה מה שמופיע על השבב.
-//   * *משרות פנויות* = משרות שמסומנות לגיוס בפועל.
-// משרה מוקפאת היא חוסר תקן ואינה משרה פנויה; משרה בתקן שבור נספרת
-// בחוסר כחצי ובמשרות כאחת. ההפרש אינו באג, וכשהוא קיים נאמר למה.
-// §20.1: ערך השורה — **החוסר הנקי בלבד**.
-//
-// קודם הופיע לצדו גם פירוט בסוגריים ("3 משרות · 2 פנויות לגיוס"), והוא
-// ייצר סתירה ויזואלית: בתחנת חברון סכום החוסרים ברשימה היה 4 וסכום
-// הפנויות בסוגריים 5, ושני המספרים נראו כאילו הם אמורים להיות שווים.
-// הם לא — חוסר הוא תקן פחות איוש, ומשרה פנויה היא משרה שמסומנת לגיוס
-// בפועל; משרה מוקפאת היא חוסר ואינה פנויה. אבל ההסבר הזה אינו נקרא
-// מתוך שתי שורות מספרים זו לצד זו, והמשתמש נשאר עם תחושת באג.
-//
-// המספר שעל השבב הוא החוסר, ולכן הרשימה שנפתחת ממנו מציגה חוסר ותו לא.
-// ההקשר (כמה משרות, כמה מהן פנויות) נשאר בשורת הסיכום שמתחת לרשימה,
-// שם הוא מוסבר במילים ואינו מתחזה לסכום של הרשימה.
-//
-// §40: **"משרות" בשורה הזו לא היה מספר שאפשר לפעול לפיו.** `item.positions`
-// הוא כמה משרות קיימות בעיסוק — 38 סיירים בשדרות — וזה נקרא כאילו יש שם
-// 38 משרות לאייש. אין. יש 2 בכל התחנה.
-//
-// המספר שמוצג עכשיו הוא **משרות לגיוס בלבד**, ובלי יעד חוסר הוא גם
-// המספר היחיד שיש. עיסוק שאין בו משרה לגיוס אינו מציג מספר כלל — אפס
-// הוא התשובה, ואין צורך לצייר אותה.
-function occupationValue(item, hasTarget) {
-  if (!hasTarget) {
-    return item.vacant ? `${item.vacant} לגיוס` : '<span class="muted">—</span>';
-  }
-  return `חסר ${item.missing}`;
-}
-
-// שורת הסיכום. **היא חייבת להיות המספר שעל השבב** — זו כל הסיבה שהרשימה
-// נפתחת. מספר המשרות ומספר המשרות הפנויות נשארים בשורה נפרדת מתחתיה,
-// כי הם שאלה אחרת ולא צריכים להתחרות על אותו מקום.
-//
-// §40: **המספר שנקרא כאן "משרות" הוסר.** הוא היה `totals.positions` —
-// כמה משרות קיימות בתפקיד — ובשדרות הוא הציג "38 משרות · 0 פנויות
-// לגיוס" על שבב שכתוב עליו 1. שלושה מספרים, ואף אחד מהם אינו מה שהמגייס
-// מקבל לטפל בו.
-//
-// נשארו שניים, וכל אחד עונה על שאלה אחרת בשמה:
-//   * **חוסר** — תקן פחות איוש. זה מה שעל השבב, ולזה הרשימה מסתכמת.
-//   * **משרות לגיוס** — מה שמופיע בלוח המשרות, באותו כלל בדיוק.
-function popTotals(family, role, hasTarget) {
-  const totals = family.totals;
-  if (!totals || !totals.positions) return "";
-  if (!hasTarget) {
-    return `<div class="chip-pop-total"><span>משרות לגיוס</span><b>${totals.vacant}</b></div>`;
-  }
-  return `<div class="chip-pop-total"><span>סה"כ חוסר</span><b>${family.target}</b></div>
-    <div class="chip-pop-total"><span>משרות לגיוס</span><b>${totals.vacant}</b></div>
-    <div class="chip-pop-more"><b>חוסר</b> הוא תקן פחות איוש — הוא זה שמופיע
-    על השבב, והרשימה שלמעלה מסתכמת אליו. <b>משרות לגיוס</b> הן אלה שמסומנות
-    "משרה פנויה לתכנון גיוס", והן מה שמופיע בלוח המשרות.</div>`;
-}
-
 // §17.1: התחנות שהמספר על השבב מורכב מהן.
 //
 //   מרחב / יחידה — התחנות שבו (`station_ids`)
@@ -824,47 +698,38 @@ function scopeStations(entity) {
 function chipPopoverContent(kind, roleKey, entity) {
   const role = (entity.roles || []).find((r) => r.key === roleKey);
   const label = role ? role.label : roleKey;
-  const demo = popDemographics(role);
 
+  // §41: **רשימה, ותו לא.**
+  //
+  // החלונית הזו צברה שש שכבות טקסט מסביב לרשימה: שורת סיכום, "ועוד N
+  // תיאורי עיסוק", "N תיאורי עיסוק נוספים מאוישים במלואם", שורת סיווג,
+  // ופילוח מגדר ודת. מי שמרחף על "סייר 3" רוצה לדעת **אילו שלושה**, וכל
+  // היתר הוא קריאה שהוא לא ביקש.
+  //
+  // מה שנשאר: כותרת של שתי מילים, ושורה לכל עיסוק שחסר בו — השם והמספר.
+  // הרשימה מסתכמת למספר שעל השבב, וזו כל העבודה שלה.
   if (kind === "occupations") {
     const scope = roleScope(entity);
     const family = (state.roleOccupations.get(scope.key) || {})[roleKey];
+    const title = `${escapeHtml(label)} — ${escapeHtml(scope.label)}`;
     if (!family)
-      return `<div class="chip-pop-title">${escapeHtml(label)}</div>
-        <div class="chip-pop-empty">טוען…</div>`;
-    // §18.3: הכותרת אומרת מה הרשימה עונה עליו — **החוסר**, ועל מי.
-    // "מה נכלל ב'סייר'" הזמין לקרוא את מספר המשרות כאילו הוא החוסר.
-    const hasTarget = family.target !== null && family.target !== undefined;
-    const title = hasTarget
-      ? `החוסר ב"${escapeHtml(label)}" לפי עיסוק — ${escapeHtml(scope.label)}`
-      : `מה נכלל ב"${escapeHtml(label)}" — ${escapeHtml(scope.label)}`;
-    if (!family.items.length) {
       return `<div class="chip-pop-title">${title}</div>
-        <div class="chip-pop-empty">אין משרות בתפקיד הזה ביחידה הזו</div>${demo}`;
-    }
-    // §18.3: מוצגים רק העיסוקים שיש בהם חוסר — הם אלה שמסבירים את המספר.
-    // עיסוק שאין בו חוסר הוא רעש ברשימה שנפתחה כדי לענות "מאיפה ה-6".
+        <div class="chip-pop-empty">טוען…</div>`;
+    const hasTarget = family.target !== null && family.target !== undefined;
+    // רק העיסוקים שיש בהם חוסר. עיסוק מאויש במלואו אינו "סוג שחסר",
+    // והוא היה מאריך את הרשימה בלי לענות על השאלה שנשאלה.
     const withGap = hasTarget ? family.items.filter((i) => i.missing) : family.items;
-    const items = withGap.slice(0, 14);
-    const rest = withGap.length - items.length;
-    const quiet = family.items.length - withGap.length;
+    if (!withGap.length) {
+      return `<div class="chip-pop-title">${title}</div>
+        <div class="chip-pop-empty">אין חוסר בתפקיד הזה</div>`;
+    }
+    // **בלי חיתוך.** "ועוד 4 תיאורי עיסוק" הוא בדיוק המידע שהרשימה
+    // נפתחה בשבילו, והסתרתו מאחורי מספר הפכה אותה לחצי תשובה.
     return `
       <div class="chip-pop-title">${title}</div>
-      <ul class="chip-pop-list">${items
-        .map((i) => popRow(i.name, occupationValue(i, hasTarget)))
-        .join("")}</ul>
-      ${rest > 0 ? `<div class="chip-pop-more">ועוד ${rest} תיאורי עיסוק עם חוסר</div>` : ""}
-      ${popTotals(family, role, hasTarget)}
-      ${
-        quiet > 0
-          ? `<div class="chip-pop-more">${quiet} תיאורי עיסוק נוספים בתפקיד הזה — מאוישים
-               במלואם ואינם חלק מהחוסר.</div>`
-          : ""
-      }
-      <div class="chip-pop-more">סיווג: ${escapeHtml(
-        family.professions.slice(0, 4).join(" · ")
-      )}${family.professions.length > 4 ? ` ועוד ${family.professions.length - 4}` : ""}</div>
-      ${demo}`;
+      <ul class="chip-pop-list">${withGap
+        .map((i) => popRow(i.name, hasTarget ? i.missing : i.vacant || 0))
+        .join("")}</ul>`;
   }
 
   if (kind === "missing-by-station" || kind === "candidates-by-station") {
@@ -892,7 +757,7 @@ function chipPopoverContent(kind, roleKey, entity) {
       return `<div class="chip-pop-title">${title}</div>
         <div class="chip-pop-empty">${
           isMissing ? "אין חוסר בתפקיד הזה באף תחנה" : "אין מועמדים משויכים לתחנה"
-        }</div>${demo}`;
+        }</div>`;
     }
     // §17.1: שורת הסיכום. הסכום של הרשימה **חייב** להיות המספר שעל השבב,
     // ומי שבא לבדוק את זה צריך לראות את התשובה ולא לחבר בעצמו.
@@ -915,7 +780,7 @@ function chipPopoverContent(kind, roleKey, entity) {
           ? `<div class="chip-pop-more">תחנה בעודף מקזזת את החוסר של השאר, ולכן
                הסכום קטן מסכום החוסרים לבדם.</div>`
           : ""
-      }${demo}`;
+      }`;
   }
 
   if (kind === "candidates-no-stations") {
@@ -923,7 +788,7 @@ function chipPopoverContent(kind, roleKey, entity) {
       <div class="chip-pop-empty">
         המספר מגיע משדה "דרישה" בקובץ המועמדים, שמוסר מחוז או מרחב ולא תחנה.
         ברגע שעמודת "תחנה" תתמלא — הפילוח ייפתח כאן.
-      </div>${demo}`;
+      </div>`;
   }
 
   return demo;
@@ -997,8 +862,8 @@ if (IS_TOUCH) {
 
 function familyBreakdown(station) {
   return (
-    familyChips("חוסר לפי תפקיד", missingItems(station), reconcileItems(station), "occupations") +
-    familyChips("מועמדים בהליך לפי תפקיד", candidateItems(station), null, "")
+    familyChips("חוסר לפי תפקיד", missingItems(station), "occupations") +
+    familyChips("מועמדים בהליך לפי תפקיד", candidateItems(station), "")
   );
 }
 
@@ -3976,8 +3841,8 @@ function demographics(s) {
   );
 }
 
-// אותם שבבים כמו ב-familyChips, בתוך כרטיס התחנה ברשימה. השבבים הדהויים
-// (למחיקה / עודף) מגיעים מ-reconcileItems — מקור אחד לחשבון שסוגר את הפילוח.
+// אותם שבבים כמו ב-familyChips, בתוך כרטיס התחנה ברשימה.
+// §41: בלי השבבים הדהויים — ראה familyChips.
 function roleChips(station) {
   const roles = station.roles || [];
   // כל התפקידים NULL עד שיגיע קובץ. תווית אחת במקום חמש תוויות "אין נתונים"
@@ -3993,7 +3858,7 @@ function roleChips(station) {
         r.missing === null ? "—" : r.missing
       }</b></span>`
   );
-  return `<div class="chips">${chips.join("")}${reconcileChips(reconcileItems(station))}</div>`;
+  return `<div class="chips">${chips.join("")}</div>`;
 }
 
 function stationCard(s) {
@@ -4048,7 +3913,7 @@ function stationCard(s) {
       // אותן ארבע משפחות של החוסר, ובאותו סדר — כדי שאפשר יהיה לקרוא את שתי
       // המחיצות זו מול זו ("חסרים 12 סיירים, 3 בהליך"). זו הסיבה שהמסך הזה
       // עבר לפילוח המשותף במקום לחמשת התפקידים שהיו לו קודם.
-      familyChips("מועמדים בהליך לפי תפקיד", candidateItems(s), null, "")
+      familyChips("מועמדים בהליך לפי תפקיד", candidateItems(s), "")
     }
 
     <div class="unit-section">
