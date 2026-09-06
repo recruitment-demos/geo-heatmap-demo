@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "גלעד",
+   "distance_km": 19.8,
+   "district": "ש\"י",
+   "name": "תחנת מעלה אדומים",
+   "travel_min": 28
+  },
+  {
+   "area": "קדם",
+   "distance_km": 21.9,
+   "district": "ירושלים",
+   "name": "תחנת שלם",
+   "travel_min": 30
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 17,
+  "lat": 31.79004,
+  "lng": 35.4616,
+  "name": "אלמוג",
+  "population": 7200
+ },
+ "stations_count": 0
+}

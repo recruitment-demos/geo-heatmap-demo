@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "כנרת",
+   "distance_km": 19.3,
+   "district": "צפון",
+   "name": "תחנת קרית שמונה",
+   "travel_min": 38
+  },
+  {
+   "area": "כנרת",
+   "distance_km": 24.5,
+   "district": "צפון",
+   "name": "תחנת גולן",
+   "travel_min": 33
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 27,
+  "lat": 33.20076,
+  "lng": 35.77799,
+  "name": "בוקעאתא",
+  "population": 2100
+ },
+ "stations_count": 0
+}

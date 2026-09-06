@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "גלעד",
+   "distance_km": 18.8,
+   "district": "ש\"י",
+   "name": "תחנת הבקעה",
+   "travel_min": 27
+  },
+  {
+   "area": "שרון",
+   "distance_km": 30.5,
+   "district": "מרכז",
+   "name": "תחנת טייבה",
+   "travel_min": 40
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 16,
+  "lat": 32.23571,
+  "lng": 35.33163,
+  "name": "אלון מורה",
+  "population": 19500
+ },
+ "stations_count": 0
+}

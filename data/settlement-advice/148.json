@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "נגב",
+   "distance_km": 16.6,
+   "district": "דרום",
+   "name": "תחנת באר שבע",
+   "travel_min": 24
+  },
+  {
+   "area": "רותם",
+   "distance_km": 16.9,
+   "district": "דרום",
+   "name": "תחנת שגב שלום",
+   "travel_min": 24
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 148,
+  "lat": 31.32709,
+  "lng": 34.93844,
+  "name": "מיתר",
+  "population": 6500
+ },
+ "stations_count": 0
+}

@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "נגב",
+   "distance_km": 19.4,
+   "district": "דרום",
+   "name": "תחנת נתיבות",
+   "travel_min": 27
+  },
+  {
+   "area": "נגב",
+   "distance_km": 21.3,
+   "district": "דרום",
+   "name": "תחנת אופקים",
+   "travel_min": 30
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 184,
+  "lat": 31.35135,
+  "lng": 34.40097,
+  "name": "עין השלושה",
+  "population": 86100
+ },
+ "stations_count": 0
+}

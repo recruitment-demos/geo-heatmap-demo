@@ -1,0 +1,77 @@
+{
+ "access": {
+  "allowed_count": 1,
+  "connected": false,
+  "enforced_paths": "כל בקשה שאינה מהמחשב המקומי ואינה /web/, /api/health, /api/cloud",
+  "header": "X-Cloud-User"
+ },
+ "readiness": {
+  "allowed_count": 1,
+  "ready": false,
+  "rules_path": "(demo)",
+  "rules_updated": "28/08/2026 00:05",
+  "steps": [
+   {
+    "פעולה": "פתח קונסולת Firebase, צור פרויקט, והזן את מזהה הפרויקט במסך ההגדרות ➜ ענן ושיתוף.",
+    "שלב": "פרויקט Firebase מוגדר",
+    "תקין": false
+   },
+   {
+    "פעולה": "בקונסולה: Project settings ➜ Your apps ➜ Web. העתק את apiKey, authDomain, projectId ו-appId למסך ההגדרות. חסרים: apiKey, authDomain, projectId, appId.",
+    "שלב": "פרטי אפליקציית Web",
+    "תקין": false
+   },
+   {
+    "פעולה": "הוסף לפחות חשבון אחד במסך ההגדרות ➜ ענן ושיתוף. בלי אף חשבון, האתר בענן חסום לכולם.",
+    "שלב": "חשבונות גוגל מורשים",
+    "תקין": true
+   },
+   {
+    "פעולה": "בקונסולה: Authentication ➜ Sign-in method ➜ Google ➜ Enable. בדיקה ידנית — אין דרך לוודא זאת מכאן בלי פנייה לרשת.",
+    "שלב": "כניסה עם גוגל מופעלת בפרויקט",
+    "תקין": null
+   },
+   {
+    "פעולה": "נכתבים אוטומטית בכל שמירה של הגדרות הענן. אם חסר — שמור את ההגדרות שוב. (firestore.rules)",
+    "שלב": "חוקי גישה נכתבו",
+    "תקין": true
+   },
+   {
+    "פעולה": "npm install -g firebase-tools",
+    "שלב": "firebase CLI מותקן",
+    "תקין": true
+   },
+   {
+    "פעולה": "firebase login",
+    "שלב": "firebase CLI מחובר",
+    "תקין": true
+   },
+   {
+    "פעולה": "מסך ההגדרות ➜ ענן ושיתוף. נשאר כבוי עד שכל השאר תקין — מערכת שמסומנת מחוברת ואינה מפורסמת מטעה יותר מאשר עוזרת.",
+    "שלב": "המתג 'מחובר לענן' דלוק",
+    "תקין": false
+   }
+  ],
+  "warnings": []
+ },
+ "settings": {
+  "admin_url": "",
+  "connected": false,
+  "emails": [
+   "demo@example.com"
+  ],
+  "platform": "firebase",
+  "project": "",
+  "project_id": "",
+  "public_url": "",
+  "publish_dir": "docs",
+  "updated_at": "2026-08-28T00:05:43",
+  "web_app": {
+   "apiKey": "",
+   "appId": "",
+   "authDomain": "",
+   "projectId": ""
+  }
+ },
+ "warnings": []
+}

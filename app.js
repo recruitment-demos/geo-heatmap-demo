@@ -4185,6 +4185,191 @@ async function loadRecruiter() {
   renderRecruiterTree(data);
 }
 
+/* --- §55: המלצה לפי יישוב -------------------------------------------------
+   מכניסים יישוב ומקבלים, לכל אחד משלושת תפקידי הליבה, את התחנה שבטווח
+   הנסיעה שחסר לה הכי הרבה בתפקיד הזה.
+
+   הרשימה בנויה משורות מכווצות ולא מכרטיסים פרושים: 21 כרטיסים מלאים
+   כפול שלושה תפקידים הם 63 מסכים של גלילה, ומה שבאו לראות — מי ראשון —
+   נעלם בהם. השורה נפתחת לכרטיס המלא בלחיצה, ואותו כרטיס הוא זה של מסך
+   סטטוס התחנות (stationCard), ולא עותק מצומצם שלו.
+   ------------------------------------------------------------------------- */
+
+// התחנה הפתוחה בכל תפקיד. מפתח התפקיד -> מזהה התחנה, או null.
+// לפי תפקיד ולא אחת גלובלית: אותה תחנה יכולה להיות מומלצת בשני תפקידים,
+// ופתיחתה באחד אינה אמורה לפתוח אותה בשני.
+const adviceOpen = new Map();
+
+function adviceMissingText(value) {
+  // אין נתון אינו אפס. אפס אומר "נבדק ואין חוסר", ומקף אומר "לא ידוע",
+  // ובמסך שממליץ על מי לגייס אליו זו ההבחנה שקובעת.
+  return value === null || value === undefined ? "—" : value;
+}
+
+function adviceRow(station, family, isTop) {
+  const missing = station.missing_in_role;
+  const open = adviceOpen.get(family.key) === station.id;
+  return `<div class="advice-row ${isTop ? "advice-row--top" : ""}" data-station="${station.id}">
+    <button class="advice-line" data-open="${station.id}" data-family="${escapeHtml(family.key)}">
+      <span class="advice-rank">${isTop ? "מומלץ" : ""}</span>
+      <span class="advice-name">
+        <strong>${escapeHtml(station.name)}</strong>
+        <em>${escapeHtml(station.area || "—")}</em>
+      </span>
+      <span class="advice-missing">
+        <b>${adviceMissingText(missing)}</b>
+        <em>חסר ${escapeHtml(family.label)}</em>
+      </span>
+      <span class="advice-travel"><b>${station.travel_min}</b><em>דק' נסיעה</em></span>
+      <span class="pill" style="background:${station.color}">${station.status}</span>
+      <span class="advice-toggle">${open ? "סגור" : "פתח"}</span>
+    </button>
+    <div class="advice-detail">${open ? stationCard(station) : ""}</div>
+  </div>`;
+}
+
+function adviceFamilyPanel(family) {
+  if (!family.stations.length) {
+    return `<div class="panel">
+      <div class="panel-head"><h2>${escapeHtml(family.label)}</h2></div>
+      <div class="empty-state">אין תחנות בטווח הנסיעה מהיישוב הזה.</div>
+    </div>`;
+  }
+
+  // אין אף תחנה עם חוסר בתפקיד — top_id ריק. זו תשובה, ולא כשל: כל
+  // התחנות בטווח מאוישות בתפקיד הזה (או שאין עליהן נתון), והרשימה
+  // עדיין מוצגת כדי שיהיה ברור מי נבדק.
+  const head = family.top_id
+    ? `<span class="panel-note">התחנה עם החוסר הגדול ביותר מסומנת "מומלץ"</span>`
+    : `<span class="panel-note">אין חוסר מדווח בתפקיד הזה באף תחנה בטווח</span>`;
+
+  return `<div class="panel">
+    <div class="panel-head">
+      <h2>${escapeHtml(family.label)}</h2>
+      ${head}
+    </div>
+    <div class="advice-list">
+      ${family.stations
+        .map((s) => adviceRow(s, family, s.id === family.top_id))
+        .join("")}
+    </div>
+  </div>`;
+}
+
+function renderAdvice(data) {
+  const box = el("advice-result");
+
+  if (!data.settlement) {
+    // §57: קודם הייתה כאן הסתעפות ל-demo_note — ההדגמה הסטטית לא הקפיאה
+    // את המסך הזה והחזירה הודעה משלה. עכשיו היא מקפיאה אותו לכל יישוב,
+    // וההסתעפות ירדה: מסך שמסביר מגבלה שאינה קיימת עוד מטעה.
+    box.innerHTML = `<div class="panel"><div class="empty-state">
+      לא נמצא יישוב בשם הזה. אפשר לבחור מהרשימה שנפתחת בשדה.</div></div>`;
+    return;
+  }
+
+  const settlement = data.settlement;
+  const header = `<div class="panel">
+    <div class="panel-head">
+      <h2>${escapeHtml(settlement.name)}</h2>
+      <span class="panel-note">${data.stations_count} תחנות עד ${data.nearby_minutes} דק' נסיעה</span>
+    </div>
+    ${
+      data.stations_count
+        ? ""
+        : `<div class="empty-state">
+             אין תחנה בטווח ${data.nearby_minutes} דקות מהיישוב הזה.
+             ${
+               data.nearest.length
+                 ? "הקרובות ביותר: " +
+                   data.nearest
+                     .map(
+                       (n) =>
+                         `${escapeHtml(n.name)} (${n.travel_min} דק', ${n.distance_km} ק"מ)`
+                     )
+                     .join(" · ")
+                 : ""
+             }
+           </div>`
+    }
+  </div>`;
+
+  box.innerHTML = header + data.families.map(adviceFamilyPanel).join("");
+
+  box.querySelectorAll("[data-open]").forEach((button) => {
+    button.onclick = () => {
+      const id = Number(button.dataset.open);
+      const key = button.dataset.family;
+      adviceOpen.set(key, adviceOpen.get(key) === id ? null : id);
+      renderAdvice(data);
+    };
+  });
+
+  // הכרטיס הפתוח מקבל את אותם חיבורים שיש לו במסך סטטוס התחנות: שבבי
+  // התפקיד עם הריחוף שמפרט אילו עיסוקים נכללים, וכפתור התובנות.
+  box.querySelectorAll(".unit-card").forEach((card) => {
+    const station = state.stationsById.get(Number(card.dataset.id));
+    if (station) attachChipHovers(card, station);
+  });
+  box.querySelectorAll("[data-insight]").forEach((button) => {
+    button.onclick = () => showSmartInsights(Number(button.dataset.insight));
+  });
+}
+
+async function loadAdvice() {
+  const term = el("advice-input").value.trim();
+  el("advice-error").textContent = "";
+  if (!term) {
+    el("advice-result").innerHTML = `<div class="panel"><div class="empty-state">
+      הקלד שם יישוב כדי לראות לאיזו תחנה בטווח כדאי לכוון.</div></div>`;
+    return;
+  }
+
+  try {
+    const data = await api(`/api/settlement-advice?settlement=${encodeURIComponent(term)}`);
+    // כפתור "תובנות גיוס חכמות" שבכרטיס נשען על המפה הזו. היא ממולאת
+    // גם ממסך המגייס, ולכן מיזוג ולא דריסה — אחרת מעבר בין המסכים היה
+    // מרוקן את מה שהשני מילא.
+    state.recruiterNearby = state.recruiterNearby || {};
+    data.families.forEach((f) =>
+      f.stations.forEach((s) => (state.recruiterNearby[s.id] = s.nearby_settlements))
+    );
+    state.advice = data;
+    el("advice-range").textContent = `טווח: עד ${data.nearby_minutes} דקות נסיעה`;
+    adviceOpen.clear();
+    renderAdvice(data);
+  } catch (err) {
+    el("advice-error").textContent = `לא ניתן לטעון את ההמלצה (${err.message}).`;
+  }
+}
+
+// רשימת היישובים לשדה. נבנית מ-state.settlements, שכבר נטענה בעליית
+// המערכת — ולא בקריאה נוספת לשרת.
+function fillAdviceOptions() {
+  el("advice-options").innerHTML = state.settlements
+    .map((s) => `<option value="${escapeHtml(s.name)}"></option>`)
+    .join("");
+}
+
+function wireAdvice() {
+  el("advice-go").onclick = loadAdvice;
+  el("advice-input").onkeydown = (event) => {
+    if (event.key === "Enter") loadAdvice();
+  };
+  // בחירה מהרשימה הנפתחת מציגה מיד. בלי זה המשתמש בוחר יישוב ולא קורה
+  // כלום עד שהוא מוצא את הכפתור, וזה נקרא כמו מסך תקוע.
+  el("advice-input").onchange = () => {
+    if (state.settlements.some((s) => s.name === el("advice-input").value.trim()))
+      loadAdvice();
+  };
+  el("advice-reset").onclick = () => {
+    el("advice-input").value = "";
+    el("advice-error").textContent = "";
+    el("advice-range").textContent = "";
+    el("advice-result").innerHTML = "";
+  };
+}
+
 let recruiterFilter = null;
 
 function wireRecruiter() {
@@ -5087,10 +5272,183 @@ function wireSettings() {
   el("settings-save").onclick = saveSettings;
 }
 
+/* --- §56: ענן ושיתוף -------------------------------------------------------
+   התשתית בלבד. אין כאן העלאה ואין פנייה לרשת — המסך קורא הגדרות, עורך
+   אותן, ומציג מה עוד חסר כדי שאפשר יהיה לעלות.
+
+   שדות הפרויקט נשמרים יחד בלחיצה אחת; רשימת המורשים נשמרת מיד בכל
+   הוספה והסרה. ההפרדה מכוונת: מי שמוסיף חשבון ושוכח ללחוץ "שמור"
+   מגלה זאת רק כשאותו אדם נחסם, וזו התקלה הכי יקרה כאן.
+   ------------------------------------------------------------------------- */
+
+const CLOUD_WEB_KEYS = ["apiKey", "authDomain", "projectId", "appId"];
+
+function renderCloudReadiness(data) {
+  const report = data.readiness;
+  el("cloud-ready-note").textContent = report.ready
+    ? "כל מה שניתן לבדוק מכאן — תקין"
+    : `${report.steps.filter((s) => s.תקין === false).length} שלבים פתוחים`;
+
+  el("cloud-readiness").innerHTML = `<div class="cloud-steps">
+    ${report.steps
+      .map((step) => {
+        // שלושה מצבים ולא שניים: null הוא "אין דרך לבדוק מכאן", והצגתו
+        // כתקין הייתה אומרת למישהו שהכול מוכן כשהוא לא נבדק בכלל.
+        const state =
+          step.תקין === true ? "ok" : step.תקין === false ? "bad" : "manual";
+        const mark = state === "ok" ? "✓" : state === "bad" ? "✕" : "?";
+        return `<div class="cloud-step cloud-step--${state}">
+          <span class="cloud-step-mark">${mark}</span>
+          <div>
+            <strong>${escapeHtml(step.שלב)}</strong>
+            ${state === "ok" ? "" : `<em>${escapeHtml(step.פעולה)}</em>`}
+          </div>
+        </div>`;
+      })
+      .join("")}
+  </div>
+  <div class="cloud-foot">
+    חוקי הגישה: <code dir="ltr">${escapeHtml(report.rules_path)}</code>
+    ${report.rules_updated ? ` · עודכנו ${escapeHtml(report.rules_updated)}` : ""}
+    · ${report.allowed_count} חשבונות מורשים.
+    <br>הקובץ נכתב מחדש בכל שמירה. אין לערוך אותו ידנית.
+  </div>`;
+}
+
+function renderCloudEmails(data) {
+  const emails = data.settings.emails;
+  // אזהרת הקלדה לפי כתובת. כתובת שגויה אינה נכשלת בשום מקום — היא
+  // נכנסת לרשימה, עולה לחוקי הגישה, והכול נראה תקין עד שבעליה נחסם.
+  const warned = new Map(
+    (data.warnings || []).map((w) => [w.email, w.suggestion])
+  );
+
+  el("cloud-emails").innerHTML = emails.length
+    ? `<div class="cloud-emails">
+        ${emails
+          .map((email) => {
+            const hint = warned.has(email)
+              ? `<em class="cloud-warn">${
+                  warned.get(email)
+                    ? `נראה כשגיאת הקלדה. התכוונת ל-${escapeHtml(warned.get(email))}?`
+                    : "הכתובת אינה נראית תקינה."
+                }</em>`
+              : "";
+            return `<div class="cloud-email">
+              <span dir="ltr">${escapeHtml(email)}</span>
+              ${hint}
+              <button class="row-del" data-email="${escapeHtml(email)}">הסר</button>
+            </div>`;
+          })
+          .join("")}
+      </div>`
+    : `<div class="empty-state">
+        אין עדיין אף חשבון מורשה. אתר בענן בלי אף חשבון ברשימה חסום לכולם —
+        כולל מי שהעלה אותו.</div>`;
+
+  el("cloud-emails")
+    .querySelectorAll("[data-email]")
+    .forEach((button) => {
+      button.onclick = async () => {
+        const email = button.dataset.email;
+        if (!confirm(`להסיר את ${email} מרשימת המורשים?`)) return;
+        const response = await fetch(
+          `/api/cloud/emails/${encodeURIComponent(email)}`,
+          { method: "DELETE" }
+        );
+        const result = await response.json();
+        if (!result.ok) return (el("cloud-email-error").textContent = result.error);
+        el("cloud-email-error").textContent = "";
+        loadCloud();
+      };
+    });
+}
+
+function renderCloud(data) {
+  const values = data.settings;
+  el("cloud-public-url").value = values.public_url;
+  el("cloud-admin-url").value = values.admin_url;
+  el("cloud-project").value = values.project;
+  el("cloud-project-id").value = values.project_id;
+  CLOUD_WEB_KEYS.forEach((key) => (el(`cloud-${key}`).value = values.web_app[key] || ""));
+  el("cloud-connected").checked = values.connected;
+  el("cloud-status").textContent = values.updated_at
+    ? `עודכן ${values.updated_at.replace("T", " ")}`
+    : "";
+
+  renderCloudReadiness(data);
+  renderCloudEmails(data);
+}
+
+async function loadCloud() {
+  try {
+    state.cloud = await api("/api/cloud");
+    renderCloud(state.cloud);
+  } catch (err) {
+    el("cloud-readiness").innerHTML =
+      `<div class="empty-state">לא ניתן לקרוא את הגדרות הענן (${escapeHtml(
+        err.message
+      )}).</div>`;
+  }
+}
+
+async function saveCloud() {
+  const body = {
+    connected: el("cloud-connected").checked,
+    public_url: el("cloud-public-url").value.trim(),
+    admin_url: el("cloud-admin-url").value.trim(),
+    project: el("cloud-project").value.trim(),
+    project_id: el("cloud-project-id").value.trim(),
+    web_app: {},
+  };
+  CLOUD_WEB_KEYS.forEach((key) => (body.web_app[key] = el(`cloud-${key}`).value.trim()));
+
+  el("cloud-error").textContent = "";
+  const response = await fetch("/api/cloud", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  const result = await response.json();
+  if (!result.ok) {
+    // הכישלון מחזיר את המתג למה שנשמר בפועל. מתג שנשאר דלוק אחרי
+    // שמירה שנכשלה אומר "מחובר" כשהמערכת מנותקת, וזו בדיוק ההטעיה
+    // שהמסך הזה קיים כדי למנוע.
+    el("cloud-error").textContent = result.error;
+    el("cloud-connected").checked = Boolean(state.cloud && state.cloud.settings.connected);
+    return;
+  }
+  await loadCloud();
+  el("cloud-status").textContent = `נשמר · חוקי הגישה נכתבו מחדש (${result.rules})`;
+}
+
+function wireCloud() {
+  el("cloud-save").onclick = saveCloud;
+  el("cloud-email-add").onclick = async () => {
+    const email = el("cloud-email").value.trim();
+    if (!email) return;
+    const response = await fetch("/api/cloud/emails", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+    const result = await response.json();
+    if (!result.ok) return (el("cloud-email-error").textContent = result.error);
+    el("cloud-email-error").textContent = "";
+    el("cloud-email").value = "";
+    loadCloud();
+  };
+  el("cloud-email").onkeydown = (event) => {
+    if (event.key === "Enter") el("cloud-email-add").click();
+  };
+}
+
 /* --- ניווט בין מסכים ------------------------------------------------------ */
 
 const SCREENS = {
   map: { el: "screen-map", nav: "nav-map", hash: "#" },
+  // §55: המלצה לפי יישוב — ראה loadAdvice.
+  advice: { el: "screen-advice", nav: "nav-advice", hash: "#/advice" },
   admin: { el: "screen-admin", nav: "nav-admin", hash: "#/admin" },
   recruiter: { el: "screen-recruiter", nav: "nav-recruiter", hash: "#/recruiter" },
   strategic: { el: "screen-strategic", nav: "nav-strategic", hash: "#/strategic" },
@@ -5106,6 +5464,7 @@ const SCREENS = {
 const SCREEN_ALIASES = {
   "#/upload": "settings",
   "#/manage": "settings",
+  "#/cloud": "settings", // §56
   "#/dashboard": "strategic",
 };
 
@@ -5115,9 +5474,12 @@ const SETTINGS_PANE_BY_HASH = {
   "#/manage": "manage",
   "#/upload": "upload",
   "#/settings": "config",
+  // §56: כתובת משלה, כדי שאפשר יהיה לשלוח קישור ישר למסך שבו מוסיפים
+  // חשבון מורשה — זו הפעולה שמישהו אחר יתבקש לעשות.
+  "#/cloud": "cloud",
 };
 
-const SETTINGS_PANES = ["manage", "config", "upload"];
+const SETTINGS_PANES = ["manage", "config", "upload", "cloud"];
 
 // §16.3: הלשונית הפעילה. "שמור הגדרות" מוצג רק בלשונית ההגדרות — על מסך
 // טעינת קבצים הוא כפתור שלא ברור מה הוא שומר.
@@ -5141,6 +5503,10 @@ function showSettingsPane(name) {
     if (hash && location.hash !== hash) history.replaceState(null, "", hash);
   }
   if (pane === "config") loadSettings();
+  // §56: נטען בכל כניסה ולא פעם אחת — דוח המוכנות משתנה מחוץ למסך
+  // (התקנת CLI, התחברות), ודוח ישן שאומר "חסר" על משהו שכבר סודר
+  // שולח מישהו לחפש בעיה שאינה קיימת.
+  if (pane === "cloud") loadCloud();
 }
 
 function wireSettingsTabs() {
@@ -5177,6 +5543,9 @@ function showScreen(name) {
   if (location.hash !== hash) history.replaceState(null, "", hash);
 
   if (name === "recruiter") loadRecruiter();
+  // §55: רשימת היישובים מתמלאת בכל כניסה — יישוב שנוסף בניהול הנתונים
+  // צריך להיות בשדה בלי לרענן את הדף.
+  if (name === "advice") fillAdviceOptions();
   if (name === "strategic") loadBoard();
   if (name === "alerts") loadAlerts();
   if (name === "admin") refreshAdmin();
@@ -5425,6 +5794,7 @@ async function init() {
     wireManage();
     wireSettings();
     wireSettingsTabs();
+    wireCloud();
     wireAlerts();
     wireAdmin();
     watchTableLabels();
@@ -5433,6 +5803,7 @@ async function init() {
     await refreshAll();
     wireFilters();
     wireRecruiter();
+    wireAdvice();
     await wireStrategic();
 
     // כניסה דרך קישור ישיר נוחתת על הטאב והישות הנכונים, בלי אנימציה —

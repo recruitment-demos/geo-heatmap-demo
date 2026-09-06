@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "גלעד",
+   "distance_km": 15.7,
+   "district": "ש\"י",
+   "name": "תחנת הבקעה",
+   "travel_min": 23
+  },
+  {
+   "area": "שרון",
+   "distance_km": 30.0,
+   "district": "מרכז",
+   "name": "תחנת טייבה",
+   "travel_min": 39
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 14,
+  "lat": 32.1745,
+  "lng": 35.30836,
+  "name": "איתמר",
+  "population": 5600
+ },
+ "stations_count": 0
+}

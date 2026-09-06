@@ -128,6 +128,19 @@
       if (found) return json(path === "/api/recruiter" ? recruiterFilter(found, p) : found);
     }
 
+    // §57: "המלצה לפי יישוב" (§55) — קובץ לכל יישוב, כמו פירוט תחנה.
+    //
+    // המסך שולח **שם**, והקבצים נקראים לפי **מזהה**: שם יישוב יכול
+    // להכיל גרשיים, וויסנדוז אינה מרשה אותם בשם קובץ. התרגום שביניהם
+    // הוא settlementId, והוא מיישם את כלל ההתאמה של השרת ולא כלל משלו.
+    if (path === "/api/settlement-advice") {
+      const p = new URLSearchParams(query);
+      const id = p.get("settlement_id") || (await settlementId(p.get("settlement") || ""));
+      const res = await fetch(`data/settlement-advice/${id || "none"}.json`);
+      if (!res.ok) throw new Error(path + " → " + res.status);
+      return json(await res.json());
+    }
+
     // מסך המנהלה — הסינון מחושב כאן, ראו adminOptions/adminPositions.
     if (path === "/api/admin-options") return json(await adminOptions(query));
     if (path === "/api/admin-positions") return json(await adminPositions(query));
@@ -140,6 +153,36 @@
     const res = await fetch(flatten(path));
     if (!res.ok) throw new Error(path + " → " + res.status);
     return json(await res.json());
+  }
+
+  /* --- שם יישוב ➜ מזהה --------------------------------------------------
+     אותו כלל של השרת (_settlement_row ב-app.py): התאמה מדויקת קודם, ורק
+     אחר כך "מכיל" — הקצר ביותר, ואז לפי סדר האותיות. "רמלה" ו"רמת גן"
+     מכילות שתיהן "רמ", ומי שהקליד שם מלא צריך לקבל אותו ולא את הראשון
+     ברשימה שבמקרה מתחיל כמוהו.
+
+     הרשימה נטענת פעם אחת ונשמרת: היא כבר מוגשת למסך (data/settlements.json),
+     וזו אותה הורדה. */
+  let settlementList = null;
+  async function settlementId(term) {
+    term = term.trim();
+    if (!term) return null;
+    if (!settlementList) {
+      const res = await fetch("data/settlements.json");
+      if (!res.ok) throw new Error("settlements → " + res.status);
+      settlementList = await res.json();
+    }
+    const exact = settlementList.find((s) => s.name === term);
+    if (exact) return exact.id;
+    // SQLite: ORDER BY LENGTH(name), name LIMIT 1 — השוואה בינארית, ולכן
+    // לא localeCompare: היא הייתה ממיינת אחרת ובוחרת יישוב אחר.
+    const like = settlementList
+      .filter((s) => s.name.indexOf(term) !== -1)
+      .sort(
+        (a, b) =>
+          a.name.length - b.name.length || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0)
+      );
+    return like.length ? like[0].id : null;
   }
 
   /* --- ממשק המגייס: סטטוס וחיפוש חופשי -----------------------------------

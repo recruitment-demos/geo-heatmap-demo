@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>מפת חום גיוס — הדגמה (נתונים מוגרלים)</title>
   <link rel="stylesheet" href="vendor/leaflet.css">
-  <link rel="stylesheet" href="style.css?v=e2155cf7">
+  <link rel="stylesheet" href="style.css?v=a3800627">
   <link rel="stylesheet" href="demo.css?v=26d48d31">
+  <!-- §56: שער הכניסה של הענן. **בהתקנה המקומית שניהם אינם עושים דבר** —
+       auth.js יוצא מיד כשאין בעמוד פרטי Firebase מוטמעים, ו-auth.css
+       תלוי כולו במחלקה שהוא קובע. ראה cloud/ ו-web/auth.js. -->
+  <link rel="stylesheet" href="auth.css?v=eaa69373">
+  <script src="auth.js?v=6626c43b"></script>
 </head>
 <body>
   <div class="layout">
@@ -36,6 +41,10 @@
 
       <nav class="nav">
         <button class="nav-item active" id="nav-map">מפת חום</button>
+        <!-- §55: מיד אחרי מפת החום, כי זו אותה שאלה מהכיוון ההפוך:
+             שם בוחרים תחנה ורואים את היישובים שלה, כאן מכניסים יישוב
+             ומקבלים את התחנה שכדאי לכוון אליה. -->
+        <button class="nav-item" id="nav-advice">המלצה לפי יישוב</button>
         <button class="nav-item" id="nav-admin">לוח משרות לגיוס</button>
         <button class="nav-item" id="nav-strategic">לוח בקרה</button>
         <button class="nav-item" id="nav-recruiter">סטטוס תחנות</button>
@@ -131,6 +140,42 @@
         <!-- רשימת האקסלים שנטענו הוסרה מכאן: מסך מפת הגיוס הוא מסך תפעולי,
              ורשימת קבצים היא מידע תחזוקה. היא נמצאת במסך ההגדרות, ליד
              טעינת הנתונים עצמה. -->
+      </section>
+     </section>
+
+     <!-- ===================== מסך: המלצה לפי יישוב =====================
+          §55: מכניסים יישוב ומקבלים את התחנה שחסר לה הכי הרבה, בטווח
+          זמן הנסיעה שבהגדרות. שלושה תפקידים בלבד — סייר, חוקר, בלש —
+          ובסדר הזה. "אחר" אינו תפקיד גיוס אלא סל שיורי, והמלצה שמובילה
+          אליו אינה משימה שאפשר לצאת אליה.
+
+          כל תחנה ברשימה נפתחת לכרטיס המלא — אותו כרטיס בדיוק של מסך
+          סטטוס התחנות, ולא תקציר שלו. -->
+     <section class="screen" id="screen-advice" hidden>
+      <header class="topbar">
+        <div class="topbar-row">
+          <h1>המלצה לפי יישוב</h1>
+          <span class="topbar-note" id="advice-range"></span>
+        </div>
+      </header>
+
+      <section class="content">
+        <div class="panel">
+          <div class="panel-head">
+            <h2>בחר יישוב</h2>
+            <span class="panel-note">התחנות שבטווח הנסיעה מהיישוב, לפי גודל החוסר</span>
+          </div>
+          <div class="advice-pick">
+            <input type="search" id="advice-input" list="advice-options"
+                   placeholder="הקלד שם יישוב…" autocomplete="off">
+            <datalist id="advice-options"></datalist>
+            <button class="add-btn" id="advice-go">הצג המלצה</button>
+            <button class="filters-reset" id="advice-reset">נקה</button>
+            <span class="add-error" id="advice-error"></span>
+          </div>
+        </div>
+
+        <div id="advice-result"></div>
       </section>
      </section>
 
@@ -585,6 +630,9 @@
           <button class="tab active" data-pane="manage">ניהול נתונים</button>
           <button class="tab" data-pane="config">הגדרות</button>
           <button class="tab" data-pane="upload">טעינת נתונים</button>
+          <!-- §56: תשתית השיתוף בענן. לשונית ולא מסך: זו הגדרה של
+               המערכת, ומקומה ליד שאר ההגדרות. -->
+          <button class="tab" data-pane="cloud">ענן ושיתוף</button>
         </div>
       </header>
 
@@ -739,6 +787,104 @@
           </div>
         </div>
 
+      </section>
+
+      <!-- ===== לשונית: ענן ושיתוף =====
+           §56: **המערכת אינה בענן.** מה שכאן הוא התשתית: לאן נפרסם, מי
+           מורשה להיכנס, ומה עוד חסר. ההעלאה עצמה אינה מופעלת מכאן. -->
+      <section class="content" id="pane-cloud" hidden>
+        <div class="settings-warn">
+          <strong>המערכת אינה בענן כרגע.</strong> המסך הזה מגדיר את התשתית —
+          כתובת הכניסה, כתובת הניהול, וחשבונות הגוגל שמורשים להיכנס. כל עוד
+          המתג "מחובר לענן" כבוי, השרת המקומי מתנהג בדיוק כמו קודם: קישור
+          אחד, בלי הזדהות, ובלי שום פנייה לרשת.
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>מוכנות להעלאה</h2>
+            <span class="panel-note" id="cloud-ready-note"></span>
+          </div>
+          <div id="cloud-readiness"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>חשבונות גוגל מורשים</h2>
+            <span class="panel-note">
+              רק מי שברשימה הזו יוכל להיכנס לאתר שבענן. הרשימה נערכת כאן בלבד —
+              אין דרך לערוך אותה מהענן.
+            </span>
+          </div>
+          <div class="add-row cloud-add" id="cloud-email-row">
+            <input type="email" id="cloud-email" placeholder="name@gmail.com" dir="ltr">
+            <button class="add-save" id="cloud-email-add">הוסף</button>
+            <span class="add-error" id="cloud-email-error"></span>
+          </div>
+          <div id="cloud-emails"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>כתובות וחיבור</h2>
+            <span class="panel-note">מזהי הפרויקט בקונסולת Firebase</span>
+          </div>
+          <div class="settings-grid">
+            <label>
+              <span>כתובת לכניסה</span>
+              <em>הקישור שנשלח למי שברשימה. מוצג גם באתר עצמו.</em>
+              <!-- ‏placeholder בלי סכמת כתובת: הדף עצמו אינו רשאי להכיל
+                   שום כתובת חיצונית, גם לא כדוגמה. ראה
+                   test_המפה_אינה_פונה_לאינטרנט. -->
+              <input type="url" id="cloud-public-url" dir="ltr"
+                     placeholder="xxx.web.app">
+            </label>
+            <label>
+              <span>כתובת לניהול</span>
+              <em>קונסולת Firebase של הפרויקט — לניהול, לוגים וחיוב.</em>
+              <input type="url" id="cloud-admin-url" dir="ltr"
+                     placeholder="console.firebase.google.com/project/…">
+            </label>
+            <label>
+              <span>שם הפרויקט</span>
+              <em>כפי שהוא מוצג בקונסולה</em>
+              <input type="text" id="cloud-project" dir="ltr">
+            </label>
+            <label>
+              <span>מזהה הפרויקט</span>
+              <em>Project ID — כולל הסיומת שגוגל הוסיפה</em>
+              <input type="text" id="cloud-project-id" dir="ltr">
+            </label>
+          </div>
+
+          <div class="panel-head panel-head--sub">
+            <h2>פרטי אפליקציית ה-Web</h2>
+            <span class="panel-note">
+              קונסולה ➜ Project settings ➜ Your apps ➜ Web. אלה מפתחות ציבוריים
+              לפי עיצוב — הם מזהים את הפרויקט ואינם סוד.
+            </span>
+          </div>
+          <div class="settings-grid">
+            <label><span>apiKey</span><input type="text" id="cloud-apiKey" dir="ltr"></label>
+            <label><span>authDomain</span><input type="text" id="cloud-authDomain" dir="ltr"></label>
+            <label><span>projectId</span><input type="text" id="cloud-projectId" dir="ltr"></label>
+            <label><span>appId</span><input type="text" id="cloud-appId" dir="ltr"></label>
+          </div>
+
+          <div class="cloud-connect">
+            <label class="cloud-switch">
+              <input type="checkbox" id="cloud-connected">
+              <span>מחובר לענן</span>
+            </label>
+            <em>
+              כשהמתג דלוק, כל בקשה שאינה מהמחשב המקומי נבדקת מול רשימת המורשים.
+              אי אפשר להדליק אותו בלי חשבון מורשה אחד לפחות ובלי פרטי האפליקציה.
+            </em>
+            <button class="add-btn" id="cloud-save">שמור הגדרות ענן</button>
+            <span class="add-error" id="cloud-error"></span>
+            <span class="save-status" id="cloud-status"></span>
+          </div>
+        </div>
       </section>
 
       <!-- ===== לשונית: טעינת נתונים ===== -->
@@ -1013,8 +1159,8 @@
   </div>
 
   <script src="vendor/leaflet.js"></script>
-  <script src="demo.js?v=67a0af25"></script>
-  <script src="app.js?v=de4ed323"></script>
+  <script src="demo.js?v=5a96f510"></script>
+  <script src="app.js?v=6c4a39de"></script>
   <script>
     /* תפריט נייד: פתיחה/סגירה של הסרגל הנשלף */
     (function () {

@@ -1539,3 +1539,196 @@ body {
 .cand-roles { display: flex; flex-wrap: wrap; gap: 6px; }
 .cand-role { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--ink-soft); }
 .cand-role input { width: 62px; }
+
+/* ===========================================================================
+   §55: המלצה לפי יישוב.
+
+   השורה היא הרשימה, והכרטיס נפתח מתוכה. שלוש עמודות נתון (חוסר, נסיעה,
+   סטטוס) ברוחב קבוע ולא לפי תוכן: 21 שורות שכל אחת מיישרת אחרת אינן
+   רשימה שאפשר לסרוק בעין, וכל הערך כאן הוא בסריקה הזו.
+   =========================================================================== */
+
+.advice-pick {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+}
+.advice-pick input {
+  flex: 1 1 240px;
+  min-width: 180px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: inherit;
+  color: inherit;
+}
+.advice-pick input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+.advice-list { padding: 4px 10px 12px; }
+
+.advice-row {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+/* המומלץ בולט בפס צד ולא בצבע רקע: הרקע היה מתחרה בגלולת הסטטוס
+   שבאותה שורה, שהיא כבר צבע בעל משמעות. */
+.advice-row--top { border-color: var(--accent); box-shadow: inset 4px 0 0 var(--accent); }
+
+.advice-line {
+  display: grid;
+  grid-template-columns: 62px minmax(120px, 1fr) 96px 96px 92px 54px;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  background: none;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  text-align: right;
+  cursor: pointer;
+}
+.advice-line:hover { background: rgba(37, 99, 235, .05); }
+
+.advice-rank {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.advice-name { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.advice-name strong { font-size: 14px; }
+.advice-name em { font-style: normal; font-size: 11px; color: var(--ink-soft); }
+
+.advice-missing, .advice-travel { display: flex; flex-direction: column; gap: 2px; }
+.advice-missing b, .advice-travel b { font-size: 17px; line-height: 1.1; }
+.advice-missing em, .advice-travel em {
+  font-style: normal; font-size: 11px; color: var(--ink-soft);
+}
+
+.advice-toggle { font-size: 12px; color: var(--accent); }
+
+.advice-detail:not(:empty) {
+  padding: 4px 12px 12px;
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+}
+/* הכרטיס שבתוך השורה כבר יושב במסגרת של השורה עצמה — מסגרת שנייה
+   סביבו קוראת כמו שני פריטים מקוננים ולא כמו פירוט של אחד. */
+.advice-detail .unit-card { border: 0; box-shadow: none; background: transparent; }
+
+@media (max-width: 768px) {
+  /* בטלפון העמודות נערמות: שש עמודות ברוחב 62-96 פיקסלים גולשות
+     מהמסך, והמספר שבאו לקרוא נחתך. */
+  .advice-line {
+    grid-template-columns: 1fr auto;
+    row-gap: 6px;
+  }
+  .advice-rank { grid-column: 1 / -1; }
+  .advice-name { grid-column: 1 / -1; }
+  .advice-missing, .advice-travel { flex-direction: row; align-items: baseline; gap: 6px; }
+}
+
+/* ===========================================================================
+   §56: לשונית "ענן ושיתוף".
+
+   דוח המוכנות הוא רשימת שלבים ולא טבלה: לכל שלב יש סימן מצב, שם,
+   והפעולה שסוגרת אותו — ופעולה בעמודה של טבלה נחתכת בדיוק כשהיא
+   ארוכה, כלומר כשהיא חשובה.
+   =========================================================================== */
+
+/* כותרת משנה בתוך פאנל קיים. בלעדיה שתי קבוצות השדות (כתובות ופרטי
+   אפליקציה) נראות כרשימה אחת ארוכה של שמונה שדות. */
+.panel-head--sub {
+  margin-top: 6px;
+  border-top: 1px solid var(--line);
+}
+
+.cloud-steps { padding: 6px 14px 12px; }
+
+.cloud-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.cloud-step:last-child { border-bottom: 0; }
+.cloud-step strong { display: block; font-size: 13px; }
+.cloud-step em {
+  display: block;
+  font-style: normal;
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin-top: 2px;
+}
+
+.cloud-step-mark {
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+.cloud-step--ok     .cloud-step-mark { background: var(--ok); }
+.cloud-step--bad    .cloud-step-mark { background: var(--err); }
+/* "אין דרך לבדוק מכאן" — ולא ירוק ולא אדום. שלב שנצבע ירוק בלי שנבדק
+   הוא ההבטחה היחידה במסך הזה שאסור לתת. */
+.cloud-step--manual .cloud-step-mark { background: #d69e2e; }
+
+.cloud-foot {
+  padding: 10px 14px 14px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+}
+.cloud-foot code { font-size: 11px; }
+
+.cloud-add input { width: 260px; max-width: 100%; }
+
+.cloud-emails { padding: 4px 14px 14px; }
+.cloud-email {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+.cloud-email:last-child { border-bottom: 0; }
+.cloud-email > span:first-child { flex: 1 1 200px; }
+.cloud-warn { font-style: normal; font-size: 12px; color: #92400e; }
+
+.cloud-connect {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 14px;
+  border-top: 1px solid var(--line);
+}
+.cloud-connect em {
+  flex: 1 1 260px;
+  font-style: normal;
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+.cloud-switch {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.cloud-switch input { width: 16px; height: 16px; }

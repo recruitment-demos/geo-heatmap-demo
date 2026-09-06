@@ -1,0 +1,2376 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [
+    {
+     "actual_positions": 118,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 32,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 14,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 18,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 55,
+     "candidates_in_process": 152,
+     "candidates_pct_jewish": 81.4,
+     "candidates_pct_male": 72.7,
+     "candidates_religion_coverage": 43,
+     "color": "#EA580C",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 32,
+     "id": 65,
+     "lat": 32.60756,
+     "lng": 35.28909,
+     "missing_in_role": 6,
+     "missing_positions": 16,
+     "missing_to_delete": 0,
+     "name": "תחנת עפולה",
+     "nearby_settlements": [
+      {
+       "name": "עפולה",
+       "travel_min": 3
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 6
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 9
+      },
+      {
+       "name": "סולם",
+       "travel_min": 9
+      },
+      {
+       "name": "דחי",
+       "travel_min": 13
+      },
+      {
+       "name": "ניר יפה",
+       "travel_min": 13
+      },
+      {
+       "name": "חבר",
+       "travel_min": 16
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 20
+      },
+      {
+       "name": "מגן שאול",
+       "travel_min": 21
+      },
+      {
+       "name": "גבעת עוז",
+       "travel_min": 26
+      },
+      {
+       "name": "גבת",
+       "travel_min": 26
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 26
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 27
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 28
+      }
+     ],
+     "open_positions": 32,
+     "pct_jewish": 92.4,
+     "pct_male": 64.9,
+     "required_positions": 150,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 6,
+       "pct_jewish": 99.0,
+       "pct_male": 61.4
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 3,
+       "pct_jewish": 89.1,
+       "pct_male": 68.5
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 5,
+       "pct_jewish": 91.1,
+       "pct_male": 74.9
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 2,
+       "pct_jewish": 95.4,
+       "pct_male": 60.5
+      }
+     ],
+     "staffing_pct": 78.67,
+     "status": "דחוף",
+     "status_key": "urgent",
+     "surplus_positions": 0,
+     "travel_min": 13,
+     "vacant_positions": 16
+    },
+    {
+     "actual_positions": 100,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 8,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 4,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 14,
+     "candidates_in_process": 36,
+     "candidates_pct_jewish": 72.2,
+     "candidates_pct_male": 50.0,
+     "candidates_religion_coverage": 18,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 24,
+     "id": 57,
+     "lat": 32.70231,
+     "lng": 35.31832,
+     "missing_in_role": 5,
+     "missing_positions": 12,
+     "missing_to_delete": 0,
+     "name": "תחנת נוף הגליל",
+     "nearby_settlements": [
+      {
+       "name": "ריינה",
+       "travel_min": 6
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 8
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 14
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 19
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 20
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 20
+      },
+      {
+       "name": "כדורי",
+       "travel_min": 20
+      },
+      {
+       "name": "סולם",
+       "travel_min": 21
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 22
+      },
+      {
+       "name": "דחי",
+       "travel_min": 22
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 24
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 25
+      },
+      {
+       "name": "גבת",
+       "travel_min": 27
+      },
+      {
+       "name": "מצפה נטופה",
+       "travel_min": 27
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 29
+      },
+      {
+       "name": "כפר כמא",
+       "travel_min": 30
+      }
+     ],
+     "open_positions": 25,
+     "pct_jewish": 79.6,
+     "pct_male": 67.7,
+     "required_positions": 124,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 5,
+       "pct_jewish": 85.8,
+       "pct_male": 66.1
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 82.1,
+       "pct_male": 68.9
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 6,
+       "pct_jewish": 77.1,
+       "pct_male": 68.9
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 80.0,
+       "pct_male": 67.7
+      }
+     ],
+     "staffing_pct": 80.65,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 0,
+     "travel_min": 22,
+     "vacant_positions": 12
+    },
+    {
+     "actual_positions": 129,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 7,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 4,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 27,
+     "candidates_in_process": 56,
+     "candidates_pct_jewish": 77.3,
+     "candidates_pct_male": 55.6,
+     "candidates_religion_coverage": 22,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 15,
+     "id": 86,
+     "lat": 32.687,
+     "lng": 35.4,
+     "missing_in_role": 4,
+     "missing_positions": 9,
+     "missing_to_delete": 0,
+     "name": "תחנת תבור",
+     "nearby_settlements": [
+      {
+       "name": "כדורי",
+       "travel_min": 6
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 12
+      },
+      {
+       "name": "כפר כמא",
+       "travel_min": 13
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 15
+      },
+      {
+       "name": "דחי",
+       "travel_min": 19
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 19
+      },
+      {
+       "name": "סולם",
+       "travel_min": 24
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 25
+      },
+      {
+       "name": "מצפה נטופה",
+       "travel_min": 28
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 29
+      }
+     ],
+     "open_positions": 15,
+     "pct_jewish": 82.7,
+     "pct_male": 67.1,
+     "required_positions": 144,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 4,
+       "pct_jewish": 81.2,
+       "pct_male": 60.4
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 2,
+       "pct_jewish": 85.8,
+       "pct_male": 72.9
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 2,
+       "pct_jewish": 81.4,
+       "pct_male": 67.0
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 83.6,
+       "pct_male": 64.1
+      }
+     ],
+     "staffing_pct": 89.58,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 1,
+     "travel_min": 19,
+     "vacant_positions": 9
+    },
+    {
+     "actual_positions": 68,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 7,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 22,
+     "candidates_in_process": 58,
+     "candidates_pct_jewish": 65.2,
+     "candidates_pct_male": 63.6,
+     "candidates_religion_coverage": 23,
+     "color": "#EA580C",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 20,
+     "id": 58,
+     "lat": 32.70663,
+     "lng": 35.30482,
+     "missing_in_role": 2,
+     "missing_positions": 7,
+     "missing_to_delete": 3,
+     "name": "תחנת נצרת",
+     "nearby_settlements": [
+      {
+       "name": "ריינה",
+       "travel_min": 7
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 11
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 13
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 14
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 16
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 17
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 17
+      },
+      {
+       "name": "דחי",
+       "travel_min": 22
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 22
+      },
+      {
+       "name": "גבת",
+       "travel_min": 24
+      },
+      {
+       "name": "כדורי",
+       "travel_min": 24
+      },
+      {
+       "name": "סולם",
+       "travel_min": 24
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 26
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 28
+      }
+     ],
+     "open_positions": 20,
+     "pct_jewish": 80.8,
+     "pct_male": 59.8,
+     "required_positions": 88,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 2,
+       "pct_jewish": 77.9,
+       "pct_male": 57.6
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 4,
+       "pct_jewish": 76.1,
+       "pct_male": 65.6
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 76.0,
+       "pct_male": 60.7
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 0,
+       "pct_jewish": 93.2,
+       "pct_male": 55.3
+      }
+     ],
+     "staffing_pct": 77.27,
+     "status": "דחוף",
+     "status_key": "urgent",
+     "surplus_positions": 0,
+     "travel_min": 22,
+     "vacant_positions": 7
+    },
+    {
+     "actual_positions": 57,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 2,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 3,
+     "candidates_in_process": 9,
+     "candidates_pct_jewish": 50.0,
+     "candidates_pct_male": 66.7,
+     "candidates_religion_coverage": 2,
+     "color": "#16A34A",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 5,
+     "id": 47,
+     "lat": 32.67657,
+     "lng": 35.24132,
+     "missing_in_role": 2,
+     "missing_positions": 4,
+     "missing_to_delete": 0,
+     "name": "תחנת מגדל העמק",
+     "nearby_settlements": [
+      {
+       "name": "גבת",
+       "travel_min": 6
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 7
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 15
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 17
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 17
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 18
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 18
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 20
+      },
+      {
+       "name": "הרדוף",
+       "travel_min": 24
+      },
+      {
+       "name": "ניר יפה",
+       "travel_min": 25
+      },
+      {
+       "name": "שדה יעקב",
+       "travel_min": 25
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 26
+      },
+      {
+       "name": "דחי",
+       "travel_min": 27
+      },
+      {
+       "name": "סולם",
+       "travel_min": 27
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 28
+      },
+      {
+       "name": "גבעת עוז",
+       "travel_min": 30
+      }
+     ],
+     "open_positions": 6,
+     "pct_jewish": 88.4,
+     "pct_male": 62.9,
+     "required_positions": 62,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 2,
+       "pct_jewish": 87.3,
+       "pct_male": 61.3
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 84.1,
+       "pct_male": 57.4
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 94.2,
+       "pct_male": 57.4
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 86.5,
+       "pct_male": 53.0
+      }
+     ],
+     "staffing_pct": 91.94,
+     "status": "תקין",
+     "status_key": "ok",
+     "surplus_positions": 2,
+     "travel_min": 27,
+     "vacant_positions": 4
+    }
+   ],
+   "top_id": 65
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [
+    {
+     "actual_positions": 100,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 8,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 4,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 14,
+     "candidates_in_process": 36,
+     "candidates_pct_jewish": 72.2,
+     "candidates_pct_male": 50.0,
+     "candidates_religion_coverage": 18,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 24,
+     "id": 57,
+     "lat": 32.70231,
+     "lng": 35.31832,
+     "missing_in_role": 6,
+     "missing_positions": 12,
+     "missing_to_delete": 0,
+     "name": "תחנת נוף הגליל",
+     "nearby_settlements": [
+      {
+       "name": "ריינה",
+       "travel_min": 6
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 8
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 14
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 19
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 20
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 20
+      },
+      {
+       "name": "כדורי",
+       "travel_min": 20
+      },
+      {
+       "name": "סולם",
+       "travel_min": 21
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 22
+      },
+      {
+       "name": "דחי",
+       "travel_min": 22
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 24
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 25
+      },
+      {
+       "name": "גבת",
+       "travel_min": 27
+      },
+      {
+       "name": "מצפה נטופה",
+       "travel_min": 27
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 29
+      },
+      {
+       "name": "כפר כמא",
+       "travel_min": 30
+      }
+     ],
+     "open_positions": 25,
+     "pct_jewish": 79.6,
+     "pct_male": 67.7,
+     "required_positions": 124,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 5,
+       "pct_jewish": 85.8,
+       "pct_male": 66.1
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 82.1,
+       "pct_male": 68.9
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 6,
+       "pct_jewish": 77.1,
+       "pct_male": 68.9
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 80.0,
+       "pct_male": 67.7
+      }
+     ],
+     "staffing_pct": 80.65,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 0,
+     "travel_min": 22,
+     "vacant_positions": 12
+    },
+    {
+     "actual_positions": 118,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 32,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 14,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 18,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 55,
+     "candidates_in_process": 152,
+     "candidates_pct_jewish": 81.4,
+     "candidates_pct_male": 72.7,
+     "candidates_religion_coverage": 43,
+     "color": "#EA580C",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 32,
+     "id": 65,
+     "lat": 32.60756,
+     "lng": 35.28909,
+     "missing_in_role": 5,
+     "missing_positions": 16,
+     "missing_to_delete": 0,
+     "name": "תחנת עפולה",
+     "nearby_settlements": [
+      {
+       "name": "עפולה",
+       "travel_min": 3
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 6
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 9
+      },
+      {
+       "name": "סולם",
+       "travel_min": 9
+      },
+      {
+       "name": "דחי",
+       "travel_min": 13
+      },
+      {
+       "name": "ניר יפה",
+       "travel_min": 13
+      },
+      {
+       "name": "חבר",
+       "travel_min": 16
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 20
+      },
+      {
+       "name": "מגן שאול",
+       "travel_min": 21
+      },
+      {
+       "name": "גבעת עוז",
+       "travel_min": 26
+      },
+      {
+       "name": "גבת",
+       "travel_min": 26
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 26
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 27
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 28
+      }
+     ],
+     "open_positions": 32,
+     "pct_jewish": 92.4,
+     "pct_male": 64.9,
+     "required_positions": 150,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 6,
+       "pct_jewish": 99.0,
+       "pct_male": 61.4
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 3,
+       "pct_jewish": 89.1,
+       "pct_male": 68.5
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 5,
+       "pct_jewish": 91.1,
+       "pct_male": 74.9
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 2,
+       "pct_jewish": 95.4,
+       "pct_male": 60.5
+      }
+     ],
+     "staffing_pct": 78.67,
+     "status": "דחוף",
+     "status_key": "urgent",
+     "surplus_positions": 0,
+     "travel_min": 13,
+     "vacant_positions": 16
+    },
+    {
+     "actual_positions": 129,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 7,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 4,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 27,
+     "candidates_in_process": 56,
+     "candidates_pct_jewish": 77.3,
+     "candidates_pct_male": 55.6,
+     "candidates_religion_coverage": 22,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 15,
+     "id": 86,
+     "lat": 32.687,
+     "lng": 35.4,
+     "missing_in_role": 2,
+     "missing_positions": 9,
+     "missing_to_delete": 0,
+     "name": "תחנת תבור",
+     "nearby_settlements": [
+      {
+       "name": "כדורי",
+       "travel_min": 6
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 12
+      },
+      {
+       "name": "כפר כמא",
+       "travel_min": 13
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 15
+      },
+      {
+       "name": "דחי",
+       "travel_min": 19
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 19
+      },
+      {
+       "name": "סולם",
+       "travel_min": 24
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 25
+      },
+      {
+       "name": "מצפה נטופה",
+       "travel_min": 28
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 29
+      }
+     ],
+     "open_positions": 15,
+     "pct_jewish": 82.7,
+     "pct_male": 67.1,
+     "required_positions": 144,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 4,
+       "pct_jewish": 81.2,
+       "pct_male": 60.4
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 2,
+       "pct_jewish": 85.8,
+       "pct_male": 72.9
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 2,
+       "pct_jewish": 81.4,
+       "pct_male": 67.0
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 83.6,
+       "pct_male": 64.1
+      }
+     ],
+     "staffing_pct": 89.58,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 1,
+     "travel_min": 19,
+     "vacant_positions": 9
+    },
+    {
+     "actual_positions": 68,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 7,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 22,
+     "candidates_in_process": 58,
+     "candidates_pct_jewish": 65.2,
+     "candidates_pct_male": 63.6,
+     "candidates_religion_coverage": 23,
+     "color": "#EA580C",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 20,
+     "id": 58,
+     "lat": 32.70663,
+     "lng": 35.30482,
+     "missing_in_role": 1,
+     "missing_positions": 7,
+     "missing_to_delete": 3,
+     "name": "תחנת נצרת",
+     "nearby_settlements": [
+      {
+       "name": "ריינה",
+       "travel_min": 7
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 11
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 13
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 14
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 16
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 17
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 17
+      },
+      {
+       "name": "דחי",
+       "travel_min": 22
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 22
+      },
+      {
+       "name": "גבת",
+       "travel_min": 24
+      },
+      {
+       "name": "כדורי",
+       "travel_min": 24
+      },
+      {
+       "name": "סולם",
+       "travel_min": 24
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 26
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 28
+      }
+     ],
+     "open_positions": 20,
+     "pct_jewish": 80.8,
+     "pct_male": 59.8,
+     "required_positions": 88,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 2,
+       "pct_jewish": 77.9,
+       "pct_male": 57.6
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 4,
+       "pct_jewish": 76.1,
+       "pct_male": 65.6
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 76.0,
+       "pct_male": 60.7
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 0,
+       "pct_jewish": 93.2,
+       "pct_male": 55.3
+      }
+     ],
+     "staffing_pct": 77.27,
+     "status": "דחוף",
+     "status_key": "urgent",
+     "surplus_positions": 0,
+     "travel_min": 22,
+     "vacant_positions": 7
+    },
+    {
+     "actual_positions": 57,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 2,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 3,
+     "candidates_in_process": 9,
+     "candidates_pct_jewish": 50.0,
+     "candidates_pct_male": 66.7,
+     "candidates_religion_coverage": 2,
+     "color": "#16A34A",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 5,
+     "id": 47,
+     "lat": 32.67657,
+     "lng": 35.24132,
+     "missing_in_role": 1,
+     "missing_positions": 4,
+     "missing_to_delete": 0,
+     "name": "תחנת מגדל העמק",
+     "nearby_settlements": [
+      {
+       "name": "גבת",
+       "travel_min": 6
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 7
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 15
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 17
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 17
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 18
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 18
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 20
+      },
+      {
+       "name": "הרדוף",
+       "travel_min": 24
+      },
+      {
+       "name": "ניר יפה",
+       "travel_min": 25
+      },
+      {
+       "name": "שדה יעקב",
+       "travel_min": 25
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 26
+      },
+      {
+       "name": "דחי",
+       "travel_min": 27
+      },
+      {
+       "name": "סולם",
+       "travel_min": 27
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 28
+      },
+      {
+       "name": "גבעת עוז",
+       "travel_min": 30
+      }
+     ],
+     "open_positions": 6,
+     "pct_jewish": 88.4,
+     "pct_male": 62.9,
+     "required_positions": 62,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 2,
+       "pct_jewish": 87.3,
+       "pct_male": 61.3
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 84.1,
+       "pct_male": 57.4
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 94.2,
+       "pct_male": 57.4
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 86.5,
+       "pct_male": 53.0
+      }
+     ],
+     "staffing_pct": 91.94,
+     "status": "תקין",
+     "status_key": "ok",
+     "surplus_positions": 2,
+     "travel_min": 27,
+     "vacant_positions": 4
+    }
+   ],
+   "top_id": 57
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [
+    {
+     "actual_positions": 68,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 7,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 22,
+     "candidates_in_process": 58,
+     "candidates_pct_jewish": 65.2,
+     "candidates_pct_male": 63.6,
+     "candidates_religion_coverage": 23,
+     "color": "#EA580C",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 20,
+     "id": 58,
+     "lat": 32.70663,
+     "lng": 35.30482,
+     "missing_in_role": 4,
+     "missing_positions": 7,
+     "missing_to_delete": 3,
+     "name": "תחנת נצרת",
+     "nearby_settlements": [
+      {
+       "name": "ריינה",
+       "travel_min": 7
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 11
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 13
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 14
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 16
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 17
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 17
+      },
+      {
+       "name": "דחי",
+       "travel_min": 22
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 22
+      },
+      {
+       "name": "גבת",
+       "travel_min": 24
+      },
+      {
+       "name": "כדורי",
+       "travel_min": 24
+      },
+      {
+       "name": "סולם",
+       "travel_min": 24
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 26
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 28
+      }
+     ],
+     "open_positions": 20,
+     "pct_jewish": 80.8,
+     "pct_male": 59.8,
+     "required_positions": 88,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 2,
+       "pct_jewish": 77.9,
+       "pct_male": 57.6
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 4,
+       "pct_jewish": 76.1,
+       "pct_male": 65.6
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 76.0,
+       "pct_male": 60.7
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 0,
+       "pct_jewish": 93.2,
+       "pct_male": 55.3
+      }
+     ],
+     "staffing_pct": 77.27,
+     "status": "דחוף",
+     "status_key": "urgent",
+     "surplus_positions": 0,
+     "travel_min": 22,
+     "vacant_positions": 7
+    },
+    {
+     "actual_positions": 118,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 32,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 14,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 18,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 55,
+     "candidates_in_process": 152,
+     "candidates_pct_jewish": 81.4,
+     "candidates_pct_male": 72.7,
+     "candidates_religion_coverage": 43,
+     "color": "#EA580C",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 32,
+     "id": 65,
+     "lat": 32.60756,
+     "lng": 35.28909,
+     "missing_in_role": 3,
+     "missing_positions": 16,
+     "missing_to_delete": 0,
+     "name": "תחנת עפולה",
+     "nearby_settlements": [
+      {
+       "name": "עפולה",
+       "travel_min": 3
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 6
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 9
+      },
+      {
+       "name": "סולם",
+       "travel_min": 9
+      },
+      {
+       "name": "דחי",
+       "travel_min": 13
+      },
+      {
+       "name": "ניר יפה",
+       "travel_min": 13
+      },
+      {
+       "name": "חבר",
+       "travel_min": 16
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 20
+      },
+      {
+       "name": "מגן שאול",
+       "travel_min": 21
+      },
+      {
+       "name": "גבעת עוז",
+       "travel_min": 26
+      },
+      {
+       "name": "גבת",
+       "travel_min": 26
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 26
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 27
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 28
+      }
+     ],
+     "open_positions": 32,
+     "pct_jewish": 92.4,
+     "pct_male": 64.9,
+     "required_positions": 150,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 6,
+       "pct_jewish": 99.0,
+       "pct_male": 61.4
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 3,
+       "pct_jewish": 89.1,
+       "pct_male": 68.5
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 5,
+       "pct_jewish": 91.1,
+       "pct_male": 74.9
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 2,
+       "pct_jewish": 95.4,
+       "pct_male": 60.5
+      }
+     ],
+     "staffing_pct": 78.67,
+     "status": "דחוף",
+     "status_key": "urgent",
+     "surplus_positions": 0,
+     "travel_min": 13,
+     "vacant_positions": 16
+    },
+    {
+     "actual_positions": 129,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 12,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 5,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 7,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 4,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 27,
+     "candidates_in_process": 56,
+     "candidates_pct_jewish": 77.3,
+     "candidates_pct_male": 55.6,
+     "candidates_religion_coverage": 22,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 15,
+     "id": 86,
+     "lat": 32.687,
+     "lng": 35.4,
+     "missing_in_role": 2,
+     "missing_positions": 9,
+     "missing_to_delete": 0,
+     "name": "תחנת תבור",
+     "nearby_settlements": [
+      {
+       "name": "כדורי",
+       "travel_min": 6
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 12
+      },
+      {
+       "name": "כפר כמא",
+       "travel_min": 13
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 15
+      },
+      {
+       "name": "דחי",
+       "travel_min": 19
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 19
+      },
+      {
+       "name": "סולם",
+       "travel_min": 24
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 25
+      },
+      {
+       "name": "מצפה נטופה",
+       "travel_min": 28
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 29
+      }
+     ],
+     "open_positions": 15,
+     "pct_jewish": 82.7,
+     "pct_male": 67.1,
+     "required_positions": 144,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 4,
+       "pct_jewish": 81.2,
+       "pct_male": 60.4
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 2,
+       "pct_jewish": 85.8,
+       "pct_male": 72.9
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 2,
+       "pct_jewish": 81.4,
+       "pct_male": 67.0
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 83.6,
+       "pct_male": 64.1
+      }
+     ],
+     "staffing_pct": 89.58,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 1,
+     "travel_min": 19,
+     "vacant_positions": 9
+    },
+    {
+     "actual_positions": 100,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 8,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 4,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 14,
+     "candidates_in_process": 36,
+     "candidates_pct_jewish": 72.2,
+     "candidates_pct_male": 50.0,
+     "candidates_religion_coverage": 18,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 24,
+     "id": 57,
+     "lat": 32.70231,
+     "lng": 35.31832,
+     "missing_in_role": 0,
+     "missing_positions": 12,
+     "missing_to_delete": 0,
+     "name": "תחנת נוף הגליל",
+     "nearby_settlements": [
+      {
+       "name": "ריינה",
+       "travel_min": 6
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 8
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 14
+      },
+      {
+       "name": "בית קשת",
+       "travel_min": 19
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 20
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 20
+      },
+      {
+       "name": "כדורי",
+       "travel_min": 20
+      },
+      {
+       "name": "סולם",
+       "travel_min": 21
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 22
+      },
+      {
+       "name": "דחי",
+       "travel_min": 22
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 24
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 25
+      },
+      {
+       "name": "גבת",
+       "travel_min": 27
+      },
+      {
+       "name": "מצפה נטופה",
+       "travel_min": 27
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 29
+      },
+      {
+       "name": "כפר כמא",
+       "travel_min": 30
+      }
+     ],
+     "open_positions": 25,
+     "pct_jewish": 79.6,
+     "pct_male": 67.7,
+     "required_positions": 124,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 5,
+       "pct_jewish": 85.8,
+       "pct_male": 66.1
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 82.1,
+       "pct_male": 68.9
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 6,
+       "pct_jewish": 77.1,
+       "pct_male": 68.9
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 80.0,
+       "pct_male": 67.7
+      }
+     ],
+     "staffing_pct": 80.65,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 0,
+     "travel_min": 22,
+     "vacant_positions": 12
+    },
+    {
+     "actual_positions": 57,
+     "area": "עמקים",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 2,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 3,
+     "candidates_in_process": 9,
+     "candidates_pct_jewish": 50.0,
+     "candidates_pct_male": 66.7,
+     "candidates_religion_coverage": 2,
+     "color": "#16A34A",
+     "coord_verified": false,
+     "district": "צפון",
+     "gap_positions": 5,
+     "id": 47,
+     "lat": 32.67657,
+     "lng": 35.24132,
+     "missing_in_role": 0,
+     "missing_positions": 4,
+     "missing_to_delete": 0,
+     "name": "תחנת מגדל העמק",
+     "nearby_settlements": [
+      {
+       "name": "גבת",
+       "travel_min": 6
+      },
+      {
+       "name": "יפעת",
+       "travel_min": 7
+      },
+      {
+       "name": "גבעת אלה",
+       "travel_min": 15
+      },
+      {
+       "name": "עפולה",
+       "travel_min": 17
+      },
+      {
+       "name": "ריינה",
+       "travel_min": 17
+      },
+      {
+       "name": "בלפוריה",
+       "travel_min": 18
+      },
+      {
+       "name": "כפר גדעון",
+       "travel_min": 18
+      },
+      {
+       "name": "הסוללים",
+       "travel_min": 20
+      },
+      {
+       "name": "הרדוף",
+       "travel_min": 24
+      },
+      {
+       "name": "ניר יפה",
+       "travel_min": 25
+      },
+      {
+       "name": "שדה יעקב",
+       "travel_min": 25
+      },
+      {
+       "name": "עין מאהל",
+       "travel_min": 26
+      },
+      {
+       "name": "דחי",
+       "travel_min": 27
+      },
+      {
+       "name": "סולם",
+       "travel_min": 27
+      },
+      {
+       "name": "חנתון",
+       "travel_min": 28
+      },
+      {
+       "name": "גבעת עוז",
+       "travel_min": 30
+      }
+     ],
+     "open_positions": 6,
+     "pct_jewish": 88.4,
+     "pct_male": 62.9,
+     "required_positions": 62,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 2,
+       "pct_jewish": 87.3,
+       "pct_male": 61.3
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 84.1,
+       "pct_male": 57.4
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 94.2,
+       "pct_male": 57.4
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 86.5,
+       "pct_male": 53.0
+      }
+     ],
+     "staffing_pct": 91.94,
+     "status": "תקין",
+     "status_key": "ok",
+     "surplus_positions": 2,
+     "travel_min": 27,
+     "vacant_positions": 4
+    }
+   ],
+   "top_id": 58
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [],
+ "settlement": {
+  "focus": false,
+  "id": 70,
+  "lat": 32.6204,
+  "lng": 35.34499,
+  "name": "דחי",
+  "population": 15600
+ },
+ "stations_count": 5
+}

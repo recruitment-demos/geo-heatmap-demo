@@ -1,0 +1,345 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [
+    {
+     "actual_positions": 104,
+     "area": "נגב",
+     "candidates_by_role": null,
+     "candidates_gender_coverage": 0,
+     "candidates_in_process": 1,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": 0,
+     "color": "#16A34A",
+     "coord_verified": false,
+     "district": "דרום",
+     "gap_positions": 2,
+     "id": 60,
+     "lat": 31.42135,
+     "lng": 34.58843,
+     "missing_in_role": 1,
+     "missing_positions": 2,
+     "missing_to_delete": 0,
+     "name": "תחנת נתיבות",
+     "nearby_settlements": [
+      {
+       "name": "שרשרת",
+       "travel_min": 7
+      },
+      {
+       "name": "יושיביה",
+       "travel_min": 9
+      },
+      {
+       "name": "שיבולים",
+       "travel_min": 11
+      },
+      {
+       "name": "שוקדה",
+       "travel_min": 14
+      },
+      {
+       "name": "שבי דרום",
+       "travel_min": 15
+      },
+      {
+       "name": "ברוש",
+       "travel_min": 16
+      },
+      {
+       "name": "תדהר",
+       "travel_min": 17
+      },
+      {
+       "name": "אשבול",
+       "travel_min": 18
+      },
+      {
+       "name": "גבים",
+       "travel_min": 24
+      },
+      {
+       "name": "פדויים",
+       "travel_min": 25
+      }
+     ],
+     "open_positions": 2,
+     "pct_jewish": 71.6,
+     "pct_male": 71.5,
+     "required_positions": 106,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 1,
+       "pct_jewish": 71.8,
+       "pct_male": 72.0
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 73.9,
+       "pct_male": 74.4
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 0,
+       "pct_jewish": 78.7,
+       "pct_male": 71.8
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 74.7,
+       "pct_male": 74.2
+      }
+     ],
+     "staffing_pct": 98.11,
+     "status": "תקין",
+     "status_key": "ok",
+     "surplus_positions": 0,
+     "travel_min": 14,
+     "vacant_positions": 2
+    }
+   ],
+   "top_id": 60
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [
+    {
+     "actual_positions": 104,
+     "area": "נגב",
+     "candidates_by_role": null,
+     "candidates_gender_coverage": 0,
+     "candidates_in_process": 1,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": 0,
+     "color": "#16A34A",
+     "coord_verified": false,
+     "district": "דרום",
+     "gap_positions": 2,
+     "id": 60,
+     "lat": 31.42135,
+     "lng": 34.58843,
+     "missing_in_role": 0,
+     "missing_positions": 2,
+     "missing_to_delete": 0,
+     "name": "תחנת נתיבות",
+     "nearby_settlements": [
+      {
+       "name": "שרשרת",
+       "travel_min": 7
+      },
+      {
+       "name": "יושיביה",
+       "travel_min": 9
+      },
+      {
+       "name": "שיבולים",
+       "travel_min": 11
+      },
+      {
+       "name": "שוקדה",
+       "travel_min": 14
+      },
+      {
+       "name": "שבי דרום",
+       "travel_min": 15
+      },
+      {
+       "name": "ברוש",
+       "travel_min": 16
+      },
+      {
+       "name": "תדהר",
+       "travel_min": 17
+      },
+      {
+       "name": "אשבול",
+       "travel_min": 18
+      },
+      {
+       "name": "גבים",
+       "travel_min": 24
+      },
+      {
+       "name": "פדויים",
+       "travel_min": 25
+      }
+     ],
+     "open_positions": 2,
+     "pct_jewish": 71.6,
+     "pct_male": 71.5,
+     "required_positions": 106,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 1,
+       "pct_jewish": 71.8,
+       "pct_male": 72.0
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 73.9,
+       "pct_male": 74.4
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 0,
+       "pct_jewish": 78.7,
+       "pct_male": 71.8
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 74.7,
+       "pct_male": 74.2
+      }
+     ],
+     "staffing_pct": 98.11,
+     "status": "תקין",
+     "status_key": "ok",
+     "surplus_positions": 0,
+     "travel_min": 14,
+     "vacant_positions": 2
+    }
+   ],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [
+    {
+     "actual_positions": 104,
+     "area": "נגב",
+     "candidates_by_role": null,
+     "candidates_gender_coverage": 0,
+     "candidates_in_process": 1,
+     "candidates_pct_jewish": null,
+     "candidates_pct_male": null,
+     "candidates_religion_coverage": 0,
+     "color": "#16A34A",
+     "coord_verified": false,
+     "district": "דרום",
+     "gap_positions": 2,
+     "id": 60,
+     "lat": 31.42135,
+     "lng": 34.58843,
+     "missing_in_role": 0,
+     "missing_positions": 2,
+     "missing_to_delete": 0,
+     "name": "תחנת נתיבות",
+     "nearby_settlements": [
+      {
+       "name": "שרשרת",
+       "travel_min": 7
+      },
+      {
+       "name": "יושיביה",
+       "travel_min": 9
+      },
+      {
+       "name": "שיבולים",
+       "travel_min": 11
+      },
+      {
+       "name": "שוקדה",
+       "travel_min": 14
+      },
+      {
+       "name": "שבי דרום",
+       "travel_min": 15
+      },
+      {
+       "name": "ברוש",
+       "travel_min": 16
+      },
+      {
+       "name": "תדהר",
+       "travel_min": 17
+      },
+      {
+       "name": "אשבול",
+       "travel_min": 18
+      },
+      {
+       "name": "גבים",
+       "travel_min": 24
+      },
+      {
+       "name": "פדויים",
+       "travel_min": 25
+      }
+     ],
+     "open_positions": 2,
+     "pct_jewish": 71.6,
+     "pct_male": 71.5,
+     "required_positions": 106,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 1,
+       "pct_jewish": 71.8,
+       "pct_male": 72.0
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 73.9,
+       "pct_male": 74.4
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 0,
+       "pct_jewish": 78.7,
+       "pct_male": 71.8
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 74.7,
+       "pct_male": 74.2
+      }
+     ],
+     "staffing_pct": 98.11,
+     "status": "תקין",
+     "status_key": "ok",
+     "surplus_positions": 0,
+     "travel_min": 14,
+     "vacant_positions": 2
+    }
+   ],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [],
+ "settlement": {
+  "focus": false,
+  "id": 242,
+  "lat": 31.42167,
+  "lng": 34.52538,
+  "name": "שוקדה",
+  "population": 7800
+ },
+ "stations_count": 1
+}

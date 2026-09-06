@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "גלעד",
+   "distance_km": 22.2,
+   "district": "ש\"י",
+   "name": "תחנת מעלה אדומים",
+   "travel_min": 30
+  },
+  {
+   "area": "יהודה",
+   "distance_km": 22.5,
+   "district": "ש\"י",
+   "name": "תחנת חברון",
+   "travel_min": 31
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 4,
+  "lat": 31.67926,
+  "lng": 35.43655,
+  "name": "אבנת",
+  "population": 109700
+ },
+ "stations_count": 0
+}

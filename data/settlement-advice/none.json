@@ -1,0 +1,23 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": []
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": []
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": []
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [],
+ "settlement": null,
+ "stations_count": 0
+}

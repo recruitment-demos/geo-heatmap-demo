@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "נגב",
+   "distance_km": 31.9,
+   "district": "דרום",
+   "name": "תחנת אופקים",
+   "travel_min": 42
+  },
+  {
+   "area": "נגב",
+   "distance_km": 36.5,
+   "district": "דרום",
+   "name": "תחנת נתיבות",
+   "travel_min": 47
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 96,
+  "lat": 31.18874,
+  "lng": 34.31761,
+  "name": "יבול",
+  "population": 22500
+ },
+ "stations_count": 0
+}

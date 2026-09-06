@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "גלעד",
+   "distance_km": 20.4,
+   "district": "ש\"י",
+   "name": "תחנת הבקעה",
+   "travel_min": 28
+  },
+  {
+   "area": "שומרון",
+   "distance_km": 20.6,
+   "district": "ש\"י",
+   "name": "תחנת בנימין",
+   "travel_min": 29
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 153,
+  "lat": 32.05496,
+  "lng": 35.24026,
+  "name": "מעלה לבונה",
+  "population": 15200
+ },
+ "stations_count": 0
+}

@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "יהודה",
+   "distance_km": 25.7,
+   "district": "ש\"י",
+   "name": "תחנת חברון",
+   "travel_min": 35
+  },
+  {
+   "area": "ציון",
+   "distance_km": 27.0,
+   "district": "ירושלים",
+   "name": "תחנת מוריה",
+   "travel_min": 36
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 157,
+  "lat": 31.56967,
+  "lng": 35.40069,
+  "name": "מצפה שלם",
+  "population": 37400
+ },
+ "stations_count": 0
+}

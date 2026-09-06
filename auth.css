@@ -1,0 +1,81 @@
+/* ---------------------------------------------------------------------------
+   auth.css — מסכי שער הכניסה בענן.
+
+   הכול תלוי במחלקה gh-locked שנקבעת ב-auth.js. **בהתקנה המקומית היא
+   לעולם אינה נקבעת**, ולכן הקובץ הזה אינו משפיע על שום דבר: אין כאן
+   כלל שחל על אלמנט קיים בלי המחלקה.
+   --------------------------------------------------------------------------- */
+
+/* העמוד מוסתר עד שהאימות עבר. visibility ולא display: display:none על
+   השורש היה מפרק את חישובי הגודל של Leaflet, והמפה הייתה עולה ריקה
+   ברגע שהמסך נחשף. */
+html.gh-locked body > .layout { visibility: hidden; }
+
+.gh-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #14284b;
+}
+
+.gh-gate-card {
+  width: min(440px, 100%);
+  padding: 30px 28px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .35);
+  text-align: center;
+}
+
+.gh-gate-mark {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #2563eb;
+  margin-bottom: 14px;
+}
+.gh-gate-card h1 { font-size: 20px; margin: 0 0 10px; color: #0f172a; }
+.gh-gate-card p { font-size: 13px; line-height: 1.7; color: #475569; margin: 0; }
+
+.gh-gate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gh-gate-btn {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.gh-gate-btn.ghost { background: #f1f5f9; color: #0f172a; }
+.gh-gate-btn:hover { filter: brightness(1.06); }
+
+/* מי מחובר. פס דק בתחתית ולא כותרת: זהות המשתמש היא מידע רקע, ובראש
+   המסך היא הייתה גוזלת מקום מהמערכת עצמה. */
+.gh-who {
+  position: fixed;
+  bottom: 0;
+  inset-inline: 0;
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 5px 14px;
+  background: rgba(20, 40, 75, .93);
+  color: #e2e8f0;
+  font-size: 12px;
+}
+.gh-who .gh-gate-btn { padding: 3px 12px; font-size: 12px; font-weight: 500; }

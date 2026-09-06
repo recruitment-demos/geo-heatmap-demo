@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "אילת",
+   "distance_km": 60.9,
+   "district": "דרום",
+   "name": "מרחב אילת",
+   "travel_min": 75
+  },
+  {
+   "area": "רותם",
+   "distance_km": 110.1,
+   "district": "דרום",
+   "name": "תחנת דימונה",
+   "travel_min": 132
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 98,
+  "lat": 30.08194,
+  "lng": 35.12877,
+  "name": "יהל",
+  "population": 30800
+ },
+ "stations_count": 0
+}

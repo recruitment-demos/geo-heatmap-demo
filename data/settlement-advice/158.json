@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "רותם",
+   "distance_km": 28.2,
+   "district": "דרום",
+   "name": "תחנת דימונה",
+   "travel_min": 37
+  },
+  {
+   "area": "רותם",
+   "distance_km": 31.4,
+   "district": "דרום",
+   "name": "תחנת ערוער",
+   "travel_min": 41
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 158,
+  "lat": 30.88862,
+  "lng": 34.82888,
+  "name": "מרחב עם",
+  "population": 150700
+ },
+ "stations_count": 0
+}

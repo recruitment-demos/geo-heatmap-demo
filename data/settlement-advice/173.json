@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "נגב",
+   "distance_km": 20.7,
+   "district": "דרום",
+   "name": "תחנת נתיבות",
+   "travel_min": 29
+  },
+  {
+   "area": "נגב",
+   "distance_km": 21.6,
+   "district": "דרום",
+   "name": "תחנת אופקים",
+   "travel_min": 30
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 173,
+  "lat": 31.3352,
+  "lng": 34.395,
+  "name": "נירים",
+  "population": 2800
+ },
+ "stations_count": 0
+}

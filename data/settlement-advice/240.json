@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "עמקים",
+   "distance_km": 16.9,
+   "district": "צפון",
+   "name": "תחנת בית שאן",
+   "travel_min": 24
+  },
+  {
+   "area": "גלעד",
+   "distance_km": 28.6,
+   "district": "ש\"י",
+   "name": "תחנת הבקעה",
+   "travel_min": 38
+  }
+ ],
+ "settlement": {
+  "focus": true,
+  "id": 240,
+  "lat": 32.34727,
+  "lng": 35.53263,
+  "name": "שדמות מחולה",
+  "population": 134300
+ },
+ "stations_count": 0
+}

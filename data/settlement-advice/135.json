@@ -1,0 +1,492 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [
+    {
+     "actual_positions": 31,
+     "area": "ציון",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 2,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 6,
+     "candidates_in_process": 14,
+     "candidates_pct_jewish": 50.0,
+     "candidates_pct_male": 66.7,
+     "candidates_religion_coverage": 6,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "ירושלים",
+     "gap_positions": 4,
+     "id": 12,
+     "lat": 31.74621,
+     "lng": 34.98868,
+     "missing_in_role": 1,
+     "missing_positions": 3,
+     "missing_to_delete": 0,
+     "name": "תחנת בית שמש",
+     "nearby_settlements": [
+      {
+       "name": "זנוח",
+       "travel_min": 7
+      },
+      {
+       "name": "נחם",
+       "travel_min": 11
+      },
+      {
+       "name": "כסלון",
+       "travel_min": 13
+      },
+      {
+       "name": "אשתאול",
+       "travel_min": 14
+      },
+      {
+       "name": "בית מאיר",
+       "travel_min": 14
+      },
+      {
+       "name": "שדות מיכה",
+       "travel_min": 16
+      },
+      {
+       "name": "הראל",
+       "travel_min": 18
+      },
+      {
+       "name": "מסילת ציון",
+       "travel_min": 18
+      },
+      {
+       "name": "בר גיורא",
+       "travel_min": 19
+      },
+      {
+       "name": "רמת רזיאל",
+       "travel_min": 19
+      },
+      {
+       "name": "צור הדסה",
+       "travel_min": 26
+      },
+      {
+       "name": "לוזית",
+       "travel_min": 28
+      },
+      {
+       "name": "שעלבים",
+       "travel_min": 29
+      }
+     ],
+     "open_positions": 4,
+     "pct_jewish": 73.2,
+     "pct_male": 72.4,
+     "required_positions": 35,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 1,
+       "pct_jewish": 74.1,
+       "pct_male": 70.0
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 65.7,
+       "pct_male": 67.0
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 78.9,
+       "pct_male": 67.5
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 70.7,
+       "pct_male": 70.7
+      }
+     ],
+     "staffing_pct": 88.57,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 0,
+     "travel_min": 28,
+     "vacant_positions": 3
+    }
+   ],
+   "top_id": 12
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [
+    {
+     "actual_positions": 31,
+     "area": "ציון",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 2,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 6,
+     "candidates_in_process": 14,
+     "candidates_pct_jewish": 50.0,
+     "candidates_pct_male": 66.7,
+     "candidates_religion_coverage": 6,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "ירושלים",
+     "gap_positions": 4,
+     "id": 12,
+     "lat": 31.74621,
+     "lng": 34.98868,
+     "missing_in_role": 1,
+     "missing_positions": 3,
+     "missing_to_delete": 0,
+     "name": "תחנת בית שמש",
+     "nearby_settlements": [
+      {
+       "name": "זנוח",
+       "travel_min": 7
+      },
+      {
+       "name": "נחם",
+       "travel_min": 11
+      },
+      {
+       "name": "כסלון",
+       "travel_min": 13
+      },
+      {
+       "name": "אשתאול",
+       "travel_min": 14
+      },
+      {
+       "name": "בית מאיר",
+       "travel_min": 14
+      },
+      {
+       "name": "שדות מיכה",
+       "travel_min": 16
+      },
+      {
+       "name": "הראל",
+       "travel_min": 18
+      },
+      {
+       "name": "מסילת ציון",
+       "travel_min": 18
+      },
+      {
+       "name": "בר גיורא",
+       "travel_min": 19
+      },
+      {
+       "name": "רמת רזיאל",
+       "travel_min": 19
+      },
+      {
+       "name": "צור הדסה",
+       "travel_min": 26
+      },
+      {
+       "name": "לוזית",
+       "travel_min": 28
+      },
+      {
+       "name": "שעלבים",
+       "travel_min": 29
+      }
+     ],
+     "open_positions": 4,
+     "pct_jewish": 73.2,
+     "pct_male": 72.4,
+     "required_positions": 35,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 1,
+       "pct_jewish": 74.1,
+       "pct_male": 70.0
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 65.7,
+       "pct_male": 67.0
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 78.9,
+       "pct_male": 67.5
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 70.7,
+       "pct_male": 70.7
+      }
+     ],
+     "staffing_pct": 88.57,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 0,
+     "travel_min": 28,
+     "vacant_positions": 3
+    }
+   ],
+   "top_id": 12
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [
+    {
+     "actual_positions": 31,
+     "area": "ציון",
+     "candidates_by_role": [
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 3,
+       "key": "patrol",
+       "label": "סייר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "detectives",
+       "label": "בלש"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 2,
+       "key": "investigators",
+       "label": "חוקר"
+      },
+      {
+       "candidates_gender_coverage": null,
+       "candidates_pct_jewish": null,
+       "candidates_pct_male": null,
+       "candidates_religion_coverage": null,
+       "count": 1,
+       "key": "other",
+       "label": "אחר"
+      }
+     ],
+     "candidates_gender_coverage": 6,
+     "candidates_in_process": 14,
+     "candidates_pct_jewish": 50.0,
+     "candidates_pct_male": 66.7,
+     "candidates_religion_coverage": 6,
+     "color": "#EAB308",
+     "coord_verified": false,
+     "district": "ירושלים",
+     "gap_positions": 4,
+     "id": 12,
+     "lat": 31.74621,
+     "lng": 34.98868,
+     "missing_in_role": 0,
+     "missing_positions": 3,
+     "missing_to_delete": 0,
+     "name": "תחנת בית שמש",
+     "nearby_settlements": [
+      {
+       "name": "זנוח",
+       "travel_min": 7
+      },
+      {
+       "name": "נחם",
+       "travel_min": 11
+      },
+      {
+       "name": "כסלון",
+       "travel_min": 13
+      },
+      {
+       "name": "אשתאול",
+       "travel_min": 14
+      },
+      {
+       "name": "בית מאיר",
+       "travel_min": 14
+      },
+      {
+       "name": "שדות מיכה",
+       "travel_min": 16
+      },
+      {
+       "name": "הראל",
+       "travel_min": 18
+      },
+      {
+       "name": "מסילת ציון",
+       "travel_min": 18
+      },
+      {
+       "name": "בר גיורא",
+       "travel_min": 19
+      },
+      {
+       "name": "רמת רזיאל",
+       "travel_min": 19
+      },
+      {
+       "name": "צור הדסה",
+       "travel_min": 26
+      },
+      {
+       "name": "לוזית",
+       "travel_min": 28
+      },
+      {
+       "name": "שעלבים",
+       "travel_min": 29
+      }
+     ],
+     "open_positions": 4,
+     "pct_jewish": 73.2,
+     "pct_male": 72.4,
+     "required_positions": 35,
+     "roles": [
+      {
+       "key": "patrol",
+       "label": "סייר",
+       "missing": 1,
+       "pct_jewish": 74.1,
+       "pct_male": 70.0
+      },
+      {
+       "key": "detectives",
+       "label": "בלש",
+       "missing": 0,
+       "pct_jewish": 65.7,
+       "pct_male": 67.0
+      },
+      {
+       "key": "investigators",
+       "label": "חוקר",
+       "missing": 1,
+       "pct_jewish": 78.9,
+       "pct_male": 67.5
+      },
+      {
+       "key": "other",
+       "label": "אחר",
+       "missing": 1,
+       "pct_jewish": 70.7,
+       "pct_male": 70.7
+      }
+     ],
+     "staffing_pct": 88.57,
+     "status": "בינוני",
+     "status_key": "medium",
+     "surplus_positions": 0,
+     "travel_min": 28,
+     "vacant_positions": 3
+    }
+   ],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [],
+ "settlement": {
+  "focus": true,
+  "id": 135,
+  "lat": 31.68779,
+  "lng": 34.88774,
+  "name": "לוזית",
+  "population": 27600
+ },
+ "stations_count": 1
+}

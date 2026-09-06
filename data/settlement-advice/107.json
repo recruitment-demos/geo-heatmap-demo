@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "נגב",
+   "distance_km": 21.9,
+   "district": "דרום",
+   "name": "תחנת אופקים",
+   "travel_min": 30
+  },
+  {
+   "area": "נגב",
+   "distance_km": 26.2,
+   "district": "דרום",
+   "name": "תחנת נתיבות",
+   "travel_min": 35
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 107,
+  "lat": 31.24641,
+  "lng": 34.40325,
+  "name": "ישע",
+  "population": 7800
+ },
+ "stations_count": 0
+}

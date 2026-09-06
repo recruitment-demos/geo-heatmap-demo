@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "לכיש",
+   "distance_km": 16.0,
+   "district": "דרום",
+   "name": "תחנת קרית גת",
+   "travel_min": 23
+  },
+  {
+   "area": "נגב",
+   "distance_km": 21.6,
+   "district": "דרום",
+   "name": "תחנת רהט",
+   "travel_min": 30
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 19,
+  "lat": 31.53247,
+  "lng": 34.91431,
+  "name": "אמציה",
+  "population": 7000
+ },
+ "stations_count": 0
+}

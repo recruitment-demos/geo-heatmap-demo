@@ -1,0 +1,48 @@
+{
+ "families": [
+  {
+   "key": "patrol",
+   "label": "סייר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "investigators",
+   "label": "חוקר",
+   "stations": [],
+   "top_id": null
+  },
+  {
+   "key": "detectives",
+   "label": "בלש",
+   "stations": [],
+   "top_id": null
+  }
+ ],
+ "nearby_minutes": 30,
+ "nearest": [
+  {
+   "area": "נגב",
+   "distance_km": 18.6,
+   "district": "דרום",
+   "name": "תחנת אופקים",
+   "travel_min": 26
+  },
+  {
+   "area": "נגב",
+   "distance_km": 26.1,
+   "district": "דרום",
+   "name": "תחנת נתיבות",
+   "travel_min": 35
+  }
+ ],
+ "settlement": {
+  "focus": false,
+  "id": 50,
+  "lat": 31.21111,
+  "lng": 34.46525,
+  "name": "גבולות",
+  "population": 12900
+ },
+ "stations_count": 0
+}
