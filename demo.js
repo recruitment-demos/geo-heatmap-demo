@@ -317,7 +317,11 @@
         acc.required += row.required || 0;
         totals.set(name, acc);
       });
+      // §59: אפשרות בלי משרה פנויה אינה מוצגת — חוץ מהבחירה הנוכחית,
+      // שנשארת גם ב-0 כדי שלא תיעלם מתחת לאצבע. אותו כלל של השרת.
+      const keep = f[key] || null;
       return [...totals.values()]
+        .filter((o) => o.vacant > 0 || o.name === keep)
         .map((o) => ({ name: o.name, vacant: o.vacant, required: Math.round(o.required) }))
         .sort((a, b) => a.name.localeCompare(b.name, "he"));
     };
@@ -409,12 +413,16 @@
       if (!vacancyMatches(row, f, "station")) return;
       counts.set(row.station_id, (counts.get(row.station_id) || 0) + 1);
     });
-    return (await table("admin-stations")).map((s) => ({
-      id: s.id,
-      name: s.name,
-      area: s.area,
-      vacant: counts.get(s.id) || 0,
-    }));
+    // §59: רק תחנות שיש בהן משרה תחת הסינון, והתחנה שנבחרה בכל מקרה.
+    const keep = f.station ? Number(f.station) : null;
+    return (await table("admin-stations"))
+      .filter((s) => (counts.get(s.id) || 0) > 0 || s.id === keep)
+      .map((s) => ({
+        id: s.id,
+        name: s.name,
+        area: s.area,
+        vacant: counts.get(s.id) || 0,
+      }));
   }
 
   // פרמטרי סינון אינם נתמכים בלי שרת: מסכי הסינון מוקפאים, וכל בקשה

@@ -4933,6 +4933,9 @@ function fillStations(items) {
   select.value = items.some((s) => String(s.id) === previous) ? previous : "";
 }
 
+// §59: הרשימה מגיעה מהשרת כשהיא כבר מסוננת — רק אפשרויות שיש בהן משרה,
+// ובנוסף הבחירה הנוכחית גם אם ירדה ל-0. תווית "אין פנויות" נשארה כאן
+// בשבילה בלבד: היא נקראת אחרת לגמרי מרשימה שכולה "אין".
 function fillOptions(id, items, allLabel) {
   const select = el(id);
   const previous = select.value;
