@@ -2,6 +2,7 @@
  {
   "position_no": "110015",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "דרום",
   "region": "מרחב אילת",
@@ -28,6 +29,7 @@
  {
   "position_no": "110017",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "דרום",
   "region": "מרחב אילת",
@@ -54,6 +56,7 @@
  {
   "position_no": "109994",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "דרום",
   "region": "מרחב אילת",
@@ -80,6 +83,7 @@
  {
   "position_no": "109967",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "דרום",
   "region": "מרחב אילת",
@@ -106,6 +110,7 @@
  {
   "position_no": "109964",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "דרום",
   "region": "מרחב אילת",
@@ -132,6 +137,7 @@
  {
   "position_no": "110873",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -158,6 +164,7 @@
  {
   "position_no": "110860",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -184,6 +191,7 @@
  {
   "position_no": "110861",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -210,6 +218,7 @@
  {
   "position_no": "110792",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -236,6 +245,7 @@
  {
   "position_no": "110837",
   "occupation": "מערכות מידע — שוטר",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -262,6 +272,7 @@
  {
   "position_no": "110838",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -288,6 +299,7 @@
  {
   "position_no": "110839",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -314,6 +326,7 @@
  {
   "position_no": "100816",
   "occupation": "בילוש — קצין",
+  "station_id": 7,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -340,6 +353,7 @@
  {
   "position_no": "100819",
   "occupation": "בילוש — שוטר",
+  "station_id": 7,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -366,6 +380,7 @@
  {
   "position_no": "100795",
   "occupation": "חקירות — שוטר",
+  "station_id": 7,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -392,6 +407,7 @@
  {
   "position_no": "100797",
   "occupation": "חקירות — קצין",
+  "station_id": 7,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -418,6 +434,7 @@
  {
   "position_no": "100799",
   "occupation": "חקירות — שוטר",
+  "station_id": 7,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -444,6 +461,7 @@
  {
   "position_no": "100800",
   "occupation": "חקירות — קצין",
+  "station_id": 7,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -470,6 +488,7 @@
  {
   "position_no": "100802",
   "occupation": "חקירות — קצין",
+  "station_id": 7,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -496,6 +515,7 @@
  {
   "position_no": "100767",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 7,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -522,6 +542,7 @@
  {
   "position_no": "100769",
   "occupation": "סיור — שוטר",
+  "station_id": 7,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -548,6 +569,7 @@
  {
   "position_no": "100775",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 7,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -574,6 +596,7 @@
  {
   "position_no": "100834",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 7,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -600,6 +623,7 @@
  {
   "position_no": "100928",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 8,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -626,6 +650,7 @@
  {
   "position_no": "100931",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 8,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -652,6 +677,7 @@
  {
   "position_no": "100905",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 8,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -678,6 +704,7 @@
  {
   "position_no": "100907",
   "occupation": "חקירות — שוטר",
+  "station_id": 8,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -704,6 +731,7 @@
  {
   "position_no": "100910",
   "occupation": "חקירות — קצין",
+  "station_id": 8,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -730,6 +758,7 @@
  {
   "position_no": "100912",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 8,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -756,6 +785,7 @@
  {
   "position_no": "100913",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 8,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -782,6 +812,7 @@
  {
   "position_no": "100869",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -808,6 +839,7 @@
  {
   "position_no": "100870",
   "occupation": "סיור — קצין",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -834,6 +866,7 @@
  {
   "position_no": "100872",
   "occupation": "סיור — קצין",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -860,6 +893,7 @@
  {
   "position_no": "100873",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -886,6 +920,7 @@
  {
   "position_no": "100875",
   "occupation": "סיור — קצין",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -912,6 +947,7 @@
  {
   "position_no": "100876",
   "occupation": "סיור — קצין",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -938,6 +974,7 @@
  {
   "position_no": "100880",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -964,6 +1001,7 @@
  {
   "position_no": "100884",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -990,6 +1028,7 @@
  {
   "position_no": "100886",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 8,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1016,6 +1055,7 @@
  {
   "position_no": "100953",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 8,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1042,6 +1082,7 @@
  {
   "position_no": "100955",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 8,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1068,6 +1109,7 @@
  {
   "position_no": "107891",
   "occupation": "בילוש — קצין",
+  "station_id": 71,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1094,6 +1136,7 @@
  {
   "position_no": "107879",
   "occupation": "חקירות — שוטר",
+  "station_id": 71,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1120,6 +1163,7 @@
  {
   "position_no": "107865",
   "occupation": "סיור — שוטר",
+  "station_id": 71,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1146,6 +1190,7 @@
  {
   "position_no": "107867",
   "occupation": "סיור — שוטר",
+  "station_id": 71,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1172,6 +1217,7 @@
  {
   "position_no": "107964",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 72,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1198,6 +1244,7 @@
  {
   "position_no": "107966",
   "occupation": "בילוש — קצין",
+  "station_id": 72,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1224,6 +1271,7 @@
  {
   "position_no": "107951",
   "occupation": "חקירות — שוטר",
+  "station_id": 72,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1250,6 +1298,7 @@
  {
   "position_no": "107953",
   "occupation": "חקירות — קצין",
+  "station_id": 72,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1276,6 +1325,7 @@
  {
   "position_no": "107929",
   "occupation": "סיור — קצין",
+  "station_id": 72,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1302,6 +1352,7 @@
  {
   "position_no": "107930",
   "occupation": "סיור — קצין",
+  "station_id": 72,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1328,6 +1379,7 @@
  {
   "position_no": "107931",
   "occupation": "סיור — קצין",
+  "station_id": 72,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1354,6 +1406,7 @@
  {
   "position_no": "107933",
   "occupation": "סיור — שוטר",
+  "station_id": 72,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1380,6 +1433,7 @@
  {
   "position_no": "107934",
   "occupation": "סיור — קצין",
+  "station_id": 72,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1406,6 +1460,7 @@
  {
   "position_no": "107977",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 72,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1432,6 +1487,7 @@
  {
   "position_no": "107978",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 72,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב לכיש",
@@ -1458,6 +1514,7 @@
  {
   "position_no": "111118",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1484,6 +1541,7 @@
  {
   "position_no": "111119",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1510,6 +1568,7 @@
  {
   "position_no": "111080",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1536,6 +1595,7 @@
  {
   "position_no": "111069",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1562,6 +1622,7 @@
  {
   "position_no": "111087",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1588,6 +1649,7 @@
  {
   "position_no": "100650",
   "occupation": "חקירות — שוטר",
+  "station_id": 5,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1614,6 +1676,7 @@
  {
   "position_no": "100631",
   "occupation": "סיור — קצין",
+  "station_id": 5,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1640,6 +1703,7 @@
  {
   "position_no": "100632",
   "occupation": "סיור — שוטר",
+  "station_id": 5,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1666,6 +1730,7 @@
  {
   "position_no": "100680",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 5,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1692,6 +1757,7 @@
  {
   "position_no": "101099",
   "occupation": "בילוש — קצין",
+  "station_id": 10,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1718,6 +1784,7 @@
  {
   "position_no": "101100",
   "occupation": "בילוש — קצין",
+  "station_id": 10,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1744,6 +1811,7 @@
  {
   "position_no": "101086",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 10,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1770,6 +1838,7 @@
  {
   "position_no": "101087",
   "occupation": "חקירות — קצין",
+  "station_id": 10,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1796,6 +1865,7 @@
  {
   "position_no": "101088",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 10,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1822,6 +1892,7 @@
  {
   "position_no": "101067",
   "occupation": "סיור — קצין",
+  "station_id": 10,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1848,6 +1919,7 @@
  {
   "position_no": "101068",
   "occupation": "סיור — קצין",
+  "station_id": 10,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1874,6 +1946,7 @@
  {
   "position_no": "101069",
   "occupation": "סיור — שוטר",
+  "station_id": 10,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1900,6 +1973,7 @@
  {
   "position_no": "106738",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 60,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1926,6 +2000,7 @@
  {
   "position_no": "106799",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 60,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1952,6 +2027,7 @@
  {
   "position_no": "108530",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 76,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -1978,6 +2054,7 @@
  {
   "position_no": "108531",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 76,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2004,6 +2081,7 @@
  {
   "position_no": "108532",
   "occupation": "חקירות — קצין",
+  "station_id": 76,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2030,6 +2108,7 @@
  {
   "position_no": "108534",
   "occupation": "חקירות — קצין",
+  "station_id": 76,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2056,6 +2135,7 @@
  {
   "position_no": "108500",
   "occupation": "סיור — קצין",
+  "station_id": 76,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2082,6 +2162,7 @@
  {
   "position_no": "108501",
   "occupation": "סיור — קצין",
+  "station_id": 76,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2108,6 +2189,7 @@
  {
   "position_no": "108502",
   "occupation": "סיור — קצין",
+  "station_id": 76,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2134,6 +2216,7 @@
  {
   "position_no": "108503",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 76,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2160,6 +2243,7 @@
  {
   "position_no": "108504",
   "occupation": "סיור — קצין",
+  "station_id": 76,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2186,6 +2270,7 @@
  {
   "position_no": "108573",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 76,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2212,6 +2297,7 @@
  {
   "position_no": "108574",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 76,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2238,6 +2324,7 @@
  {
   "position_no": "108971",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 81,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2264,6 +2351,7 @@
  {
   "position_no": "108956",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 81,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2290,6 +2378,7 @@
  {
   "position_no": "108958",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 81,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2316,6 +2405,7 @@
  {
   "position_no": "108937",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 81,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2342,6 +2432,7 @@
  {
   "position_no": "108938",
   "occupation": "סיור — שוטר",
+  "station_id": 81,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2368,6 +2459,7 @@
  {
   "position_no": "108939",
   "occupation": "סיור — שוטר",
+  "station_id": 81,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2394,6 +2486,7 @@
  {
   "position_no": "108982",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 81,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב נגב",
@@ -2420,6 +2513,7 @@
  {
   "position_no": "111545",
   "occupation": "ייעוץ משפטי — קצין",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2446,6 +2540,7 @@
  {
   "position_no": "111546",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2472,6 +2567,7 @@
  {
   "position_no": "111547",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2498,6 +2594,7 @@
  {
   "position_no": "111521",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2524,6 +2621,7 @@
  {
   "position_no": "111523",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2550,6 +2648,7 @@
  {
   "position_no": "102413",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 23,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2576,6 +2675,7 @@
  {
   "position_no": "102389",
   "occupation": "חקירות — קצין",
+  "station_id": 23,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2602,6 +2702,7 @@
  {
   "position_no": "102390",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 23,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2628,6 +2729,7 @@
  {
   "position_no": "102391",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 23,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2654,6 +2756,7 @@
  {
   "position_no": "102357",
   "occupation": "סיור — שוטר",
+  "station_id": 23,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2680,6 +2783,7 @@
  {
   "position_no": "102359",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 23,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2706,6 +2810,7 @@
  {
   "position_no": "102360",
   "occupation": "סיור — שוטר",
+  "station_id": 23,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2732,6 +2837,7 @@
  {
   "position_no": "102434",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 23,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2758,6 +2864,7 @@
  {
   "position_no": "107481",
   "occupation": "בילוש — קצין",
+  "station_id": 67,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2784,6 +2891,7 @@
  {
   "position_no": "107482",
   "occupation": "בילוש — קצין",
+  "station_id": 67,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2810,6 +2918,7 @@
  {
   "position_no": "107464",
   "occupation": "סיור — שוטר",
+  "station_id": 67,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2836,6 +2945,7 @@
  {
   "position_no": "107468",
   "occupation": "סיור — קצין",
+  "station_id": 67,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2862,6 +2972,7 @@
  {
   "position_no": "107487",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 67,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2888,6 +2999,7 @@
  {
   "position_no": "107488",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 67,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2914,6 +3026,7 @@
  {
   "position_no": "107542",
   "occupation": "בילוש — קצין",
+  "station_id": 68,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2940,6 +3053,7 @@
  {
   "position_no": "107528",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 68,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2966,6 +3080,7 @@
  {
   "position_no": "107511",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 68,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -2992,6 +3107,7 @@
  {
   "position_no": "107512",
   "occupation": "סיור — קצין",
+  "station_id": 68,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3018,6 +3134,7 @@
  {
   "position_no": "107514",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 68,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3044,6 +3161,7 @@
  {
   "position_no": "107552",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 68,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3070,6 +3188,7 @@
  {
   "position_no": "108824",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 79,
   "profession": "בילוש",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3096,6 +3215,7 @@
  {
   "position_no": "108809",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 79,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3122,6 +3242,7 @@
  {
   "position_no": "108810",
   "occupation": "חקירות — קצין",
+  "station_id": 79,
   "profession": "חקירות",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3148,6 +3269,7 @@
  {
   "position_no": "108789",
   "occupation": "סיור — שוטר",
+  "station_id": 79,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3174,6 +3296,7 @@
  {
   "position_no": "108792",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 79,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3200,6 +3323,7 @@
  {
   "position_no": "108793",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 79,
   "profession": "סיור",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3226,6 +3350,7 @@
  {
   "position_no": "108837",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 79,
   "profession": "שיטור קהילתי",
   "district": "דרום",
   "region": "מרחב רותם",
@@ -3252,6 +3377,7 @@
  {
   "position_no": "110092",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3278,6 +3404,7 @@
  {
   "position_no": "110075",
   "occupation": "ייעוץ משפטי — קצין",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3304,6 +3431,7 @@
  {
   "position_no": "110053",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3330,6 +3458,7 @@
  {
   "position_no": "110054",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3356,6 +3485,7 @@
  {
   "position_no": "110055",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3382,6 +3512,7 @@
  {
   "position_no": "110056",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3408,6 +3539,7 @@
  {
   "position_no": "110030",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3434,6 +3566,7 @@
  {
   "position_no": "110031",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3460,6 +3593,7 @@
  {
   "position_no": "101903",
   "occupation": "בילוש — שוטר",
+  "station_id": 19,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3486,6 +3620,7 @@
  {
   "position_no": "101878",
   "occupation": "חקירות — שוטר",
+  "station_id": 19,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3512,6 +3647,7 @@
  {
   "position_no": "101848",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 19,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3538,6 +3674,7 @@
  {
   "position_no": "101849",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 19,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3564,6 +3701,7 @@
  {
   "position_no": "101850",
   "occupation": "סיור — קצין",
+  "station_id": 19,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3590,6 +3728,7 @@
  {
   "position_no": "101921",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 19,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3616,6 +3755,7 @@
  {
   "position_no": "101923",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 19,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3642,6 +3782,7 @@
  {
   "position_no": "102686",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 25,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3668,6 +3809,7 @@
  {
   "position_no": "102665",
   "occupation": "חקירות — קצין",
+  "station_id": 25,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3694,6 +3836,7 @@
  {
   "position_no": "102667",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 25,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3720,6 +3863,7 @@
  {
   "position_no": "102670",
   "occupation": "חקירות — שוטר",
+  "station_id": 25,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3746,6 +3890,7 @@
  {
   "position_no": "102639",
   "occupation": "סיור — קצין",
+  "station_id": 25,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3772,6 +3917,7 @@
  {
   "position_no": "102640",
   "occupation": "סיור — שוטר",
+  "station_id": 25,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3798,6 +3944,7 @@
  {
   "position_no": "102646",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 25,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3824,6 +3971,7 @@
  {
   "position_no": "102707",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 25,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3850,6 +3998,7 @@
  {
   "position_no": "106333",
   "occupation": "בילוש — קצין",
+  "station_id": 56,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3876,6 +4025,7 @@
  {
   "position_no": "106302",
   "occupation": "חקירות — שוטר",
+  "station_id": 56,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3902,6 +4052,7 @@
  {
   "position_no": "106303",
   "occupation": "חקירות — שוטר",
+  "station_id": 56,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3928,6 +4079,7 @@
  {
   "position_no": "106305",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 56,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3954,6 +4106,7 @@
  {
   "position_no": "106263",
   "occupation": "סיור — שוטר",
+  "station_id": 56,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -3980,6 +4133,7 @@
  {
   "position_no": "106266",
   "occupation": "סיור — קצין",
+  "station_id": 56,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4006,6 +4160,7 @@
  {
   "position_no": "106267",
   "occupation": "סיור — שוטר",
+  "station_id": 56,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4032,6 +4187,7 @@
  {
   "position_no": "106268",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 56,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4058,6 +4214,7 @@
  {
   "position_no": "106269",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 56,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4084,6 +4241,7 @@
  {
   "position_no": "106270",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 56,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4110,6 +4268,7 @@
  {
   "position_no": "106356",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 56,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4136,6 +4295,7 @@
  {
   "position_no": "106357",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 56,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4162,6 +4322,7 @@
  {
   "position_no": "106358",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 56,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4188,6 +4349,7 @@
  {
   "position_no": "107137",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 64,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4214,6 +4376,7 @@
  {
   "position_no": "107113",
   "occupation": "חקירות — שוטר",
+  "station_id": 64,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4240,6 +4403,7 @@
  {
   "position_no": "107114",
   "occupation": "חקירות — קצין",
+  "station_id": 64,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4266,6 +4430,7 @@
  {
   "position_no": "107079",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 64,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4292,6 +4457,7 @@
  {
   "position_no": "107080",
   "occupation": "סיור — שוטר",
+  "station_id": 64,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4318,6 +4484,7 @@
  {
   "position_no": "107084",
   "occupation": "סיור — שוטר",
+  "station_id": 64,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4344,6 +4511,7 @@
  {
   "position_no": "107085",
   "occupation": "סיור — קצין",
+  "station_id": 64,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4370,6 +4538,7 @@
  {
   "position_no": "107158",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 64,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב אשר",
@@ -4396,6 +4565,7 @@
  {
   "position_no": "110784",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4422,6 +4592,7 @@
  {
   "position_no": "110741",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4448,6 +4619,7 @@
  {
   "position_no": "110753",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4474,6 +4646,7 @@
  {
   "position_no": "110754",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4500,6 +4673,7 @@
  {
   "position_no": "103168",
   "occupation": "חקירות — קצין",
+  "station_id": 30,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4526,6 +4700,7 @@
  {
   "position_no": "103134",
   "occupation": "סיור — שוטר",
+  "station_id": 30,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4552,6 +4727,7 @@
  {
   "position_no": "103138",
   "occupation": "סיור — קצין",
+  "station_id": 30,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4578,6 +4754,7 @@
  {
   "position_no": "103570",
   "occupation": "חקירות — שוטר",
+  "station_id": 34,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4604,6 +4781,7 @@
  {
   "position_no": "103572",
   "occupation": "חקירות — קצין",
+  "station_id": 34,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4630,6 +4808,7 @@
  {
   "position_no": "103541",
   "occupation": "סיור — שוטר",
+  "station_id": 34,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4656,6 +4835,7 @@
  {
   "position_no": "103542",
   "occupation": "סיור — קצין",
+  "station_id": 34,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4682,6 +4862,7 @@
  {
   "position_no": "106669",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 59,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4708,6 +4889,7 @@
  {
   "position_no": "106671",
   "occupation": "בילוש — שוטר",
+  "station_id": 59,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4734,6 +4916,7 @@
  {
   "position_no": "106647",
   "occupation": "חקירות — קצין",
+  "station_id": 59,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4760,6 +4943,7 @@
  {
   "position_no": "106648",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 59,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4786,6 +4970,7 @@
  {
   "position_no": "106650",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 59,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4812,6 +4997,7 @@
  {
   "position_no": "106618",
   "occupation": "סיור — שוטר",
+  "station_id": 59,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4838,6 +5024,7 @@
  {
   "position_no": "106619",
   "occupation": "סיור — שוטר",
+  "station_id": 59,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4864,6 +5051,7 @@
  {
   "position_no": "106620",
   "occupation": "סיור — קצין",
+  "station_id": 59,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4890,6 +5078,7 @@
  {
   "position_no": "106687",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 59,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4916,6 +5105,7 @@
  {
   "position_no": "106688",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 59,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב כרמל",
@@ -4942,6 +5132,7 @@
  {
   "position_no": "111022",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -4968,6 +5159,7 @@
  {
   "position_no": "111023",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -4994,6 +5186,7 @@
  {
   "position_no": "111024",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5020,6 +5213,7 @@
  {
   "position_no": "111005",
   "occupation": "ייעוץ משפטי — קצין",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5046,6 +5240,7 @@
  {
   "position_no": "110952",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5072,6 +5267,7 @@
  {
   "position_no": "110981",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5098,6 +5294,7 @@
  {
   "position_no": "100546",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 4,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5124,6 +5321,7 @@
  {
   "position_no": "100547",
   "occupation": "חקירות — קצין",
+  "station_id": 4,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5150,6 +5348,7 @@
  {
   "position_no": "100504",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 4,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5176,6 +5375,7 @@
  {
   "position_no": "100505",
   "occupation": "סיור — קצין",
+  "station_id": 4,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5202,6 +5402,7 @@
  {
   "position_no": "100508",
   "occupation": "סיור — שוטר",
+  "station_id": 4,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5228,6 +5429,7 @@
  {
   "position_no": "100509",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 4,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5254,6 +5456,7 @@
  {
   "position_no": "100510",
   "occupation": "סיור — שוטר",
+  "station_id": 4,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5280,6 +5483,7 @@
  {
   "position_no": "100512",
   "occupation": "סיור — קצין",
+  "station_id": 4,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5306,6 +5510,7 @@
  {
   "position_no": "100600",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 4,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5332,6 +5537,7 @@
  {
   "position_no": "100601",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 4,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5358,6 +5564,7 @@
  {
   "position_no": "101009",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 9,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5384,6 +5591,7 @@
  {
   "position_no": "100987",
   "occupation": "סיור — שוטר",
+  "station_id": 9,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5410,6 +5618,7 @@
  {
   "position_no": "100988",
   "occupation": "סיור — שוטר",
+  "station_id": 9,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5436,6 +5645,7 @@
  {
   "position_no": "100989",
   "occupation": "סיור — קצין",
+  "station_id": 9,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5462,6 +5672,7 @@
  {
   "position_no": "100990",
   "occupation": "סיור — קצין",
+  "station_id": 9,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5488,6 +5699,7 @@
  {
   "position_no": "101042",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 9,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5514,6 +5726,7 @@
  {
   "position_no": "101043",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 9,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5540,6 +5753,7 @@
  {
   "position_no": "101619",
   "occupation": "בילוש — קצין",
+  "station_id": 16,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5566,6 +5780,7 @@
  {
   "position_no": "101621",
   "occupation": "בילוש — קצין",
+  "station_id": 16,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5592,6 +5807,7 @@
  {
   "position_no": "101606",
   "occupation": "חקירות — שוטר",
+  "station_id": 16,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5618,6 +5834,7 @@
  {
   "position_no": "101607",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 16,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5644,6 +5861,7 @@
  {
   "position_no": "101608",
   "occupation": "חקירות — שוטר",
+  "station_id": 16,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5670,6 +5888,7 @@
  {
   "position_no": "101609",
   "occupation": "חקירות — שוטר",
+  "station_id": 16,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5696,6 +5915,7 @@
  {
   "position_no": "101610",
   "occupation": "חקירות — קצין",
+  "station_id": 16,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5722,6 +5942,7 @@
  {
   "position_no": "101592",
   "occupation": "סיור — קצין",
+  "station_id": 16,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5748,6 +5969,7 @@
  {
   "position_no": "101593",
   "occupation": "סיור — שוטר",
+  "station_id": 16,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5774,6 +5996,7 @@
  {
   "position_no": "101632",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 16,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5800,6 +6023,7 @@
  {
   "position_no": "102748",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 26,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5826,6 +6050,7 @@
  {
   "position_no": "102749",
   "occupation": "בילוש — שוטר",
+  "station_id": 26,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5852,6 +6077,7 @@
  {
   "position_no": "102750",
   "occupation": "בילוש — שוטר",
+  "station_id": 26,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5878,6 +6104,7 @@
  {
   "position_no": "102736",
   "occupation": "חקירות — קצין",
+  "station_id": 26,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5904,6 +6131,7 @@
  {
   "position_no": "102737",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 26,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5930,6 +6158,7 @@
  {
   "position_no": "102738",
   "occupation": "חקירות — קצין",
+  "station_id": 26,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5956,6 +6185,7 @@
  {
   "position_no": "102739",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 26,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -5982,6 +6212,7 @@
  {
   "position_no": "102740",
   "occupation": "חקירות — קצין",
+  "station_id": 26,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6008,6 +6239,7 @@
  {
   "position_no": "102724",
   "occupation": "סיור — שוטר",
+  "station_id": 26,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6034,6 +6266,7 @@
  {
   "position_no": "102758",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 26,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6060,6 +6293,7 @@
  {
   "position_no": "102899",
   "occupation": "בילוש — שוטר",
+  "station_id": 28,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6086,6 +6320,7 @@
  {
   "position_no": "102901",
   "occupation": "בילוש — קצין",
+  "station_id": 28,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6112,6 +6347,7 @@
  {
   "position_no": "102880",
   "occupation": "חקירות — קצין",
+  "station_id": 28,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6138,6 +6374,7 @@
  {
   "position_no": "102881",
   "occupation": "חקירות — קצין",
+  "station_id": 28,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6164,6 +6401,7 @@
  {
   "position_no": "102884",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 28,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6190,6 +6428,7 @@
  {
   "position_no": "102853",
   "occupation": "סיור — שוטר",
+  "station_id": 28,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6216,6 +6455,7 @@
  {
   "position_no": "102855",
   "occupation": "סיור — שוטר",
+  "station_id": 28,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6242,6 +6482,7 @@
  {
   "position_no": "102856",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 28,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6268,6 +6509,7 @@
  {
   "position_no": "102858",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 28,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6294,6 +6536,7 @@
  {
   "position_no": "102860",
   "occupation": "סיור — שוטר",
+  "station_id": 28,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6320,6 +6563,7 @@
  {
   "position_no": "102914",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 28,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6346,6 +6590,7 @@
  {
   "position_no": "102915",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 28,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6372,6 +6617,7 @@
  {
   "position_no": "107025",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 63,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6398,6 +6644,7 @@
  {
   "position_no": "107026",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 63,
   "profession": "בילוש",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6424,6 +6671,7 @@
  {
   "position_no": "107013",
   "occupation": "חקירות — שוטר",
+  "station_id": 63,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6450,6 +6698,7 @@
  {
   "position_no": "107014",
   "occupation": "חקירות — קצין",
+  "station_id": 63,
   "profession": "חקירות",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6476,6 +6725,7 @@
  {
   "position_no": "106987",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 63,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6502,6 +6752,7 @@
  {
   "position_no": "106988",
   "occupation": "סיור — שוטר",
+  "station_id": 63,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6528,6 +6779,7 @@
  {
   "position_no": "106989",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 63,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6554,6 +6806,7 @@
  {
   "position_no": "106993",
   "occupation": "סיור — קצין",
+  "station_id": 63,
   "profession": "סיור",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6580,6 +6833,7 @@
  {
   "position_no": "107036",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 63,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6606,6 +6860,7 @@
  {
   "position_no": "107037",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 63,
   "profession": "שיטור קהילתי",
   "district": "חוף",
   "region": "מרחב מנשה",
@@ -6632,6 +6887,7 @@
  {
   "position_no": "110372",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6658,6 +6914,7 @@
  {
   "position_no": "110369",
   "occupation": "ייעוץ משפטי — קצין",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6684,6 +6941,7 @@
  {
   "position_no": "110337",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6710,6 +6968,7 @@
  {
   "position_no": "110312",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6736,6 +6995,7 @@
  {
   "position_no": "110300",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6762,6 +7022,7 @@
  {
   "position_no": "110301",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6788,6 +7049,7 @@
  {
   "position_no": "110352",
   "occupation": "מערכות מידע — שוטר",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6814,6 +7076,7 @@
  {
   "position_no": "110355",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6840,6 +7103,7 @@
  {
   "position_no": "100227",
   "occupation": "בילוש — קצין",
+  "station_id": 2,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6866,6 +7130,7 @@
  {
   "position_no": "100203",
   "occupation": "חקירות — שוטר",
+  "station_id": 2,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6892,6 +7157,7 @@
  {
   "position_no": "100168",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 2,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6918,6 +7184,7 @@
  {
   "position_no": "100169",
   "occupation": "סיור — שוטר",
+  "station_id": 2,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב דוד",
@@ -6944,6 +7211,7 @@
  {
   "position_no": "111380",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -6970,6 +7238,7 @@
  {
   "position_no": "111382",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -6996,6 +7265,7 @@
  {
   "position_no": "111365",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7022,6 +7292,7 @@
  {
   "position_no": "111350",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7048,6 +7319,7 @@
  {
   "position_no": "111326",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7074,6 +7346,7 @@
  {
   "position_no": "111327",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7100,6 +7373,7 @@
  {
   "position_no": "111301",
   "occupation": "מנהלה וכוח אדם — שוטר",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7126,6 +7400,7 @@
  {
   "position_no": "111302",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7152,6 +7427,7 @@
  {
   "position_no": "111354",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7178,6 +7454,7 @@
  {
   "position_no": "101249",
   "occupation": "חקירות — שוטר",
+  "station_id": 12,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7204,6 +7481,7 @@
  {
   "position_no": "101240",
   "occupation": "סיור — קצין",
+  "station_id": 12,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7230,6 +7508,7 @@
  {
   "position_no": "101263",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 12,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7256,6 +7535,7 @@
  {
   "position_no": "102573",
   "occupation": "בילוש — שוטר",
+  "station_id": 24,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7282,6 +7562,7 @@
  {
   "position_no": "102543",
   "occupation": "חקירות — שוטר",
+  "station_id": 24,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7308,6 +7589,7 @@
  {
   "position_no": "102545",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 24,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7334,6 +7616,7 @@
  {
   "position_no": "102497",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 24,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7360,6 +7643,7 @@
  {
   "position_no": "102498",
   "occupation": "סיור — שוטר",
+  "station_id": 24,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7386,6 +7670,7 @@
  {
   "position_no": "102499",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 24,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7412,6 +7697,7 @@
  {
   "position_no": "102502",
   "occupation": "סיור — שוטר",
+  "station_id": 24,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7438,6 +7724,7 @@
  {
   "position_no": "102504",
   "occupation": "סיור — שוטר",
+  "station_id": 24,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7464,6 +7751,7 @@
  {
   "position_no": "102600",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 24,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7490,6 +7778,7 @@
  {
   "position_no": "104642",
   "occupation": "בילוש — קצין",
+  "station_id": 43,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7516,6 +7805,7 @@
  {
   "position_no": "104643",
   "occupation": "בילוש — שוטר",
+  "station_id": 43,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7542,6 +7832,7 @@
  {
   "position_no": "104644",
   "occupation": "בילוש — שוטר",
+  "station_id": 43,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7568,6 +7859,7 @@
  {
   "position_no": "104645",
   "occupation": "בילוש — שוטר",
+  "station_id": 43,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7594,6 +7886,7 @@
  {
   "position_no": "104596",
   "occupation": "סיור — קצין",
+  "station_id": 43,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7620,6 +7913,7 @@
  {
   "position_no": "104597",
   "occupation": "סיור — קצין",
+  "station_id": 43,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7646,6 +7940,7 @@
  {
   "position_no": "104600",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 43,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7672,6 +7967,7 @@
  {
   "position_no": "104601",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 43,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7698,6 +7994,7 @@
  {
   "position_no": "104602",
   "occupation": "סיור — קצין",
+  "station_id": 43,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7724,6 +8021,7 @@
  {
   "position_no": "104658",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 43,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7750,6 +8048,7 @@
  {
   "position_no": "104660",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 43,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7776,6 +8075,7 @@
  {
   "position_no": "105406",
   "occupation": "בילוש — שוטר",
+  "station_id": 50,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7802,6 +8102,7 @@
  {
   "position_no": "105407",
   "occupation": "בילוש — שוטר",
+  "station_id": 50,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7828,6 +8129,7 @@
  {
   "position_no": "105391",
   "occupation": "חקירות — קצין",
+  "station_id": 50,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7854,6 +8156,7 @@
  {
   "position_no": "105393",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 50,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7880,6 +8183,7 @@
  {
   "position_no": "105372",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 50,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב ציון",
@@ -7906,6 +8210,7 @@
  {
   "position_no": "111468",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -7932,6 +8237,7 @@
  {
   "position_no": "111469",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -7958,6 +8264,7 @@
  {
   "position_no": "111470",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -7984,6 +8291,7 @@
  {
   "position_no": "111449",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8010,6 +8318,7 @@
  {
   "position_no": "111421",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8036,6 +8345,7 @@
  {
   "position_no": "111411",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8062,6 +8372,7 @@
  {
   "position_no": "111439",
   "occupation": "מערכות מידע — שוטר",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8088,6 +8399,7 @@
  {
   "position_no": "106954",
   "occupation": "בילוש — קצין",
+  "station_id": 62,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8114,6 +8426,7 @@
  {
   "position_no": "106956",
   "occupation": "בילוש — קצין",
+  "station_id": 62,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8140,6 +8453,7 @@
  {
   "position_no": "106921",
   "occupation": "סיור — קצין",
+  "station_id": 62,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8166,6 +8480,7 @@
  {
   "position_no": "106922",
   "occupation": "סיור — שוטר",
+  "station_id": 62,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8192,6 +8507,7 @@
  {
   "position_no": "106923",
   "occupation": "סיור — שוטר",
+  "station_id": 62,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8218,6 +8534,7 @@
  {
   "position_no": "106924",
   "occupation": "סיור — קצין",
+  "station_id": 62,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8244,6 +8561,7 @@
  {
   "position_no": "106966",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 62,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8270,6 +8588,7 @@
  {
   "position_no": "109083",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 82,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8296,6 +8615,7 @@
  {
   "position_no": "109056",
   "occupation": "חקירות — שוטר",
+  "station_id": 82,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8322,6 +8642,7 @@
  {
   "position_no": "109024",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 82,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8348,6 +8669,7 @@
  {
   "position_no": "109026",
   "occupation": "סיור — קצין",
+  "station_id": 82,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8374,6 +8696,7 @@
  {
   "position_no": "109027",
   "occupation": "סיור — קצין",
+  "station_id": 82,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8400,6 +8723,7 @@
  {
   "position_no": "109031",
   "occupation": "סיור — קצין",
+  "station_id": 82,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8426,6 +8750,7 @@
  {
   "position_no": "109100",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 82,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8452,6 +8777,7 @@
  {
   "position_no": "109101",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 82,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8478,6 +8804,7 @@
  {
   "position_no": "109102",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 82,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8504,6 +8831,7 @@
  {
   "position_no": "109239",
   "occupation": "בילוש — קצין",
+  "station_id": 83,
   "profession": "בילוש",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8530,6 +8858,7 @@
  {
   "position_no": "109206",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 83,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8556,6 +8885,7 @@
  {
   "position_no": "109207",
   "occupation": "חקירות — קצין",
+  "station_id": 83,
   "profession": "חקירות",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8582,6 +8912,7 @@
  {
   "position_no": "109161",
   "occupation": "סיור — קצין",
+  "station_id": 83,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8608,6 +8939,7 @@
  {
   "position_no": "109165",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 83,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8634,6 +8966,7 @@
  {
   "position_no": "109167",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 83,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8660,6 +8993,7 @@
  {
   "position_no": "109169",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 83,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8686,6 +9020,7 @@
  {
   "position_no": "109170",
   "occupation": "סיור — קצין",
+  "station_id": 83,
   "profession": "סיור",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8712,6 +9047,7 @@
  {
   "position_no": "109262",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 83,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8738,6 +9074,7 @@
  {
   "position_no": "109263",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 83,
   "profession": "שיטור קהילתי",
   "district": "ירושלים",
   "region": "מרחב קדם",
@@ -8764,6 +9101,7 @@
  {
   "position_no": "110937",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8790,6 +9128,7 @@
  {
   "position_no": "110889",
   "occupation": "מנהלה וכוח אדם — שוטר",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8816,6 +9155,7 @@
  {
   "position_no": "110890",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8842,6 +9182,7 @@
  {
   "position_no": "105573",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 51,
   "profession": "בילוש",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8868,6 +9209,7 @@
  {
   "position_no": "105539",
   "occupation": "חקירות — קצין",
+  "station_id": 51,
   "profession": "חקירות",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8894,6 +9236,7 @@
  {
   "position_no": "105494",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 51,
   "profession": "סיור",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8920,6 +9263,7 @@
  {
   "position_no": "105496",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 51,
   "profession": "סיור",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8946,6 +9290,7 @@
  {
   "position_no": "105498",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 51,
   "profession": "סיור",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8972,6 +9317,7 @@
  {
   "position_no": "105601",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 51,
   "profession": "שיטור קהילתי",
   "district": "מג\"ב",
   "region": "מרחב מג\"ב י-ם",
@@ -8998,6 +9344,7 @@
  {
   "position_no": "111934",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9023,6 +9370,7 @@
  {
   "position_no": "111935",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9048,6 +9396,7 @@
  {
   "position_no": "111911",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9073,6 +9422,7 @@
  {
   "position_no": "111862",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9098,6 +9448,7 @@
  {
   "position_no": "111863",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9123,6 +9474,7 @@
  {
   "position_no": "111842",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9148,6 +9500,7 @@
  {
   "position_no": "111843",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מטה ארצי",
   "region": "אג\"מ ארצי",
@@ -9173,6 +9526,7 @@
  {
   "position_no": "112291",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9198,6 +9552,7 @@
  {
   "position_no": "112292",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9223,6 +9578,7 @@
  {
   "position_no": "112231",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9248,6 +9604,7 @@
  {
   "position_no": "112232",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9273,6 +9630,7 @@
  {
   "position_no": "112233",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9298,6 +9656,7 @@
  {
   "position_no": "112207",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9323,6 +9682,7 @@
  {
   "position_no": "112198",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9348,6 +9708,7 @@
  {
   "position_no": "112200",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "מטה ארצי",
   "region": "אגף משאבי אנוש",
@@ -9373,6 +9734,7 @@
  {
   "position_no": "112058",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9398,6 +9760,7 @@
  {
   "position_no": "112059",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9423,6 +9786,7 @@
  {
   "position_no": "112003",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9448,6 +9812,7 @@
  {
   "position_no": "112004",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9473,6 +9838,7 @@
  {
   "position_no": "112006",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9498,6 +9864,7 @@
  {
   "position_no": "112007",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9523,6 +9890,7 @@
  {
   "position_no": "112008",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9548,6 +9916,7 @@
  {
   "position_no": "112009",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "אח\"מ ארצי",
@@ -9573,6 +9942,7 @@
  {
   "position_no": "112182",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9598,6 +9968,7 @@
  {
   "position_no": "112167",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9623,6 +9994,7 @@
  {
   "position_no": "112168",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9648,6 +10020,7 @@
  {
   "position_no": "112122",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9673,6 +10046,7 @@
  {
   "position_no": "112125",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9698,6 +10072,7 @@
  {
   "position_no": "112127",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9723,6 +10098,7 @@
  {
   "position_no": "112128",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9748,6 +10124,7 @@
  {
   "position_no": "112134",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9773,6 +10150,7 @@
  {
   "position_no": "112135",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9798,6 +10176,7 @@
  {
   "position_no": "112150",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "מטה ארצי",
   "region": "את\"ן ארצי",
@@ -9823,6 +10202,7 @@
  {
   "position_no": "111206",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -9849,6 +10229,7 @@
  {
   "position_no": "111171",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -9875,6 +10256,7 @@
  {
   "position_no": "111174",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -9901,6 +10283,7 @@
  {
   "position_no": "111176",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -9927,6 +10310,7 @@
  {
   "position_no": "111153",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -9953,6 +10337,7 @@
  {
   "position_no": "111154",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -9979,6 +10364,7 @@
  {
   "position_no": "111155",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10005,6 +10391,7 @@
  {
   "position_no": "111135",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10031,6 +10418,7 @@
  {
   "position_no": "111192",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10057,6 +10445,7 @@
  {
   "position_no": "100413",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 3,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10083,6 +10472,7 @@
  {
   "position_no": "100415",
   "occupation": "בילוש — שוטר",
+  "station_id": 3,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10109,6 +10499,7 @@
  {
   "position_no": "100376",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 3,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10135,6 +10526,7 @@
  {
   "position_no": "100328",
   "occupation": "סיור — שוטר",
+  "station_id": 3,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10161,6 +10553,7 @@
  {
   "position_no": "100329",
   "occupation": "סיור — שוטר",
+  "station_id": 3,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10187,6 +10580,7 @@
  {
   "position_no": "100330",
   "occupation": "סיור — קצין",
+  "station_id": 3,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10213,6 +10607,7 @@
  {
   "position_no": "100331",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 3,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10239,6 +10634,7 @@
  {
   "position_no": "100448",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 3,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב נתב\"ג",
@@ -10265,6 +10661,7 @@
  {
   "position_no": "111658",
   "occupation": "כספים ותקציב — קצין",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10291,6 +10688,7 @@
  {
   "position_no": "111647",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10317,6 +10715,7 @@
  {
   "position_no": "111675",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10343,6 +10742,7 @@
  {
   "position_no": "103780",
   "occupation": "בילוש — שוטר",
+  "station_id": 36,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10369,6 +10769,7 @@
  {
   "position_no": "103781",
   "occupation": "בילוש — שוטר",
+  "station_id": 36,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10395,6 +10796,7 @@
  {
   "position_no": "103763",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 36,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10421,6 +10823,7 @@
  {
   "position_no": "103740",
   "occupation": "סיור — שוטר",
+  "station_id": 36,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10447,6 +10850,7 @@
  {
   "position_no": "103743",
   "occupation": "סיור — קצין",
+  "station_id": 36,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10473,6 +10877,7 @@
  {
   "position_no": "104950",
   "occupation": "בילוש — קצין",
+  "station_id": 45,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10499,6 +10904,7 @@
  {
   "position_no": "104951",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 45,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10525,6 +10931,7 @@
  {
   "position_no": "104928",
   "occupation": "חקירות — שוטר",
+  "station_id": 45,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10551,6 +10958,7 @@
  {
   "position_no": "104930",
   "occupation": "חקירות — קצין",
+  "station_id": 45,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10577,6 +10985,7 @@
  {
   "position_no": "104931",
   "occupation": "חקירות — קצין",
+  "station_id": 45,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10603,6 +11012,7 @@
  {
   "position_no": "104897",
   "occupation": "סיור — שוטר",
+  "station_id": 45,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10629,6 +11039,7 @@
  {
   "position_no": "104900",
   "occupation": "סיור — קצין",
+  "station_id": 45,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10655,6 +11066,7 @@
  {
   "position_no": "104902",
   "occupation": "סיור — קצין",
+  "station_id": 45,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10681,6 +11093,7 @@
  {
   "position_no": "104904",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 45,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10707,6 +11120,7 @@
  {
   "position_no": "104967",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 45,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10733,6 +11147,7 @@
  {
   "position_no": "104969",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 45,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10759,6 +11174,7 @@
  {
   "position_no": "105250",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 48,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10785,6 +11201,7 @@
  {
   "position_no": "105251",
   "occupation": "בילוש — קצין",
+  "station_id": 48,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10811,6 +11228,7 @@
  {
   "position_no": "105252",
   "occupation": "בילוש — שוטר",
+  "station_id": 48,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10837,6 +11255,7 @@
  {
   "position_no": "105233",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 48,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10863,6 +11282,7 @@
  {
   "position_no": "105196",
   "occupation": "סיור — שוטר",
+  "station_id": 48,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10889,6 +11309,7 @@
  {
   "position_no": "105197",
   "occupation": "סיור — שוטר",
+  "station_id": 48,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10915,6 +11336,7 @@
  {
   "position_no": "105201",
   "occupation": "סיור — שוטר",
+  "station_id": 48,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10941,6 +11363,7 @@
  {
   "position_no": "105202",
   "occupation": "סיור — שוטר",
+  "station_id": 48,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10967,6 +11390,7 @@
  {
   "position_no": "105203",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 48,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -10993,6 +11417,7 @@
  {
   "position_no": "105207",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 48,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11019,6 +11444,7 @@
  {
   "position_no": "105271",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 48,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11045,6 +11471,7 @@
  {
   "position_no": "108431",
   "occupation": "בילוש — קצין",
+  "station_id": 75,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11071,6 +11498,7 @@
  {
   "position_no": "108432",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 75,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11097,6 +11525,7 @@
  {
   "position_no": "108433",
   "occupation": "בילוש — קצין",
+  "station_id": 75,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11123,6 +11552,7 @@
  {
   "position_no": "108407",
   "occupation": "חקירות — שוטר",
+  "station_id": 75,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11149,6 +11579,7 @@
  {
   "position_no": "108371",
   "occupation": "סיור — קצין",
+  "station_id": 75,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11175,6 +11606,7 @@
  {
   "position_no": "108372",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 75,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11201,6 +11633,7 @@
  {
   "position_no": "108376",
   "occupation": "סיור — קצין",
+  "station_id": 75,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11227,6 +11660,7 @@
  {
   "position_no": "108452",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 75,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11253,6 +11687,7 @@
  {
   "position_no": "108453",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 75,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11279,6 +11714,7 @@
  {
   "position_no": "108652",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 77,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11305,6 +11741,7 @@
  {
   "position_no": "108653",
   "occupation": "בילוש — קצין",
+  "station_id": 77,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11331,6 +11768,7 @@
  {
   "position_no": "108631",
   "occupation": "חקירות — קצין",
+  "station_id": 77,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11357,6 +11795,7 @@
  {
   "position_no": "108632",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 77,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11383,6 +11822,7 @@
  {
   "position_no": "108633",
   "occupation": "חקירות — קצין",
+  "station_id": 77,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11409,6 +11849,7 @@
  {
   "position_no": "108635",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 77,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11435,6 +11876,7 @@
  {
   "position_no": "108636",
   "occupation": "חקירות — שוטר",
+  "station_id": 77,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11461,6 +11903,7 @@
  {
   "position_no": "108607",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 77,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11487,6 +11930,7 @@
  {
   "position_no": "108668",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 77,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11513,6 +11957,7 @@
  {
   "position_no": "108670",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 77,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11539,6 +11984,7 @@
  {
   "position_no": "108743",
   "occupation": "בילוש — קצין",
+  "station_id": 78,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11565,6 +12011,7 @@
  {
   "position_no": "108744",
   "occupation": "בילוש — קצין",
+  "station_id": 78,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11591,6 +12038,7 @@
  {
   "position_no": "108745",
   "occupation": "בילוש — שוטר",
+  "station_id": 78,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11617,6 +12065,7 @@
  {
   "position_no": "108747",
   "occupation": "בילוש — שוטר",
+  "station_id": 78,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11643,6 +12092,7 @@
  {
   "position_no": "108727",
   "occupation": "חקירות — קצין",
+  "station_id": 78,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11669,6 +12119,7 @@
  {
   "position_no": "108698",
   "occupation": "סיור — קצין",
+  "station_id": 78,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11695,6 +12146,7 @@
  {
   "position_no": "108700",
   "occupation": "סיור — שוטר",
+  "station_id": 78,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11721,6 +12173,7 @@
  {
   "position_no": "108705",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 78,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11747,6 +12200,7 @@
  {
   "position_no": "108707",
   "occupation": "סיור — קצין",
+  "station_id": 78,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11773,6 +12227,7 @@
  {
   "position_no": "108708",
   "occupation": "סיור — שוטר",
+  "station_id": 78,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11799,6 +12254,7 @@
  {
   "position_no": "108709",
   "occupation": "סיור — קצין",
+  "station_id": 78,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11825,6 +12281,7 @@
  {
   "position_no": "108758",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 78,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11851,6 +12308,7 @@
  {
   "position_no": "108760",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 78,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11877,6 +12335,7 @@
  {
   "position_no": "108761",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 78,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שפלה",
@@ -11903,6 +12362,7 @@
  {
   "position_no": "111782",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -11929,6 +12389,7 @@
  {
   "position_no": "111784",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -11955,6 +12416,7 @@
  {
   "position_no": "111741",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -11981,6 +12443,7 @@
  {
   "position_no": "111713",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12007,6 +12470,7 @@
  {
   "position_no": "103367",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 32,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12033,6 +12497,7 @@
  {
   "position_no": "103368",
   "occupation": "בילוש — שוטר",
+  "station_id": 32,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12059,6 +12524,7 @@
  {
   "position_no": "103369",
   "occupation": "בילוש — שוטר",
+  "station_id": 32,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12085,6 +12551,7 @@
  {
   "position_no": "103353",
   "occupation": "חקירות — שוטר",
+  "station_id": 32,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12111,6 +12578,7 @@
  {
   "position_no": "103354",
   "occupation": "חקירות — שוטר",
+  "station_id": 32,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12137,6 +12605,7 @@
  {
   "position_no": "103355",
   "occupation": "חקירות — שוטר",
+  "station_id": 32,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12163,6 +12632,7 @@
  {
   "position_no": "103356",
   "occupation": "חקירות — קצין",
+  "station_id": 32,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12189,6 +12659,7 @@
  {
   "position_no": "103334",
   "occupation": "סיור — שוטר",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12215,6 +12686,7 @@
  {
   "position_no": "103335",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12241,6 +12713,7 @@
  {
   "position_no": "103336",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12267,6 +12740,7 @@
  {
   "position_no": "103338",
   "occupation": "סיור — שוטר",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12293,6 +12767,7 @@
  {
   "position_no": "103339",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12319,6 +12794,7 @@
  {
   "position_no": "103340",
   "occupation": "סיור — שוטר",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12345,6 +12821,7 @@
  {
   "position_no": "103342",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 32,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12371,6 +12848,7 @@
  {
   "position_no": "103379",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 32,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12397,6 +12875,7 @@
  {
   "position_no": "103470",
   "occupation": "בילוש — שוטר",
+  "station_id": 33,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12423,6 +12902,7 @@
  {
   "position_no": "103473",
   "occupation": "בילוש — קצין",
+  "station_id": 33,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12449,6 +12929,7 @@
  {
   "position_no": "103474",
   "occupation": "בילוש — קצין",
+  "station_id": 33,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12475,6 +12956,7 @@
  {
   "position_no": "103448",
   "occupation": "חקירות — שוטר",
+  "station_id": 33,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12501,6 +12983,7 @@
  {
   "position_no": "103449",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 33,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12527,6 +13010,7 @@
  {
   "position_no": "103450",
   "occupation": "חקירות — שוטר",
+  "station_id": 33,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12553,6 +13037,7 @@
  {
   "position_no": "103452",
   "occupation": "חקירות — קצין",
+  "station_id": 33,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12579,6 +13064,7 @@
  {
   "position_no": "103453",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 33,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12605,6 +13091,7 @@
  {
   "position_no": "103418",
   "occupation": "סיור — קצין",
+  "station_id": 33,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12631,6 +13118,7 @@
  {
   "position_no": "103421",
   "occupation": "סיור — שוטר",
+  "station_id": 33,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12657,6 +13145,7 @@
  {
   "position_no": "103422",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 33,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12683,6 +13172,7 @@
  {
   "position_no": "103423",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 33,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12709,6 +13199,7 @@
  {
   "position_no": "103490",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 33,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12735,6 +13226,7 @@
  {
   "position_no": "103491",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 33,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12761,6 +13253,7 @@
  {
   "position_no": "104300",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 40,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12787,6 +13280,7 @@
  {
   "position_no": "104306",
   "occupation": "בילוש — קצין",
+  "station_id": 40,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12813,6 +13307,7 @@
  {
   "position_no": "104259",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12839,6 +13334,7 @@
  {
   "position_no": "104260",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12865,6 +13361,7 @@
  {
   "position_no": "104262",
   "occupation": "חקירות — קצין",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12891,6 +13388,7 @@
  {
   "position_no": "104264",
   "occupation": "חקירות — שוטר",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12917,6 +13415,7 @@
  {
   "position_no": "104265",
   "occupation": "חקירות — קצין",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12943,6 +13442,7 @@
  {
   "position_no": "104267",
   "occupation": "חקירות — קצין",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12969,6 +13469,7 @@
  {
   "position_no": "104268",
   "occupation": "חקירות — קצין",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -12995,6 +13496,7 @@
  {
   "position_no": "104269",
   "occupation": "חקירות — קצין",
+  "station_id": 40,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13021,6 +13523,7 @@
  {
   "position_no": "104203",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13047,6 +13550,7 @@
  {
   "position_no": "104208",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13073,6 +13577,7 @@
  {
   "position_no": "104210",
   "occupation": "סיור — קצין",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13099,6 +13604,7 @@
  {
   "position_no": "104211",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13125,6 +13631,7 @@
  {
   "position_no": "104213",
   "occupation": "סיור — שוטר",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13151,6 +13658,7 @@
  {
   "position_no": "104216",
   "occupation": "סיור — קצין",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13177,6 +13685,7 @@
  {
   "position_no": "104217",
   "occupation": "סיור — שוטר",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13203,6 +13712,7 @@
  {
   "position_no": "104219",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 40,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13229,6 +13739,7 @@
  {
   "position_no": "104335",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 40,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13255,6 +13766,7 @@
  {
   "position_no": "104336",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 40,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13281,6 +13793,7 @@
  {
   "position_no": "104339",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 40,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13307,6 +13820,7 @@
  {
   "position_no": "104340",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 40,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13333,6 +13847,7 @@
  {
   "position_no": "104386",
   "occupation": "חקירות — קצין",
+  "station_id": 41,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13359,6 +13874,7 @@
  {
   "position_no": "104369",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 41,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13385,6 +13901,7 @@
  {
   "position_no": "104370",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 41,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13411,6 +13928,7 @@
  {
   "position_no": "104409",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 41,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13437,6 +13955,7 @@
  {
   "position_no": "106881",
   "occupation": "בילוש — שוטר",
+  "station_id": 61,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13463,6 +13982,7 @@
  {
   "position_no": "106863",
   "occupation": "חקירות — קצין",
+  "station_id": 61,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13489,6 +14009,7 @@
  {
   "position_no": "106864",
   "occupation": "חקירות — שוטר",
+  "station_id": 61,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13515,6 +14036,7 @@
  {
   "position_no": "106838",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 61,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13541,6 +14063,7 @@
  {
   "position_no": "106839",
   "occupation": "סיור — קצין",
+  "station_id": 61,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13567,6 +14090,7 @@
  {
   "position_no": "106840",
   "occupation": "סיור — שוטר",
+  "station_id": 61,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13593,6 +14117,7 @@
  {
   "position_no": "106896",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 61,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13619,6 +14144,7 @@
  {
   "position_no": "107685",
   "occupation": "בילוש — קצין",
+  "station_id": 69,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13645,6 +14171,7 @@
  {
   "position_no": "107688",
   "occupation": "בילוש — קצין",
+  "station_id": 69,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13671,6 +14198,7 @@
  {
   "position_no": "107690",
   "occupation": "בילוש — קצין",
+  "station_id": 69,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13697,6 +14225,7 @@
  {
   "position_no": "107691",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 69,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13723,6 +14252,7 @@
  {
   "position_no": "107656",
   "occupation": "חקירות — שוטר",
+  "station_id": 69,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13749,6 +14279,7 @@
  {
   "position_no": "107657",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 69,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13775,6 +14306,7 @@
  {
   "position_no": "107660",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 69,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13801,6 +14333,7 @@
  {
   "position_no": "107661",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 69,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13827,6 +14360,7 @@
  {
   "position_no": "107662",
   "occupation": "חקירות — קצין",
+  "station_id": 69,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13853,6 +14387,7 @@
  {
   "position_no": "107609",
   "occupation": "סיור — קצין",
+  "station_id": 69,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13879,6 +14414,7 @@
  {
   "position_no": "107610",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 69,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13905,6 +14441,7 @@
  {
   "position_no": "107612",
   "occupation": "סיור — קצין",
+  "station_id": 69,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13931,6 +14468,7 @@
  {
   "position_no": "107618",
   "occupation": "סיור — קצין",
+  "station_id": 69,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13957,6 +14495,7 @@
  {
   "position_no": "107714",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 69,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -13983,6 +14522,7 @@
  {
   "position_no": "107715",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 69,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14009,6 +14549,7 @@
  {
   "position_no": "107718",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 69,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14035,6 +14576,7 @@
  {
   "position_no": "107719",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 69,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14061,6 +14603,7 @@
  {
   "position_no": "108285",
   "occupation": "בילוש — קצין",
+  "station_id": 74,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14087,6 +14630,7 @@
  {
   "position_no": "108286",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 74,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14113,6 +14657,7 @@
  {
   "position_no": "108288",
   "occupation": "בילוש — קצין",
+  "station_id": 74,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14139,6 +14684,7 @@
  {
   "position_no": "108251",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 74,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14165,6 +14711,7 @@
  {
   "position_no": "108252",
   "occupation": "חקירות — קצין",
+  "station_id": 74,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14191,6 +14738,7 @@
  {
   "position_no": "108253",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 74,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14217,6 +14765,7 @@
  {
   "position_no": "108254",
   "occupation": "חקירות — שוטר",
+  "station_id": 74,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14243,6 +14792,7 @@
  {
   "position_no": "108255",
   "occupation": "חקירות — שוטר",
+  "station_id": 74,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14269,6 +14819,7 @@
  {
   "position_no": "108256",
   "occupation": "חקירות — שוטר",
+  "station_id": 74,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14295,6 +14846,7 @@
  {
   "position_no": "108200",
   "occupation": "סיור — שוטר",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14321,6 +14873,7 @@
  {
   "position_no": "108202",
   "occupation": "סיור — קצין",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14347,6 +14900,7 @@
  {
   "position_no": "108203",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14373,6 +14927,7 @@
  {
   "position_no": "108204",
   "occupation": "סיור — קצין",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14399,6 +14954,7 @@
  {
   "position_no": "108205",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14425,6 +14981,7 @@
  {
   "position_no": "108207",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14451,6 +15008,7 @@
  {
   "position_no": "108211",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14477,6 +15035,7 @@
  {
   "position_no": "108212",
   "occupation": "סיור — שוטר",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14503,6 +15062,7 @@
  {
   "position_no": "108214",
   "occupation": "סיור — קצין",
+  "station_id": 74,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14529,6 +15089,7 @@
  {
   "position_no": "108313",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 74,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14555,6 +15116,7 @@
  {
   "position_no": "108318",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 74,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14581,6 +15143,7 @@
  {
   "position_no": "108319",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 74,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14607,6 +15170,7 @@
  {
   "position_no": "108896",
   "occupation": "בילוש — קצין",
+  "station_id": 80,
   "profession": "בילוש",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14633,6 +15197,7 @@
  {
   "position_no": "108883",
   "occupation": "חקירות — קצין",
+  "station_id": 80,
   "profession": "חקירות",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14659,6 +15224,7 @@
  {
   "position_no": "108861",
   "occupation": "סיור — קצין",
+  "station_id": 80,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14685,6 +15251,7 @@
  {
   "position_no": "108863",
   "occupation": "סיור — שוטר",
+  "station_id": 80,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14711,6 +15278,7 @@
  {
   "position_no": "108864",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 80,
   "profession": "סיור",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14737,6 +15305,7 @@
  {
   "position_no": "108906",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 80,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14763,6 +15332,7 @@
  {
   "position_no": "108907",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 80,
   "profession": "שיטור קהילתי",
   "district": "מרכז",
   "region": "מרחב שרון",
@@ -14789,6 +15359,7 @@
  {
   "position_no": "110183",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14815,6 +15386,7 @@
  {
   "position_no": "110173",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14841,6 +15413,7 @@
  {
   "position_no": "110174",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14867,6 +15440,7 @@
  {
   "position_no": "110141",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14893,6 +15467,7 @@
  {
   "position_no": "110124",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14919,6 +15494,7 @@
  {
   "position_no": "110157",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14945,6 +15521,7 @@
  {
   "position_no": "103671",
   "occupation": "חקירות — שוטר",
+  "station_id": 35,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14971,6 +15548,7 @@
  {
   "position_no": "103672",
   "occupation": "חקירות — שוטר",
+  "station_id": 35,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -14997,6 +15575,7 @@
  {
   "position_no": "103673",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 35,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15023,6 +15602,7 @@
  {
   "position_no": "103647",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 35,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15049,6 +15629,7 @@
  {
   "position_no": "103648",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 35,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15075,6 +15656,7 @@
  {
   "position_no": "103705",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 35,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15101,6 +15683,7 @@
  {
   "position_no": "104539",
   "occupation": "בילוש — קצין",
+  "station_id": 42,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15127,6 +15710,7 @@
  {
   "position_no": "104506",
   "occupation": "חקירות — שוטר",
+  "station_id": 42,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15153,6 +15737,7 @@
  {
   "position_no": "104507",
   "occupation": "חקירות — קצין",
+  "station_id": 42,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15179,6 +15764,7 @@
  {
   "position_no": "104509",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 42,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15205,6 +15791,7 @@
  {
   "position_no": "104511",
   "occupation": "חקירות — שוטר",
+  "station_id": 42,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15231,6 +15818,7 @@
  {
   "position_no": "104465",
   "occupation": "סיור — שוטר",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15257,6 +15845,7 @@
  {
   "position_no": "104466",
   "occupation": "סיור — שוטר",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15283,6 +15872,7 @@
  {
   "position_no": "104467",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15309,6 +15899,7 @@
  {
   "position_no": "104468",
   "occupation": "סיור — שוטר",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15335,6 +15926,7 @@
  {
   "position_no": "104470",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15361,6 +15953,7 @@
  {
   "position_no": "104471",
   "occupation": "סיור — קצין",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15387,6 +15980,7 @@
  {
   "position_no": "104472",
   "occupation": "סיור — קצין",
+  "station_id": 42,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15413,6 +16007,7 @@
  {
   "position_no": "105089",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 46,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15439,6 +16034,7 @@
  {
   "position_no": "106175",
   "occupation": "בילוש — קצין",
+  "station_id": 55,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15465,6 +16061,7 @@
  {
   "position_no": "106176",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 55,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15491,6 +16088,7 @@
  {
   "position_no": "106177",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 55,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15517,6 +16115,7 @@
  {
   "position_no": "106138",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 55,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15543,6 +16142,7 @@
  {
   "position_no": "106140",
   "occupation": "חקירות — קצין",
+  "station_id": 55,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15569,6 +16169,7 @@
  {
   "position_no": "106088",
   "occupation": "סיור — שוטר",
+  "station_id": 55,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15595,6 +16196,7 @@
  {
   "position_no": "106089",
   "occupation": "סיור — שוטר",
+  "station_id": 55,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15621,6 +16223,7 @@
  {
   "position_no": "106090",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 55,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15647,6 +16250,7 @@
  {
   "position_no": "106093",
   "occupation": "סיור — שוטר",
+  "station_id": 55,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15673,6 +16277,7 @@
  {
   "position_no": "109336",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 84,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15699,6 +16304,7 @@
  {
   "position_no": "109322",
   "occupation": "חקירות — קצין",
+  "station_id": 84,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15725,6 +16331,7 @@
  {
   "position_no": "109350",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 84,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב גליל",
@@ -15751,6 +16358,7 @@
  {
   "position_no": "110691",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15777,6 +16385,7 @@
  {
   "position_no": "110692",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15803,6 +16412,7 @@
  {
   "position_no": "110665",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15829,6 +16439,7 @@
  {
   "position_no": "110639",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15855,6 +16466,7 @@
  {
   "position_no": "110632",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15881,6 +16493,7 @@
  {
   "position_no": "110633",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15907,6 +16520,7 @@
  {
   "position_no": "110653",
   "occupation": "מערכות מידע — שוטר",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15933,6 +16547,7 @@
  {
   "position_no": "110654",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15959,6 +16574,7 @@
  {
   "position_no": "101789",
   "occupation": "בילוש — שוטר",
+  "station_id": 18,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -15985,6 +16601,7 @@
  {
   "position_no": "101779",
   "occupation": "חקירות — קצין",
+  "station_id": 18,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16011,6 +16628,7 @@
  {
   "position_no": "101768",
   "occupation": "סיור — קצין",
+  "station_id": 18,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16037,6 +16655,7 @@
  {
   "position_no": "101797",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 18,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16063,6 +16682,7 @@
  {
   "position_no": "101798",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 18,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16089,6 +16709,7 @@
  {
   "position_no": "103296",
   "occupation": "בילוש — שוטר",
+  "station_id": 31,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16115,6 +16736,7 @@
  {
   "position_no": "103299",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 31,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16141,6 +16763,7 @@
  {
   "position_no": "103276",
   "occupation": "חקירות — שוטר",
+  "station_id": 31,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16167,6 +16790,7 @@
  {
   "position_no": "103277",
   "occupation": "חקירות — שוטר",
+  "station_id": 31,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16193,6 +16817,7 @@
  {
   "position_no": "103278",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 31,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16219,6 +16844,7 @@
  {
   "position_no": "103280",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 31,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16245,6 +16871,7 @@
  {
   "position_no": "103281",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 31,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16271,6 +16898,7 @@
  {
   "position_no": "103248",
   "occupation": "סיור — שוטר",
+  "station_id": 31,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16297,6 +16925,7 @@
  {
   "position_no": "103249",
   "occupation": "סיור — שוטר",
+  "station_id": 31,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16323,6 +16952,7 @@
  {
   "position_no": "103253",
   "occupation": "סיור — קצין",
+  "station_id": 31,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16349,6 +16979,7 @@
  {
   "position_no": "103312",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 31,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16375,6 +17006,7 @@
  {
   "position_no": "103315",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 31,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16401,6 +17033,7 @@
  {
   "position_no": "104013",
   "occupation": "בילוש — שוטר",
+  "station_id": 38,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16427,6 +17060,7 @@
  {
   "position_no": "103989",
   "occupation": "חקירות — קצין",
+  "station_id": 38,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16453,6 +17087,7 @@
  {
   "position_no": "103990",
   "occupation": "חקירות — קצין",
+  "station_id": 38,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16479,6 +17114,7 @@
  {
   "position_no": "103992",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 38,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16505,6 +17141,7 @@
  {
   "position_no": "103993",
   "occupation": "חקירות — קצין",
+  "station_id": 38,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16531,6 +17168,7 @@
  {
   "position_no": "103955",
   "occupation": "סיור — שוטר",
+  "station_id": 38,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16557,6 +17195,7 @@
  {
   "position_no": "103956",
   "occupation": "סיור — קצין",
+  "station_id": 38,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16583,6 +17222,7 @@
  {
   "position_no": "103961",
   "occupation": "סיור — קצין",
+  "station_id": 38,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16609,6 +17249,7 @@
  {
   "position_no": "103962",
   "occupation": "סיור — קצין",
+  "station_id": 38,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16635,6 +17276,7 @@
  {
   "position_no": "104037",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 38,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16661,6 +17303,7 @@
  {
   "position_no": "105991",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 54,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16687,6 +17330,7 @@
  {
   "position_no": "105971",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 54,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16713,6 +17357,7 @@
  {
   "position_no": "105940",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 54,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16739,6 +17384,7 @@
  {
   "position_no": "105943",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 54,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16765,6 +17411,7 @@
  {
   "position_no": "105944",
   "occupation": "סיור — שוטר",
+  "station_id": 54,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16791,6 +17438,7 @@
  {
   "position_no": "107822",
   "occupation": "בילוש — קצין",
+  "station_id": 70,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16817,6 +17465,7 @@
  {
   "position_no": "107770",
   "occupation": "סיור — קצין",
+  "station_id": 70,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16843,6 +17492,7 @@
  {
   "position_no": "108108",
   "occupation": "בילוש — קצין",
+  "station_id": 73,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16869,6 +17519,7 @@
  {
   "position_no": "108109",
   "occupation": "בילוש — קצין",
+  "station_id": 73,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16895,6 +17546,7 @@
  {
   "position_no": "108078",
   "occupation": "חקירות — שוטר",
+  "station_id": 73,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16921,6 +17573,7 @@
  {
   "position_no": "108081",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 73,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16947,6 +17600,7 @@
  {
   "position_no": "108035",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 73,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16973,6 +17627,7 @@
  {
   "position_no": "108036",
   "occupation": "סיור — קצין",
+  "station_id": 73,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -16999,6 +17654,7 @@
  {
   "position_no": "108038",
   "occupation": "סיור — קצין",
+  "station_id": 73,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17025,6 +17681,7 @@
  {
   "position_no": "108043",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 73,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17051,6 +17708,7 @@
  {
   "position_no": "108045",
   "occupation": "סיור — שוטר",
+  "station_id": 73,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17077,6 +17735,7 @@
  {
   "position_no": "108135",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 73,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17103,6 +17762,7 @@
  {
   "position_no": "108136",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 73,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17129,6 +17789,7 @@
  {
   "position_no": "108137",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 73,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17155,6 +17816,7 @@
  {
   "position_no": "108138",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 73,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב כנרת",
@@ -17181,6 +17843,7 @@
  {
   "position_no": "111290",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17207,6 +17870,7 @@
  {
   "position_no": "111278",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17233,6 +17897,7 @@
  {
   "position_no": "111254",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17259,6 +17924,7 @@
  {
   "position_no": "111233",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17285,6 +17951,7 @@
  {
   "position_no": "111235",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17311,6 +17978,7 @@
  {
   "position_no": "111239",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17337,6 +18005,7 @@
  {
   "position_no": "111240",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17363,6 +18032,7 @@
  {
   "position_no": "111216",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17389,6 +18059,7 @@
  {
   "position_no": "111266",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17415,6 +18086,7 @@
  {
   "position_no": "101202",
   "occupation": "בילוש — שוטר",
+  "station_id": 11,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17441,6 +18113,7 @@
  {
   "position_no": "101155",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 11,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17467,6 +18140,7 @@
  {
   "position_no": "101156",
   "occupation": "סיור — קצין",
+  "station_id": 11,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17493,6 +18167,7 @@
  {
   "position_no": "101220",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 11,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17519,6 +18194,7 @@
  {
   "position_no": "101221",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 11,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17545,6 +18221,7 @@
  {
   "position_no": "104115",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 39,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17571,6 +18248,7 @@
  {
   "position_no": "104116",
   "occupation": "בילוש — קצין",
+  "station_id": 39,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17597,6 +18275,7 @@
  {
   "position_no": "104097",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 39,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17623,6 +18302,7 @@
  {
   "position_no": "104099",
   "occupation": "חקירות — קצין",
+  "station_id": 39,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17649,6 +18329,7 @@
  {
   "position_no": "104075",
   "occupation": "סיור — קצין",
+  "station_id": 39,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17675,6 +18356,7 @@
  {
   "position_no": "104076",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 39,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17701,6 +18383,7 @@
  {
   "position_no": "104079",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 39,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17727,6 +18410,7 @@
  {
   "position_no": "104131",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 39,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17753,6 +18437,7 @@
  {
   "position_no": "104132",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 39,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17779,6 +18464,7 @@
  {
   "position_no": "105136",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 47,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17805,6 +18491,7 @@
  {
   "position_no": "105116",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 47,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17831,6 +18518,7 @@
  {
   "position_no": "105117",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 47,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17857,6 +18545,7 @@
  {
   "position_no": "105159",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 47,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17883,6 +18572,7 @@
  {
   "position_no": "106438",
   "occupation": "חקירות — קצין",
+  "station_id": 57,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17909,6 +18599,7 @@
  {
   "position_no": "106439",
   "occupation": "חקירות — שוטר",
+  "station_id": 57,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17935,6 +18626,7 @@
  {
   "position_no": "106440",
   "occupation": "חקירות — שוטר",
+  "station_id": 57,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17961,6 +18653,7 @@
  {
   "position_no": "106442",
   "occupation": "חקירות — קצין",
+  "station_id": 57,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -17987,6 +18680,7 @@
  {
   "position_no": "106443",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 57,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18013,6 +18707,7 @@
  {
   "position_no": "106444",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 57,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18039,6 +18734,7 @@
  {
   "position_no": "106402",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 57,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18065,6 +18761,7 @@
  {
   "position_no": "106404",
   "occupation": "סיור — קצין",
+  "station_id": 57,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18091,6 +18788,7 @@
  {
   "position_no": "106407",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 57,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18117,6 +18815,7 @@
  {
   "position_no": "106409",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 57,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18143,6 +18842,7 @@
  {
   "position_no": "106411",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 57,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18169,6 +18869,7 @@
  {
   "position_no": "106486",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 57,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18195,6 +18896,7 @@
  {
   "position_no": "106560",
   "occupation": "בילוש — שוטר",
+  "station_id": 58,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18221,6 +18923,7 @@
  {
   "position_no": "106561",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 58,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18247,6 +18950,7 @@
  {
   "position_no": "106562",
   "occupation": "בילוש — קצין",
+  "station_id": 58,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18273,6 +18977,7 @@
  {
   "position_no": "106563",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 58,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18299,6 +19004,7 @@
  {
   "position_no": "106544",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 58,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18325,6 +19031,7 @@
  {
   "position_no": "106521",
   "occupation": "סיור — שוטר",
+  "station_id": 58,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18351,6 +19058,7 @@
  {
   "position_no": "106523",
   "occupation": "סיור — שוטר",
+  "station_id": 58,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18377,6 +19085,7 @@
  {
   "position_no": "107286",
   "occupation": "בילוש — קצין",
+  "station_id": 65,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18403,6 +19112,7 @@
  {
   "position_no": "107287",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 65,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18429,6 +19139,7 @@
  {
   "position_no": "107289",
   "occupation": "בילוש — קצין",
+  "station_id": 65,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18455,6 +19166,7 @@
  {
   "position_no": "107255",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 65,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18481,6 +19193,7 @@
  {
   "position_no": "107256",
   "occupation": "חקירות — קצין",
+  "station_id": 65,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18507,6 +19220,7 @@
  {
   "position_no": "107257",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 65,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18533,6 +19247,7 @@
  {
   "position_no": "107259",
   "occupation": "חקירות — שוטר",
+  "station_id": 65,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18559,6 +19274,7 @@
  {
   "position_no": "107260",
   "occupation": "חקירות — קצין",
+  "station_id": 65,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18585,6 +19301,7 @@
  {
   "position_no": "107217",
   "occupation": "סיור — שוטר",
+  "station_id": 65,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18611,6 +19328,7 @@
  {
   "position_no": "107219",
   "occupation": "סיור — קצין",
+  "station_id": 65,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18637,6 +19355,7 @@
  {
   "position_no": "107220",
   "occupation": "סיור — קצין",
+  "station_id": 65,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18663,6 +19382,7 @@
  {
   "position_no": "107223",
   "occupation": "סיור — שוטר",
+  "station_id": 65,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18689,6 +19409,7 @@
  {
   "position_no": "107224",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 65,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18715,6 +19436,7 @@
  {
   "position_no": "107225",
   "occupation": "סיור — קצין",
+  "station_id": 65,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18741,6 +19463,7 @@
  {
   "position_no": "107310",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 65,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18767,6 +19490,7 @@
  {
   "position_no": "107313",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 65,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18793,6 +19517,7 @@
  {
   "position_no": "109646",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 86,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18819,6 +19544,7 @@
  {
   "position_no": "109647",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 86,
   "profession": "בילוש",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18845,6 +19571,7 @@
  {
   "position_no": "109618",
   "occupation": "חקירות — קצין",
+  "station_id": 86,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18871,6 +19598,7 @@
  {
   "position_no": "109620",
   "occupation": "חקירות — שוטר",
+  "station_id": 86,
   "profession": "חקירות",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18897,6 +19625,7 @@
  {
   "position_no": "109580",
   "occupation": "סיור — שוטר",
+  "station_id": 86,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18923,6 +19652,7 @@
  {
   "position_no": "109581",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 86,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18949,6 +19679,7 @@
  {
   "position_no": "109582",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 86,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -18975,6 +19706,7 @@
  {
   "position_no": "109584",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 86,
   "profession": "סיור",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -19001,6 +19733,7 @@
  {
   "position_no": "109671",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 86,
   "profession": "שיטור קהילתי",
   "district": "צפון",
   "region": "מרחב עמקים",
@@ -19027,6 +19760,7 @@
  {
   "position_no": "110266",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19053,6 +19787,7 @@
  {
   "position_no": "110267",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19079,6 +19814,7 @@
  {
   "position_no": "110213",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19105,6 +19841,7 @@
  {
   "position_no": "110192",
   "occupation": "מנהלה וכוח אדם — שוטר",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19131,6 +19868,7 @@
  {
   "position_no": "110193",
   "occupation": "מנהלה וכוח אדם — שוטר",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19157,6 +19895,7 @@
  {
   "position_no": "110194",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19183,6 +19922,7 @@
  {
   "position_no": "110250",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19209,6 +19949,7 @@
  {
   "position_no": "110251",
   "occupation": "מערכות מידע — שוטר",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19235,6 +19976,7 @@
  {
   "position_no": "110252",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19261,6 +20003,7 @@
  {
   "position_no": "102285",
   "occupation": "בילוש — שוטר",
+  "station_id": 22,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19287,6 +20030,7 @@
  {
   "position_no": "102261",
   "occupation": "חקירות — קצין",
+  "station_id": 22,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19313,6 +20057,7 @@
  {
   "position_no": "102262",
   "occupation": "חקירות — קצין",
+  "station_id": 22,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19339,6 +20084,7 @@
  {
   "position_no": "102229",
   "occupation": "סיור — קצין",
+  "station_id": 22,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19365,6 +20111,7 @@
  {
   "position_no": "102305",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 22,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19391,6 +20138,7 @@
  {
   "position_no": "102306",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 22,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19417,6 +20165,7 @@
  {
   "position_no": "105865",
   "occupation": "בילוש — שוטר",
+  "station_id": 53,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19443,6 +20192,7 @@
  {
   "position_no": "105867",
   "occupation": "בילוש — קצין",
+  "station_id": 53,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19469,6 +20219,7 @@
  {
   "position_no": "105870",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 53,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19495,6 +20246,7 @@
  {
   "position_no": "105838",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 53,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19521,6 +20273,7 @@
  {
   "position_no": "105840",
   "occupation": "חקירות — שוטר",
+  "station_id": 53,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19547,6 +20300,7 @@
  {
   "position_no": "105793",
   "occupation": "סיור — קצין",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19573,6 +20327,7 @@
  {
   "position_no": "105797",
   "occupation": "סיור — קצין",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19599,6 +20354,7 @@
  {
   "position_no": "105800",
   "occupation": "סיור — שוטר",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19625,6 +20381,7 @@
  {
   "position_no": "105801",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19651,6 +20408,7 @@
  {
   "position_no": "105802",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19677,6 +20435,7 @@
  {
   "position_no": "105805",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19703,6 +20462,7 @@
  {
   "position_no": "105806",
   "occupation": "סיור — קצין",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19729,6 +20489,7 @@
  {
   "position_no": "105807",
   "occupation": "סיור — שוטר",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19755,6 +20516,7 @@
  {
   "position_no": "105808",
   "occupation": "סיור — קצין",
+  "station_id": 53,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19781,6 +20543,7 @@
  {
   "position_no": "105889",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 53,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19807,6 +20570,7 @@
  {
   "position_no": "105890",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 53,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19833,6 +20597,7 @@
  {
   "position_no": "105891",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 53,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב גלעד",
@@ -19859,6 +20624,7 @@
  {
   "position_no": "110544",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -19885,6 +20651,7 @@
  {
   "position_no": "110531",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -19911,6 +20678,7 @@
  {
   "position_no": "110488",
   "occupation": "כספים ותקציב — מפקד צוות",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -19937,6 +20705,7 @@
  {
   "position_no": "110472",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -19963,6 +20732,7 @@
  {
   "position_no": "110451",
   "occupation": "מנהלה וכוח אדם — קצין",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -19989,6 +20759,7 @@
  {
   "position_no": "110452",
   "occupation": "מנהלה וכוח אדם — שוטר",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20015,6 +20786,7 @@
  {
   "position_no": "110507",
   "occupation": "מערכות מידע — קצין",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20041,6 +20813,7 @@
  {
   "position_no": "110509",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20067,6 +20840,7 @@
  {
   "position_no": "110510",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20093,6 +20867,7 @@
  {
   "position_no": "102811",
   "occupation": "בילוש — שוטר",
+  "station_id": 27,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20119,6 +20894,7 @@
  {
   "position_no": "102799",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 27,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20145,6 +20921,7 @@
  {
   "position_no": "102781",
   "occupation": "סיור — קצין",
+  "station_id": 27,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20171,6 +20948,7 @@
  {
   "position_no": "102783",
   "occupation": "סיור — קצין",
+  "station_id": 27,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20197,6 +20975,7 @@
  {
   "position_no": "107429",
   "occupation": "בילוש — קצין",
+  "station_id": 66,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20223,6 +21002,7 @@
  {
   "position_no": "107401",
   "occupation": "חקירות — שוטר",
+  "station_id": 66,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20249,6 +21029,7 @@
  {
   "position_no": "107402",
   "occupation": "חקירות — קצין",
+  "station_id": 66,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20275,6 +21056,7 @@
  {
   "position_no": "107404",
   "occupation": "חקירות — שוטר",
+  "station_id": 66,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20301,6 +21083,7 @@
  {
   "position_no": "107369",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 66,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20327,6 +21110,7 @@
  {
   "position_no": "107372",
   "occupation": "סיור — שוטר",
+  "station_id": 66,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב יהודה",
@@ -20353,6 +21137,7 @@
  {
   "position_no": "111567",
   "occupation": "מנהלה וכוח אדם — מפקד צוות",
+  "station_id": null,
   "profession": "מנהלה וכוח אדם",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20379,6 +21164,7 @@
  {
   "position_no": "101449",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 14,
   "profession": "סיור",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20405,6 +21191,7 @@
  {
   "position_no": "101522",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 14,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20431,6 +21218,7 @@
  {
   "position_no": "105329",
   "occupation": "בילוש — קצין",
+  "station_id": 49,
   "profession": "בילוש",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20457,6 +21245,7 @@
  {
   "position_no": "105316",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 49,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20483,6 +21272,7 @@
  {
   "position_no": "105317",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 49,
   "profession": "חקירות",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20509,6 +21299,7 @@
  {
   "position_no": "105340",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 49,
   "profession": "שיטור קהילתי",
   "district": "ש\"י",
   "region": "מרחב שומרון",
@@ -20535,6 +21326,7 @@
  {
   "position_no": "109935",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20561,6 +21353,7 @@
  {
   "position_no": "109937",
   "occupation": "הדרכה והכשרות — קצין",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20587,6 +21380,7 @@
  {
   "position_no": "109938",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20613,6 +21407,7 @@
  {
   "position_no": "109939",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20639,6 +21434,7 @@
  {
   "position_no": "109940",
   "occupation": "הדרכה והכשרות — שוטר",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20665,6 +21461,7 @@
  {
   "position_no": "109920",
   "occupation": "ייעוץ משפטי — קצין",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20691,6 +21488,7 @@
  {
   "position_no": "109921",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20717,6 +21515,7 @@
  {
   "position_no": "109922",
   "occupation": "ייעוץ משפטי — קצין",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20743,6 +21542,7 @@
  {
   "position_no": "109889",
   "occupation": "כספים ותקציב — שוטר",
+  "station_id": null,
   "profession": "כספים ותקציב",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20769,6 +21569,7 @@
  {
   "position_no": "109871",
   "occupation": "לוגיסטיקה — מפקד צוות",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20795,6 +21596,7 @@
  {
   "position_no": "109872",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20821,6 +21623,7 @@
  {
   "position_no": "109898",
   "occupation": "מערכות מידע — מפקד צוות",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20847,6 +21650,7 @@
  {
   "position_no": "101562",
   "occupation": "בילוש — קצין",
+  "station_id": 15,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20873,6 +21677,7 @@
  {
   "position_no": "101554",
   "occupation": "חקירות — קצין",
+  "station_id": 15,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20899,6 +21704,7 @@
  {
   "position_no": "101540",
   "occupation": "סיור — קצין",
+  "station_id": 15,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20925,6 +21731,7 @@
  {
   "position_no": "101541",
   "occupation": "סיור — קצין",
+  "station_id": 15,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20951,6 +21758,7 @@
  {
   "position_no": "101543",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 15,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -20977,6 +21785,7 @@
  {
   "position_no": "101569",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 15,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21003,6 +21812,7 @@
  {
   "position_no": "103056",
   "occupation": "בילוש — שוטר",
+  "station_id": 29,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21029,6 +21839,7 @@
  {
   "position_no": "103024",
   "occupation": "חקירות — קצין",
+  "station_id": 29,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21055,6 +21866,7 @@
  {
   "position_no": "102984",
   "occupation": "סיור — שוטר",
+  "station_id": 29,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21081,6 +21893,7 @@
  {
   "position_no": "103081",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 29,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21107,6 +21920,7 @@
  {
   "position_no": "103888",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 37,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21133,6 +21947,7 @@
  {
   "position_no": "103867",
   "occupation": "חקירות — קצין",
+  "station_id": 37,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21159,6 +21974,7 @@
  {
   "position_no": "103840",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 37,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21185,6 +22001,7 @@
  {
   "position_no": "103841",
   "occupation": "סיור — קצין",
+  "station_id": 37,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21211,6 +22028,7 @@
  {
   "position_no": "109492",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 85,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21237,6 +22055,7 @@
  {
   "position_no": "109458",
   "occupation": "חקירות — קצין",
+  "station_id": 85,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21263,6 +22082,7 @@
  {
   "position_no": "109459",
   "occupation": "חקירות — קצין",
+  "station_id": 85,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21289,6 +22109,7 @@
  {
   "position_no": "109460",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 85,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21315,6 +22136,7 @@
  {
   "position_no": "109461",
   "occupation": "חקירות — קצין",
+  "station_id": 85,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21341,6 +22163,7 @@
  {
   "position_no": "109462",
   "occupation": "חקירות — שוטר",
+  "station_id": 85,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21367,6 +22190,7 @@
  {
   "position_no": "109411",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 85,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21393,6 +22217,7 @@
  {
   "position_no": "109413",
   "occupation": "סיור — קצין",
+  "station_id": 85,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21419,6 +22244,7 @@
  {
   "position_no": "109414",
   "occupation": "סיור — שוטר",
+  "station_id": 85,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21445,6 +22271,7 @@
  {
   "position_no": "109415",
   "occupation": "סיור — קצין",
+  "station_id": 85,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21471,6 +22298,7 @@
  {
   "position_no": "109423",
   "occupation": "סיור — שוטר",
+  "station_id": 85,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21497,6 +22325,7 @@
  {
   "position_no": "109520",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 85,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21523,6 +22352,7 @@
  {
   "position_no": "109769",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 87,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21549,6 +22379,7 @@
  {
   "position_no": "109747",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 87,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21575,6 +22406,7 @@
  {
   "position_no": "109719",
   "occupation": "סיור — קצין",
+  "station_id": 87,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב איילון",
@@ -21601,6 +22433,7 @@
  {
   "position_no": "110424",
   "occupation": "ייעוץ משפטי — שוטר",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21627,6 +22460,7 @@
  {
   "position_no": "110426",
   "occupation": "ייעוץ משפטי — מפקד צוות",
+  "station_id": null,
   "profession": "ייעוץ משפטי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21653,6 +22487,7 @@
  {
   "position_no": "110386",
   "occupation": "לוגיסטיקה — קצין",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21679,6 +22514,7 @@
  {
   "position_no": "101374",
   "occupation": "בילוש — שוטר",
+  "station_id": 13,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21705,6 +22541,7 @@
  {
   "position_no": "101375",
   "occupation": "בילוש — קצין",
+  "station_id": 13,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21731,6 +22568,7 @@
  {
   "position_no": "101351",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 13,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21757,6 +22595,7 @@
  {
   "position_no": "101315",
   "occupation": "סיור — שוטר",
+  "station_id": 13,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21783,6 +22622,7 @@
  {
   "position_no": "101316",
   "occupation": "סיור — שוטר",
+  "station_id": 13,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21809,6 +22649,7 @@
  {
   "position_no": "101319",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 13,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21835,6 +22676,7 @@
  {
   "position_no": "101398",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 13,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21861,6 +22703,7 @@
  {
   "position_no": "101724",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 17,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21887,6 +22730,7 @@
  {
   "position_no": "101726",
   "occupation": "בילוש — שוטר",
+  "station_id": 17,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21913,6 +22757,7 @@
  {
   "position_no": "101704",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 17,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21939,6 +22784,7 @@
  {
   "position_no": "101673",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 17,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21965,6 +22811,7 @@
  {
   "position_no": "101674",
   "occupation": "סיור — שוטר",
+  "station_id": 17,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -21991,6 +22838,7 @@
  {
   "position_no": "101677",
   "occupation": "סיור — שוטר",
+  "station_id": 17,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22017,6 +22865,7 @@
  {
   "position_no": "101679",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 17,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22043,6 +22892,7 @@
  {
   "position_no": "101681",
   "occupation": "סיור — קצין",
+  "station_id": 17,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22069,6 +22919,7 @@
  {
   "position_no": "105718",
   "occupation": "בילוש — שוטר",
+  "station_id": 52,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22095,6 +22946,7 @@
  {
   "position_no": "105721",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 52,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22121,6 +22973,7 @@
  {
   "position_no": "105693",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 52,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22147,6 +23000,7 @@
  {
   "position_no": "105695",
   "occupation": "חקירות — שוטר",
+  "station_id": 52,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22173,6 +23027,7 @@
  {
   "position_no": "105696",
   "occupation": "חקירות — שוטר",
+  "station_id": 52,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22199,6 +23054,7 @@
  {
   "position_no": "105653",
   "occupation": "סיור — קצין",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22225,6 +23081,7 @@
  {
   "position_no": "105655",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22251,6 +23108,7 @@
  {
   "position_no": "105656",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22277,6 +23135,7 @@
  {
   "position_no": "105657",
   "occupation": "סיור — קצין",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22303,6 +23162,7 @@
  {
   "position_no": "105658",
   "occupation": "סיור — קצין",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22329,6 +23189,7 @@
  {
   "position_no": "105659",
   "occupation": "סיור — קצין",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22355,6 +23216,7 @@
  {
   "position_no": "105660",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22381,6 +23243,7 @@
  {
   "position_no": "105661",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 52,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22407,6 +23270,7 @@
  {
   "position_no": "105741",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 52,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22433,6 +23297,7 @@
  {
   "position_no": "105742",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 52,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22459,6 +23324,7 @@
  {
   "position_no": "105743",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 52,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22485,6 +23351,7 @@
  {
   "position_no": "105745",
   "occupation": "שיטור קהילתי — קצין",
+  "station_id": 52,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב דן",
@@ -22511,6 +23378,7 @@
  {
   "position_no": "110611",
   "occupation": "הדרכה והכשרות — מפקד צוות",
+  "station_id": null,
   "profession": "הדרכה והכשרות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22537,6 +23405,7 @@
  {
   "position_no": "110557",
   "occupation": "לוגיסטיקה — שוטר",
+  "station_id": null,
   "profession": "לוגיסטיקה",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22563,6 +23432,7 @@
  {
   "position_no": "110576",
   "occupation": "מערכות מידע — שוטר",
+  "station_id": null,
   "profession": "מערכות מידע",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22589,6 +23459,7 @@
  {
   "position_no": "102028",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 20,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22615,6 +23486,7 @@
  {
   "position_no": "102029",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 20,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22641,6 +23513,7 @@
  {
   "position_no": "102031",
   "occupation": "בילוש — מפקד צוות",
+  "station_id": 20,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22667,6 +23540,7 @@
  {
   "position_no": "102002",
   "occupation": "חקירות — שוטר",
+  "station_id": 20,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22693,6 +23567,7 @@
  {
   "position_no": "102004",
   "occupation": "חקירות — שוטר",
+  "station_id": 20,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22719,6 +23594,7 @@
  {
   "position_no": "101969",
   "occupation": "סיור — קצין",
+  "station_id": 20,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22745,6 +23621,7 @@
  {
   "position_no": "101970",
   "occupation": "סיור — קצין",
+  "station_id": 20,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22771,6 +23648,7 @@
  {
   "position_no": "101974",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 20,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22797,6 +23675,7 @@
  {
   "position_no": "101975",
   "occupation": "סיור — קצין",
+  "station_id": 20,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22823,6 +23702,7 @@
  {
   "position_no": "102047",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 20,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22849,6 +23729,7 @@
  {
   "position_no": "102049",
   "occupation": "שיטור קהילתי — מפקד צוות",
+  "station_id": 20,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22875,6 +23756,7 @@
  {
   "position_no": "104816",
   "occupation": "בילוש — קצין",
+  "station_id": 44,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22901,6 +23783,7 @@
  {
   "position_no": "104817",
   "occupation": "בילוש — קצין",
+  "station_id": 44,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22927,6 +23810,7 @@
  {
   "position_no": "104819",
   "occupation": "בילוש — שוטר",
+  "station_id": 44,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22953,6 +23837,7 @@
  {
   "position_no": "104820",
   "occupation": "בילוש — שוטר",
+  "station_id": 44,
   "profession": "בילוש",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -22979,6 +23864,7 @@
  {
   "position_no": "104780",
   "occupation": "חקירות — שוטר",
+  "station_id": 44,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23005,6 +23891,7 @@
  {
   "position_no": "104781",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 44,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23031,6 +23918,7 @@
  {
   "position_no": "104784",
   "occupation": "חקירות — מפקד צוות",
+  "station_id": 44,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23057,6 +23945,7 @@
  {
   "position_no": "104787",
   "occupation": "חקירות — קצין",
+  "station_id": 44,
   "profession": "חקירות",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23083,6 +23972,7 @@
  {
   "position_no": "104728",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23109,6 +23999,7 @@
  {
   "position_no": "104729",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23135,6 +24026,7 @@
  {
   "position_no": "104730",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23161,6 +24053,7 @@
  {
   "position_no": "104732",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23187,6 +24080,7 @@
  {
   "position_no": "104734",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23213,6 +24107,7 @@
  {
   "position_no": "104735",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23239,6 +24134,7 @@
  {
   "position_no": "104736",
   "occupation": "סיור — קצין",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23265,6 +24161,7 @@
  {
   "position_no": "104737",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23291,6 +24188,7 @@
  {
   "position_no": "104738",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23317,6 +24215,7 @@
  {
   "position_no": "104739",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23343,6 +24242,7 @@
  {
   "position_no": "104740",
   "occupation": "סיור — שוטר",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23369,6 +24269,7 @@
  {
   "position_no": "104741",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23395,6 +24296,7 @@
  {
   "position_no": "104742",
   "occupation": "סיור — מפקד צוות",
+  "station_id": 44,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23421,6 +24323,7 @@
  {
   "position_no": "104851",
   "occupation": "שיטור קהילתי — שוטר",
+  "station_id": 44,
   "profession": "שיטור קהילתי",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23447,6 +24350,7 @@
  {
   "position_no": "109810",
   "occupation": "סיור — שוטר",
+  "station_id": 88,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",
@@ -23473,6 +24377,7 @@
  {
   "position_no": "109811",
   "occupation": "סיור — שוטר",
+  "station_id": 88,
   "profession": "סיור",
   "district": "תל אביב",
   "region": "מרחב ירקון",

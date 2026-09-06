@@ -4829,44 +4829,62 @@ async function wireStrategic() {
 // ארבעת הסינונים מתעדכנים זה מזה: בחירת אזור מצמצמת את רשימת התפקידים
 // לאלה שקיימים שם, ובחירת תפקיד מצמצמת את האזורים. בלי זה בחירה בתפקיד
 // שאינו קיים באזור מחזירה מסך ריק בלי להסביר למה.
-async function loadAdminOptions() {
-  const params = new URLSearchParams();
+// §58: **פרמטרי הסינון של המסך, במקום אחד.**
+//
+// שלושה צרכנים שואלים את השרת על אותו סרגל: הטבלה, רשימות הבחירה ובורר
+// התחנה. כשכל אחד בנה את הפרמטרים בעצמו הם נפרדו — בורר התחנה לא שלח
+// אף סינון, והציג מספרים ארציים מעל טבלה מסוננת.
+//
+//   station — האם לכלול את בחירת התחנה. הבורר עצמו מחושב **בלעדיה**,
+//             כמו כל רשימת בחירה שאינה מצמצמת את עצמה.
+//   search  — האם לכלול את הטקסט החופשי ומספר המשרה. רשימות הבחירה
+//             מוותרות עליהם בכוונה: הן מציגות גם אפשרות בלי משרה פנויה,
+//             וסינון לפי מה שמוקלד היה מוחק אפשרויות באמצע ההקלדה.
+function adminParams({ station = true, search = true } = {}) {
   const chosen = resolveProfession(el("a-profession").value);
+  const typed = el("a-profession").value.trim();
+  const params = new URLSearchParams();
   if (chosen.value) params.set("profession", chosen.value);
+  else if (search && typed) params.set("q", typed);
   if (el("a-area").value) params.set("area", el("a-area").value);
   if (el("a-department").value) params.set("department", el("a-department").value);
   if (el("a-unit").value) params.set("region", el("a-unit").value);
-  // §33: סינון היחידה נשלח גם לרשימת האפשרויות. בלעדיו המספר שליד כל
-  // תפקיד נספר על כל המשרות, והלחיצה עליו מחזירה רשימה ריקה.
+  // §16.6: מספר משרה. סינון בפני עצמו ולא חלק מהחיפוש החופשי — מגייס
+  // שיש בידו מספר משרה מחפש **אותה**, ולא תפקיד ששמו מכיל ספרות.
+  if (search && el("a-position").value.trim())
+    params.set("position", el("a-position").value.trim());
+  // §24/§33: סינון היחידה — תחנות · מרחבים · יחידות עניין · שלושתם.
   if (el("a-scope") && el("a-scope").value) params.set("scope", el("a-scope").value);
+  // §43: תחנה בודדת. `station_id` הוא מה שמפת החום סופרת לפיו, ולכן
+  // המספר כאן זהה למה שהכרטיס מציג בשדה "תקנים חסרים".
+  if (station && el("a-station") && el("a-station").value)
+    params.set("station", el("a-station").value);
+  return params;
+}
 
-  const data = await api(`/api/admin-options?${params}`);
+async function loadAdminOptions() {
+  const data = await api(`/api/admin-options?${adminParams({ search: false })}`);
   state.adminProfessions = data.professions.map((p) => p.name);
 
-  // §43: רשימת התחנות נטענת פעם אחת. היא אינה תלויה בשאר הסינונים —
-  // 88 התחנות הן רשימה סגורה, ולא תוצאה של שאילתה שמצטמצמת.
+  // §58: **רשימת התחנות נטענת מחדש בכל שינוי סינון**, ולא פעם אחת.
+  //
+  // 88 התחנות הן אמנם רשימה סגורה, אבל **המספר שליד כל אחת אינו**: הוא
+  // המשרות שהטבלה תציג אם היא תיבחר. כשהוא נטען פעם אחת, מי שסינן
+  // ליחידה ולאגף וקיבל שש משרות פתח את הבורר וראה "33 לגיוס" בכל תחנה —
+  // ומספר שסותר את המסך שמעליו נקרא כמו סינון שבור.
   //
   // §44: **בתוך try, ובנפרד.** בלי זה כישלון של הקריאה הזו — שרת שעדיין
   // לא הועלה מחדש ולכן אינו מכיר את הנתיב, למשל — זרק שגיאה שעצרה את
   // `loadAdminOptions` **לפני** שהטבלה נטענה, ולוח המשרות נשאר ריק
   // לגמרי. בורר אחד שאינו נטען אינו סיבה למסך ריק.
-  if (!state.adminStations) {
-    try {
-      state.adminStations = await api("/api/admin-stations");
-      const select = el("a-station");
-      if (select) {
-        select.innerHTML =
-          `<option value="">כל התחנות</option>` +
-          state.adminStations
-            .map(
-              (s) =>
-                `<option value="${s.id}">${escapeHtml(s.name)} — ${
-                  s.vacant ? `${s.vacant} לגיוס` : "אין"
-                }</option>`
-            )
-            .join("");
-      }
-    } catch (err) {
+  try {
+    state.adminStations = await api(
+      `/api/admin-stations?${adminParams({ station: false })}`
+    );
+    fillStations(state.adminStations);
+  } catch (err) {
+    console.error("רשימת התחנות לא נטענה", err);
+    if (!state.adminStations) {
       state.adminStations = [];
       const select = el("a-station");
       if (select) select.innerHTML = `<option value="">כל התחנות</option>`;
@@ -4892,6 +4910,27 @@ async function loadAdminOptions() {
   fillOptions("a-area", data.areas, "כל האזורים");
   fillOptions("a-department", data.departments, "כל האגפים");
   fillOptions("a-unit", data.units, "כל היחידות");
+}
+
+// §58: בורר התחנה. אותו כלל של fillOptions — בחירה קיימת נשמרת, וכל
+// תחנה נשארת ברשימה גם כשאין לה משרה תחת הסינון (עם "אין"), כדי שהבחירה
+// לא תיעלם מתחת לאצבע של מי שבדיוק בחר אותה. הערך הוא מזהה ולא שם, ולכן
+// ההשוואה היא על id ולא על התווית.
+function fillStations(items) {
+  const select = el("a-station");
+  if (!select) return;
+  const previous = select.value;
+  select.innerHTML =
+    `<option value="">כל התחנות</option>` +
+    items
+      .map(
+        (s) =>
+          `<option value="${s.id}">${escapeHtml(s.name)} — ${
+            s.vacant ? `${s.vacant} לגיוס` : "אין"
+          }</option>`
+      )
+      .join("");
+  select.value = items.some((s) => String(s.id) === previous) ? previous : "";
 }
 
 function fillOptions(id, items, allLabel) {
@@ -4936,26 +4975,10 @@ async function loadAdminPositions() {
   el("a-profession").title = chosen.error || "";
 
   const position = el("a-position").value.trim();
-
-  const params = new URLSearchParams();
-  if (chosen.value) params.set("profession", chosen.value);
-  else if (typed) params.set("q", typed);
-  if (el("a-unit").value) params.set("region", el("a-unit").value);
-  if (el("a-area").value) params.set("area", el("a-area").value);
-  if (el("a-department").value) params.set("department", el("a-department").value);
-  // §16.6: מספר משרה. סינון בפני עצמו ולא חלק מהחיפוש החופשי — מגייס
-  // שיש בידו מספר משרה מחפש **אותה**, ולא תפקיד ששמו מכיל ספרות.
-  if (position) params.set("position", position);
-  // §24: "יחידות בלבד" — הצגת המשרות שיושבות ביחידות שהוגדרו, לצד
-  // המחוזות ולא במקומם. ברירת המחדל היא הכול.
-  const scopeFilter = el("a-scope") ? el("a-scope").value : "";
-  if (scopeFilter) params.set("scope", scopeFilter);
-  // §43: תחנה בודדת. `station_id` הוא מה שמפת החום סופרת לפיו, ולכן
-  // המספר כאן זהה למה שהכרטיס מציג בשדה "תקנים חסרים".
   const stationFilter = el("a-station") ? el("a-station").value : "";
-  if (stationFilter) params.set("station", stationFilter);
 
-  const data = await api(`/api/admin-positions?${params}`);
+  // §58: אותם פרמטרים בדיוק ששלושת הצרכנים בונים — ראו adminParams.
+  const data = await api(`/api/admin-positions?${adminParams()}`);
 
   const stationName = stationFilter
     ? ((state.adminStations || []).find((s) => String(s.id) === stationFilter) || {}).name
@@ -5072,7 +5095,9 @@ function wireAdmin() {
   });
   // input ולא change: הסינון מגיב תוך כדי הקלדה, בלי להמתין ליציאה מהשדה.
   el("a-profession").oninput = refreshAdmin;
-  el("a-position").oninput = loadAdminPositions;
+  // §58: גם מספר המשרה מרענן את **כל** הסרגל ולא רק את הטבלה. הוא מצמצם
+  // אותה בדיוק כמו כל סינון אחר, ובורר התחנה חייב לספור את מה שנשאר.
+  el("a-position").oninput = refreshAdmin;
   el("a-reset").onclick = () => {
     ["a-profession", "a-area", "a-department", "a-unit", "a-position", "a-scope",
      "a-station"].forEach(

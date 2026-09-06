@@ -144,6 +144,9 @@
     // מסך המנהלה — הסינון מחושב כאן, ראו adminOptions/adminPositions.
     if (path === "/api/admin-options") return json(await adminOptions(query));
     if (path === "/api/admin-positions") return json(await adminPositions(query));
+    // §58: בורר התחנה. המספר שליד כל תחנה תלוי בכל שאר הסינונים, ולכן
+    // הוא מחושב ואינו נקרא מהקובץ הקפוא — הקובץ נותן את הרשימה והסדר.
+    if (path === "/api/admin-stations") return json(await adminStations(query));
     if (path === "/api/admin-gaps") {
       const scope = new URLSearchParams(query).get("scope") || "";
       const found = await fromBundle("admin-gaps__by-scope.json", scope);
@@ -280,6 +283,8 @@
       profession: p.get("profession") || "", area: p.get("area") || "",
       department: p.get("department") || "", region: p.get("region") || "",
       q: (p.get("q") || "").trim(), position: (p.get("position") || "").trim(),
+      // §58: תחנה בודדת. מזהה ולא שם — כמו בשרת.
+      station: p.get("station") || "",
       // §31: סינון היחידה. הוא **אינו** מחושב כאן — הוא נשען על רשימת
       // היחידות המוגדרות ועל טבלת ההיררכיה, ושתיהן בשרת. חומר הגלם מוקפא
       // פעם לכל אחד מחמשת הערכים, וכאן רק נבחר הנכון.
@@ -290,7 +295,10 @@
   const matches = (row, f, skip) =>
     Object.keys(FIELD).every(
       (key) => key === skip || !f[key] || row[FIELD[key]] === f[key]
-    );
+    ) &&
+    // §58: התחנה אינה ב-FIELD כי היא מזהה מספרי ולא שם, אבל היא מסננת
+    // בדיוק כמו השאר — ו-skip חל גם עליה: בורר התחנה מחושב בלי עצמו.
+    (skip === "station" || !f.station || String(row.station_id) === f.station);
 
   async function adminOptions(query) {
     const f = params(query);
@@ -298,6 +306,7 @@
 
     // כל רשימה מחושבת מול *שאר* הסינונים ולא מול עצמה — אחרת הבחירה
     // הנוכחית מצמצמת את הרשימה שממנה היא נבחרה, והמשתמש ננעל עליה.
+    // §58: "שאר הסינונים" כולל את התחנה, ולכן חומר הגלם נושא station_id.
     const group = (key) => {
       const totals = new Map();
       facets.forEach((row) => {
@@ -319,27 +328,35 @@
     };
   }
 
+  const like = (value, term) => String(value || "").indexOf(term) !== -1;
+
+  // §58: **תנאי אחד לשורת משרה**, לטבלה ולבורר התחנה כאחד. שני מסננים
+  // לאותה שאלה נפרדים ביום שאחד מהם משתנה, וזו בדיוק התקלה שתוקנה כאן.
+  // skip: הסינון שיש להתעלם ממנו (בורר אינו מצמצם את עצמו).
+  function vacancyMatches(row, f, skip) {
+    if (!matches(row, f, skip || null)) return false;
+    // §31: השורה נושאת את הסינונים שהיא שייכת להם, כי מי שקובע זאת הוא
+    // השרת — ראו הערת scope למעלה.
+    if (f.scope && (row.scopes || []).indexOf(f.scope) === -1) return false;
+    // חיפוש חופשי מחפש גם בסיווג, גם בתיאור העיסוק, גם במספר המשרה וגם
+    // בשם רמה 05: מי שמדביק מספר לשדה מחפש משרה, ומי שמקליד שם יחידה
+    // מחפש אותה — ורשימה שמחפשת רק בסיווג מחזירה לשניהם ריק.
+    if (f.q && !f.profession &&
+        !(like(row.profession, f.q) || like(row.occupation, f.q) ||
+          like(row.position_no, f.q) || like(row.subunit, f.q)))
+      return false;
+    if (f.position && !like(row.position_no, f.position)) return false;
+    return true;
+  }
+
   async function adminPositions(query) {
     const f = params(query);
     const meta = await table("admin-meta");
     const LIMIT = meta.limit; // POSITIONS_LIMIT בשרת
-    const like = (value, term) => String(value || "").indexOf(term) !== -1;
 
-    const rows = (await table("admin-vacancies")).filter((row) => {
-      if (!matches(row, f, null)) return false;
-      // §31: השורה נושאת את הסינונים שהיא שייכת להם, כי מי שקובע זאת הוא
-      // השרת — ראו הערת scope למעלה.
-      if (f.scope && (row.scopes || []).indexOf(f.scope) === -1) return false;
-      // חיפוש חופשי מחפש גם בסיווג, גם בתיאור העיסוק, גם במספר המשרה וגם
-      // בשם רמה 05: מי שמדביק מספר לשדה מחפש משרה, ומי שמקליד שם יחידה
-      // מחפש אותה — ורשימה שמחפשת רק בסיווג מחזירה לשניהם ריק.
-      if (f.q && !f.profession &&
-          !(like(row.profession, f.q) || like(row.occupation, f.q) ||
-            like(row.position_no, f.q) || like(row.subunit, f.q)))
-        return false;
-      if (f.position && !like(row.position_no, f.position)) return false;
-      return true;
-    });
+    const rows = (await table("admin-vacancies")).filter((row) =>
+      vacancyMatches(row, f, null)
+    );
 
     // §38: כל שורה בקובץ הקפוא היא **משרה אחת**: מספר שחוזר בכמה שורות
     // בקובץ המקור אוחד כבר בשרת, לפני ההקפאה. הספירה כאן היא לכן ספירת
@@ -351,12 +368,14 @@
       .sort((a, b) => b.n - a.n)
       .slice(0, 12);
 
-    // `scopes` הוא תווית עבודה של ההדגמה ולא שדה של השרת. הוא יורד כאן,
-    // כדי שהתשובה תהיה **זהה** לזו של השרת ולא "כמעט זהה": שדה עודף
-    // בתשובה מזמין קוד שנשען עליו, וכזה לא יעבוד בהתקנה האמיתית.
+    // `scopes` ו-`station_id` הם חומר עבודה של ההדגמה ולא שדות שהשרת
+    // מחזיר בפריט. הם יורדים כאן, כדי שהתשובה תהיה **זהה** לזו של השרת
+    // ולא "כמעט זהה": שדה עודף בתשובה מזמין קוד שנשען עליו, וכזה לא
+    // יעבוד בהתקנה האמיתית.
     const items = rows.slice(0, LIMIT).map((row) => {
       const item = Object.assign({}, row);
       delete item.scopes;
+      delete item.station_id;
       return item;
     });
     return {
@@ -369,6 +388,33 @@
       total: rows.length, shown: items.length, limit: LIMIT,
       by_label: byLabel, items: items,
     };
+  }
+
+  // §58: **כמה משרות תציג כל תחנה, תחת הסינון שפעיל עכשיו.**
+  //
+  // קודם זה היה קובץ קפוא אחד: המספר הארצי של כל תחנה, בלי קשר לסרגל.
+  // מי שסינן וקיבל שש משרות פתח את הבורר וראה מאות — וזה נקרא כמו סינון
+  // שאינו עובד. הספירה כאן היא על **אותן שורות שהטבלה מציגה** (קובץ
+  // admin-vacancies, שכבר מסונן ומאוחד בשרת), ולכן שני המספרים אינם
+  // יכולים להיפרד.
+  //
+  // בלי הסינון של התחנה עצמה — הבורר אינו מצמצם את עצמו — ועם כל
+  // התחנות ברשימה, גם אלה שאין להן משרה (0 מפורש), כדי שבחירה קיימת
+  // לא תיעלם מתחת לאצבע.
+  async function adminStations(query) {
+    const f = params(query);
+    const counts = new Map();
+    (await table("admin-vacancies")).forEach((row) => {
+      if (row.station_id === null || row.station_id === undefined) return;
+      if (!vacancyMatches(row, f, "station")) return;
+      counts.set(row.station_id, (counts.get(row.station_id) || 0) + 1);
+    });
+    return (await table("admin-stations")).map((s) => ({
+      id: s.id,
+      name: s.name,
+      area: s.area,
+      vacant: counts.get(s.id) || 0,
+    }));
   }
 
   // פרמטרי סינון אינם נתמכים בלי שרת: מסכי הסינון מוקפאים, וכל בקשה
