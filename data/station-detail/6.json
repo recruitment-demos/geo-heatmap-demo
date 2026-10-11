@@ -2,11 +2,7 @@
  "actual_positions": 57,
  "area": "שומרון",
  "candidates_by_role": null,
- "candidates_gender_coverage": 0,
  "candidates_in_process": 1,
- "candidates_pct_jewish": null,
- "candidates_pct_male": null,
- "candidates_religion_coverage": 0,
  "color": "#16A34A",
  "coord_verified": false,
  "district": "ש\"י",
@@ -20,37 +16,27 @@
  "name": "תחנת אריאל",
  "nearby_settlements": [],
  "open_positions": 0,
- "pct_jewish": 90.0,
- "pct_male": 78.7,
  "required_positions": 57,
  "roles": [
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 0,
-   "pct_jewish": 99.0,
-   "pct_male": 78.0
+   "missing": 0
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 0,
-   "pct_jewish": 85.6,
-   "pct_male": 80.3
+   "missing": 0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 0,
-   "pct_jewish": 92.0,
-   "pct_male": 82.5
+   "missing": 0
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 0,
-   "pct_jewish": 93.6,
-   "pct_male": 70.5
+   "missing": 0
   }
  ],
  "staffing_pct": 100.0,

@@ -3,47 +3,27 @@
  "area": "שפלה",
  "candidates_by_role": [
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 13,
    "key": "patrol",
    "label": "סייר"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 6,
    "key": "detectives",
    "label": "בלש"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 8,
    "key": "investigators",
    "label": "חוקר"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 5,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 32,
  "candidates_in_process": 64,
- "candidates_pct_jewish": 64.3,
- "candidates_pct_male": 59.4,
- "candidates_religion_coverage": 28,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "מרכז",
@@ -57,37 +37,27 @@
  "name": "תחנת לוד",
  "nearby_settlements": [],
  "open_positions": 22,
- "pct_jewish": 74.0,
- "pct_male": 69.7,
  "required_positions": 109,
  "roles": [
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 4,
-   "pct_jewish": 70.1,
-   "pct_male": 61.8
+   "missing": 4
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 2,
-   "pct_jewish": 70.0,
-   "pct_male": 64.6
+   "missing": 2
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 3,
-   "pct_jewish": 79.4,
-   "pct_male": 77.8
+   "missing": 3
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 2,
-   "pct_jewish": 75.7,
-   "pct_male": 78.3
+   "missing": 2
   }
  ],
  "staffing_pct": 79.82,

@@ -615,9 +615,6 @@ function outOfRangeInfo(entity) {
  *                               אינו משימה, וארבע התחנות שהם בהן כן
  *   candidates-by-*     (מרחב)  אותו דבר למועמדים בהליך
  *
- * בכולן מוצג גם פילוח האיוש של אותו תפקיד (יהודים/גברים), כי זו שאלה
- * שנשאלת על אותו שבב בדיוק.
- *
  * ריחוף ולא לחיצה: זו הצצה, לא ניווט. לחיצה הייתה מחליפה מסך ומאבדת את
  * ההקשר שממנו הגיעו.
  */
@@ -713,7 +710,7 @@ function chipPopoverContent(kind, roleKey, entity) {
   //
   // החלונית הזו צברה שש שכבות טקסט מסביב לרשימה: שורת סיכום, "ועוד N
   // תיאורי עיסוק", "N תיאורי עיסוק נוספים מאוישים במלואם", שורת סיווג,
-  // ופילוח מגדר ודת. מי שמרחף על "סייר 3" רוצה לדעת **אילו שלושה**, וכל
+  // ופילוח נוסף. מי שמרחף על "סייר 3" רוצה לדעת **אילו שלושה**, וכל
   // היתר הוא קריאה שהוא לא ביקש.
   //
   // מה שנשאר: כותרת של שתי מילים, ושורה לכל עיסוק שחסר בו — השם והמספר.
@@ -2124,10 +2121,7 @@ async function loadDashboard() {
   renderTop5(data);
 }
 
-// §3: "לציין עבור מועמדים בהליך + תקן מצבה בחלוקה לתפקידים גם אחוז
-// גברים/יהודים". שני מקורות שונים באותה שורה, ולכן שתי כותרות משנה
-// נפרדות — "האיוש היום" הוא מי שמשרת, "המועמדים" הם מי שבהליך, ואסור
-// שייקראו כמו אותו מספר.
+// פילוח לפי תפקיד: כמה חסר וכמה מועמדים בהליך, בשורה אחת.
 function renderRoleBreakdown(data) {
   const rows = data.by_role || [];
   const panel = el("role-panel");
@@ -2135,8 +2129,6 @@ function renderRoleBreakdown(data) {
   panel.hidden = !rows.length;
   if (!rows.length) return;
 
-  const pct = (value) =>
-    value === null || value === undefined ? '<span class="muted">—</span>' : `${value.toFixed(1)}%`;
   const num = (value) =>
     value === null || value === undefined ? '<span class="muted">אין נתון</span>' : value;
 
@@ -2155,11 +2147,7 @@ function renderRoleBreakdown(data) {
       (r) => `<tr>
         <td><strong>${escapeHtml(r.label)}</strong></td>
         <td><b class="${r.missing ? "neg" : ""}">${num(r.missing)}</b></td>
-        <td>${pct(r.pct_male)}</td>
-        <td>${pct(r.pct_jewish)}</td>
         <td>${num(r.candidates)}</td>
-        <td>${pct(r.candidates_pct_male)}</td>
-        <td>${pct(r.candidates_pct_jewish)}</td>
       </tr>`
     )
     .join("");
@@ -3881,46 +3869,9 @@ function renderRecruiterKpis(kpis) {
     .join("");
 }
 
-// אחוז גברים / אחוז יהודים הם שדות רשות. כשהם חסרים הם **לא מוצגים כלל** —
-// בשונה מתקן/בפועל, שמציגים "אין נתונים" כי מדדים שלמים תלויים בהם ומשתמש
-// צריך לדעת למה הם ריקים. כאן אין במה לתלות: שדה שלא נטען פשוט לא קיים,
-// ותווית "אין נתוני אחוז גברים" הייתה רעש קבוע בכל 11 הכרטיסים.
-//
-// הכותרת אומרת **על מי** המספר: פילוח האיוש הוא של מי שמשרת היום, ופילוח
-// המועמדים הוא של מי שנמצא בהליך. שני מספרים שנראים אותו הדבר ומתארים שתי
-// אוכלוסיות שונות חייבים להיקרא בשמם — אחרת קוראים את האחד כאילו הוא השני.
-//
-// ברמת מרחב המספר משוקלל לפי מספר המאוישים בכל תחנה (ראה _region_demographics
-// ב-app.py), ולא ממוצע של אחוזים.
-function demographicsChips(title, male, jewish) {
-  // §18.2: אחוז גברים בלבד — המדד המגדרי השני הוסר לבקשת המזמין.
-  const items = [
-    { label: "אחוז גברים", value: male },
-    { label: "אחוז יהודים", value: jewish },
-  ].filter((item) => item.value !== null && item.value !== undefined);
-
-  if (!items.length) return "";
-  return `<div class="unit-section">
-    <span class="unit-section-title">${escapeHtml(title)}</span>
-    <div class="chips">
-      ${items
-        .map((i) => `<span class="chip">${i.label}<b>${i.value.toFixed(1)}%</b></span>`)
-        .join("")}
-    </div>
-  </div>`;
-}
-
-// פילוח האיוש ופילוח המועמדים, זה מתחת לזה. שניהם אופציונליים ושניהם
-// נעלמים לגמרי כשאין להם נתון.
-function demographics(s) {
-  return (
-    demographicsChips("פילוח האיוש", s.pct_male, s.pct_jewish) +
-    demographicsChips(
-      "פילוח המועמדים בהליך",
-      s.candidates_pct_male,
-      s.candidates_pct_jewish
-    )
-  );
+// §60 (הדגמה): הפונקציה נשארת כי קוראים לה מכמה מסכים, ואינה מציגה דבר.
+function demographics() {
+  return "";
 }
 
 // אותם שבבים כמו ב-familyChips, בתוך כרטיס התחנה ברשימה.

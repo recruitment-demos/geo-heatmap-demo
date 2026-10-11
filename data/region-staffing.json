@@ -12,30 +12,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 24,
-    "pct_jewish": 80.25,
-    "pct_male": 61.38
+    "missing": 24
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 11,
-    "pct_jewish": 84.53,
-    "pct_male": 59.59
+    "missing": 11
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 12,
-    "pct_jewish": 84.02,
-    "pct_male": 58.99
+    "missing": 12
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 7,
-    "pct_jewish": 82.5,
-    "pct_male": 59.35
+    "missing": 7
    }
   ],
   "staffing_pct": 89.61,
@@ -55,30 +47,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 0,
-    "pct_jewish": 68.0,
-    "pct_male": 59.9
+    "missing": 0
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 0,
-    "pct_jewish": 72.2,
-    "pct_male": 64.8
+    "missing": 0
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 0,
-    "pct_jewish": 66.1,
-    "pct_male": 65.5
+    "missing": 0
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 0,
-    "pct_jewish": 67.9,
-    "pct_male": 61.1
+    "missing": 0
    }
   ],
   "staffing_pct": 100.0,
@@ -98,30 +82,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 31,
-    "pct_jewish": 89.0,
-    "pct_male": 73.37
+    "missing": 31
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 13,
-    "pct_jewish": 80.88,
-    "pct_male": 72.49
+    "missing": 13
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 18,
-    "pct_jewish": 81.29,
-    "pct_male": 70.18
+    "missing": 18
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 11,
-    "pct_jewish": 83.72,
-    "pct_male": 73.41
+    "missing": 11
    }
   ],
   "staffing_pct": 83.9,
@@ -141,30 +117,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 32,
-    "pct_jewish": 81.74,
-    "pct_male": 64.75
+    "missing": 32
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 14,
-    "pct_jewish": 79.19,
-    "pct_male": 67.74
+    "missing": 14
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 18,
-    "pct_jewish": 80.69,
-    "pct_male": 67.02
+    "missing": 18
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 12,
-    "pct_jewish": 77.44,
-    "pct_male": 65.84
+    "missing": 12
    }
   ],
   "staffing_pct": 86.96,
@@ -184,30 +152,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 17,
-    "pct_jewish": 72.49,
-    "pct_male": 72.75
+    "missing": 17
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 7,
-    "pct_jewish": 67.46,
-    "pct_male": 70.76
+    "missing": 7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 9,
-    "pct_jewish": 69.97,
-    "pct_male": 70.62
+    "missing": 9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 6,
-    "pct_jewish": 71.88,
-    "pct_male": 65.88
+    "missing": 6
    }
   ],
   "staffing_pct": 83.78,
@@ -227,30 +187,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 2,
-    "pct_jewish": 71.7,
-    "pct_male": 64.2
+    "missing": 2
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 1,
-    "pct_jewish": 66.7,
-    "pct_male": 66.8
+    "missing": 1
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 1,
-    "pct_jewish": 77.9,
-    "pct_male": 66.6
+    "missing": 1
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 1,
-    "pct_jewish": 77.4,
-    "pct_male": 65.1
+    "missing": 1
    }
   ],
   "staffing_pct": 95.59,
@@ -270,30 +222,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 24,
-    "pct_jewish": 69.6,
-    "pct_male": 72.45
+    "missing": 24
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 10,
-    "pct_jewish": 77.75,
-    "pct_male": 69.4
+    "missing": 10
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 15,
-    "pct_jewish": 76.6,
-    "pct_male": 65.51
+    "missing": 15
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 9,
-    "pct_jewish": 71.11,
-    "pct_male": 70.11
+    "missing": 9
    }
   ],
   "staffing_pct": 83.47,
@@ -313,30 +257,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 10,
-    "pct_jewish": 72.18,
-    "pct_male": 67.39
+    "missing": 10
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 4,
-    "pct_jewish": 75.89,
-    "pct_male": 71.71
+    "missing": 4
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 6,
-    "pct_jewish": 71.06,
-    "pct_male": 64.47
+    "missing": 6
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 4,
-    "pct_jewish": 74.51,
-    "pct_male": 82.46
+    "missing": 4
    }
   ],
   "staffing_pct": 87.37,
@@ -356,30 +292,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 27,
-    "pct_jewish": 79.57,
-    "pct_male": 71.23
+    "missing": 27
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 11,
-    "pct_jewish": 80.61,
-    "pct_male": 74.9
+    "missing": 11
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 15,
-    "pct_jewish": 78.15,
-    "pct_male": 72.84
+    "missing": 15
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 11,
-    "pct_jewish": 76.53,
-    "pct_male": 68.24
+    "missing": 11
    }
   ],
   "staffing_pct": 80.44,
@@ -399,30 +327,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 39,
-    "pct_jewish": 62.99,
-    "pct_male": 69.54
+    "missing": 39
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 16,
-    "pct_jewish": 71.67,
-    "pct_male": 70.08
+    "missing": 16
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 22,
-    "pct_jewish": 71.71,
-    "pct_male": 68.06
+    "missing": 22
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 14,
-    "pct_jewish": 68.28,
-    "pct_male": 70.73
+    "missing": 14
    }
   ],
   "staffing_pct": 85.23,
@@ -442,30 +362,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 15,
-    "pct_jewish": 71.32,
-    "pct_male": 59.59
+    "missing": 15
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 7,
-    "pct_jewish": 74.31,
-    "pct_male": 66.36
+    "missing": 7
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 9,
-    "pct_jewish": 71.63,
-    "pct_male": 62.9
+    "missing": 9
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 5,
-    "pct_jewish": 68.88,
-    "pct_male": 67.8
+    "missing": 5
    }
   ],
   "staffing_pct": 88.89,
@@ -485,30 +397,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 38,
-    "pct_jewish": 73.47,
-    "pct_male": 67.54
+    "missing": 38
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 17,
-    "pct_jewish": 77.61,
-    "pct_male": 67.99
+    "missing": 17
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 23,
-    "pct_jewish": 78.12,
-    "pct_male": 71.56
+    "missing": 23
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 14,
-    "pct_jewish": 75.24,
-    "pct_male": 71.27
+    "missing": 14
    }
   ],
   "staffing_pct": 70.59,
@@ -528,30 +432,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
-    "pct_jewish": 90.9,
-    "pct_male": 61.5
+    "missing": 6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
-    "pct_jewish": 90.9,
-    "pct_male": 53.2
+    "missing": 2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
-    "pct_jewish": 92.9,
-    "pct_male": 58.9
+    "missing": 3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
-    "pct_jewish": 99.0,
-    "pct_male": 56.4
+    "missing": 2
    }
   ],
   "staffing_pct": 92.44,
@@ -571,30 +467,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 45,
-    "pct_jewish": 70.62,
-    "pct_male": 65.78
+    "missing": 45
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 18,
-    "pct_jewish": 70.61,
-    "pct_male": 71.78
+    "missing": 18
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 25,
-    "pct_jewish": 68.75,
-    "pct_male": 65.19
+    "missing": 25
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 17,
-    "pct_jewish": 69.95,
-    "pct_male": 71.19
+    "missing": 17
    }
   ],
   "staffing_pct": 77.76,
@@ -614,30 +502,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 19,
-    "pct_jewish": 71.09,
-    "pct_male": 67.18
+    "missing": 19
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 9,
-    "pct_jewish": 74.13,
-    "pct_male": 68.48
+    "missing": 9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 12,
-    "pct_jewish": 76.99,
-    "pct_male": 70.2
+    "missing": 12
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 7,
-    "pct_jewish": 74.15,
-    "pct_male": 71.42
+    "missing": 7
    }
   ],
   "staffing_pct": 88.47,
@@ -657,30 +537,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
-    "pct_jewish": 85.5,
-    "pct_male": 71.2
+    "missing": 6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 2,
-    "pct_jewish": 91.1,
-    "pct_male": 65.7
+    "missing": 2
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
-    "pct_jewish": 80.5,
-    "pct_male": 67.1
+    "missing": 3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
-    "pct_jewish": 87.4,
-    "pct_male": 57.9
+    "missing": 2
    }
   ],
   "staffing_pct": 92.75,
@@ -700,30 +572,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 55,
-    "pct_jewish": 86.32,
-    "pct_male": 62.99
+    "missing": 55
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 25,
-    "pct_jewish": 83.19,
-    "pct_male": 67.05
+    "missing": 25
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 33,
-    "pct_jewish": 82.32,
-    "pct_male": 67.54
+    "missing": 33
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 21,
-    "pct_jewish": 84.93,
-    "pct_male": 61.72
+    "missing": 21
    }
   ],
   "staffing_pct": 81.36,
@@ -743,30 +607,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 22,
-    "pct_jewish": 82.99,
-    "pct_male": 72.47
+    "missing": 22
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 10,
-    "pct_jewish": 80.53,
-    "pct_male": 78.97
+    "missing": 10
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 12,
-    "pct_jewish": 78.57,
-    "pct_male": 80.46
+    "missing": 12
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 9,
-    "pct_jewish": 74.03,
-    "pct_male": 68.64
+    "missing": 9
    }
   ],
   "staffing_pct": 85.01,
@@ -786,30 +642,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 22,
-    "pct_jewish": 67.11,
-    "pct_male": 76.96
+    "missing": 22
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 11,
-    "pct_jewish": 70.55,
-    "pct_male": 75.3
+    "missing": 11
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 13,
-    "pct_jewish": 70.94,
-    "pct_male": 74.49
+    "missing": 13
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 8,
-    "pct_jewish": 70.81,
-    "pct_male": 67.47
+    "missing": 8
    }
   ],
   "staffing_pct": 82.3,
@@ -829,30 +677,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 18,
-    "pct_jewish": 83.76,
-    "pct_male": 69.87
+    "missing": 18
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 9,
-    "pct_jewish": 85.05,
-    "pct_male": 71.39
+    "missing": 9
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 10,
-    "pct_jewish": 85.05,
-    "pct_male": 77.37
+    "missing": 10
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 8,
-    "pct_jewish": 80.96,
-    "pct_male": 75.89
+    "missing": 8
    }
   ],
   "staffing_pct": 88.65,
@@ -872,30 +712,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 6,
-    "pct_jewish": 82.76,
-    "pct_male": 67.66
+    "missing": 6
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 3,
-    "pct_jewish": 83.9,
-    "pct_male": 68.43
+    "missing": 3
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 3,
-    "pct_jewish": 75.67,
-    "pct_male": 75.12
+    "missing": 3
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 2,
-    "pct_jewish": 75.17,
-    "pct_male": 63.93
+    "missing": 2
    }
   ],
   "staffing_pct": 94.29,
@@ -915,30 +747,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 52,
-    "pct_jewish": 74.88,
-    "pct_male": 67.22
+    "missing": 52
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 23,
-    "pct_jewish": 74.12,
-    "pct_male": 70.72
+    "missing": 23
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 30,
-    "pct_jewish": 80.15,
-    "pct_male": 70.79
+    "missing": 30
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 18,
-    "pct_jewish": 78.66,
-    "pct_male": 66.64
+    "missing": 18
    }
   ],
   "staffing_pct": 77.96,
@@ -958,30 +782,22 @@
    {
     "key": "patrol",
     "label": "סייר",
-    "missing": 76,
-    "pct_jewish": 79.49,
-    "pct_male": 66.19
+    "missing": 76
    },
    {
     "key": "detectives",
     "label": "בלש",
-    "missing": 33,
-    "pct_jewish": 81.99,
-    "pct_male": 72.78
+    "missing": 33
    },
    {
     "key": "investigators",
     "label": "חוקר",
-    "missing": 43,
-    "pct_jewish": 77.45,
-    "pct_male": 68.78
+    "missing": 43
    },
    {
     "key": "other",
     "label": "אחר",
-    "missing": 29,
-    "pct_jewish": 84.11,
-    "pct_male": 70.56
+    "missing": 29
    }
   ],
   "staffing_pct": 79.87,

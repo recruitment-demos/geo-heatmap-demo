@@ -10,49 +10,29 @@
  "by_role": [
   {
    "candidates": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
    "key": "patrol",
    "label": "סייר",
-   "missing": 301,
-   "pct_jewish": 77.29,
-   "pct_male": 67.37
+   "missing": 301
   },
   {
    "candidates": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
    "key": "detectives",
    "label": "בלש",
-   "missing": 128,
-   "pct_jewish": 78.44,
-   "pct_male": 69.37
+   "missing": 128
   },
   {
    "candidates": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
    "key": "investigators",
    "label": "חוקר",
-   "missing": 187,
-   "pct_jewish": 77.78,
-   "pct_male": 68.69
+   "missing": 187
   },
   {
    "candidates": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
    "key": "other",
    "label": "אחר",
-   "missing": 113,
-   "pct_jewish": 77.58,
-   "pct_male": 67.82
+   "missing": 113
   }
  ],
- "candidates_gender_coverage": 1929,
- "candidates_pct_jewish": 73.4,
- "candidates_pct_male": 59.3,
- "candidates_religion_coverage": 1719,
  "candidates_source": "national",
  "filters": {
   "district": null,
@@ -67,8 +47,6 @@
   "total_missing": 729,
   "trend": 1.4
  },
- "pct_jewish": 77.74,
- "pct_male": 68.74,
  "positions": {
   "actual": 7927,
   "available": true,

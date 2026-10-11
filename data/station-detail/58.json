@@ -3,47 +3,27 @@
  "area": "עמקים",
  "candidates_by_role": [
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 12,
    "key": "patrol",
    "label": "סייר"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 5,
    "key": "detectives",
    "label": "בלש"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 7,
    "key": "investigators",
    "label": "חוקר"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 5,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 22,
  "candidates_in_process": 58,
- "candidates_pct_jewish": 65.2,
- "candidates_pct_male": 63.6,
- "candidates_religion_coverage": 23,
  "color": "#EA580C",
  "coord_verified": false,
  "district": "צפון",
@@ -57,37 +37,27 @@
  "name": "תחנת נצרת",
  "nearby_settlements": [],
  "open_positions": 20,
- "pct_jewish": 80.8,
- "pct_male": 59.8,
  "required_positions": 88,
  "roles": [
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 2,
-   "pct_jewish": 77.9,
-   "pct_male": 57.6
+   "missing": 2
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 4,
-   "pct_jewish": 76.1,
-   "pct_male": 65.6
+   "missing": 4
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 1,
-   "pct_jewish": 76.0,
-   "pct_male": 60.7
+   "missing": 1
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 0,
-   "pct_jewish": 93.2,
-   "pct_male": 55.3
+   "missing": 0
   }
  ],
  "staffing_pct": 77.27,

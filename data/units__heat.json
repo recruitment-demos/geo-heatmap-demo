@@ -14,8 +14,6 @@
    "missing_positions": 100,
    "name": "לכיש",
    "open_positions": 101,
-   "pct_jewish": 77.9,
-   "pct_male": 71.2,
    "required_positions": 340,
    "settlements": [
     {
@@ -116,8 +114,6 @@
    "missing_positions": 111,
    "name": "מנשה",
    "open_positions": 119,
-   "pct_jewish": 70.77,
-   "pct_male": 68.23,
    "required_positions": 499,
    "settlements": [
     {
@@ -172,8 +168,6 @@
    "missing_positions": 134,
    "name": "שפלה",
    "open_positions": 144,
-   "pct_jewish": 76.59,
-   "pct_male": 69.85,
    "required_positions": 608,
    "settlements": [
     {
@@ -356,8 +350,6 @@
    "missing_positions": 187,
    "name": "שרון",
    "open_positions": 197,
-   "pct_jewish": 80.71,
-   "pct_male": 68.78,
    "required_positions": 929,
    "settlements": [
     {
@@ -622,8 +614,6 @@
    "missing_positions": 71,
    "name": "ירקון",
    "open_positions": 72,
-   "pct_jewish": 75.22,
-   "pct_male": 72.53,
    "required_positions": 363,
    "settlements": [
     {
@@ -811,8 +801,6 @@
    "missing_positions": 74,
    "name": "מרכז הדרכה ארצי",
    "open_positions": 77,
-   "pct_jewish": null,
-   "pct_male": null,
    "required_positions": 383,
    "settlement_name": "בני ברק",
    "settlements": [
@@ -1053,8 +1041,6 @@
    "missing_positions": 142,
    "name": "עמקים",
    "open_positions": 147,
-   "pct_jewish": 83.05,
-   "pct_male": 64.92,
    "required_positions": 762,
    "settlements": [
     {
@@ -1190,8 +1176,6 @@
    "missing_positions": 60,
    "name": "קדם",
    "open_positions": 63,
-   "pct_jewish": 69.23,
-   "pct_male": 74.96,
    "required_positions": 339,
    "settlements": [
     {
@@ -1291,8 +1275,6 @@
    "missing_positions": 70,
    "name": "יחידת אכיפה כלכלית",
    "open_positions": 72,
-   "pct_jewish": null,
-   "pct_male": null,
    "required_positions": 417,
    "settlement_name": "בית ברל",
    "settlements": [
@@ -1541,8 +1523,6 @@
    "missing_positions": 62,
    "name": "דן",
    "open_positions": 64,
-   "pct_jewish": 73.56,
-   "pct_male": 71.01,
    "required_positions": 375,
    "settlements": [
     {
@@ -1778,8 +1758,6 @@
    "missing_positions": 66,
    "name": "מרכז שליטה ארצי",
    "open_positions": 68,
-   "pct_jewish": null,
-   "pct_male": null,
    "required_positions": 401,
    "settlement_name": "ארבל",
    "settlements": [
@@ -1884,8 +1862,6 @@
    "missing_positions": 42,
    "name": "גלעד",
    "open_positions": 45,
-   "pct_jewish": 70.54,
-   "pct_male": 66.86,
    "required_positions": 259,
    "settlements": [
     {
@@ -1944,8 +1920,6 @@
    "missing_positions": 76,
    "name": "אשר",
    "open_positions": 81,
-   "pct_jewish": 83.69,
-   "pct_male": 71.09,
    "required_positions": 472,
    "settlements": [
     {
@@ -2014,8 +1988,6 @@
    "missing_positions": 55,
    "name": "ציון",
    "open_positions": 59,
-   "pct_jewish": 80.32,
-   "pct_male": 72.13,
    "required_positions": 367,
    "settlements": [
     {
@@ -2188,8 +2160,6 @@
    "missing_positions": 96,
    "name": "כנרת",
    "open_positions": 99,
-   "pct_jewish": 68.26,
-   "pct_male": 70.06,
    "required_positions": 650,
    "settlements": [
     {
@@ -2276,8 +2246,6 @@
    "missing_positions": 46,
    "name": "יחידת חילוץ ארצית",
    "open_positions": 49,
-   "pct_jewish": null,
-   "pct_male": null,
    "required_positions": 329,
    "settlement_name": "אבטליון",
    "settlements": [
@@ -2430,8 +2398,6 @@
    "missing_positions": 56,
    "name": "מפקדת מרחב תפעולית",
    "open_positions": 59,
-   "pct_jewish": null,
-   "pct_male": null,
    "required_positions": 426,
    "settlement_name": "אור יהודה",
    "settlements": [
@@ -2696,8 +2662,6 @@
    "missing_positions": 82,
    "name": "גליל",
    "open_positions": 89,
-   "pct_jewish": 81.6,
-   "pct_male": 68.74,
    "required_positions": 629,
    "settlements": [
     {
@@ -2815,8 +2779,6 @@
    "missing_positions": 49,
    "name": "יחידת סיור מיוחדת",
    "open_positions": 52,
-   "pct_jewish": null,
-   "pct_male": null,
    "required_positions": 382,
    "settlement_name": "איתן",
    "settlements": [
@@ -2929,8 +2891,6 @@
    "missing_positions": 24,
    "name": "יהודה",
    "open_positions": 25,
-   "pct_jewish": 73.27,
-   "pct_male": 71.64,
    "required_positions": 190,
    "settlements": [
     {
@@ -3045,8 +3005,6 @@
    "missing_positions": 49,
    "name": "נגב",
    "open_positions": 53,
-   "pct_jewish": 74.11,
-   "pct_male": 69.31,
    "required_positions": 425,
    "settlements": [
     {
@@ -3140,8 +3098,6 @@
    "missing_positions": 47,
    "name": "רותם",
    "open_positions": 48,
-   "pct_jewish": 81.39,
-   "pct_male": 73.06,
    "required_positions": 414,
    "settlements": [
     {
@@ -3187,8 +3143,6 @@
    "missing_positions": 39,
    "name": "כרמל",
    "open_positions": 39,
-   "pct_jewish": 74.05,
-   "pct_male": 62.3,
    "required_positions": 351,
    "settlements": [
     {
@@ -3280,8 +3234,6 @@
    "missing_positions": 61,
    "name": "איילון",
    "open_positions": 63,
-   "pct_jewish": 81.89,
-   "pct_male": 62.44,
    "required_positions": 587,
    "settlements": [
     {
@@ -3447,8 +3399,6 @@
    "missing_positions": 13,
    "name": "מג\"ב י-ם",
    "open_positions": 14,
-   "pct_jewish": 95.1,
-   "pct_male": 58.8,
    "required_positions": 172,
    "settlements": [
     {
@@ -3618,8 +3568,6 @@
    "missing_positions": 14,
    "name": "נתב\"ג",
    "open_positions": 14,
-   "pct_jewish": 86.2,
-   "pct_male": 70.7,
    "required_positions": 193,
    "settlements": [
     {
@@ -3869,8 +3817,6 @@
    "missing_positions": 14,
    "name": "שומרון",
    "open_positions": 14,
-   "pct_jewish": 79.63,
-   "pct_male": 73.93,
    "required_positions": 245,
    "settlements": [
     {
@@ -3938,8 +3884,6 @@
    "missing_positions": 6,
    "name": "דוד",
    "open_positions": 6,
-   "pct_jewish": 73.6,
-   "pct_male": 62.8,
    "required_positions": 136,
    "settlements": [
     {
@@ -4077,8 +4021,6 @@
    "missing_positions": 0,
    "name": "אילת",
    "open_positions": 0,
-   "pct_jewish": 70.9,
-   "pct_male": 63.0,
    "required_positions": 107,
    "settlements": [
     {

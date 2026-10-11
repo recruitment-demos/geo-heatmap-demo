@@ -3,47 +3,27 @@
  "area": "עמקים",
  "candidates_by_role": [
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 8,
    "key": "patrol",
    "label": "סייר"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 3,
    "key": "detectives",
    "label": "בלש"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 4,
    "key": "investigators",
    "label": "חוקר"
   },
   {
-   "candidates_gender_coverage": null,
-   "candidates_pct_jewish": null,
-   "candidates_pct_male": null,
-   "candidates_religion_coverage": null,
    "count": 3,
    "key": "other",
    "label": "אחר"
   }
  ],
- "candidates_gender_coverage": 14,
  "candidates_in_process": 36,
- "candidates_pct_jewish": 72.2,
- "candidates_pct_male": 50.0,
- "candidates_religion_coverage": 18,
  "color": "#EAB308",
  "coord_verified": false,
  "district": "צפון",
@@ -57,37 +37,27 @@
  "name": "תחנת נוף הגליל",
  "nearby_settlements": [],
  "open_positions": 25,
- "pct_jewish": 79.6,
- "pct_male": 67.7,
  "required_positions": 124,
  "roles": [
   {
    "key": "patrol",
    "label": "סייר",
-   "missing": 5,
-   "pct_jewish": 85.8,
-   "pct_male": 66.1
+   "missing": 5
   },
   {
    "key": "detectives",
    "label": "בלש",
-   "missing": 0,
-   "pct_jewish": 82.1,
-   "pct_male": 68.9
+   "missing": 0
   },
   {
    "key": "investigators",
    "label": "חוקר",
-   "missing": 6,
-   "pct_jewish": 77.1,
-   "pct_male": 68.9
+   "missing": 6
   },
   {
    "key": "other",
    "label": "אחר",
-   "missing": 1,
-   "pct_jewish": 80.0,
-   "pct_male": 67.7
+   "missing": 1
   }
  ],
  "staffing_pct": 80.65,

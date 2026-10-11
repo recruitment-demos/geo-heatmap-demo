@@ -125,7 +125,7 @@
    "rows": 12292,
    "source": "קובץ תקן ומצבה",
    "table": "police_positions",
-   "updated": "2026-09-05T11:13:32"
+   "updated": "2026-10-10T18:18:55"
   },
   {
    "edited_at": null,
@@ -134,7 +134,7 @@
    "rows": 254,
    "source": "מסוכם מ-police_positions",
    "table": "admin_staffing",
-   "updated": "2026-09-06T13:13:32"
+   "updated": "2026-10-11T20:18:55"
   },
   {
    "edited_at": "ניהול נתונים › איוש תחנות",
@@ -179,7 +179,7 @@
    "rows": 6,
    "source": "קובץ סיווג יחידות",
    "table": "recruit_unit",
-   "updated": "2026-09-06T13:13:32"
+   "updated": "2026-10-11T20:18:55"
   },
   {
    "edited_at": "ניהול נתונים › קשרי תחנה‑יישוב",
@@ -224,7 +224,7 @@
    "rows": 1,
    "source": "קובץ הסיווג + עריכה",
    "table": "unit_alias",
-   "updated": "2026-09-06T13:13:32"
+   "updated": "2026-10-11T20:18:55"
   },
   {
    "edited_at": "הגדרות",
@@ -238,7 +238,7 @@
   {
    "edited_at": null,
    "kind": "נגזרת",
-   "label": "אחוז יהודים וגברים לפי משפחת תפקיד",
+   "label": "איוש לפי משפחת תפקיד",
    "rows": 352,
    "source": "מסוכם מ-police_positions",
    "table": "station_family_staffing",
@@ -269,7 +269,7 @@
    "rows": 4,
    "source": "נרשם בכל טעינה",
    "table": "load_log",
-   "updated": "2026-09-05T11:13:32"
+   "updated": "2026-10-10T18:18:55"
   },
   {
    "edited_at": "ניהול נתונים › יומן שינויים",
@@ -287,7 +287,7 @@
    "rows": 7,
    "source": "נרשם בכל רענון",
    "table": "status_alerts",
-   "updated": "2026-09-05T13:13:32"
+   "updated": "2026-10-10T20:18:55"
   },
   {
    "edited_at": null,
